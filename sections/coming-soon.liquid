@@ -1,0 +1,108 @@
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+
+<div class="pg-wrp">
+  
+    <div class="pg-atf">
+      <div class="pg-content">
+        <img src="{{ 'logo-small-teal.png' | file_url }}" 
+             alt="Logo - Hold On" 
+             class="top-logo">
+        <h1>100 Billion.</h1>
+        <p>That's how many bags are used - and tossed away - each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Bags that take centuries to decompose. Bags that, if thrown away today, will still be emitting harmful greenhouse gases into the atmosphere when our great, great, great, great, great-grandchildren are born.</p>
+        <img src="{{ 'logo-small-white.png' | file_url }}" 
+             alt="Logo - Hold On" 
+             class="bottom-logo">
+        <h3>
+          <span>There is a better way.</span>
+          <span>Coming soon.</span>
+        </h3>
+        <a href="#email-form" class="btn-anchor btn-lime">Be the first to know</a>
+      </div>
+    </div>
+    <div class="line-separator">&nbsp;</div>
+    <div class="product-shot">
+      <div class="pg-content">
+        <div class="product-bg">
+          <img src="{{ 'product-mbl.png' | file_url }}" 
+             alt="Product shot - Features" 
+             class="img-mbl mbl-view">
+          <img src="{{ 'product-dsktp.png' | file_url }}" 
+             alt="Product shot - Features" 
+             class="img-dsktp dsktp-view">
+        </div>
+      </div>
+    </div>
+    <div class="coming-soon">
+      <div class="pg-content">
+        <h4>Coming Soon</h4>
+        <img src="{{ 'Tagline-Vert-white.png' | file_url }}" 
+          alt="A Better Way, A Better Bag" 
+          class="tagline mbl-view">
+        <img src="{{ 'Tagline-Horiz-white.png' | file_url }}" 
+          alt="A Better Way, A Better Bag" 
+          class="tagline dsktp-view">
+        <p>Strong compostable bags with a strong purpose </p>
+      </div>
+    </div>
+    <div class="contact-section" id="email-form">
+      <div class="pg-content">
+        <div class="form-wrp">
+          <img src="{{ 'tag-better-way.png' | file_url }}" 
+            alt="A Better Way, A Better Bag" 
+            class="icon-tag">
+
+          <h1>
+            <span>Ready for change?</span>
+            <span>Holdon, this is going</span>
+            <span>to be good.</span>
+          </h1>
+          <p>Be the first to know:</p>
+          <div class="klaviyo-form-WS3EDR"></div>
+<!--           <form action="">
+            <input type="text" placeholder="Enter Email">
+            <button class="btn-submit btn-lime">Sign Up</button>
+          </form> -->
+          <p><span>Receive email updates on stuff you'll probably want to know about, including products, launches, and events. Unsubscribe anytime.
+          </span></p>
+        </div>
+        
+      	<div class="line-separator">&nbsp;</div>
+        <div class="pg-footer">
+          <img src="{{ 'logo-small.png' | file_url }}" 
+          	alt="Logo - Hold On" 
+          	class="logo-footer">
+          <div class="social-proof">
+            <span>Follow us:</span>
+            <a href="#" target="_blank" rel="nofollow noreferrer">
+              <img src="{{ 'icon-Instagram.png' | file_url }}" 
+                alt="Instagram logo" 
+                class="icon-ig">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<script>
+  $("a[href^='#']").click(function(e) {   
+    e.preventDefault();   
+    var dest = $(this).attr('href');   
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
+  });
+</script>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

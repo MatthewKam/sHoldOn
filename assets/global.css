@@ -1,0 +1,411 @@
+
+@font-face {
+  font-family: "Korolev-Medium";
+  src: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff2') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff') format('woff');
+}
+@font-face {
+  font-family: "Korolev-Heavy";
+  src: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff2') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff') format('woff');
+}
+
+div#shopify-section-coming-soon {
+  background-color: #065142;
+  overflow: hidden;
+}
+div#shopify-section-coming-soon h1, 
+div#shopify-section-coming-soon h2, 
+div#shopify-section-coming-soon h3, 
+div#shopify-section-coming-soon h4, 
+div#shopify-section-coming-soon p, 
+div#shopify-section-coming-soon li, 
+div#shopify-section-coming-soon ul{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+div#shopify-section-coming-soon img{
+  display:block;
+  margin:0;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+div#shopify-section-coming-soon h1,
+div#shopify-section-coming-soon h2, 
+div#shopify-section-coming-soon h3, 
+div#shopify-section-coming-soon h4{
+  text-transform:uppercase;
+  color:white;
+  font-family: Korolev-Heavy;
+}
+div#shopify-section-coming-soon p, 
+div#shopify-section-coming-soon li{
+  font-family: Korolev-Medium;
+  color:white;
+}
+
+
+/* ATF */
+div#shopify-section-coming-soon .pg-atf{
+  padding: 30px;
+  padding-top: 50px;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+div#shopify-section-coming-soon .pg-atf img.top-logo {
+  height: 25px;
+  margin: 0 auto;
+  margin-bottom: 50px;	
+}
+div#shopify-section-coming-soon .pg-atf img.bottom-logo {
+  height: 22px;
+  margin: 0 auto;
+  margin-top: 20px;	
+  margin-bottom:10px;
+}
+div#shopify-section-coming-soon .pg-atf h1{
+  font-size:50px;
+  line-height:1;
+}
+div#shopify-section-coming-soon .pg-atf h3{
+  font-size: 22px;
+  line-height: 1.2;
+}
+div#shopify-section-coming-soon .pg-atf h3 span{
+  display:inline-block;
+}
+div#shopify-section-coming-soon .pg-atf p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Product */
+div#shopify-section-coming-soon .product-bg{
+  padding: 35px 0;
+  padding-bottom: 50px;
+}
+
+
+/* Coming Soon */
+div#shopify-section-coming-soon .coming-soon{
+  padding: 80px 0;
+  text-align:center;
+  background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-water.jpg?v=1648536588)center top no-repeat;
+  background-size: 700px;
+  background-position: center -135px;
+}
+div#shopify-section-coming-soon .coming-soon h4{
+  font-size:22px;
+  line-height: 1.2;
+}
+div#shopify-section-coming-soon .coming-soon p{
+  width: 220px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+div#shopify-section-coming-soon .coming-soon img.tagline.mbl-view{
+  width:220px;
+  margin: 0 auto;
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+
+/* Contact Section */
+div#shopify-section-coming-soon .contact-section {
+  background-color: #00FABE;
+/*   position:relative; */
+}
+div#shopify-section-coming-soon .contact-section .pg-content{
+  padding-top: 60px;
+  text-align: center;
+  position: relative;
+}
+div#shopify-section-coming-soon .contact-section .form-wrp{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+div#shopify-section-coming-soon .contact-section p, 
+div#shopify-section-coming-soon .contact-section h1{
+  color:#065142;
+}
+div#shopify-section-coming-soon .contact-section h1{
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+div#shopify-section-coming-soon .contact-section p{line-height: 1.3;}
+div#shopify-section-coming-soon .contact-section p span{
+  font-size: 14px;
+  margin: 20px 0;
+  margin-bottom: 50px;
+  display:block;
+}
+div#shopify-section-coming-soon .contact-section .icon-tag {
+  width: 95px;
+  position: absolute;
+  top: -70px;
+  right: 20px;
+}
+	
+div#shopify-section-coming-soon .contact-section input,
+div#shopify-section-coming-soon .contact-section input.go2856106647.kl-private-reset-css-Xuajs1 {
+  border: 2px solid green !important;
+  background-color: transparent !important;
+  border-radius: 10px !important;
+  width: 100%;
+  height: 45px !important;
+  margin-top: 30px;
+  padding-left: 15px !important;
+}
+
+div#shopify-section-coming-soon .contact-section input::placeholder,
+div#shopify-section-coming-soon .contact-section input.go2856106647.kl-private-reset-css-Xuajs1::placeholder{
+  font-family: Korolev-Medium;
+  font-size:15px;
+  color:#418275;
+}
+div#shopify-section-coming-soon .contact-section div[data-testid="form-row"]{
+  flex-direction: column !important;
+}
+
+div#shopify-section-coming-soon .contact-section button.btn-submit.btn-lime,
+div#shopify-section-coming-soon .contact-section button.go332817621.kl-private-reset-css-Xuajs1{
+  width: 100%;
+  padding: 13px 20px 14px !important;
+  display: inline-block !important;
+  background-color: #adff44 !important;
+  border-radius: 10px !important;
+  font-family: Korolev-Heavy !important;
+  color: #065142 !important;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer !important;
+  height: auto !important;
+}
+	
+div#shopify-section-coming-soon .contact-section .needsclick.kl-private-reset-css-Xuajs1[data-testid="form-component"] {
+    height: auto !important;
+    padding: 0 !important;
+    flex: auto !important;
+}
+.kl-private-quill-wrapper-Lkqws1 span{
+  font-family: Korolev-Medium !important;
+  margin-top: 20px !important;
+  color: #065142 !important;
+}
+.kl-private-quill-wrapper-Lkqws1 strong{
+  display: block !important;
+  font-family: Korolev-Heavy !important;
+  margin-top: 20px !important;
+  color: #065142 !important;
+}
+div#shopify-section-coming-soon .contact-section .line-separator{
+  background-color: #065142;
+}
+
+/* FOOTER */
+div#shopify-section-coming-soon .pg-footer {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  color:#065142;
+}
+
+div#shopify-section-coming-soon .pg-footer img.logo-footer{
+  height: 20px;
+}
+div#shopify-section-coming-soon .pg-footer .social-proof{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+div#shopify-section-coming-soon .pg-footer .social-proof img{
+  height: 30px;
+}
+div#shopify-section-coming-soon .pg-footer .social-proof span{
+  font-size:12px;
+}
+
+
+.btn-lime {
+  padding: 14px 20px;
+  padding-top: 13px;
+  display: inline-block;
+  background-color: #ADFF44;
+  border-radius: 10px;
+  font-family: Korolev-Heavy;
+  color: #065142;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 30px;
+  border: none;
+  cursor:pointer;
+}
+.btn-anchor{
+  text-decoration: none;
+  letter-spacing: 0;
+}
+.line-separator{
+  height: 2px;
+  background-color: white;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  max-width: 550px;
+  letter-spacing: 0;
+}
+
+div#shopify-section-coming-soon .mbl-view,
+div#shopify-section-coming-soon img.mbl-view{
+  display:block;
+}
+div#shopify-section-coming-soon .dsktp-view,
+div#shopify-section-coming-soon img.dsktp-view{
+  display:none;
+}
+
+
+div#shopify-section-coming-soon .product-bg img.mbl-view{
+  width:320px;
+  margin: 0 auto;
+}
+
+
+
+
+
+@media screen and (min-width: 370px) {
+  div#shopify-section-coming-soon .product-bg img.mbl-view{
+	width:370px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  div#shopify-section-coming-soon .mbl-view, 
+  div#shopify-section-coming-soon img.mbl-view{
+	display:none;
+  }
+  div#shopify-section-coming-soon .dsktp-view, 
+  div#shopify-section-coming-soon img.dsktp-view{
+	display:block;
+  }
+  
+  div#shopify-section-coming-soon .pg-atf {
+    padding: 60px 0;
+    padding-top: 90px;
+  }
+  div#shopify-section-coming-soon .pg-atf img.top-logo {
+    height: 35px;
+    margin: 0 auto 70px;
+  }
+  div#shopify-section-coming-soon .pg-atf h1 {
+    font-size: 70px;
+  }
+  div#shopify-section-coming-soon .pg-atf p {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: 30px;
+  }
+  div#shopify-section-coming-soon .pg-atf img.bottom-logo {
+    height: 25px;
+    margin: 30px auto 15px;
+  }
+  div#shopify-section-coming-soon .pg-atf h3 {
+    font-size: 25px;
+    padding: 0 50px;
+  }
+  .btn-lime{
+    font-size: 20px;
+  }
+  div#shopify-section-coming-soon .product-bg img.dsktp-view{
+    width: 640px;
+    margin: 0 auto;
+  }
+  div#shopify-section-coming-soon img.tagline.dsktp-view{
+  	height: 40px;
+    margin: 15px auto;
+    margin-top: 40px;
+  }
+  div#shopify-section-coming-soon .coming-soon {
+    background-size: cover;
+    background-position: center -115px;
+    height: 350px;
+  }
+  div#shopify-section-coming-soon .contact-section .pg-content {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  div#shopify-section-coming-soon .coming-soon p{
+    font-size: 20px;
+    width:auto;
+  }
+  
+  div#shopify-section-coming-soon .contact-section .form-wrp {
+    max-width: 500px;
+  }
+  div#shopify-section-coming-soon .contact-section .icon-tag {
+    width: 135px;
+    top: -85px;
+  }
+  div#shopify-section-coming-soon .contact-section h1 {
+    font-size: 50px;
+    line-height: 1;
+  }
+  div#shopify-section-coming-soon .contact-section p {
+    font-size: 20px;
+  }
+  div#shopify-section-coming-soon input {
+    margin-top: 40px;
+  }
+  div#shopify-section-coming-soon .contact-section p span {
+    margin: 30px 0 50px;
+    margin-bottom: 100px;
+  }
+  div#shopify-section-coming-soon .contact-section .line-separator{
+  	max-width:unset;
+  }
+  div#shopify-section-coming-soon .pg-footer img.logo-footer {
+    height: 25px;
+  }
+  div#shopify-section-coming-soon .pg-footer .social-proof span {
+    font-size: 16px;
+  }
+  div#shopify-section-coming-soon .pg-footer .social-proof img {
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  div#shopify-section-coming-soon .product-bg img.dsktp-view{
+    width: 1000px;
+  }
+  div#shopify-section-coming-soon .coming-soon {
+    background-position: center -245px;
+  }
+}
