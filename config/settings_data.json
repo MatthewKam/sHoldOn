@@ -99,6 +99,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "01f05491-4977-4f5b-94c5-f999ad446f6d": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "01f05491-4977-4f5b-94c5-f999ad446f6d"
+        ],
         "settings": {
         }
       },
