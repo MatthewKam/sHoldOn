@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "Korolev-Medium";
+  src: url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Korolev-Heavy";
+  src: url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff2") format("woff2"), url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff") format("woff");
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body p,
+body a,
+body span,
+body strong,
+body b,
+body i,
+body div,
+body small {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body img {
+  display: block;
+  margin: 0;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+body h1, body h2, body h3, body h4 {
+  font-family: "Korolev-Heavy";
+  color: #065142;
+}
+
+body p, body a, body span, body strong, body b, body i, body div {
+  font-family: "Korolev-Medium";
+  font-size: 12px;
+  color: #065142;
+}
+
+@media only screen and (min-width: 640px) {
+  body p, body a, body span, body strong, body b, body i, body div {
+    font-size: 16px;
+  }
+}
+
+body h1 {
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 640px) {
+  body h1 {
+    font-size: 70px;
+  }
+}
+
+body h2 {
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 640px) {
+  body h2 {
+    font-size: 50px;
+  }
+}
+
+body h3 {
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 640px) {
+  body h3 {
+    font-size: 35px;
+  }
+}
+
+body h4 {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 640px) {
+  body h4 {
+    font-size: 25px;
+  }
+}
+
+body a, body button {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  body a, body button {
+    font-size: 20px;
+  }
+}
+
+body small {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 640px) {
+  body small {
+    font-size: 16px;
+  }
+}
+
+body .large-body {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  body .large-body {
+    font-size: 20px;
+  }
+}
+
+body .fine-print {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+  body .fine-print {
+    font-size: 14px;
+  }
+}
+
+body .btn-submit, body .btn-link {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: #ADFF44;
+  color: #065142;
+  border: none;
+  cursor: pointer;
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.2;
+  display: inline-block;
+  min-width: 125px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  body .btn-submit, body .btn-link {
+    font-size: 20px;
+    min-width: 150px;
+  }
+}
+
+body .announcement-bar__link.hon-announcement {
+  background-color: #F8F0DC;
+}
+
+body .announcement-bar__link.hon-announcement p {
+  color: #065142;
+  font-family: "Korolev-Medium";
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+  body .announcement-bar__link.hon-announcement p {
+    font-size: 14px;
+  }
+}
+
+body .header {
+  height: 50px;
+  padding: 0 2rem;
+}
+
+@media only screen and (min-width: 640px) {
+  body .header {
+    height: 65px;
+  }
+}
+
+body .header.header--middle-left {
+      grid-template-areas: 'navigation heading icons';
+  -ms-grid-columns: 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr;
+}
+
+body .header .header__heading-logo {
+  width: 102px;
+  height: auto;
+}
+
+body .header nav.header__inline-menu .list-menu details[open] > .header__menu-item {
+  text-decoration: unset;
+}
+
+body .header nav.header__inline-menu .list-menu details[open] > .header__menu-item .arrow-drop {
+  display: block;
+  z-index: 11;
+}
+
+body .header nav.header__inline-menu .list-menu details[open] > .header__submenu {
+  width: 100vw;
+  left: 0;
+  position: fixed;
+  border: none;
+}
+
+body .header nav.header__inline-menu .list-menu details summary.list-menu__item {
+  padding: 10px;
+  position: relative;
+}
+
+body .header nav.header__inline-menu .list-menu details summary span {
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #065142;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+body .header nav.header__inline-menu .list-menu details summary .arrow-drop {
+  width: 30px;
+  position: absolute;
+  left: calc(50% - 15px);
+  bottom: -20px;
+  display: none;
+}
+
+body .header nav.header__inline-menu .list-menu details summary:hover span {
+  background-color: #ADFF44;
+}
+
+body .header .header__icons .header__icon {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+body .header .header__icons .header__icon:hover {
+  background-color: #ADFF44;
+}
+
+body .header .header__icons .header__icon span {
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  color: #065142;
+  font-size: 20px;
+}
+
+body .header .header__icons .header__icon .header-icons {
+  width: 30px;
+  height: auto;
+}
+
+body .footer {
+  background-color: #065142;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

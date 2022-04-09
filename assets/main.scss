@@ -1,0 +1,244 @@
+$dark-green: #065142;
+$dark-green-secondary: #418275;
+$neon-green: #00FABE;
+$cream: #F8F0DC;
+$neon-grellow: #ADFF44;
+$pale-blue: #EFFCF6;
+$error-red: #FF4466;
+@font-face {
+  font-family: "Korolev-Medium";
+  src: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff2') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevMedium.woff') format('woff');
+}
+@font-face {
+  font-family: "Korolev-Heavy";
+  src: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff2') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff') format('woff');
+}
+//reset styles and style guides
+body{
+  h1, 
+  h2, 
+  h3, 
+  h4,
+  p, 
+  a, 
+  span,
+  strong, 
+  b, 
+  i, 
+  div, 
+  small{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  img{
+    display:block;
+    margin:0;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  h1, h2, h3, h4{
+    font-family: "Korolev-Heavy";
+    color:$dark-green;
+  }
+  p, a, span, strong, b, i, div{
+    font-family: "Korolev-Medium";
+    font-size:12px;
+    color:$dark-green;
+    @media only screen and (min-width: 640px) {
+      font-size:16px;
+    }
+  }
+  h1{
+    font-size:50px;
+    @media only screen and (min-width: 640px) {
+      font-size:70px;
+    }
+  }
+  h2{
+    font-size:35px;
+    @media only screen and (min-width: 640px) {
+      font-size:50px;
+    }
+  }
+  h3{
+    font-size:25px;
+    @media only screen and (min-width: 640px) {
+      font-size:35px;
+    }
+  }
+  h4{
+    font-size:22px;
+    @media only screen and (min-width: 640px) {
+      font-size:25px;
+    }
+  }
+  a, button{
+    font-size:16px;
+    @media only screen and (min-width: 640px) {
+      font-size:20px;
+    }
+  }
+  
+  small{
+    font-size:12px;
+    @media only screen and (min-width: 640px) {
+      font-size:16px;
+    }
+  }
+  .large-body{
+    font-size:16px;
+    @media only screen and (min-width: 640px) {
+      font-size:20px;
+    }
+  }
+  .fine-print{
+    font-size:10px;
+    @media only screen and (min-width: 640px) {
+      font-size:14px;
+    }
+  }
+
+  .btn-submit, .btn-link{
+    padding:14px 20px;
+    border-radius:10px;
+    background-color:$neon-grellow;
+    color:$dark-green;
+    border:none;
+    cursor: pointer;
+    font-family: "Korolev-Heavy";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:16px;
+    line-height: 1.2;
+    display: inline-block;
+    min-width:125px;
+    text-align: center;
+    @media only screen and (min-width: 640px) {
+      font-size:20px;
+      min-width:150px;
+    }
+  }
+
+  .announcement-bar__link.hon-announcement{
+    background-color:$cream;
+    p{
+      color:$dark-green;
+      font-family: "Korolev-Medium";
+      font-size: 10px;
+      @media only screen and (min-width: 640px) {
+        font-size:14px;
+      }
+    }
+  }
+
+// HEADER
+  .header{
+    height: 50px;
+    padding:0 2rem;
+    @media only screen and (min-width: 640px) {
+      height: 65px;
+    }
+    &.header--middle-left {
+      grid-template-areas: 'navigation heading icons';
+      grid-template-columns: 1fr auto 1fr;
+    }
+    .header__heading-logo {
+      width: 102px;
+      height: auto;
+    } 
+
+    nav.header__inline-menu {
+      .list-menu {
+        details{
+          &[open] {
+            > .header__menu-item{
+              text-decoration: unset;
+              .arrow-drop{
+                display: block;
+                z-index: 11;
+              }
+            }
+            > .header__submenu{
+              width: 100vw;
+              left: 0;
+              position: fixed;
+              border: none;
+            }
+          }
+          summary {
+            &.list-menu__item{
+              padding: 10px;
+              position: relative;
+            }
+            span{
+              font-family: "Korolev-Heavy";
+              text-transform: uppercase;
+              text-decoration: none;
+              color:$dark-green;
+              font-size:20px;
+              border-radius: 5px;
+              padding:5px;
+            }
+            .arrow-drop{
+              width: 30px;
+              position: absolute;
+              left: calc(50% - 15px);
+              bottom: -20px;
+              display: none;
+            }
+
+            &:hover{
+              span{
+                background-color:$neon-grellow;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .header__icons{
+      .header__icon{
+        width:auto;
+        height:auto;
+        text-decoration: none;
+        border-radius: 5px;
+        padding-left:5px;
+        margin-left:5px;
+        &:hover{
+          background-color:$neon-grellow;
+        }
+        span{
+          font-family: "Korolev-Heavy";
+          text-transform: uppercase;
+          color:$dark-green;
+          font-size:20px;
+        }
+        .header-icons{
+          width: 30px;
+          height: auto;
+        }
+      }
+      
+    }
+  }
+// FOOTER
+  .footer{
+    background-color:$dark-green;
+    color: white;
+  }
+}
