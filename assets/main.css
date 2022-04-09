@@ -174,18 +174,18 @@ body .btn-submit, body .btn-link {
   }
 }
 
-body .announcement-bar__link.hon-announcement {
+body .announcement-bar.hon-announcement {
   background-color: #F8F0DC;
 }
 
-body .announcement-bar__link.hon-announcement p {
+body .announcement-bar.hon-announcement p.announcement-bar__message {
   color: #065142;
   font-family: "Korolev-Medium";
   font-size: 10px;
 }
 
 @media only screen and (min-width: 640px) {
-  body .announcement-bar__link.hon-announcement p {
+  body .announcement-bar.hon-announcement p.announcement-bar__message {
     font-size: 14px;
   }
 }

@@ -133,14 +133,16 @@ body{
     }
   }
 
-  .announcement-bar__link.hon-announcement{
-    background-color:$cream;
-    p{
-      color:$dark-green;
-      font-family: "Korolev-Medium";
-      font-size: 10px;
-      @media only screen and (min-width: 640px) {
-        font-size:14px;
+  .announcement-bar {
+    &.hon-announcement{
+      background-color:$cream;
+      p.announcement-bar__message{
+        color:$dark-green;
+        font-family: "Korolev-Medium";
+        font-size: 10px;
+        @media only screen and (min-width: 640px) {
+          font-size:14px;
+        }
       }
     }
   }
