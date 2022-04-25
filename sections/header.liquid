@@ -265,19 +265,17 @@
     <div class="header__icons">
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          <span class="lnk-cpy">
+          <span class="lnk-cpy nav-text">
             Account
           </span>
           <img src="{{ 'icon-Account.png' | file_url }}" class="lnk-img" alt="Account icon">
-          <span class="visually-hidden">
-            
-          </span>
+          <span class="visually-hidden"></span>
         </a>
       {%- endif -%}
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         <!-- <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span> -->
-        <span class="lnk-cpy">Cart</span>
+        <span class="lnk-cpy nav-text">Cart</span>
         <img src="{{ 'icon-Cart.png' | file_url }}" class="lnk-img" alt="Cart icon">
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
@@ -382,7 +380,6 @@
       this.searchModal.close(false);
     }
   }
-
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
 
@@ -426,7 +423,14 @@
     }
   </script>
 {%- endif -%}
-
+<script type="application/javascript">
+    document.querySelector('details').addEventListener("click", function(){
+      console.log('opened!')
+      // if (document.querySelector('details').hasAttribute('open')){
+      // }
+    });
+    
+</script>
 {% schema %}
 {
   "name": "t:sections.header.name",
