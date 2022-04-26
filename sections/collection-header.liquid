@@ -1,10 +1,12 @@
-<div class="collection-header">
-  <h1 class="collection-header-title">{{ section.settings.title }}</h1>
-  {%- if section.settings.collection_description -%}
-    <p class="collection-header-desc">
-      {{ section.settings.collection_description }}
-    </p>
-  {%- endif -%}
+<div class="collection-header-wrp">
+  <div class="collection-header">
+    <h1 class="collection-header-title">{{ section.settings.title }}</h1>
+    {%- if section.settings.collection_description -%}
+      <p class="collection-header-desc">
+        {{ section.settings.collection_description }}
+      </p>
+    {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
