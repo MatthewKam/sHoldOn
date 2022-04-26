@@ -27,32 +27,11 @@
         "padding_bottom": 36
       }
     },
-    "1650882492d63367d7": {
-      "type": "rich-text",
-      "blocks": {
-        "16508824927b4c203d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop All",
-            "heading_size": "h1"
-          }
-        },
-        "16508824927b4c203d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16508824927b4c203d-0",
-        "16508824927b4c203d-1"
-      ],
+    "1650959802f78eafbe": {
+      "type": "collection-header",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "title": "Shop All",
+        "collection_description": "Brief description of collection"
       }
     },
     "165088163885fb2b2a": {
@@ -99,7 +78,7 @@
   "order": [
     "banner",
     "product-grid",
-    "1650882492d63367d7",
+    "1650959802f78eafbe",
     "165088163885fb2b2a",
     "16508823112f67345f"
   ]
