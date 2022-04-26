@@ -1,0 +1,27 @@
+<div class="collection-header">
+  <h1 class="collection-header-title">{{ section.settings.title }}</h1>
+  {%- if section.settings.collection_description -%}
+    <p class="collection-header-desc">
+      {{ section.settings.collection_description }}
+    </p>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Collection Title/Desc",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Collection title"
+    },
+    {
+      "type": "text",
+      "id": "collection_description",
+      "label": "Collection description"
+    }
+  ]
+}
+{% endschema %}
