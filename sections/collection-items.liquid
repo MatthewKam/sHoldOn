@@ -25,10 +25,10 @@
     {% endif %}
     {% if section.settings.collection != blank %}
       {%- for product in sings.collection.products -%}
-        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product | handleize}}">
-          {{ product.name }}
+        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
+          {{ product.title }}
           {{ product.price }}
-          {{ product.image_url }}
+          {{ product.featured_image }}
         </li>
       {%- endfor -%}
     {% endif %}
