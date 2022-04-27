@@ -4,22 +4,29 @@
 {%- endstyle -%}
 <div class="facts-bg-wrp">
   <div class="facts-content">
-    {{ sings.facts_badge | image_url}}
+    {% if sings.facts_badge %}
+      {{ sings.facts_badge | image_url}}
+    {% endif %}
     {% if sings.title %}
       <h3 class="facts-header">{{ sings.title }}</h3>
     {% endif %}
     {% if sings.title %}
       <h1 class="facts-sub-header">{{ sings.facts_answer }}</h1>
     {% endif %}
-    {% if sings.title %}
-      <p class="facts-copy">
-        {{ sings.facts_copy }}
-        {% if sings.facts_link %}
-          <a href="{{ sings.facts_link }}" target="_blank" rel="noopener noreferrer">{{ sings.facts_link_copy }}</a>
-        {% endif %}</p>
+    <div class="facts-copy-wrp">
+      {% if sings.facts_copy %}
+        <p class="facts-copy">{{ sings.facts_copy }}</p>
+      {% endif %}
+      {% if sings.facts_link %}
+        <a href="{{ sings.facts_link }}" target="_blank" rel="noopener noreferrer" class="learn-more-link">{{ sings.facts_link_copy }}</a>
+      {% endif %}
+    </div>
+    {% if sings.facts_mobile_img %}
+      {{ sings.facts_mobile_img | image_url}}
     {% endif %}
-    {{ sings.facts_mobile_img | image_url}}
-    {{ sings.facts_desktop_img | image_url}}
+    {% if sings.facts_desktop_img %}
+      {{ sings.facts_desktop_img | image_url}}
+    {% endif %}
   </div>
 </div>
 
