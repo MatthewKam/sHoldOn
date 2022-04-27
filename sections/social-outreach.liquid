@@ -1,0 +1,115 @@
+{% assign sings = section.settings %}
+{% assign bings = block.settings %}
+{%- style -%}
+
+{%- endstyle -%}
+<div class="social-outreach-wrp">
+  <div class="social-outreach-content">
+    {% if sings.title %}
+      <h1>{{ sings.title }}</h1>
+    {% endif %}
+    {%- for block in section.blocks -%}
+      <div class="social-post">
+      
+        {%- case block.type -%}
+          {%- when 'image' -%}
+            <img src="{{ bings.image }}" alt="" class="post-image">
+          <div class="post-description">
+            <div class="post-copy">
+              {%- when 'heading' -%}
+                <h2 class="post-title">{{ bings.heading | escape }}</h2>
+              {%- when 'text' -%}
+                <p class="post-copy">{{ bings.text | escape }}</p>
+            </div>
+            {%- when 'buttons' -%}
+              <a href="{{ bings.social_link }}">Link</a>
+          </div>
+        {%- endcase -%}
+      </div>
+      {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Social Outreach",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Post Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "social_image",
+          "label": "Post image"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "Post Title",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "social_title",
+          "label": "Post title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Post Copy",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "social_copy",
+          "label": "Post copy"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Post Link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "url",
+          "id": "social_link",
+          "label": "Post link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social Outreach",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
