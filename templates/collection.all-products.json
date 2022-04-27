@@ -80,6 +80,13 @@
         "title": "Singles",
         "collection": "singles"
       }
+    },
+    "165104732563071c04": {
+      "type": "collection-items",
+      "settings": {
+        "title": "Sets",
+        "collection": "sets"
+      }
     }
   },
   "order": [
@@ -88,6 +95,7 @@
     "1650959802f78eafbe",
     "165088163885fb2b2a",
     "16508823112f67345f",
-    "16510473172e9362c5"
+    "16510473172e9362c5",
+    "165104732563071c04"
   ]
 }
