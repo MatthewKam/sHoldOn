@@ -45,7 +45,9 @@
       "type": "collection-items",
       "settings": {
         "title": "Sets",
-        "collection": "sets"
+        "collection": "sets",
+        "card_mobile": "shopify:\/\/shop_images\/mkt-sub-m.png",
+        "card_desktop": "shopify:\/\/shop_images\/mkt-sub-d.png"
       }
     }
   },
