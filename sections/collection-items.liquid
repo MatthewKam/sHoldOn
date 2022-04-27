@@ -1,17 +1,5 @@
 {% assign sings = section.settings %}
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ sings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ sings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ sings.padding_top }}px;
-      padding-bottom: {{ sings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
+{%- style -%}{%- endstyle -%}
 <div class="collection-items-wrp">
   <div class="collection-items">
     {% if sings.title %}

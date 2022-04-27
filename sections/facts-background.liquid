@@ -1,0 +1,84 @@
+{% assign sings = section.settings %}
+{%- style -%}
+
+{%- endstyle -%}
+<div class="facts-bg-wrp">
+  <div class="facts-content">
+    {{ sings.facts_badge | image_url}}
+    {% if sings.title %}
+      <h3 class="facts-header">{{ sings.title }}</h3>
+    {% endif %}
+    {% if sings.title %}
+      <h1 class="facts-sub-header">{{ sings.facts_answer }}</h1>
+    {% endif %}
+    {% if sings.title %}
+      <p class="facts-copy">
+        {{ sings.facts_copy }}
+        {% if sings.facts_link %}
+          <a href="{{ sings.facts_link }}" target="_blank" rel="noopener noreferrer">{{ sings.facts_link_copy }}</a>
+        {% endif %}</p>
+    {% endif %}
+    {{ sings.facts_mobile_img | image_url}}
+    {{ sings.facts_desktop_img | image_url}}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Facts w/ Background Image",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "facts_mobile_img",
+      "label": "Facts Mobile Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "facts_desktop_img",
+      "label": "Facts Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "facts_badge",
+      "label": "Facts Badge"
+    },
+    {
+      "type": "header",
+      "content": "Facts Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Question/Header"
+    },
+    {
+      "type": "text",
+      "id": "facts_answer",
+      "label": "Answer/Sub Header"
+    },
+    {
+      "type": "text",
+      "id": "facts_copy",
+      "label": "Subtext"
+    },
+    {
+      "type": "text",
+      "id": "facts_link_copy",
+      "default":"Learn More",
+      "label": "Link Copy"
+    },
+    {
+      "type": "url",
+      "id": "facts_link",
+      "label": "Link URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Facts w/ Background Image"
+    }
+  ]
+}
+{% endschema %}
