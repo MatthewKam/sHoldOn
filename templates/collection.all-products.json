@@ -73,6 +73,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16510475268bad2cd6": {
+      "type": "collection-items",
+      "settings": {
+        "title": "Sets",
+        "collection": "sets"
+      }
     }
   },
   "order": [
@@ -80,6 +87,7 @@
     "product-grid",
     "1650959802f78eafbe",
     "165088163885fb2b2a",
-    "16508823112f67345f"
+    "16508823112f67345f",
+    "16510475268bad2cd6"
   ]
 }
