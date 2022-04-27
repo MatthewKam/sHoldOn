@@ -62,6 +62,36 @@
         "facts_link_copy": "Learn More",
         "facts_link": "#"
       }
+    },
+    "165105525250727549": {
+      "type": "social-outreach",
+      "blocks": {
+        "2c7062ee-4f2e-48dc-adc4-04f020721cb9": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/bg-leafs-d.png",
+            "social_title": "Join a Beach Clean up",
+            "social_copy": "Join a clean up lorem ipsum",
+            "social_link": "#"
+          }
+        },
+        "d05c6add-5f09-4c0d-ac30-cfa88f6e5711": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/bg-water.jpg",
+            "social_title": "Follow us on tiktok",
+            "social_copy": "We have great content, really! We’re amazing!",
+            "social_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "2c7062ee-4f2e-48dc-adc4-04f020721cb9",
+        "d05c6add-5f09-4c0d-ac30-cfa88f6e5711"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -70,6 +100,7 @@
     "1650959802f78eafbe",
     "16510475473400b526",
     "16510475268bad2cd6",
-    "1651049829a73c74b7"
+    "1651049829a73c74b7",
+    "165105525250727549"
   ]
 }
