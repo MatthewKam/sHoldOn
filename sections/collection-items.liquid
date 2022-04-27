@@ -1,0 +1,75 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ sings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ sings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ sings.padding_top }}px;
+      padding-bottom: {{ sings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="collection-items-wrp">
+  <div class="collection-items">
+    {% if sings.title %}
+      <h2 class="collection-header">{{ sings.title }}</h2>
+    {% endif %}
+    {% if sings.card_mobile %}
+      {{ sings.card_mobile | image_url}}
+    {% endif %}
+    {% if sings.card_desktop %}
+      {{ sings.card_desktop | image_url}}
+    {% endif %}
+    {% if section.settings.collection != blank %}
+      {%- for product in sings.collection.products -%}
+        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product | handleize}}">
+          {{ product.name }}
+          {{ product.price }}
+          {{ product.image_url }}
+        </li>
+      {%- endfor -%}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Items/Cards",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Collection Name"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "header",
+      "content": "Marketing Card"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_mobile",
+      "label": "Mobile Card"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_desktop",
+      "label": "Desktop Card"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Items/Cards"
+    }
+  ]
+}
+{% endschema %}
