@@ -1,5 +1,5 @@
 {% assign sings = section.settings %}
-{% assign bings = block.settings %}
+
 {%- style -%}
 
 {%- endstyle -%}
@@ -9,6 +9,7 @@
       <h1>{{ sings.title }}</h1>
     {% endif %}
     {%- for block in section.blocks -%}
+      {% assign bings = block.settings %}
       <div class="social-post">
         <img src="{{ bings.social_image }}" alt="" class="post-image">
         <div class="post-description">
