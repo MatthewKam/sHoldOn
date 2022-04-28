@@ -11,7 +11,7 @@
     {%- for block in section.blocks -%}
       {% assign bings = block.settings %}
       <div class="social-post">
-        <img src="{{ bings.social_image | file_url }}" alt="" class="post-image">
+        <img src="{{ bings.social_image | image_url }}" alt="" class="post-image">
         <div class="post-description">
           <div class="post-copy">
               <h2 class="post-title">{{ bings.social_title | escape }}</h2>
