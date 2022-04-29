@@ -33,7 +33,12 @@
           </div>
           <div class="label-price">
             <h2>{{ product.title }}</h2>
-            <p>{{ product.price }}</p>
+            <p>
+              {% if product.compared_at_price %}
+                <span>{{ product.compared_at_price }} </span>
+              {% endif %}
+              <span></span>{{ product.price }}
+            </p>
           </div>
           {% if gallon or count %}  
             <div class="product-info">
