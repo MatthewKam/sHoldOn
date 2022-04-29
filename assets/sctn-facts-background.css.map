@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAEI,gBAFY,AACb,iBAAiB,CAChB,cAAc,CAAA;EACZ,SAAS,EAAC,KAAK;EACf,QAAQ,EAAC,QAAQ;CAClB",
+    "mappings": "AAAA,AAEI,gBAFY,AACb,iBAAiB,CAChB,cAAc,CAAA;EACZ,SAAS,EAAC,KAAK;EACf,MAAM,EAAC,MAAM;EACb,QAAQ,EAAC,QAAQ;CAClB",
     "sources": [
         "sctn-facts-background.scss"
     ],
