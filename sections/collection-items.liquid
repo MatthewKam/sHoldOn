@@ -1,4 +1,6 @@
 {% assign sings = section.settings %}
+{{ 'collection-pages.css' | asset_url | stylesheet_tag }}
+{{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}{%- endstyle -%}
 <div class="collection-items-wrp">
   <div class="collection-items">
@@ -27,7 +29,7 @@
 {
   "name": "Collection Items/Cards",
   "tag": "section",
-  "class": "section",
+  "class": "section section-collection",
   "settings": [
     {
       "type": "text",

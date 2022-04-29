@@ -1,4 +1,5 @@
 {% assign sings = section.settings %}
+{{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {%- style -%}
 
 {%- endstyle -%}
@@ -34,7 +35,7 @@
 {
   "name": "Facts w/ Background Image",
   "tag": "section",
-  "class": "section",
+  "class": "section section-collection",
   "settings": [
     {
       "type": "image_picker",

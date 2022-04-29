@@ -1,5 +1,5 @@
 {% assign sings = section.settings %}
-
+{{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {%- style -%}
 
 {%- endstyle -%}
@@ -28,7 +28,7 @@
 {
   "name": "Social Outreach",
   "tag": "section",
-  "class": "section",
+  "class": "section section-collection",
   "settings": [
     {
       "type": "text",
