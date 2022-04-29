@@ -3,4 +3,37 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.shopify-section.social-outreach .social-outreach-content h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 1;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.social-outreach .social-outreach-content h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+}
+
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post {
+  max-width: 580px;
+}
 /*# sourceMappingURL=sctn-social-outreach.css.map */
