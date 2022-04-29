@@ -35,9 +35,9 @@
             <h2>{{ product.title }}</h2>
             <p>
               {% if product.compared_at_price %}
-                <span>{{ product.compared_at_price }} </span>
+                <span>{{ product.compared_at_price | money }} </span>
               {% endif %}
-              <span></span>{{ product.price }}
+              <span></span>{{ product.price | money }}
             </p>
           </div>
           {% if gallon or count %}  
