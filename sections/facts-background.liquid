@@ -22,20 +22,33 @@
 <div class="facts-bg-wrp facts-{{ section.id }}">
   <div class="facts-content">
     {% if sings.facts_badge %}
-      {{ sings.facts_badge | image_url}}
+      <img src="{{ sings.facts_badge | image_url}}" alt="A better way, a better bag." class="facts-badge">
     {% endif %}
     {% if sings.title %}
-      <h3 class="facts-header">{{ sings.title }}</h3>
+      <h3 class="facts-header" {% if sings.title_color %}
+        style="color:{{ sings.title_color }}"
+      {% endif %}>{{ sings.title }}</h3>
     {% endif %}
     {% if sings.title %}
-      <h1 class="facts-sub-header">{{ sings.facts_answer }}</h1>
+      <h1 class="facts-sub-header" {% if sings.facts_answer_color %}
+      style="color:{{ sings.facts_answer_color }}"
+    {% endif %}>{{ sings.facts_answer }}</h1>
     {% endif %}
     <div class="facts-copy-wrp">
       {% if sings.facts_copy %}
-        <p class="facts-copy">{{ sings.facts_copy }}</p>
+        <p class="facts-copy" {% if sings.facts_copy_color %}
+        style="color:{{ sings.facts_copy_color }}"
+      {% endif %}>{{ sings.facts_copy }}</p>
       {% endif %}
       {% if sings.facts_link %}
-        <a href="{{ sings.facts_link }}" target="_blank" rel="noopener noreferrer" class="learn-more-link">{{ sings.facts_link_copy }}</a>
+        <a href="{{ sings.facts_link }}" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="learn-more-link" 
+          {% if sings.facts_link_color %}
+            style="color:{{ sings.facts_link_color }}"
+          {% endif %}
+        >{{ sings.facts_link_copy }}</a>
       {% endif %}
     </div>
     
@@ -76,14 +89,29 @@
       "label": "Question/Header"
     },
     {
+      "type": "color",
+      "id": "title_color",
+      "label": "Question/Header color"
+    },
+    {
       "type": "text",
       "id": "facts_answer",
       "label": "Answer/Sub Header"
     },
     {
+      "type": "color",
+      "id": "facts_answer_color",
+      "label": "Answer/Sub Header color"
+    },
+    {
       "type": "text",
       "id": "facts_copy",
       "label": "Subtext"
+    },
+    {
+      "type": "color",
+      "id": "facts_copy_color",
+      "label": "Subtext color"
     },
     {
       "type": "text",
@@ -95,6 +123,11 @@
       "type": "url",
       "id": "facts_link",
       "label": "Link URL"
+    },
+    {
+      "type": "color",
+      "id": "facts_link_color",
+      "label": "Link copy color"
     }
   ],
   "presets": [
