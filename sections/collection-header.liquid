@@ -1,5 +1,6 @@
 {% assign sings = section.settings %}
-
+{{ 'collection-pages.css' | asset_url | stylesheet_tag }}
+{{ 'collection-header.css' | asset_url | stylesheet_tag }}
 {%- style -%}
 
 {%- endstyle -%}
@@ -17,7 +18,7 @@
 {% schema %}
 {
   "name": "Collection Title/Desc",
-  "class": "section section-collection",
+  "class": "section section-collection collection-header",
   "settings": [
     {
       "type": "text",

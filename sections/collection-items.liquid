@@ -1,7 +1,9 @@
 {% assign sings = section.settings %}
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
-{%- style -%}{%- endstyle -%}
+{%- style -%}
+
+{%- endstyle -%}
 <div class="collection-items-wrp">
   <div class="collection-items">
     {% if sings.title %}
