@@ -37,9 +37,6 @@ $k-heavy:'Korolev-Heavy';
       @media screen and (min-width: 640px) {
         gap: 25px;
       }
-      @media screen and (min-width: 767px) {
-        gap: 40px;
-      }
       .product-card{
         list-style: none;
         padding: 0;
@@ -100,11 +97,16 @@ $k-heavy:'Korolev-Heavy';
     .subscribe-img{
       &.sub-img-m{
         display:block;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 70px;
+        
         @media screen and (min-width: 640px) {
           display:none;
         }
       }
       &.sub-img-d{
+        width:270px;
         display:none;
         @media screen and (min-width: 640px) {
           display:block;
