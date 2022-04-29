@@ -35,10 +35,16 @@
             <h2>{{ product.title }}</h2>
             <p>{{ product.price }}</p>
           </div>
-          <div class="product-info">
-            <p><span>{{ gallon }}</span> gallon(s)</p>
-            <p><span>{{ count }}</span> bags/box</p>
-          </div>
+          {% if gallon or count %}  
+            <div class="product-info">
+              {% if gallon %}
+                <p><span>{{ gallon }}</span> gallon(s)</p>
+              {% endif %}
+              {% if count %}
+                <p><span>{{ count }}</span> bags/box</p>
+              {% endif %}
+            </div>
+          {% endif %}
         </li>
       {%- endfor -%}
     {% endif %}
