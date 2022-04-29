@@ -1,9 +1,14 @@
+{% assign sings = section.settings %}
+
+{%- style -%}
+
+{%- endstyle -%}
 <div class="collection-header-wrp">
   <div class="collection-header">
-    <h1 class="collection-header-title">{{ section.settings.title }}</h1>
-    {%- if section.settings.collection_description -%}
+    <h1 class="collection-header-title">{{ sings.title }}</h1>
+    {%- if sings.collection_description -%}
       <p class="collection-header-desc">
-        {{ section.settings.collection_description }}
+        {{ sings.collection_description }}
       </p>
     {%- endif -%}
   </div>
