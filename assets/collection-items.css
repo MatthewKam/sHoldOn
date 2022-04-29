@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=collection-items.css.map */
+.section-collection-items {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 640px) {
+  .section-collection-items {
+    margin-top: 70px;
+  }
+}
+/*# sourceMappingURL=collection-items.css.map */
