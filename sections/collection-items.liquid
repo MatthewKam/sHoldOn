@@ -7,8 +7,8 @@
 <div class="collection-items-wrp">
   <div class="collection-items">
     
-    {% if sings.card_desktop %}
-      <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
+    {% if sings.card_mobile %}
+      <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
     {% endif %}
     {% if sings.title %}
       <h2 class="collection-header">{{ sings.title }}</h2>
@@ -52,8 +52,8 @@
           {% endif %}
         </li>
       {%- endfor -%}
-      {% if sings.card_mobile %}
-        <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
+      {% if sings.card_desktop %}
+        <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
       {% endif %}
       </ul>
     {% endif %}

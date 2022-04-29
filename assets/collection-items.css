@@ -137,4 +137,24 @@
 .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p.prod-gallon {
   margin-right: 10px;
 }
+
+.section.section-collection.section-collection-items .collection-items-wrp .subscribe-img.sub-img-m {
+  display: block;
+}
+
+@media screen and (min-width: 640px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .subscribe-img.sub-img-m {
+    display: none;
+  }
+}
+
+.section.section-collection.section-collection-items .collection-items-wrp .subscribe-img.sub-img-d {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .subscribe-img.sub-img-d {
+    display: block;
+  }
+}
 /*# sourceMappingURL=collection-items.css.map */
