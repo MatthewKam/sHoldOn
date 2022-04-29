@@ -98,6 +98,27 @@
   display: flex;
 }
 
+.section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p {
+    font-size: 14px;
+  }
+}
+
+.section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p span {
+  font-family: "Korolev-Heavy";
+  font-size: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p span {
+    font-size: 16px;
+  }
+}
+
 .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p.prod-gallon {
   margin-right: 10px;
 }

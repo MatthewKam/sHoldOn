@@ -68,6 +68,17 @@ $k-heavy:'Korolev-Heavy';
         .product-info {
           display: flex;
           p{
+            font-size: 10px;
+            @media screen and (min-width: 640px) {
+              font-size: 14px;
+            }
+            span{
+              font-family: $k-heavy;
+              font-size: 12px;
+              @media screen and (min-width: 640px) {
+                font-size: 16px;
+              }
+            }
             &.prod-gallon{
               margin-right:10px;
             }
