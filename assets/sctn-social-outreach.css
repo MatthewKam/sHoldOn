@@ -56,24 +56,43 @@
   max-width: 100%;
 }
 
-.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post h2 {
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description {
+    margin-top: 20px;
+  }
+}
+
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description h2 {
   font-size: 22px;
   letter-spacing: 0;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 640px) {
-  .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post h2 {
+  .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description h2 {
     font-size: 25px;
   }
 }
 
-.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post p {
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description p {
   font-size: 12px;
 }
 
 @media screen and (min-width: 640px) {
-  .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post p {
+  .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post .post-description p {
     font-size: 16px;
   }
 }
