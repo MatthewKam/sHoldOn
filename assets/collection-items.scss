@@ -9,14 +9,10 @@ $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
 
 .section.section-collection.section-collection-items{
-  margin-top:30px;
-  @media screen and (min-width: 640px) {
-    margin-top:70px;
-  }
 
   .collection-items-wrp{
     padding-bottom: 100px;
-    
+
     .collection-header{
       font-size:25px;
       margin-bottom:15px;
