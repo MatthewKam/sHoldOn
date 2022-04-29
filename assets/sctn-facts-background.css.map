@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,gBAFY,AACb,iBAAiB,CAChB,cAAc,CAAA;EACZ,SAAS,EAAC,KAAK;EACf,QAAQ,EAAC,QAAQ;CAClB",
+    "sources": [
+        "sctn-facts-background.scss"
+    ],
+    "names": [],
+    "file": "sctn-facts-background.css"
+}
