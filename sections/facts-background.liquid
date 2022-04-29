@@ -1,7 +1,16 @@
 {% assign sings = section.settings %}
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-
+  .facts-{{ section.id }}{
+    background:url(
+      {% if sings.facts_mobile_img %}
+        {{ sings.facts_mobile_img | image_url}}
+      {% elsif sings.facts_desktop_img%}
+        {{ sings.facts_desktop_img | image_url}}
+      {% endif %}
+    )
+   
+  }
 {%- endstyle -%}
 <div class="facts-bg-wrp facts-{{ section.id }}">
   <div class="facts-content">
@@ -22,12 +31,10 @@
         <a href="{{ sings.facts_link }}" target="_blank" rel="noopener noreferrer" class="learn-more-link">{{ sings.facts_link_copy }}</a>
       {% endif %}
     </div>
-    {% if sings.facts_mobile_img %}
-      {{ sings.facts_mobile_img | image_url}}
-    {% endif %}
-    {% if sings.facts_desktop_img %}
+    
+    <!-- {% if sings.facts_desktop_img %}
       {{ sings.facts_desktop_img | image_url}}
-    {% endif %}
+    {% endif %} -->
   </div>
 </div>
 
