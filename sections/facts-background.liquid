@@ -1,18 +1,21 @@
 {% assign sings = section.settings %}
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {%- style -%}
+  #shopify-section-{{ section.id }}{
+    padding:0;
+  }
   .facts-{{ section.id }}{
     background:url(
-      {% if sings.facts_mobile_img %}
-        {{ sings.facts_mobile_img | image_url}}
-      {% elsif sings.facts_desktop_img%}
-        {{ sings.facts_desktop_img | image_url}}
-      {% endif %}
+     {{ sings.facts_mobile_img | image_url}}
     ) center top no-repeat;
+    background-size:cover;
   }
   @media screen and (min-width: 640px) {
     .facts-{{ section.id }}{
-      background:url({{ sings.facts_desktop_img | image_url}}) center top no-repeat;
+      background:url(
+        {{ sings.facts_desktop_img | image_url}}
+      ) center top no-repeat;
+      background-size:cover;
     }
   }
 {%- endstyle -%}
