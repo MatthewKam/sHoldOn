@@ -7,4 +7,14 @@
     margin-top: 70px;
   }
 }
+
+.section.section-collection.section-collection-items .collection-items-wrp .collection-header {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 640px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .collection-header {
+    font-size: 35px;
+  }
+}
 /*# sourceMappingURL=collection-items.css.map */

@@ -20,7 +20,11 @@
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
           {{ product.title }}
           {{ product.price }}
-          {{ product.featured_image }}
+          {% if product.featured_image %}
+            <img src="{{ product.featured_image }}" alt="{{ product.title }}">
+          {% else %}
+            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
+          {% endif %}
         </li>
       {%- endfor -%}
     {% endif %}
