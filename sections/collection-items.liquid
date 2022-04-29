@@ -21,36 +21,39 @@
           assign gallon = product.metafields.product_info.gallons.value 
           assign count = product.metafields.product_info.count.value 
         %}
-        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          
-          {% if product.featured_image %}
-            <img src="{{ product.featured_image }}" alt="{{ product.title }}">
-          {% else %}
-            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
-          {% endif %}
-          <div class="reviews">
+        <ul>
 
-          </div>
-          <div class="label-price">
-            <h2>{{ product.title }}</h2>
-            <p>
-              {% if product.compared_at_price %}
-                <span>{{ product.compared_at_price | money }} </span>
-              {% endif %}
-              <span></span>{{ product.price | money }}
-            </p>
-          </div>
-          {% if gallon or count %}  
-            <div class="product-info">
-              {% if gallon %}
-                <p><span>{{ gallon }}</span> gallon(s)</p>
-              {% endif %}
-              {% if count %}
-                <p><span>{{ count }}</span> bags/box</p>
-              {% endif %}
+          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
+            
+            {% if product.featured_image %}
+              <img src="{{ product.featured_image }}" alt="{{ product.title }}">
+            {% else %}
+              <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
+            {% endif %}
+            <div class="reviews">
+  
             </div>
-          {% endif %}
-        </li>
+            <div class="label-price">
+              <h2>{{ product.title }}</h2>
+              <p>
+                {% if product.compared_at_price %}
+                  <span>{{ product.compared_at_price | money }} </span>
+                {% endif %}
+                <span></span>{{ product.price | money }}
+              </p>
+            </div>
+            {% if gallon or count %}  
+              <div class="product-info">
+                {% if gallon %}
+                  <p><span>{{ gallon }}</span> gallon(s)</p>
+                {% endif %}
+                {% if count %}
+                  <p><span>{{ count }}</span> bags/box</p>
+                {% endif %}
+              </div>
+            {% endif %}
+          </li>
+        </ul>
       {%- endfor -%}
     {% endif %}
   </div>
