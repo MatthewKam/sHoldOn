@@ -8,6 +8,10 @@
   }
 }
 
+.section.section-collection.section-collection-items .collection-items-wrp {
+  padding-bottom: 100px;
+}
+
 .section.section-collection.section-collection-items .collection-items-wrp .collection-header {
   font-size: 25px;
   margin-bottom: 15px;

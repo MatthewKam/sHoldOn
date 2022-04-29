@@ -3,7 +3,7 @@
 {%- style -%}
 
 {%- endstyle -%}
-<div class="facts-bg-wrp">
+<div class="facts-bg-wrp facts-{{ section.id }}">
   <div class="facts-content">
     {% if sings.facts_badge %}
       {{ sings.facts_badge | image_url}}
