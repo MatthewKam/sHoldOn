@@ -30,16 +30,17 @@ $k-heavy:'Korolev-Heavy';
       margin: 0;
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
       .product-card{
         list-style: none;
-        padding: 0;
+        padding: 0 15px;
         margin: 0;
-        max-width:160px;
+        margin-bottom: 15px;
+        width:160px;
         @media screen and (min-width: 640px) {
-          max-width:270px;
+          width:270px;
         }
         img{
           max-width: 100%;
