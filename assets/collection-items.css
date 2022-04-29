@@ -30,8 +30,9 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -112,6 +113,7 @@
 }
 
 .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .product-info p {
+  letter-spacing: 0;
   font-size: 10px;
 }
 

@@ -6,14 +6,12 @@
 {%- endstyle -%}
 <div class="collection-items-wrp">
   <div class="collection-items">
-    {% if sings.title %}
-      <h2 class="collection-header">{{ sings.title }}</h2>
-    {% endif %}
-    {% if sings.card_mobile %}
-      <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
-    {% endif %}
+    
     {% if sings.card_desktop %}
       <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
+    {% endif %}
+    {% if sings.title %}
+      <h2 class="collection-header">{{ sings.title }}</h2>
     {% endif %}
     {% if section.settings.collection != blank %}
       <ul class="collection-list-container">
@@ -54,6 +52,9 @@
           {% endif %}
         </li>
       {%- endfor -%}
+      {% if sings.card_mobile %}
+        <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
+      {% endif %}
       </ul>
     {% endif %}
   </div>
