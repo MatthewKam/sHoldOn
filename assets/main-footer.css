@@ -319,6 +319,10 @@ body .footer .footer-content-top .footer-nav .links-wrp a.main-link {
   margin-bottom: 20px;
 }
 
+body .footer .footer-content-top .footer-nav .links-wrp a.main-link[href*="/pages/ccpa-opt-out"] {
+  font-size: 15px;
+}
+
 body .footer .footer-content-top .footer-nav .links-wrp a.sub-links {
   font-size: 16px;
   display: block;
