@@ -1,9 +1,9 @@
 {% assign sings = section.settings %}
-{{ 'collection-pages.css' | asset_url | stylesheet_tag }}
+{{ 'sctn-social-outreach.css' | asset_url | stylesheet_tag }}
 {%- style -%}
 
 {%- endstyle -%}
-<div class="social-outreach-wrp">
+<div class="social-outreach-wrp" style="background-color:{{ sings.bg_color }}">
   <div class="social-outreach-content">
     {% if sings.title %}
       <h1>{{ sings.title }}</h1>
@@ -34,6 +34,11 @@
       "type": "text",
       "id": "title",
       "label": "Header"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
     }
   ],
   "blocks": [
