@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .shopify-section.social-outreach .social-outreach-content {
+    padding: 70px 0;
+  }
+}
+
 .shopify-section.social-outreach .social-outreach-content h1 {
   font-size: 35px;
   text-transform: uppercase;
@@ -31,9 +37,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 20px;
 }
 
 .shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post {
   max-width: 580px;
+}
+
+.shopify-section.social-outreach .social-outreach-content .social-posts-wrp .social-post img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=sctn-social-outreach.css.map */

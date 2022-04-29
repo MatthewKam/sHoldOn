@@ -14,7 +14,9 @@ $k-heavy:'Korolev-Heavy';
       padding: 70px 20px;
       max-width: 1200px;
       margin: 0 auto;
-
+      @media screen and (min-width: 1200px) {
+        padding:70px 0;
+      }
       h1{
         font-size:35px;
         text-transform: uppercase;
@@ -33,8 +35,12 @@ $k-heavy:'Korolev-Heavy';
         display:flex;
         flex-wrap:wrap;
         justify-content:space-between;
+        gap:20px;
         .social-post {
           max-width: 580px;
+          img{
+            max-width:100%;
+          }
         }
       }
     }
