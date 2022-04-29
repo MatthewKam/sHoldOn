@@ -19,6 +19,41 @@
   margin: 0 auto;
 }
 
+.shopify-section.facts-background .facts-content .facts-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.facts-background .facts-content .facts-header {
+    font-size: 20px;
+  }
+}
+
+.shopify-section.facts-background .facts-content .facts-sub-header {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.facts-background .facts-content .facts-sub-header {
+    font-size: 50px;
+  }
+}
+
+.shopify-section.facts-background .facts-content .facts-copy-wrp p, .shopify-section.facts-background .facts-content .facts-copy-wrp a {
+  display: inline;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.facts-background .facts-content .facts-copy-wrp p, .shopify-section.facts-background .facts-content .facts-copy-wrp a {
+    font-size: 20px;
+  }
+}
+
 .shopify-section.facts-background .facts-content img {
   width: 120px;
   position: absolute;
