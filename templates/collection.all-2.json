@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1650959802f78eafbe": {
+      "type": "collection-header",
+      "settings": {
+        "title": "Shop All",
+        "collection_description": "Brief description of collection"
+      }
+    },
+    "16510475473400b526": {
+      "type": "collection-items",
+      "settings": {
+        "title": "Singles",
+        "collection": "singles"
+      }
+    },
+    "16510475268bad2cd6": {
+      "type": "collection-items",
+      "settings": {
+        "title": "Sets",
+        "collection": "sets",
+        "card_mobile": "shopify:\/\/shop_images\/mkt-sub-m.png",
+        "card_desktop": "shopify:\/\/shop_images\/mkt-sub-d.png"
+      }
+    },
+    "1651049829a73c74b7": {
+      "type": "facts-background",
+      "settings": {
+        "facts_mobile_img": "shopify:\/\/shop_images\/bg-water-m.png",
+        "facts_desktop_img": "shopify:\/\/shop_images\/bg-water-d.png",
+        "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
+        "title": "Did you know?",
+        "title_color": "#00fabe",
+        "facts_answer": "100 Billion",
+        "facts_answer_color": "#ffffff",
+        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy_color": "#ffffff",
+        "facts_link_copy": "Learn More",
+        "facts_link": "#",
+        "facts_link_color": "#ffffff"
+      }
+    },
+    "165105525250727549": {
+      "type": "social-outreach",
+      "blocks": {
+        "2c7062ee-4f2e-48dc-adc4-04f020721cb9": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "Join a Beach Clean up",
+            "social_copy": "Join a clean up lorem ipsum",
+            "social_link": "#"
+          }
+        },
+        "d05c6add-5f09-4c0d-ac30-cfa88f6e5711": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "Follow us on tiktok",
+            "social_copy": "We have great content, really! We’re amazing!",
+            "social_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "2c7062ee-4f2e-48dc-adc4-04f020721cb9",
+        "d05c6add-5f09-4c0d-ac30-cfa88f6e5711"
+      ],
+      "settings": {
+        "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good."
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1650959802f78eafbe",
+    "16510475473400b526",
+    "16510475268bad2cd6",
+    "1651049829a73c74b7",
+    "165105525250727549"
+  ]
+}
