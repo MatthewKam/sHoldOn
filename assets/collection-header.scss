@@ -1,10 +1,39 @@
-.shopify-section{
-  &.section-collection {
-    &.collection-header{
-      padding-top:50px;
-      @media screen and (min-width: 640px) {
-        padding-top:100px;
-      }
+$dark-green: #065142;
+$dark-green-secondary: #418275;
+$neon-green: #00FABE;
+$cream: #F8F0DC;
+$neon-grellow: #ADFF44;
+$pale-blue: #EFFCF6;
+$error-red: #FF4466;
+$k-med:'Korolev-Medium';
+$k-heavy:'Korolev-Heavy';
+
+.section-collection-header .collection-header-wrp{
+  padding-top:50px;
+  text-align: center;
+  @media screen and (min-width: 640px) {
+    padding-top:100px;
+    text-align: left;
+  }
+
+  h1{
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    
+    @media screen and (min-width: 640px) {
+      font-size:70px;
     }
+  }
+  p{
+    font-size:12px;
+    letter-spacing: 0;
+
+    @media screen and (min-width: 640px) {
+      font-size:16px;
+    }
+  }
+  .collection-header{
+    border-bottom:2px solid $dark-green;
   }
 }
