@@ -34,12 +34,27 @@ $k-heavy:'Korolev-Heavy';
       .social-posts-wrp{
         display:flex;
         flex-wrap:wrap;
-        justify-content:space-between;
+        justify-content: center;
+        @media screen and (min-width: 1200px) {
+          justify-content:space-between;
+        }
         gap:20px;
         .social-post {
           max-width: 580px;
           img{
             max-width:100%;
+          }
+          h2{
+            font-size:22px;
+            @media screen and (min-width: 640px) {
+              font-size:25px;
+            }
+          }
+          p{
+            font-size:12px;
+            @media screen and (min-width: 640px) {
+              font-size:16px;
+            }
           }
         }
       }
