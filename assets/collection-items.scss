@@ -26,11 +26,39 @@ $k-heavy:'Korolev-Heavy';
       }
     }
     .collection-list-container{
-
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
       .product-card{
+        list-style: none;
+        padding: 0;
+        margin: 0;
         max-width:160px;
         @media screen and (min-width: 640px) {
           max-width:270px;
+        }
+        img{
+          max-width: 100%;
+        }
+        .label-price {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 0;
+          h2 {
+            font-size: 16px;
+            letter-spacing: 0;
+            @media screen and (min-width: 640px) {
+              font-size: 20px;
+            }
+          }
+          p{
+
+          }
         }
       }
     }
