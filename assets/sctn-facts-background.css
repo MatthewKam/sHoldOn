@@ -12,6 +12,13 @@
   }
 }
 
+.shopify-section.facts-background .facts-content .facts-header,
+.shopify-section.facts-background .facts-content .facts-sub-header,
+.shopify-section.facts-background .facts-content .facts-copy-wrp {
+  max-width: 470px;
+  margin: 0 auto;
+}
+
 .shopify-section.facts-background .facts-content img {
   width: 120px;
   position: absolute;
@@ -22,11 +29,17 @@
 @media screen and (min-width: 640px) {
   .shopify-section.facts-background .facts-content img {
     width: 170px;
-    left: 0px;
+    left: 10px;
   }
 }
 
 @media screen and (min-width: 767px) {
+  .shopify-section.facts-background .facts-content img {
+    left: -30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
   .shopify-section.facts-background .facts-content img {
     left: -70px;
   }

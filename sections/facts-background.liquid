@@ -25,20 +25,26 @@
       <img src="{{ sings.facts_badge | image_url}}" alt="A better way, a better bag." class="facts-badge">
     {% endif %}
     {% if sings.title %}
-      <h3 class="facts-header" {% if sings.title_color %}
-        style="color:{{ sings.title_color }}"
-      {% endif %}>{{ sings.title }}</h3>
+      <h3 class="facts-header" 
+        {% if sings.title_color %}
+          style="color:{{ sings.title_color }}"
+        {% endif %}
+      >{{ sings.title }}</h3>
     {% endif %}
     {% if sings.title %}
-      <h1 class="facts-sub-header" {% if sings.facts_answer_color %}
-      style="color:{{ sings.facts_answer_color }}"
-    {% endif %}>{{ sings.facts_answer }}</h1>
+      <h1 class="facts-sub-header" 
+        {% if sings.facts_answer_color %}
+          style="color:{{ sings.facts_answer_color }}"
+        {% endif %}
+      >{{ sings.facts_answer }}</h1>
     {% endif %}
     <div class="facts-copy-wrp">
       {% if sings.facts_copy %}
-        <p class="facts-copy" {% if sings.facts_copy_color %}
-        style="color:{{ sings.facts_copy_color }}"
-      {% endif %}>{{ sings.facts_copy }}</p>
+        <p class="facts-copy" 
+          {% if sings.facts_copy_color %}
+            style="color:{{ sings.facts_copy_color }}"
+          {% endif %}
+        >{{ sings.facts_copy }}</p>
       {% endif %}
       {% if sings.facts_link %}
         <a href="{{ sings.facts_link }}" 
@@ -51,10 +57,6 @@
         >{{ sings.facts_link_copy }}</a>
       {% endif %}
     </div>
-    
-    <!-- {% if sings.facts_desktop_img %}
-      {{ sings.facts_desktop_img | image_url}}
-    {% endif %} -->
   </div>
 </div>
 
