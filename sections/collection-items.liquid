@@ -26,7 +26,7 @@
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
             
             {% if product.featured_image %}
-              <img src="{{ product.featured_image }}" alt="{{ product.title }}">
+              <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
             {% else %}
               <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
             {% endif %}
@@ -45,7 +45,7 @@
             {% if gallon or count %}  
               <div class="product-info">
                 {% if gallon %}
-                  <p class="prod-gallon"><span>{{ gallon }}</span> gallon(s)</p>
+                  <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
                 {% endif %}
                 {% if count %}
                   <p class="prod-box"><span>{{ count }}</span> bags/box</p>
