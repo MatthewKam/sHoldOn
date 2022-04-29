@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAUA,AAEI,gBAFY,AACb,gBAAgB,CACf,wBAAwB,CAAC;EACvB,OAAO,EAAE,SAAS;EAClB,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACf",
     "sources": [
         "sctn-social-outreach.scss"
     ],

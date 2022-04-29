@@ -8,3 +8,12 @@ $error-red: #FF4466;
 $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
 
+.shopify-section{
+  &.social-outreach{
+    .social-outreach-content {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+}
