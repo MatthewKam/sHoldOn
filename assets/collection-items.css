@@ -33,15 +33,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 100%;
 }
 
 .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card {
   list-style: none;
-  padding: 0 15px;
+  padding: 0;
+  gap: 15px;
   margin: 0;
   margin-bottom: 15px;
   width: 160px;
@@ -50,6 +51,14 @@
 @media screen and (min-width: 640px) {
   .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card {
     width: 270px;
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card {
+    width: 270px;
+    gap: 40px;
   }
 }
 
