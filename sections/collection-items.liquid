@@ -1,8 +1,8 @@
 {% assign sings = section.settings %}
+
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-
 {%- endstyle -%}
 <div class="collection-items-wrp">
   <div class="collection-items">
@@ -10,21 +10,35 @@
       <h2 class="collection-header">{{ sings.title }}</h2>
     {% endif %}
     {% if sings.card_mobile %}
-      {{ sings.card_mobile | image_url}}
+      <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
     {% endif %}
     {% if sings.card_desktop %}
-      {{ sings.card_desktop | image_url}}
+      <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
     {% endif %}
     {% if section.settings.collection != blank %}
       {%- for product in sings.collection.products -%}
+        {% liquid 
+          assign gallon = product.metafields.product_info.gallons.value 
+          assign count = product.metafields.product_info.count.value 
+        %}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          {{ product.title }}
-          {{ product.price }}
+          
           {% if product.featured_image %}
             <img src="{{ product.featured_image }}" alt="{{ product.title }}">
           {% else %}
             <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
           {% endif %}
+          <div class="reviews">
+
+          </div>
+          <div class="label-price">
+            <h2>{{ product.title }}</h2>
+            <p>{{ product.price }}</p>
+          </div>
+          <div class="product-info">
+            <p><span>{{ gallon }}</span> gallon(s)</p>
+            <p><span>{{ count }}</span> bags/box</p>
+          </div>
         </li>
       {%- endfor -%}
     {% endif %}
