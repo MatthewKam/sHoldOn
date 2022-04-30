@@ -138,24 +138,32 @@
     "1651306453b4e09c76": {
       "type": "product-benefits",
       "blocks": {
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "",
-            "bnft_copy": ""
-          }
-        },
         "2612f2cc-bcd3-4566-9a74-c11e84712555": {
           "type": "image",
           "settings": {
-            "bnft_title": "",
-            "bnft_copy": ""
+            "bnft_title": "Sustainability",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        },
+        "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Materials",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        },
+        "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "How To Compost",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
           }
         }
       },
       "block_order": [
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196",
-        "2612f2cc-bcd3-4566-9a74-c11e84712555"
+        "2612f2cc-bcd3-4566-9a74-c11e84712555",
+        "5ce17adf-a80d-4b16-9102-9ca6fd1be535",
+        "d33d4737-bb4d-48c0-bdb3-123e1d734196"
       ],
       "settings": {
         "bnfts_bg_color": "#effcf6",
