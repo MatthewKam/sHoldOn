@@ -52,9 +52,33 @@
     },
     "1651301720938842ea": {
       "type": "social-outreach",
+      "blocks": {
+        "9f292b83-c755-4a84-881f-03240a513c34": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "Join a Beach Clean up",
+            "social_copy": "Join a clean up lorem ipsum",
+            "social_link": "#"
+          }
+        },
+        "dd1ba9a2-950a-4a02-91c1-34acbd38b250": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "Follow us on tiktok",
+            "social_copy": "We have great content, really! We’re amazing!",
+            "social_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "9f292b83-c755-4a84-881f-03240a513c34",
+        "dd1ba9a2-950a-4a02-91c1-34acbd38b250"
+      ],
       "settings": {
-        "title": "",
-        "bg_color": ""
+        "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good.",
+        "bg_color": "#00fabe"
       }
     }
   },
