@@ -44,8 +44,10 @@
     "1651301711ce5a9c7e": {
       "type": "collection-items",
       "settings": {
-        "title": "",
-        "collection": ""
+        "title": "Sets",
+        "collection": "trash-bag-sets",
+        "card_mobile": "shopify:\/\/shop_images\/mkt-sub-m.png",
+        "card_desktop": "shopify:\/\/shop_images\/mkt-sub-d.png"
       }
     },
     "1651301720938842ea": {
