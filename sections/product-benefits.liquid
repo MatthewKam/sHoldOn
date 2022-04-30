@@ -1,0 +1,122 @@
+{% assign sings = section.settings %}
+{{ 'sctn-product-benefits.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .product-benefits-{{ section.id }}{
+    background-color:{{ sings.bnfts_bg_color }};
+  }
+  .product-benefits-{{ section.id }} .benefits-image{
+    background:url({{ sings.bnfts_main_img }}) center top no-repeat;
+    background-size:cover;
+  }
+{%- endstyle -%}
+<div class="product-benefits-wrp product-benefits-{{ section.id }}">
+  <div class="product-benefits">
+    <div class="header-img">
+      <img src="{{ sings.bnfts_title_mobile | image_url}}" 
+        alt="{{ sings.bnfts_alt_title }}" 
+        class="bnfts-title-m bnfts-title">
+      <img src="{{ sings.bnfts_title_desktop | image_url}}" 
+        alt="{{ sings.bnfts_alt_title }}" 
+        class="bnfts-title-d bnfts-title">
+    </div>
+    <div class="benefits-wrp">
+      <div class="benefits-breakdown">
+        <div class="breakdown-header">
+          <h2>{{ sings.brkdwn_title }}</h2>
+          <p>{{ sings.brkdwn_title_copy }}</p>
+        </div>
+        <div class="breakdown-list">
+          {% for block in section.block %}
+            {% assign bings = block.settings %}
+            <div class="breakdown-item">
+              <div class="breakdown-header">
+                <h4>{{ bings.bnft_title }}</h4>
+                <img src="{{ 'icon-Arrow-Down.png' | asset_url }}" class="carrot-down">
+                <img src="{{ 'icon-Arrow-Up.png' | asset_url }}" class="carrot-up">
+              </div>
+              <p>{{ bings.bnft_copy }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="benefits-image"></div>
+    </div>
+  </div>
+</div>
+<!-- #EFFCF6 -->
+{% schema %}
+{
+  "name": "Product Benefits",
+  "tag": "section",
+  "class": "section product-benefits",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bnfts_bg_color",
+      "label": "Section Background Color"
+    },
+    {
+      "type": "header",
+      "content": "Benefits Header"
+    },
+    {
+      "type": "text",
+      "id": "bnfts_alt_title",
+      "label": "Benefits Image Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "bnfts_title_mobile",
+      "label": "Header Image Mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "bnfts_title_desktop",
+      "label": "Header Image Desktop"
+    },
+    {
+      "type": "header",
+      "content": "Benefits Content"
+    },
+    {
+      "type": "text",
+      "id": "brkdwn_title",
+      "label": "Benefits Breakdown Title"
+    },
+    {
+      "type": "text",
+      "id": "brkdwn_title_copy",
+      "label": "Benefits Breakdown Title Copy"
+    },
+    {
+      "type": "image_picker",
+      "id": "bnfts_main_img",
+      "label": "Main Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Benefit",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "bnft_title",
+          "label": "Benefit Title"
+        },
+        {
+          "type": "text",
+          "id": "bnft_copy",
+          "label": "Benefit Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Benefits"
+    }
+  ]
+}
+{% endschema %}
