@@ -30,33 +30,38 @@
     "1651302074e35ddde5": {
       "type": "collection-header",
       "settings": {
-        "title": "",
-        "collection_description": ""
+        "title": "Kitchen Bags",
+        "collection_description": "Some short description about why Holdon is great"
       }
     },
     "1651302089e4c95a6c": {
       "type": "collection-items",
       "settings": {
-        "title": "",
-        "collection": ""
+        "title": "Singles",
+        "collection": "kitchen-bags"
       }
     },
     "1651302096366255d0": {
       "type": "collection-items",
       "settings": {
-        "title": "",
-        "collection": ""
+        "title": "Sets",
+        "collection": "kitchen-bag-sets",
+        "card_mobile": "shopify:\/\/shop_images\/mkt-sub-m.png",
+        "card_desktop": "shopify:\/\/shop_images\/mkt-sub-d.png"
       }
     },
     "1651302103cf46ee3f": {
       "type": "facts-background",
       "settings": {
-        "title": "",
-        "title_color": "",
-        "facts_answer": "",
-        "facts_answer_color": "",
-        "facts_copy": "",
-        "facts_copy_color": "",
+        "facts_mobile_img": "shopify:\/\/shop_images\/bg-water-m.png",
+        "facts_desktop_img": "shopify:\/\/shop_images\/bg-water-d.png",
+        "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
+        "title": "Did you know?",
+        "title_color": "#00fabe",
+        "facts_answer": "100 Billion",
+        "facts_answer_color": "#ffffff",
+        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "",
         "facts_link_color": ""
