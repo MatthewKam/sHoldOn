@@ -182,45 +182,12 @@
         "title": "",
         "bg_color": "#00fabe"
       }
-    },
-    "165130622194ecb713": {
-      "type": "product-benefits",
-      "blocks": {
-        "9c8ad69d-7184-4ffe-ae2a-143fe4a7fd03": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "",
-            "bnft_copy": ""
-          }
-        },
-        "cc396420-48d0-4604-a05d-46c465df48b6": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "",
-            "bnft_copy": ""
-          }
-        }
-      },
-      "block_order": [
-        "9c8ad69d-7184-4ffe-ae2a-143fe4a7fd03",
-        "cc396420-48d0-4604-a05d-46c465df48b6"
-      ],
-      "settings": {
-        "bnfts_bg_color": "#effcf6",
-        "bnfts_alt_title": "A better way, a better bag.",
-        "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
-        "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
-        "brkdwn_title": "Only the best for you and the planet",
-        "brkdwn_title_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-        "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "1651302517d4b0fa7e",
-    "165130256118984234",
-    "165130622194ecb713"
+    "165130256118984234"
   ]
 }
