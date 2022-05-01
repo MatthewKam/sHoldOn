@@ -80,20 +80,20 @@ $k-heavy:'Korolev-Heavy';
         }
         .breakdown-list{
           .breakdown-item{
-            padding-bottom: 20px;
             margin-bottom:20px;
             border-bottom: 2px solid $dark-green;
             .breakdown-item-header{
               display: flex;
               justify-content: space-between;
               align-items: center;
+              padding-bottom: 20px;
+
               h4{
                 font-size: 16px;
                 text-transform: uppercase;
               }
               .carrot-wrp{
-                padding: 10px;
-
+                padding: 0 20px;
                 .carrot-down,.carrot-up{
                   width: 20px;
                 }
@@ -109,6 +109,7 @@ $k-heavy:'Korolev-Heavy';
               font-size: 16px;
               line-height: 1.4;
               display:none;
+              padding-bottom: 20px;
             }
 
             &.active{
