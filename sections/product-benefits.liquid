@@ -46,11 +46,18 @@
   </div>
 </div>
 {% javascript %}
-  document.querySelector('.product-benefits-{{ section.id }} .breakdown-item').addEventListener('click', e => {
+  
+  document.querySelector('.breakdown-item').addEventListener('click', e => {
     this.classList.toggle('active');
   })
 {% endjavascript %}
 <!-- #EFFCF6 -->
+<!-- const elementClicked = document.querySelector("#elementClicked");
+  const elementYouWantToShow = document.querySelector("#elementYouWantToShow");
+
+  elementClicked.addEventListener("click", ()=>{
+    elementYouWantToShow.classList.toggle("theClassYouWantToToggleBetween");
+  }); -->
 {% schema %}
 {
   "name": "Product Benefits",

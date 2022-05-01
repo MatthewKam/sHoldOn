@@ -109,7 +109,6 @@
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item {
-  margin-bottom: 20px;
   border-bottom: 2px solid #065142;
 }
 
@@ -123,7 +122,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item .breakdown-item-header h4 {
