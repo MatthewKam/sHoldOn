@@ -9,6 +9,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 100px 20px;
+  padding-right: 100px;
 }
 
 .shopify-section.product-benefits .header-img .bnfts-title-d {
@@ -43,10 +44,42 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown, .shopify-section.product-benefits .benefits-wrp .benefits-image {
+  width: 50%;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.product-benefits .benefits-wrp .benefits-breakdown {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-image {
   width: 720px;
   height: 585px;
+  display: block;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.product-benefits .benefits-wrp .benefits-image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 /*# sourceMappingURL=sctn-product-benefits.css.map */
