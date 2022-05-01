@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=sctn-product-benefits.css.map */
+.shopify-section.product-benefits .header-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 20px;
+}
+
+.shopify-section.product-benefits .header-img .bnfts-title-d {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.product-benefits .header-img .bnfts-title-d {
+    display: block;
+  }
+}
+
+.shopify-section.product-benefits .header-img .bnfts-title-m {
+  display: block;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.product-benefits .header-img .bnfts-title-m {
+    display: none;
+  }
+}
+/*# sourceMappingURL=sctn-product-benefits.css.map */
