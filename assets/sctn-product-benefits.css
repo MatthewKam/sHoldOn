@@ -13,6 +13,7 @@
 
 .shopify-section.product-benefits .header-img .bnfts-title-d {
   display: none;
+  height: 40px;
 }
 
 @media screen and (min-width: 640px) {
@@ -23,11 +24,29 @@
 
 .shopify-section.product-benefits .header-img .bnfts-title-m {
   display: block;
+  height: 65px;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.product-benefits .header-img .bnfts-title-m {
     display: none;
   }
+}
+
+.shopify-section.product-benefits .benefits-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-image {
+  width: 720px;
+  height: 585px;
 }
 /*# sourceMappingURL=sctn-product-benefits.css.map */

@@ -5,7 +5,7 @@
     background-color:{{ sings.bnfts_bg_color }};
   }
   .product-benefits-{{ section.id }} .benefits-image{
-    background:url({{ sings.bnfts_main_img }}) center top no-repeat;
+    background:url({{ sings.bnfts_main_img | image_url }}) center top no-repeat;
     background-size:cover;
   }
 {%- endstyle -%}
