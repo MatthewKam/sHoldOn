@@ -46,8 +46,7 @@
   </div>
 </div>
 {% javascript %}
-  const breakdownItem = document.querySelector('.product-benefits-{{ section.id }} .breakdown-item');
-  breakdownItem.addEventListener('click', e => {
+  document.querySelector('.product-benefits-{{ section.id }} .breakdown-item').addEventListener('click', e => {
     this.classList.toggle('active');
   })
 {% endjavascript %}
