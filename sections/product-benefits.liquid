@@ -46,7 +46,7 @@
   </div>
 </div>
 {% javascript %}
-  document.querySelector('.breakdown-item').addEventListener('click', e => {
+  document.querySelectorAll('.breakdown-item').addEventListener('click', e => {
     e.currentTarget.classList.toggle('active');
   })
 {% endjavascript %}

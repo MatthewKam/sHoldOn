@@ -110,6 +110,7 @@ $k-heavy:'Korolev-Heavy';
               display:none;
               padding-bottom: 20px;
               height:0;
+              transition:height 1s ease-out;
             }
 
             &.active{
@@ -124,6 +125,7 @@ $k-heavy:'Korolev-Heavy';
               p{
                 display:block;
                 height: auto;
+                transition:height 1s ease-in;
               }
             }
           }
