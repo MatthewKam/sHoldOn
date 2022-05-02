@@ -16,11 +16,11 @@
       {%- for block in section.blocks -%}
         {% liquid 
           assign bings = block.settings
-          assign product = all_products[ bings.product ]
+          assign product = bings.product
           assign gallon = product.metafields.product_info.gallons.value 
           assign count = product.metafields.product_info.count.value 
         %}
-        <li>{{product.title}}</li>
+        <li>{{ product.title }}</li>
       {% endfor %}
     </ul>
     <!-- {% if section.settings.collection != blank %}
@@ -110,7 +110,7 @@
         {
           "type": "product",
           "id": "ymal_product",
-          "label": "Product Title"
+          "label": "Product"
         }
       ]
     }
