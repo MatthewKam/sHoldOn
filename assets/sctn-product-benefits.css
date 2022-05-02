@@ -181,13 +181,13 @@
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    width: 55%;
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.product-benefits .benefits-wrp .benefits-image {
-    width: 50%;
+    width: 55%;
   }
 }
 /*# sourceMappingURL=sctn-product-benefits.css.map */
