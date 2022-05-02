@@ -49,8 +49,10 @@
   let breakDownItem = document.querySelectorAll(".breakdown-item");
   for (let i = 0; i < breakDownItem.length; i++) {
     breakDownItem[i].onclick = function(e) {
-        breakDownItem.classList.remove('active');
-        e.currentTarget.classList.add('active');
+      [].forEach.call(breakDownItem, function(el) {
+        el.classList.remove("active");
+      });
+      e.currentTarget.classList.add('active');
     }
   }
 {% endjavascript %}
