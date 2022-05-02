@@ -21,12 +21,14 @@ $k-heavy:'Korolev-Heavy';
     li{
       list-style: none;
     }
-
+    .bottom-line{
+      border-bottom: 4px solid $dark-green;
+    }
     .you-may-also-items {
       max-width: 1200px;
       margin: 0 auto;
       padding: 100px 20px;
-      border-bottom: 4px solid $dark-green;
+      
     }
     .section-header {
       display: flex;

@@ -11,11 +11,14 @@
   list-style: none;
 }
 
+.shopify-section.section-you-may-also-items .bottom-line {
+  border-bottom: 4px solid #065142;
+}
+
 .shopify-section.section-you-may-also-items .you-may-also-items {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px;
-  border-bottom: 4px solid #065142;
 }
 
 .shopify-section.section-you-may-also-items .section-header {

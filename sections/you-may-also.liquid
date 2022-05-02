@@ -61,6 +61,9 @@
         </li>
       {% endfor %}
     </ul>
+    {% if sings.bottom_line %}
+      <div class="bottom-line">&nbsp;</div>
+    {% endif %}
   </div>
 </div>
 
@@ -93,6 +96,12 @@
       "type": "url",
       "id": "view_all_link",
       "label": "View All Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "bottom_line",
+      "label": "Bottom Line Visible",
+      "default": true
     }
   ],
   "blocks": [
