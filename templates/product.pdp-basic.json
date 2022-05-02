@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "disabled": true,
       "blocks": {
         "vendor": {
           "type": "text",
@@ -133,6 +134,19 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "16514868510a661fef": {
+      "type": "product-info",
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1651306453b4e09c76": {
@@ -267,6 +281,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "16514868510a661fef",
     "1651306453b4e09c76",
     "1651482750afa64acf",
     "1651302517d4b0fa7e",
