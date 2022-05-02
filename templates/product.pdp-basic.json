@@ -135,45 +135,6 @@
         "padding_bottom": 28
       }
     },
-    "1651482750afa64acf": {
-      "type": "you-may-also",
-      "blocks": {
-        "5f680743-07be-4395-a460-cbdfd4f97ecb": {
-          "type": "image",
-          "settings": {
-            "ymal_product": "compostable-gallon-bags"
-          }
-        },
-        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a": {
-          "type": "image",
-          "settings": {
-            "ymal_product": "compostable-small-space-trash-bag"
-          }
-        },
-        "f5aeca15-838c-420d-8c22-5233fce9a484": {
-          "type": "image",
-          "settings": {
-            "ymal_product": "household-staples-set"
-          }
-        },
-        "6f62e5f8-4413-4061-9b84-74d7a153907a": {
-          "type": "image",
-          "settings": {
-            "ymal_product": "stash-store-set"
-          }
-        }
-      },
-      "block_order": [
-        "5f680743-07be-4395-a460-cbdfd4f97ecb",
-        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a",
-        "f5aeca15-838c-420d-8c22-5233fce9a484",
-        "6f62e5f8-4413-4061-9b84-74d7a153907a"
-      ],
-      "settings": {
-        "title": "You may also like",
-        "view_all_link": "shopify:\/\/collections\/all-products"
-      }
-    },
     "1651306453b4e09c76": {
       "type": "product-benefits",
       "blocks": {
@@ -261,14 +222,53 @@
         "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good.",
         "bg_color": "#00fabe"
       }
+    },
+    "1651482750afa64acf": {
+      "type": "you-may-also",
+      "blocks": {
+        "5f680743-07be-4395-a460-cbdfd4f97ecb": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "compostable-gallon-bags"
+          }
+        },
+        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "compostable-small-space-trash-bag"
+          }
+        },
+        "f5aeca15-838c-420d-8c22-5233fce9a484": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "household-staples-set"
+          }
+        },
+        "6f62e5f8-4413-4061-9b84-74d7a153907a": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "stash-store-set"
+          }
+        }
+      },
+      "block_order": [
+        "5f680743-07be-4395-a460-cbdfd4f97ecb",
+        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a",
+        "f5aeca15-838c-420d-8c22-5233fce9a484",
+        "6f62e5f8-4413-4061-9b84-74d7a153907a"
+      ],
+      "settings": {
+        "title": "You may also like",
+        "view_all_link": "shopify:\/\/collections\/all-products"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1651482750afa64acf",
     "1651306453b4e09c76",
     "1651302517d4b0fa7e",
-    "165130256118984234"
+    "165130256118984234",
+    "1651482750afa64acf"
   ]
 }

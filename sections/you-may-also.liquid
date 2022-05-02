@@ -16,11 +16,10 @@
       {%- for block in section.blocks -%}
         {% liquid 
           assign bings = block.settings
-          assign product = bings.product
-          assign gallon = product.metafields.product_info.gallons.value 
-          assign count = product.metafields.product_info.count.value 
+          assign gallon = bings.product.metafields.product_info.gallons.value 
+          assign count = bings.product.metafields.product_info.count.value 
         %}
-        <li>{{ product.title }}</li>
+        <li>{{ bings.product.title }}</li>
       {% endfor %}
     </ul>
     <!-- {% if section.settings.collection != blank %}
