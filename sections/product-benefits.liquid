@@ -52,7 +52,7 @@
       [].forEach.call(breakDownItem, function(el) {
         el.classList.remove("active");
       });
-      e.currentTarget.classList.add('active');
+      e.currentTarget.classList.toggle('active');
     }
   }
 {% endjavascript %}
