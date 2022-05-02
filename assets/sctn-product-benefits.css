@@ -147,6 +147,7 @@
   line-height: 1.4;
   display: none;
   padding-bottom: 20px;
+  height: 0;
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item.active .carrot-wrp .carrot-down {
@@ -155,6 +156,11 @@
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item.active .carrot-wrp .carrot-up {
   display: block;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item.active p {
+  display: block;
+  height: auto;
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-image {
