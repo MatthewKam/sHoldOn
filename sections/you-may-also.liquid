@@ -9,9 +9,17 @@
     {% if sings.card_mobile %}
       <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
     {% endif %}
-    {% if sings.title %}
-      <h2 class="you-may-also-header">{{ sings.title }}</h2>
-    {% endif %}
+    <div class="section-header">
+      {% if sings.title %}
+        <h2 class="you-may-also-header">{{ sings.title }}</h2>
+      {% endif %}
+      {% if view_all_link %}
+        <a href="{{ sings.view_all_link }}" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-link btn-basic">View all</a>
+      {% endif %}
+    </div>
     <ul class="you-may-also-list-container">
       {%- for block in section.blocks -%}
         {% liquid 
@@ -32,12 +40,6 @@
           <div class="label-price">
             <div class="product-header">
               <h2>{{ product.title }}</h2>
-              {% if view_all_link %}
-                <a href="{{ sings.view_all_link }}" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  class="btn-link btn-basic">View all</a>
-              {% endif %}
             </div>
             <p>
               {% if product.compared_at_price %}
