@@ -1,4 +1,4 @@
-{% comment %}theme-check-disable TemplateLength{% endcomment %}
+
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -7,7 +7,7 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
-
+{{ 'sctn-product-custom.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -24,13 +24,6 @@
 {%- endstyle -%}
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-
-{%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
-{%- if first_3d_model -%}
-  {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
-  <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
-  <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
-{%- endif -%}
 
 <section class="page-width section-{{ section.id }}-padding">
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -589,14 +582,6 @@
   });
 </script>
 
-{%- if first_3d_model -%}
-  <script type="application/json" id="ProductJSON-{{ product.id }}">
-    {{ product.media | where: 'media_type', 'model' | json }}
-  </script>
-
-  <script src="{{ 'product-model.js' | asset_url }}" defer></script>
-{%- endif -%}
-
 {%- liquid
   if product.selected_or_first_available_variant.featured_media
     assign seo_media = product.selected_or_first_available_variant.featured_media
@@ -644,9 +629,9 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-product.name",
+  "name": "Product Info - Custom",
   "tag": "section",
-  "class": "section",
+  "class": "section section-product-custom",
   "blocks": [
     {
       "type": "@app"
