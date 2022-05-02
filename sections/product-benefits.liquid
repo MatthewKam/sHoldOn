@@ -46,8 +46,8 @@
   </div>
 </div>
 {% javascript %}
-  document.querySelectorAll('.breakdown-item').addEventListener('click', e => {
-    e.currentTarget.classList.toggle('active');
+  $('.breakdown-item').on('click', function(){
+    console.log(this.target);
   })
 {% endjavascript %}
 <!-- #EFFCF6 -->
