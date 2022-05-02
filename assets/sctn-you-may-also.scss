@@ -18,6 +18,9 @@ $k-heavy:'Korolev-Heavy';
       padding:0; 
       margin:0;
     }
+    li{
+      list-style: none;
+    }
 
     .you-may-also-items {
       max-width: 1200px;
@@ -45,6 +48,15 @@ $k-heavy:'Korolev-Heavy';
         @media screen and (min-width: 640px) {
           font-size:16px;
         }
+      }
+    }
+    ul.you-may-also-list-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 15px;
+      li {
+        width: 270px;
       }
     }
   }
