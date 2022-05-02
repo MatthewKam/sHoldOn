@@ -10,6 +10,34 @@ $k-heavy:'Korolev-Heavy';
 
 .shopify-section{
   &.section-you-may-also-items{
+    // Reset
+    p, h1, h2, h3, h4{
+      letter-spacing: 0;
+    }
 
+    .you-may-also-items {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 100px 20px;
+    }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2{
+        font-size:25px;
+        text-transform: uppercase;
+        @media screen and (min-width: 640px) {
+          font-size:35px;
+        }
+      }
+      a{
+        font-size:12px;
+        @media screen and (min-width: 640px) {
+          font-size:16px;
+        }
+      }
+    }
   }
 }

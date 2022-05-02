@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=sctn-you-may-also.css.map */
+.shopify-section.section-you-may-also-items p, .shopify-section.section-you-may-also-items h1, .shopify-section.section-you-may-also-items h2, .shopify-section.section-you-may-also-items h3, .shopify-section.section-you-may-also-items h4 {
+  letter-spacing: 0;
+}
+
+.shopify-section.section-you-may-also-items .you-may-also-items {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.shopify-section.section-you-may-also-items .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shopify-section.section-you-may-also-items .section-header h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.section-you-may-also-items .section-header h2 {
+    font-size: 35px;
+  }
+}
+
+.shopify-section.section-you-may-also-items .section-header a {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.section-you-may-also-items .section-header a {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=sctn-you-may-also.css.map */
