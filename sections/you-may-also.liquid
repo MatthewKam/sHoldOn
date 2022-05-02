@@ -30,7 +30,15 @@
 
           </div>
           <div class="label-price">
-            <h2>{{ product.title }}</h2>
+            <div class="product-header">
+              <h2>{{ product.title }}</h2>
+              {% if view_all_link %}
+                <a href="{{ sings.view_all_link }}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-link btn-basic">View all</a>
+              {% endif %}
+            </div>
             <p>
               {% if product.compared_at_price %}
                 <strike class="prod-price-strike">{{ product.compared_at_price | money }} </strike>
@@ -51,50 +59,6 @@
         </li>
       {% endfor %}
     </ul>
-    <!-- {% if section.settings.collection != blank %}
-      <ul class="you-may-also-list-container">
-      {%- for product in sings.collection.products -%}
-        {% liquid 
-          assign gallon = product.metafields.product_info.gallons.value 
-          assign count = product.metafields.product_info.count.value 
-        %}
-
-        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          
-          {% if product.featured_image %}
-            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
-          {% else %}
-            <img src="{{ 'you-may-also-product-bg.png' | file_url }}" alt="{{ product.title }}">
-          {% endif %}
-          <div class="reviews">
-
-          </div>
-          <div class="label-price">
-            <h2>{{ product.title }}</h2>
-            <p>
-              {% if product.compared_at_price %}
-                <strike class="prod-price-strike">{{ product.compared_at_price | money }} </strike>
-              {% endif %}
-              <span class="prod-price">{{ product.price | money }}</span>
-            </p>
-          </div>
-          {% if gallon or count %}  
-            <div class="product-info">
-              {% if gallon %}
-                <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
-              {% endif %}
-              {% if count %}
-                <p class="prod-box"><span>{{ count }}</span> bags/box</p>
-              {% endif %}
-            </div>
-          {% endif %}
-        </li>
-      {%- endfor -%}
-      {% if sings.card_desktop %}
-        <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
-      {% endif %}
-      </ul>
-    {% endif %} -->
   </div>
 </div>
 
