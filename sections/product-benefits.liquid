@@ -46,17 +46,14 @@
   </div>
 </div>
 {% javascript %}
-  $('.breakdown-item').on('click', function(){
-    console.log(this.target);
-  })
+  let breakDownItem = document.querySelectorAll(".breakdown-item");
+  for (let i = 0; i < breakDownItem.length; i++) {
+    breakDownItem[i].onclick = function(e) {
+        e.currentTarget.classList.toggle('active');
+    }
+  }
 {% endjavascript %}
 <!-- #EFFCF6 -->
-<!-- const elementClicked = document.querySelector("#elementClicked");
-  const elementYouWantToShow = document.querySelector("#elementYouWantToShow");
-
-  elementClicked.addEventListener("click", ()=>{
-    elementYouWantToShow.classList.toggle("theClassYouWantToToggleBetween");
-  }); -->
 {% schema %}
 {
   "name": "Product Benefits",
