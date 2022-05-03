@@ -48,6 +48,7 @@ $k-heavy:'Korolev-Heavy';
         min-width: 100px;
         padding: 10px 15px;
         font-size:12px;
+        pointer-events: all !important;
         @media screen and (min-width: 640px) {
           font-size:16px;
         }
@@ -56,8 +57,8 @@ $k-heavy:'Korolev-Heavy';
     ul.you-may-also-list-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 15px;
+      justify-content: flex-start;
+      gap: 20px;
       li {
         width: 270px;
         img{

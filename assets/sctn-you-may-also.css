@@ -51,6 +51,7 @@
   min-width: 100px;
   padding: 10px 15px;
   font-size: 12px;
+  pointer-events: all !important;
 }
 
 @media screen and (min-width: 640px) {
@@ -65,9 +66,10 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  gap: 15px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
 }
 
 .shopify-section.section-you-may-also-items ul.you-may-also-list-container li {
