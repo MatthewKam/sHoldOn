@@ -10,21 +10,26 @@
 {{ 'sctn-product-custom.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .product-info-wrp div:empty{
+    display:block;
+  }
   .product-info-wrp .gallery-image-1{
-    background:url("{{ sings.product_image_1 }}")center top no-repeat;
+    background:url("{{ sings.product_image_1 | image_url }}")center top no-repeat;
     background-size:cover;
   }
   .product-info-wrp .gallery-image-2{
-    background:url("{{ sings.product_image_2 }}")center top no-repeat;
+    background:url("{{ sings.product_image_2 | image_url }}")center top no-repeat;
     background-size:cover;
   }
   .product-info-wrp .gallery-image-3{
-    background:url("{{ sings.product_image_3 }}")center top no-repeat;
+    background:url("{{ sings.product_image_3 | image_url }}")center top no-repeat;
     background-size:cover;
   }
   .product-info-wrp .gallery-image-4{
-    background:url("{{ sings.product_image_4 }}")center top no-repeat;
+    background:url("{{ sings.product_image_4 | image_url }}")center top no-repeat;
     background-size:cover;
+    height: 287px;
+    width: 820px;
   }
 {%- endstyle -%}
 
