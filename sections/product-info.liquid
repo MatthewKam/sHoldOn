@@ -44,7 +44,7 @@
       <div class="gallery-image-4"></div>
     </div>
     <div class="product-breakdown">
-      <h1>{{ product.title }}</h1>
+      <h1 class="prod-title">{{ product.title }}</h1>
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
         {%- for block in section.blocks -%}

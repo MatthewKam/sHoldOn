@@ -1,3 +1,16 @@
+.shopify-section.section-product-custom p, .shopify-section.section-product-custom h1, .shopify-section.section-product-custom h2, .shopify-section.section-product-custom h3, .shopify-section.section-product-custom h4 {
+  letter-spacing: 0;
+}
+
+.shopify-section.section-product-custom ul {
+  padding: 0;
+  margin: 0;
+}
+
+.shopify-section.section-product-custom li {
+  list-style: none;
+}
+
 .shopify-section.section-product-custom .product-info-wrp div:empty {
   display: block;
 }
@@ -10,6 +23,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 @media screen and (min-width: 767px) {
@@ -23,6 +39,7 @@
 
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown {
   width: 100%;
+  padding: 100px 20px;
 }
 
 @media screen and (min-width: 767px) {
@@ -32,6 +49,18 @@
         -ms-flex-direction: row;
             flex-direction: row;
     width: 40%;
+  }
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-title {
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-title {
+    font-size: 35px;
   }
 }
 
@@ -71,7 +100,7 @@
 .shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-1,
 .shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-2 {
   width: 100%;
-  padding-top: 100%;
+  padding-top: 108%;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-3 {
