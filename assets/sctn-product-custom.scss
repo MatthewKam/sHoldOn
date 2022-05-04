@@ -47,6 +47,9 @@ $k-heavy:'Korolev-Heavy';
           font-size:25px;
           letter-spacing: 0;
           line-height: 1;
+          text-align: center;
+          margin-bottom:50px;
+          
           @media screen and (min-width: 767px) {
             font-size:35px;
           }

@@ -44,8 +44,21 @@
       <div class="gallery-image-4"></div>
     </div>
     <div class="product-breakdown">
-      <h1 class="prod-title">{{ product.title }}</h1>
-      <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
+      <h1 class="prod-title">
+        {% if sings.product_title_custom %}
+          {{ sings.product_title_custom }}
+        {% else %}
+          {{ product.title }}
+        {% endif %}
+      </h1>
+      <p class="prod-desc">
+        {% if sings.product_description_custom %}
+          {{ sings.product_description_custom }}
+        {% else %}
+          {{ product.description }}
+        {% endif %}
+      </p>
+      <div id="ProductInfo-{{ section.id }}" class="product__info-container">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -527,6 +540,20 @@
       "type": "image_picker",
       "id": "product_image_4",
       "label": "Image 4"
+    },
+    {
+      "type": "header",
+      "content": "Product Info"
+    },
+    {
+      "type": "text",
+      "id": "product_title_custom",
+      "label": "Product Title Override"
+    },
+    {
+      "type": "text",
+      "id": "product_description_custom",
+      "label": "Product Description Override"
     }
   ],
   "presets": [
