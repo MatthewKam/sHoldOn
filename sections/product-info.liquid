@@ -45,18 +45,12 @@
     </div>
     <div class="product-breakdown">
       <h1 class="prod-title">
-        {% if sings.product_title_custom != blank %}
           {{ product.title }}
-        {% else %}
           {{ sings.product_title_custom }}
-        {% endif %}
       </h1>
       <p class="prod-desc">
-        {% if sings.product_description_custom != blank  %}
           {{ product.description }}
-        {% else %}
           {{ sings.product_description_custom }}
-        {% endif %}
       </p>
       <div id="ProductInfo-{{ section.id }}" class="product__info-container">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
