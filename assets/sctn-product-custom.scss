@@ -1,0 +1,39 @@
+$dark-green: #065142;
+$dark-green-secondary: #418275;
+$neon-green: #00FABE;
+$cream: #F8F0DC;
+$neon-grellow: #ADFF44;
+$pale-blue: #EFFCF6;
+$error-red: #FF4466;
+$k-med:'Korolev-Medium';
+$k-heavy:'Korolev-Heavy';
+
+.shopify-section{
+  &.section-product-custom{
+    .product-info-wrp {
+      .product-gallery {
+        display: flex;
+        .gallery-images-1-3 {
+          height: 66%;
+        }
+        .gallery-image-1{
+          height: 33%;
+          width: 39%;
+        }
+        .gallery-image-2{
+          height: 33%;
+          width: 39%;
+        }
+        .gallery-image-3{
+          height:66%;
+          width:61%;
+        }
+        .gallery-image-4{
+          height: 34%;
+          width: 100%;
+        }
+      }
+      
+    }
+  }
+}
