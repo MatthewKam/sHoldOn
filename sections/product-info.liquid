@@ -81,10 +81,10 @@
         {% if gallon or count %}  
             <div class="prod-counts">
               {% if gallon %}
-                <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
+                <p class="prod-gallon"><strong>{{ gallon }}</strong> gallon</p>
               {% endif %}
               {% if count %}
-                <p class="prod-box"><span>{{ count }}</span> bags/box</p>
+                <p class="prod-box"><strong>{{ count }}</strong> bags/box</p>
               {% endif %}
             </div>
           {% endif %}
@@ -119,6 +119,12 @@
           </variant-radios>
         {%- endunless -%}
         <div class="submit-selection-wrp">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+            {%- when '@app' -%}
+            {% render block %}
+            {%endcase%}
+          {% endfor %}
           <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
             <quantity-input class="quantity">
               <button class="quantity__button no-js-hidden" name="minus" type="button">
