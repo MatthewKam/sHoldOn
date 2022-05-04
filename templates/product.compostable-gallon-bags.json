@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "16514868510a661fef": {
+      "type": "product-info",
+      "settings": {
+        "mobile_carousel_enabled": true,
+        "product_image_1": "shopify:\/\/shop_images\/placeholder-slot-1.png",
+        "product_image_2": "shopify:\/\/shop_images\/placeholder-slot-2.png",
+        "product_image_3": "shopify:\/\/shop_images\/placeholder-slot-3.png",
+        "product_image_4": "shopify:\/\/shop_images\/placeholder-slot-4.png"
+      }
+    },
+    "1651306453b4e09c76": {
+      "type": "product-benefits",
+      "blocks": {
+        "2612f2cc-bcd3-4566-9a74-c11e84712555": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Sustainability",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        },
+        "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Materials",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        },
+        "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "How To Compost",
+            "bnft_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        }
+      },
+      "block_order": [
+        "2612f2cc-bcd3-4566-9a74-c11e84712555",
+        "5ce17adf-a80d-4b16-9102-9ca6fd1be535",
+        "d33d4737-bb4d-48c0-bdb3-123e1d734196"
+      ],
+      "settings": {
+        "bnfts_bg_color": "#effcf6",
+        "bnfts_alt_title": "A better way, a better bag.",
+        "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
+        "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
+        "brkdwn_title": "Only the best for you and the planet",
+        "brkdwn_title_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+        "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
+      }
+    },
+    "1651482750afa64acf": {
+      "type": "you-may-also",
+      "blocks": {
+        "5f680743-07be-4395-a460-cbdfd4f97ecb": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "compostable-gallon-bags"
+          }
+        },
+        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "compostable-small-space-trash-bag"
+          }
+        },
+        "f5aeca15-838c-420d-8c22-5233fce9a484": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "household-staples-set"
+          }
+        },
+        "6f62e5f8-4413-4061-9b84-74d7a153907a": {
+          "type": "image",
+          "settings": {
+            "ymal_product": "stash-store-set"
+          }
+        }
+      },
+      "block_order": [
+        "5f680743-07be-4395-a460-cbdfd4f97ecb",
+        "d47f2945-bfe0-4dc2-bef3-4e0b76236a9a",
+        "f5aeca15-838c-420d-8c22-5233fce9a484",
+        "6f62e5f8-4413-4061-9b84-74d7a153907a"
+      ],
+      "settings": {
+        "title": "You may also like",
+        "view_all_link": "shopify:\/\/collections\/all-products",
+        "bottom_line": true
+      }
+    },
+    "1651302517d4b0fa7e": {
+      "type": "facts-background",
+      "settings": {
+        "facts_mobile_img": "shopify:\/\/shop_images\/bg-water-m.png",
+        "facts_desktop_img": "shopify:\/\/shop_images\/bg-water-d.png",
+        "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
+        "title": "Did you know?",
+        "title_color": "#00fabe",
+        "facts_answer": "100 billion",
+        "facts_answer_color": "#ffffff",
+        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy_color": "#ffffff",
+        "facts_link_copy": "Learn More",
+        "facts_link": "#",
+        "facts_link_color": "#ffffff"
+      }
+    },
+    "165130256118984234": {
+      "type": "social-outreach",
+      "blocks": {
+        "cbee1d83-bf29-49d6-8a2b-af269addfd49": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "",
+            "social_copy": "",
+            "social_link": ""
+          }
+        },
+        "6ef7a1af-7a89-408b-9332-06c887debd8a": {
+          "type": "image",
+          "settings": {
+            "social_image": "shopify:\/\/shop_images\/sp-bg.png",
+            "social_title": "",
+            "social_copy": "",
+            "social_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cbee1d83-bf29-49d6-8a2b-af269addfd49",
+        "6ef7a1af-7a89-408b-9332-06c887debd8a"
+      ],
+      "settings": {
+        "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good.",
+        "bg_color": "#00fabe"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "16514868510a661fef",
+    "1651306453b4e09c76",
+    "1651482750afa64acf",
+    "1651302517d4b0fa7e",
+    "165130256118984234"
+  ]
+}
