@@ -13,23 +13,31 @@
   .product-info-wrp div:empty{
     display:block;
   }
+  width:820px;
+  height:862px;
   .product-info-wrp .gallery-image-1{
     background:url("{{ sings.product_image_1 | image_url }}")center top no-repeat;
     background-size:cover;
+    height: 33%;
+    width: 39%;
   }
   .product-info-wrp .gallery-image-2{
     background:url("{{ sings.product_image_2 | image_url }}")center top no-repeat;
     background-size:cover;
+    height: 33%;
+    width: 39%;
   }
   .product-info-wrp .gallery-image-3{
     background:url("{{ sings.product_image_3 | image_url }}")center top no-repeat;
     background-size:cover;
+    height:66%;
+    width:61%;
   }
   .product-info-wrp .gallery-image-4{
     background:url("{{ sings.product_image_4 | image_url }}")center top no-repeat;
     background-size:cover;
-    height: 287px;
-    width: 820px;
+    height: 34%;
+    width: 100%;
   }
 {%- endstyle -%}
 
