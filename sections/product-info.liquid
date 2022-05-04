@@ -272,8 +272,22 @@
             <li id="Slide-{{ section.id }}-{{ featured_media.id }}" 
               class="product__media-item grid__item slider__slide is-active" 
               data-media-id="{{ section.id }}-{{ featured_media.id }}">
-              {%- assign media_position = 1 -%}
-              {% render 'product-thumbnail', media: featured_media, position: media_position, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: false %}
+              Item 1
+            </li>
+            <li id="Slide-{{ section.id }}-{{ featured_media.id }}" 
+              class="product__media-item grid__item slider__slide" 
+              data-media-id="{{ section.id }}-{{ featured_media.id }}">
+              Item 2
+            </li>
+            <li id="Slide-{{ section.id }}-{{ featured_media.id }}" 
+              class="product__media-item grid__item slider__slide" 
+              data-media-id="{{ section.id }}-{{ featured_media.id }}">
+              Item 3
+            </li>
+            <li id="Slide-{{ section.id }}-{{ featured_media.id }}" 
+              class="product__media-item grid__item slider__slide" 
+              data-media-id="{{ section.id }}-{{ featured_media.id }}">
+              Item 4
             </li>
           </ul>
           <div class="slider-buttons no-js-hidden">
