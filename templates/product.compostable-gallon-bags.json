@@ -143,7 +143,10 @@
         "product_image_1": "shopify:\/\/shop_images\/placeholder-slot-1.png",
         "product_image_2": "shopify:\/\/shop_images\/placeholder-slot-2.png",
         "product_image_3": "shopify:\/\/shop_images\/placeholder-slot-3.png",
-        "product_image_4": "shopify:\/\/shop_images\/placeholder-slot-4.png"
+        "product_image_4": "shopify:\/\/shop_images\/placeholder-slot-4.png",
+        "product_title_custom": "",
+        "product_description_custom": "Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "product_items_total": 1
       }
     },
     "1651306453b4e09c76": {
