@@ -1,4 +1,8 @@
-{% assign sings = section.settings %}
+{% liquid 
+  assign sings = section.settings
+  assign gallon = product.metafields.product_info.gallons.value 
+  assign count = product.metafields.product_info.count.value 
+%}
 <!-- {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -74,6 +78,16 @@
             {{ sings.product_title_custom }}
           {% endif %}
         </h1>
+        {% if gallon or count %}  
+            <div class="prod-counts">
+              {% if gallon %}
+                <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
+              {% endif %}
+              {% if count %}
+                <p class="prod-box"><span>{{ count }}</span> bags/box</p>
+              {% endif %}
+            </div>
+          {% endif %}
         <p class="prod-desc">
           {% if sings.product_description_custom  == '' %}
             {{ product.description }}
