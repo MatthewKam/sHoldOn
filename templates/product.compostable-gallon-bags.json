@@ -162,6 +162,55 @@
     },
     "16517424531c39ce9c": {
       "type": "values-bar",
+      "blocks": {
+        "87a2f7c1-0bf9-4f7b-a6d5-376389f32744": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-Compostable-inverse.png",
+            "values_copy_1": "Home",
+            "values_copy_2": "Compostable"
+          }
+        },
+        "e1ca40a6-37e3-4214-ae9c-1d0bf8bcbf6e": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-PlantBased-inverse.png",
+            "values_copy_1": "Plant-",
+            "values_copy_2": "Based"
+          }
+        },
+        "c71f3e3a-261e-4126-9727-7a4e139020c8": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-HeavyDuty-inverse.png",
+            "values_copy_1": "Heavy",
+            "values_copy_2": "Duty"
+          }
+        },
+        "9ca843a8-a43a-4afb-8c4f-9eec8bfb03d9": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-BPICert-inverse.png",
+            "values_copy_1": "BPI",
+            "values_copy_2": "Certified"
+          }
+        },
+        "f997aee0-ded8-43ed-b7f5-fe335438e99d": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-BPAFree-inverse.png",
+            "values_copy_1": "Non-",
+            "values_copy_2": "Toxic"
+          }
+        }
+      },
+      "block_order": [
+        "87a2f7c1-0bf9-4f7b-a6d5-376389f32744",
+        "e1ca40a6-37e3-4214-ae9c-1d0bf8bcbf6e",
+        "c71f3e3a-261e-4126-9727-7a4e139020c8",
+        "9ca843a8-a43a-4afb-8c4f-9eec8bfb03d9",
+        "f997aee0-ded8-43ed-b7f5-fe335438e99d"
+      ],
       "settings": {
         "bg_color": "#065142",
         "text_color": "#ffffff"
