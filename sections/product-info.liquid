@@ -2,7 +2,8 @@
   assign sings = section.settings
   assign gallon = product.metafields.product_info.gallons.value 
   assign count = product.metafields.product_info.count.value 
-%}
+  assign numItems = product.metafields.product_info.numItems.value 
+  %}
 {{ 'sctn-product-custom.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -42,27 +43,27 @@
     <div class="product-breakdown">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container">
       {%- assign product_form_id = 'product-form-' | append: section.id -%}
-      {%- if product.metafields.reviews.rating.value != blank -%}
-        {% liquid
-          assign rating_decimal = 0
-          assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-          if decimal >= 0.3 and decimal <= 0.7
-            assign rating_decimal = 0.5
-          elsif decimal > 0.7
-            assign rating_decimal = 1
-          endif
-        %}
-        <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
-          <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
-        </div>
-        <p class="rating-text caption">
-          <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
-        </p>
-        <p class="rating-count caption">
-          <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
-          <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
-        </p>
-      {%- endif -%}
+        {%- if product.metafields.reviews.rating.value != blank -%}
+          {% liquid
+            assign rating_decimal = 0
+            assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+            if decimal >= 0.3 and decimal <= 0.7
+              assign rating_decimal = 0.5
+            elsif decimal > 0.7
+              assign rating_decimal = 1
+            endif
+          %}
+          <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
+            <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
+          </div>
+          <p class="rating-text caption">
+            <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
+          </p>
+          <p class="rating-count caption">
+            <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+            <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
+          </p>
+        {%- endif -%}
         <h1 class="prod-title">
           {% if sings.product_title_custom  == '' %}
             {{ product.title }}
@@ -70,16 +71,19 @@
             {{ sings.product_title_custom }}
           {% endif %}
         </h1>
-        {% if gallon or count %}  
-            <div class="prod-counts">
-              {% if gallon %}
-                <p class="prod-gallon"><strong>{{ gallon }}</strong> gallon</p>
-              {% endif %}
-              {% if count %}
-                <p class="prod-box"><strong>{{ count }}</strong> bags/box</p>
-              {% endif %}
-            </div>
-          {% endif %}
+        {% if gallon or count or numItems %}  
+          <div class="prod-counts">
+            {% if gallon %}
+              <p class="prod-gallon"><strong>{{ gallon }}</strong> gallon</p>
+            {% endif %}
+            {% if count %}
+              <p class="prod-box"><strong>{{ count }}</strong> bags/box</p>
+            {% endif %}
+            {% if count %}
+              <p class="prod-num-items"><strong>{{ numItems }}</strong> item(s)</p>
+            {% endif %}
+          </div>
+        {% endif %}
         <p class="prod-desc">
           <span class="snipped active">
             {% if sings.product_description_custom  == '' %}
