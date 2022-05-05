@@ -22,9 +22,11 @@
         %}
 
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          <a href="product-url" class="learn-more-link">
-            Learn more
-          </a>
+          <div class="btn-wrp">
+            <a href="product-url" class="learn-more-link btn-link">
+              Learn more
+            </a>
+          </div>
           {% if product.featured_image %}
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
           {% else %}
