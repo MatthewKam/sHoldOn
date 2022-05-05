@@ -83,11 +83,18 @@
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-counts p {
   font-size: 16px;
   padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-counts p strong {
   font-family: "Korolev-Heavy";
   font-size: 25px;
+  padding-right: 10px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {

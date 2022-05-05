@@ -63,9 +63,12 @@ $k-heavy:'Korolev-Heavy';
           p{
             font-size:16px;
             padding: 0 10px;
+            display: flex;
+            align-items: center;
             strong{
               font-family: $k-heavy;
               font-size:25px;
+              padding-right:10px;
             };
           }
         }
