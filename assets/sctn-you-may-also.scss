@@ -61,6 +61,13 @@ $k-heavy:'Korolev-Heavy';
       gap: 20px;
       li {
         width: 270px;
+        position:relative;
+
+        &:hover{
+          .btn-wrp{
+            display: flex;
+          }
+        }
         img{
           max-width:100%;
         }
@@ -104,6 +111,19 @@ $k-heavy:'Korolev-Heavy';
               margin-right:10px;
             }
           }
+        }
+
+        .btn-wrp{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 270px;
+          background: rgba(0,0,0,.2);
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: none;
         }
       }
     }
