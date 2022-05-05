@@ -160,6 +160,13 @@
         "product_items_total": 1
       }
     },
+    "16517424531c39ce9c": {
+      "type": "values-bar",
+      "settings": {
+        "bg_color": "#065142",
+        "text_color": "#ffffff"
+      }
+    },
     "1651306453b4e09c76": {
       "type": "product-benefits",
       "blocks": {
@@ -293,6 +300,7 @@
     "main",
     "product-recommendations",
     "16514868510a661fef",
+    "16517424531c39ce9c",
     "1651306453b4e09c76",
     "1651482750afa64acf",
     "1651302517d4b0fa7e",
