@@ -57,7 +57,7 @@
   letter-spacing: 0;
   line-height: 1;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding: 0 30px;
 }
 
@@ -65,6 +65,29 @@
   .shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-title {
     font-size: 35px;
   }
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-counts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-counts p {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-counts p strong {
+  font-family: "Korolev-Heavy";
+  font-size: 25px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
