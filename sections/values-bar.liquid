@@ -21,7 +21,11 @@
     {%- for block in section.blocks -%}
       {% assign bings = block.settings %}
       <div class="values">
-        <img src="{{ bings.values_image | image_url }}" alt="" class="values-image">
+        {% if bings.values_image %}
+          <img src="{{ bings.values_image | image_url }}" alt="" class="values-image">
+        {% else %}
+          <h3>Image</h3>
+        {% endif %}
         <p class="values-copy">
           <span class="v-copy-1">{{ bings.values_copy_1 | image_url }}</span>
           <span class="v-copy-2">
