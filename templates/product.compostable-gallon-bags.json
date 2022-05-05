@@ -138,12 +138,26 @@
     },
     "16514868510a661fef": {
       "type": "product-info",
+      "blocks": {
+        "da86ab8e-5bde-421e-a36e-c161b60db82a": {
+          "type": "shopify:\/\/apps\/recurring-billing-by-recharge\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "da86ab8e-5bde-421e-a36e-c161b60db82a"
+      ],
       "settings": {
         "mobile_carousel_enabled": true,
         "product_image_1": "shopify:\/\/shop_images\/placeholder-slot-1.png",
         "product_image_2": "shopify:\/\/shop_images\/placeholder-slot-2.png",
         "product_image_3": "shopify:\/\/shop_images\/placeholder-slot-3.png",
-        "product_image_4": "shopify:\/\/shop_images\/placeholder-slot-4.png"
+        "product_image_4": "shopify:\/\/shop_images\/placeholder-slot-4.png",
+        "product_title_custom": "",
+        "product_description_custom": "",
+        "product_items_total": 1
       }
     },
     "1651306453b4e09c76": {
