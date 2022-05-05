@@ -81,11 +81,21 @@
             </div>
           {% endif %}
         <p class="prod-desc">
-          {% if sings.product_description_custom  == '' %}
-            {{ product.description }}
-          {% else %}
-            {{ sings.product_description_custom }}
-          {% endif %}
+          <span class="snipped active">
+            {% if sings.product_description_custom  == '' %}
+              {{ product.description | truncate: 100 }}
+            {% else %}
+              {{ sings.product_description_custom | truncate: 100 }}
+            {% endif %}
+          </span>
+          <span class="full-copy">
+            {% if sings.product_description_custom  == '' %}
+              {{ product.description }}
+            {% else %}
+              {{ sings.product_description_custom }}
+            {% endif %}
+          </span>
+          <span class="learn-more-btn">Learn more</span>
         </p>
         {%- unless product.has_only_default_variant -%}
           <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
