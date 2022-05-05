@@ -11,11 +11,22 @@
     justify-content:center;
     align-items:center;
   }
+  .values-bar-wrp.{{ section.id }} .values-image,
+  .values-bar-wrp.{{ section.id }} .values-placeholder-image{
+    width:35px;
+  }
+  
   .values-bar-wrp.{{ section.id }} .v-copy-1,
   .values-bar-wrp.{{ section.id }} .v-copy-2{
     color:{{sings.text_color}};
     font-family:'Korolev-Heavy';
     display:block;
+  }
+  @media screen and (min-width: 640px) {
+    .values-bar-wrp.{{ section.id }} .values-image,
+    .values-bar-wrp.{{ section.id }} .values-placeholder-image{
+      width:40px;
+    }
   }
 {%- endstyle -%}
 <div class="values-bar-wrp {{ section.id }}">
@@ -26,7 +37,7 @@
         {% if bings.values_image %}
           <img src="{{ bings.values_image | image_url }}" alt="" class="values-image">
         {% else %}
-          <h3>Image</h3>
+          <h3 class="values-placeholder-image">Image</h3>
         {% endif %}
         <p class="values-copy">
           <span class="v-copy-1">{{ bings.values_copy_1 }}</span>
