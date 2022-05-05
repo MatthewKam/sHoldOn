@@ -1,0 +1,92 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .values-bar-wrp.{{ section.id }}{
+    background-color:{{ sings.bg_color }}
+    padding:40px 20px
+  }
+  .values-bar-wrp.{{ section.id }} .values-wrp{
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .values-bar-wrp.{{ section.id }} .v-copy-1,
+  .values-bar-wrp.{{ section.id }} .v-copy-2{
+    color:{{sings.text_color}};
+  }
+{%- endstyle -%}
+<div class="values-bar-wrp {{ section.id }}">
+  <div class="values-wrp">
+    {%- for block in section.blocks -%}
+      {% assign bings = block.settings %}
+      <div class="values">
+        <img src="{{ bings.values_image | image_url }}" alt="" class="values-image">
+        <p class="values-copy">
+          <span class="v-copy-1">{{ bings.values_copy_1 | image_url }}</span>
+          <span class="v-copy-2">
+            {% if bings.values_copy_2 %}
+              {{ bings.values_copy_2 }}
+            {% else %}
+               &nbsp;
+            {% endif %}
+          </span>
+        </p>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Values Bar",
+  "tag": "section",
+  "class": "section values-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Values",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "values_image",
+          "label": "Icon image"
+        },
+        {
+          "type": "text",
+          "id": "values_copy_1",
+          "label": "Values Copy Top"
+        },
+        {
+          "type": "text",
+          "id": "values_copy_2",
+          "label": "Values Copy Bottom"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Values Bar"
+    }
+  ]
+}
+{% endschema %}
