@@ -118,6 +118,7 @@
             </script>
           </variant-radios>
         {%- endunless -%}
+        <div class="prices my-price"></div>
         <div class="submit-selection-wrp">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -184,7 +185,6 @@
                 </div>
               {%- endform -%}
             </product-form>
-
             {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
             {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
@@ -257,6 +257,28 @@
   </div>
 </section>
 
+{% javascript %}
+  const config = {
+    productId: {{product.id}}, // Required
+    injectionParent: 'form[action*="cart/add"]', // The node that will have the widget injected in
+    injectionMethod: 'prepend', // How will the widget be injected 
+    injectFn: (node, target) => {}, // Runs a custom injection function 
+    selectors: {
+      price: ['.my-price-selector'], // the selectors that will be updated based on subscription
+      variant: ['.variant-selector'] // The variants to watch for to update the subscription prices
+    }
+  };
+  window.ReChargeWidget.createWidget(config);
+
+  // Example of rendering a specific product to a page that doesn't provide the productId in the DOM
+  window.ReChargeWidget.createWidget({ productId: {{product.id}} });
+
+  // Example of rendering a specific product to a page that has a custom injection point
+  window.ReChargeWidget.createWidget({ productId: {{product.id}}, injectionParent: '.rc-custom-injection-point' });
+
+  // Example of rendering a specific product to a page that has a special price selector
+  window.ReChargeWidget.createWidget({ productId: {{product.id}}, selectors: { price: ['.my-price'] } });
+{% endjavascript %}
 {% if product.media.size > 0 %}
   <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
 {% endif %}
