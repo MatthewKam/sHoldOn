@@ -118,7 +118,12 @@
             </script>
           </variant-radios>
         {%- endunless -%}
-        <div class="prices my-price"></div>
+
+
+        <div class="prices my-price">{{product.price | money}}</div>
+        <div class="rc-custom-injection-point"></div>
+
+
         <div class="submit-selection-wrp">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
