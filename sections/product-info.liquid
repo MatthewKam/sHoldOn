@@ -134,15 +134,14 @@
             {{ product.price | money }}
           </div>
         </div>
-
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+          {%- when '@app' -%}
+          {% render block %}
+          {%endcase%}
+        {% endfor %}
 
         <div class="submit-selection-wrp">
-          {%- for block in section.blocks -%}
-            {%- case block.type -%}
-            {%- when '@app' -%}
-            {% render block %}
-            {%endcase%}
-          {% endfor %}
           <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
             <quantity-input class="quantity">
               <button class="quantity__button no-js-hidden" name="minus" type="button">

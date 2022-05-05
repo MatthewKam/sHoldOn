@@ -73,6 +73,12 @@ $k-heavy:'Korolev-Heavy';
           }
         }
       }
+      .submit-selection-wrp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+      }
       .product-gallery {
         width:100%;
         display: flex;
