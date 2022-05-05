@@ -28,7 +28,7 @@
           assign gallon = product.metafields.product_info.gallons.value 
           assign count = product.metafields.product_info.count.value 
         %}
-        <li>
+        <li product-id="{{ product.id }}">
           {% if product.featured_image %}
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
           {% else %}
@@ -58,6 +58,10 @@
               {% endif %}
             </div>
           {% endif %}
+          <div class="btn-wrp">
+            <button class="btn-submit btn-limegreen">Add to Cart</button>
+            <a href="{{product.url}}" class="btn-link">Learn more</a>
+          </div>
         </li>
       {% endfor %}
     </ul>
