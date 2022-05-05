@@ -83,7 +83,7 @@
         <p class="prod-desc">
           <span class="snipped active">
             {% if sings.product_description_custom  == '' %}
-              {{ product.description | truncate: 100 }}
+              {{ product.description | compact | truncate: 100 }}
             {% else %}
               {{ sings.product_description_custom | truncate: 100 }}
             {% endif %}
