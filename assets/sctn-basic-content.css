@@ -37,14 +37,6 @@
   }
 }
 
-@media screen and (min-width: 767px) {
-  .shopify-section.basic-content .content-wrp .bg-image,
-  .shopify-section.basic-content .content-wrp .copy-sctn {
-    width: 50%;
-    height: 670px;
-  }
-}
-
 .shopify-section.basic-content .content-wrp .bg-image {
   display: block;
   padding-top: 100%;
@@ -55,6 +47,14 @@
   .shopify-section.basic-content .content-wrp .bg-image {
     height: 670px;
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.basic-content .content-wrp .bg-image,
+  .shopify-section.basic-content .content-wrp .copy-sctn {
+    width: 50%;
+    height: 670px;
   }
 }
 /*# sourceMappingURL=sctn-basic-content.css.map */
