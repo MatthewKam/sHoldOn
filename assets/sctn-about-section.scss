@@ -49,10 +49,17 @@ $k-heavy:'Korolev-Heavy';
         margin: 0 auto;
         h1{
           font-size:35px;
-          line-height: 1;
           margin-bottom: 10px;
           @media screen and (min-width: 767px) {
             font-size:50px;
+          }
+        }
+        p{
+          font-size:16px;
+          margin-bottom: 30px;
+          line-height:1.2;
+          @media screen and (min-width: 767px) {
+            font-size:20px;
           }
         }
       }
