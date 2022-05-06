@@ -1,0 +1,140 @@
+{% assign sings = section.settings %}
+{{ 'sctn-about-section.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .about-section-{{ section.id }}{
+    background-color:{{ sings.bg_color }};
+  }
+{%- endstyle -%}
+<div class="about-section-wrp about-section-{{ section.id }}">
+  <div class="about-section-content">
+    <div class="section-wrp section-1-wrp">
+      {% if sings.section_1_img %}
+        <img src="{{ sings.section_1_img }}" alt="">
+      {% endif %}
+      <div class="section-1-content">
+        <h1>{{ sings.section_1_headline }}</h1>
+        <p>{{ sings.section_1_copy }}</p>
+        {% if sings.section_1_url %}
+          <a href="{{ sings.section_1_url }}" class="btn-link">{{ sings.section_1_url_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="section-wrp section-2-wrp">
+      <div class="section-2-content">
+        <h1>{{ sings.section_2_headline }}</h1>
+        <p>{{ sings.section_2_copy }}</p>
+        {% if sings.section_2_url %}
+        <a href="{{ sings.section_2_url }}" class="btn-link">{{ sings.section_2_url_text }}</a>
+        {% endif %}
+      </div>
+      {% if sings.section_2_img %}
+        <img src="{{ sings.section_2_img }}" alt="">
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "About Section",
+  "tag": "section",
+  "class": "section about-section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#EFFCF6"
+    },
+    {
+      "type": "header",
+      "content": "Section 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "section_1_img",
+      "label": "Section 1 Image"
+    },
+    {
+      "type": "text",
+      "id": "section_1_headline",
+      "label": "Section 1 Headline"
+    },
+    {
+      "type": "text",
+      "id": "section_1_copy",
+      "label": "Section 1 Copy"
+    },
+    {
+      "type": "url",
+      "id": "section_1_url",
+      "label": "Section 1 URL"
+    },
+    {
+      "type": "text",
+      "id": "section_1_url_text",
+      "label": "Section 1 Button Text",
+      "default": "Learn more"
+    },
+    {
+      "type": "header",
+      "content": "Section 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "item_2_img",
+      "label": "Section 2 Image"
+    },
+    {
+      "type": "text",
+      "id": "section_2_headline",
+      "label": "Section 2 Headline"
+    },
+    {
+      "type": "text",
+      "id": "section_2_copy",
+      "label": "Section 2 Copy"
+    },
+    {
+      "type": "url",
+      "id": "section_2_url",
+      "label": "Section 2 URL"
+    },
+    {
+      "type": "text",
+      "id": "section_2_url_text",
+      "label": "Section 2 Button Text",
+      "default": "Learn more"
+    },
+    {
+      "type": "header",
+      "content": "Icons/Logos"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_1",
+      "label": "Icon/Logo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_2",
+      "label": "Icon/Logo 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_3",
+      "label": "Icon/Logo 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_4",
+      "label": "Icon/Logo 4"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Facts w/ Background Image"
+    }
+  ]
+}
+{% endschema %}
