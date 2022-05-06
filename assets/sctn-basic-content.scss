@@ -40,10 +40,21 @@ $k-heavy:'Korolev-Heavy';
           padding:0;
         }
       }
-      .copy-wrp{
-        max-width:450px;
-        margin:0 auto;
+      .copy-sctn{
+        padding: 100px 20px;
+        .copy-wrp{
+          max-width:450px;
+          margin:0 auto;
+          h1{
+            font-size:35px;
+            text-transform:uppercase;
+            @media screen and (min-width: 640px) {
+              font-size:50px;
+            }
+          }
+        }
       }
+      
       .bg-image,
       .copy-sctn{
         width:100%;
