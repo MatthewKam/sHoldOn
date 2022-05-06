@@ -75,13 +75,13 @@
     "1651827940e593be13": {
       "type": "about-section",
       "settings": {
-        "bg_color": "#EFFCF6",
+        "bg_color": "#effcf6",
         "section_1_img": "shopify:\/\/shop_images\/about-purpose.png",
         "section_1_headline": "STRONG BAGS WITH A STRONG PURPOSE",
         "section_1_copy": "We’re on a mission to transform daily chores into meaningful experiences you can feel good about - one bag at a time.",
         "section_1_url": "#",
         "section_1_url_text": "Learn more",
-        "item_2_img": "shopify:\/\/shop_images\/about-sustainable.png",
+        "section_2_img": "shopify:\/\/shop_images\/about-sustainable_1a6c50ad-6889-4e43-bb1e-200b031b51c5.png",
         "section_2_headline": "Sustainability Without Sacrifice",
         "section_2_copy": "Our super strong bags are a unique mix of cornstarch, plant-based renewables and nontoxic materials, so they’re 100% home compostable and break down in weeks - not centuries.",
         "section_2_url": "#",
