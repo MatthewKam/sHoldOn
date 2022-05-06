@@ -1,0 +1,98 @@
+{% assign sings = section.settings %}
+{{ 'sctn-atf.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .atf-{{ section.id }} .bg-image{
+    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    background-size:cover;
+  }  
+  .atf-{{ section.id }} .copy-sctn{
+    background-color:{{ sings.bg_color }};
+  }
+  .atf-{{ section.id }} .copy-sctn h1{
+    color:{{ sings.title_color }};
+  }
+  .atf-{{ section.id }} .copy-sctn p{
+    color:{{ sings.copy_color }};
+  }
+{%- endstyle -%}
+<div class="atf-wrp atf-{{ section.id }}">
+  <div class="content-wrp">
+    <div class="copy-sctn">
+      <div class="copy-wrp">
+        <h1>{{sings.title}}</h1>
+        <p>{{sings.copy}}</p>
+        {% if sings.button_url %}
+        <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="bg-image"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Above the Fold",
+  "tag": "section",
+  "class": "section atf",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Copy Section"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Copy Background Color",
+      "default":"#EFFCF6"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "copy",
+      "label": "Copy"
+    },
+    {
+      "type": "color",
+      "id": "copy_color",
+      "label": "Copy Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_url_text",
+      "label": "Button Text",
+      "default": "Learn more"
+    },
+    {
+      "type": "header",
+      "content": "Background Section"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Above the Fold"
+    }
+  ]
+}
+{% endschema %}
