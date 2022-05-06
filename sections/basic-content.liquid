@@ -19,11 +19,13 @@
   <div class="content-wrp">
     <div class="bg-image"></div>
     <div class="copy-sctn">
-      <h1>{{sings.title}}</h1>
-      <p>{{sings.copy}}</p>
-      {% if sings.button_url %}
-        <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
-      {% endif %}
+      <div class="copy-wrp">
+        <h1>{{sings.title}}</h1>
+        <p>{{sings.copy}}</p>
+        {% if sings.button_url %}
+          <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
