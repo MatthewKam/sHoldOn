@@ -24,7 +24,14 @@
           align-items: center;
 }
 
-.shopify-section.basic-content .content-wrp .bg-img {
+@media screen and (min-width: 767px) {
+  .shopify-section.basic-content .content-wrp .bg-image,
+  .shopify-section.basic-content .content-wrp .copy-sctn {
+    width: 50%;
+  }
+}
+
+.shopify-section.basic-content .content-wrp .bg-image {
   display: block;
 }
 /*# sourceMappingURL=sctn-basic-content.css.map */
