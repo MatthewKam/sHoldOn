@@ -40,18 +40,24 @@ $k-heavy:'Korolev-Heavy';
       flex-direction: column;
       @media screen and (min-width: 767px) {
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
       }
 
       .section-image{
         max-width:590px;
         margin-bottom:30px;
         @media screen and (min-width: 767px) {
-          margin-bottom:50px;
+          margin-bottom:0;
+          width: 50%;
         }
       }
       .section-content{
         max-width:420px;
         margin: 0 auto;
+        @media screen and (min-width: 767px) {
+          width: 50%;
+        }
 
         h1{
           font-size:35px;
@@ -69,6 +75,9 @@ $k-heavy:'Korolev-Heavy';
           @media screen and (min-width: 767px) {
             font-size:20px;
           }
+        }
+        .btn-link{
+          max-width: 170px;
         }
       }
       &.section-1-wrp{
