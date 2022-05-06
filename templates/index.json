@@ -92,6 +92,18 @@
         "icon_4": "shopify:\/\/shop_images\/logo-text-BPICertified.png"
       }
     },
+    "16518361943e65dc8a": {
+      "type": "basic-content",
+      "settings": {
+        "bg_color": "#065142",
+        "title": "Why We created HoldOn bags.",
+        "title_color": "#ffffff",
+        "copy": "HoldOn was born from the simple idea that there must be a more sustainable way to go about our daily chores. Trash bags, sandwich bags and storage bags are an irreplaceable staple in our daily lives. But do they have to be 100% plastic? Answer: 100% no.  That's why we created plant-based, nontoxic, home compostable bags that are just as strong and durable as traditional plastic bags, so you never have to sacrifice convenience to care for the planet. That's how we HoldOn to a cleaner future.",
+        "copy_color": "#ffffff",
+        "button_url": "shopify:\/\/collections\/all-products",
+        "button_url_text": "Shop All"
+      }
+    },
     "1651821398f0d3a6e3": {
       "type": "facts-background",
       "settings": {
@@ -137,26 +149,14 @@
         "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good.",
         "bg_color": "#00fabe"
       }
-    },
-    "16518361943e65dc8a": {
-      "type": "basic-content",
-      "settings": {
-        "bg_color": "#065142",
-        "title": "Why We created HoldOn bags.",
-        "title_color": "#FFFFFF",
-        "copy": "HoldOn was born from the simple idea that there must be a more sustainable way to go about our daily chores. Trash bags, sandwich bags and storage bags are an irreplaceable staple in our daily lives. But do they have to be 100% plastic? Answer: 100% no.  That's why we created plant-based, nontoxic, home compostable bags that are just as strong and durable as traditional plastic bags, so you never have to sacrifice convenience to care for the planet. That's how we HoldOn to a cleaner future.",
-        "copy_color": "#FFFFFF",
-        "button_url": "shopify:\/\/collections\/all-products",
-        "button_url_text": "Shop All"
-      }
     }
   },
   "order": [
     "image_banner",
     "1651821949044048fa",
     "1651827940e593be13",
+    "16518361943e65dc8a",
     "1651821398f0d3a6e3",
-    "16518218022a1fb7d8",
-    "16518361943e65dc8a"
+    "16518218022a1fb7d8"
   ]
 }
