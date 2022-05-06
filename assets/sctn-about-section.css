@@ -200,66 +200,66 @@
   margin: 10px;
 }
 
-.shopify-section.about-section .icon-logo-wrp img.icon_1 {
+.shopify-section.about-section .icon-logo-wrp img.icon-1 {
   width: 100px;
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_1 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-1 {
     width: 130px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_1 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-1 {
     width: 150px;
   }
 }
 
-.shopify-section.about-section .icon-logo-wrp img.icon_2 {
+.shopify-section.about-section .icon-logo-wrp img.icon-2 {
   width: 140px;
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_2 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-2 {
     width: 170px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_2 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-2 {
     width: 190px;
   }
 }
 
-.shopify-section.about-section .icon-logo-wrp img.icon_3 {
+.shopify-section.about-section .icon-logo-wrp img.icon-3 {
   width: 110px;
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_3 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-3 {
     width: 140px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_3 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-3 {
     width: 160px;
   }
 }
 
-.shopify-section.about-section .icon-logo-wrp img.icon_4 {
+.shopify-section.about-section .icon-logo-wrp img.icon-4 {
   width: 130px;
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_4 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-4 {
     max-width: 160px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.about-section .icon-logo-wrp img.icon_4 {
+  .shopify-section.about-section .icon-logo-wrp img.icon-4 {
     width: 180px;
   }
 }

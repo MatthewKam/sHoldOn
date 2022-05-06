@@ -140,7 +140,7 @@ $k-heavy:'Korolev-Heavy';
       img{
         margin: 10px;
 
-        &.icon_1{
+        &.icon-1{
           width:100px;
           @media screen and (min-width: 767px) {
             width: 130px;
@@ -149,7 +149,7 @@ $k-heavy:'Korolev-Heavy';
             width: 150px;
           }
         }
-        &.icon_2{
+        &.icon-2{
           width: 140px;
           @media screen and (min-width: 767px) {
             width: 170px;
@@ -158,7 +158,7 @@ $k-heavy:'Korolev-Heavy';
             width: 190px;
           }
         }
-        &.icon_3{
+        &.icon-3{
           width: 110px;
           @media screen and (min-width: 767px) {
             width: 140px;
@@ -167,7 +167,7 @@ $k-heavy:'Korolev-Heavy';
             width: 160px;
           }
         }
-        &.icon_4{
+        &.icon-4{
           width: 130px;
           @media screen and (min-width: 767px) {
             max-width: 160px;
