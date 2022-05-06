@@ -1,5 +1,6 @@
 .shopify-section.about-section p, .shopify-section.about-section h1, .shopify-section.about-section h2, .shopify-section.about-section h3, .shopify-section.about-section h4 {
   letter-spacing: 0;
+  line-height: 1;
 }
 
 .shopify-section.about-section ul {
@@ -30,6 +31,13 @@
 
 .shopify-section.about-section .section-wrp .section-image {
   max-width: 590px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp .section-image {
+    margin-bottom: 50px;
+  }
 }
 
 .shopify-section.about-section .section-wrp .section-content {
@@ -50,12 +58,18 @@
 }
 
 .shopify-section.about-section .section-wrp.section-1-wrp {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.about-section .section-wrp.section-1-wrp {
     margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp.section-2-wrp {
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=sctn-about-section.css.map */

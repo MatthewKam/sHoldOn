@@ -13,6 +13,7 @@ $k-heavy:'Korolev-Heavy';
     // Reset
     p, h1, h2, h3, h4{
       letter-spacing: 0;
+      line-height:1;
     }
     ul{
       padding:0; 
@@ -38,6 +39,10 @@ $k-heavy:'Korolev-Heavy';
 
       .section-image{
         max-width:590px;
+        margin-bottom:30px;
+        @media screen and (min-width: 767px) {
+          margin-bottom:50px;
+        }
       }
       .section-content{
         max-width:540px;
@@ -52,9 +57,14 @@ $k-heavy:'Korolev-Heavy';
         }
       }
       &.section-1-wrp{
-        margin-bottom:30px;
+        margin-bottom:20px;
         @media screen and (min-width: 767px) {
           margin-bottom:50px;
+        }
+      }
+      &.section-2-wrp{
+        @media screen and (min-width: 767px) {
+          margin-bottom:0;
         }
       }
     }
