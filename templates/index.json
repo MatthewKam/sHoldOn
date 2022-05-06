@@ -16,6 +16,20 @@
         "show_text_below": false
       }
     },
+    "16518395354202219f": {
+      "type": "abovethefold",
+      "settings": {
+        "bg_color": "#f8f0dc",
+        "title": "A Better Way.",
+        "title_2": "A Better Bag.",
+        "title_color": "#065142",
+        "copy": "Heavy duty, plant-based, 100% home  compostable trash and storage bags that make a world of difference.",
+        "copy_color": "#065142",
+        "button_url": "shopify:\/\/collections\/all-products",
+        "button_url_text": "Shop Now",
+        "bg_img": "shopify:\/\/shop_images\/bg-atf.png"
+      }
+    },
     "1651821949044048fa": {
       "type": "values-bar",
       "blocks": {
@@ -150,29 +164,15 @@
         "title": "Ready to turn the tides on plastic waste? HoldOn, this is going to get good.",
         "bg_color": "#00fabe"
       }
-    },
-    "16518395354202219f": {
-      "type": "abovethefold",
-      "settings": {
-        "bg_color": "#f8f0dc",
-        "title": "A Better Way.",
-        "title_2": "A Better Bag.",
-        "title_color": "#065142",
-        "copy": "Heavy duty, plant-based, 100% home  compostable trash and storage bags that make a world of difference.",
-        "copy_color": "#065142",
-        "button_url": "shopify:\/\/collections\/all-products",
-        "button_url_text": "Shop Now",
-        "bg_img": "shopify:\/\/shop_images\/bg-atf.png"
-      }
     }
   },
   "order": [
     "image_banner",
+    "16518395354202219f",
     "1651821949044048fa",
     "1651827940e593be13",
     "16518361943e65dc8a",
     "1651821398f0d3a6e3",
-    "16518218022a1fb7d8",
-    "16518395354202219f"
+    "16518218022a1fb7d8"
   ]
 }
