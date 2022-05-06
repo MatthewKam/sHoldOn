@@ -53,17 +53,20 @@ $k-heavy:'Korolev-Heavy';
           max-width:450px;
           margin:0 auto;
           h1{
-            font-size:35px;
-            text-transform:uppercase;
-            max-width: 300px;
-            margin-bottom:10px;
-            @media screen and (min-width: 767px) {
-              font-size:40px;
-              max-width: 350px;
-            }
-            @media screen and (min-width: 1000px) {
-              font-size:50px;
-              max-width: 400px;
+            span{
+              display:inline-block;
+              font-size:35px;
+              text-transform:uppercase;
+              max-width: 300px;
+              margin-bottom:10px;
+              @media screen and (min-width: 767px) {
+                font-size:40px;
+                max-width: 350px;
+              }
+              @media screen and (min-width: 1000px) {
+                font-size:50px;
+                max-width: 400px;
+              }
             }
           }
           p{

@@ -76,7 +76,8 @@
   margin: 0 auto;
 }
 
-.shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 {
+.shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
+  display: inline-block;
   font-size: 35px;
   text-transform: uppercase;
   max-width: 300px;
@@ -84,14 +85,14 @@
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 {
+  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
     font-size: 40px;
     max-width: 350px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 {
+  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
     font-size: 50px;
     max-width: 400px;
   }
