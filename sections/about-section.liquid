@@ -20,6 +20,9 @@
       </div>
     </div>
     <div class="section-wrp section-2-wrp">
+      {% if sings.section_2_img %}
+          <img src="{{ sings.section_2_img | image_url }}" alt="">
+      {% endif %}
       <div class="section-2-content">
         <h1>{{ sings.section_2_headline }}</h1>
         <p>{{ sings.section_2_copy }}</p>
@@ -27,9 +30,6 @@
         <a href="{{ sings.section_2_url }}" class="btn-link">{{ sings.section_2_url_text }}</a>
         {% endif %}
       </div>
-      {% if sings.section_2_img %}
-        <img src="{{ sings.section_2_img | image_url }}" alt="">
-      {% endif %}
     </div>
     <div class="icon-logo-wrp">
       {% if sings.icon_1 %}

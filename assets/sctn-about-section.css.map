@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AAEI,gBAFY,AACb,cAAc,CACb,sBAAsB,CAAA;EACpB,SAAS,EAAC,MAAM;EAChB,MAAM,EAAC,MAAM;EACb,OAAO,EAAC,SAAS;CAIlB;;AAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EANzC,AAEI,gBAFY,AACb,cAAc,CACb,sBAAsB,CAAA;IAKlB,OAAO,EAAC,UAAU;GAErB",
+    "sources": [
+        "sctn-about-section.scss"
+    ],
+    "names": [],
+    "file": "sctn-about-section.css"
+}
