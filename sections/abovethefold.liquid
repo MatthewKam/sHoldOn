@@ -19,7 +19,10 @@
   <div class="content-wrp">
     <div class="copy-sctn">
       <div class="copy-wrp">
-        <h1>{{sings.title}}</h1>
+        <h1>
+          <span>{{sings.title}}</span>
+          <span>{{sings.title_2}}</span>
+        </h1>
         <p>{{sings.copy}}</p>
         {% if sings.button_url %}
         <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
@@ -50,6 +53,11 @@
       "type": "text",
       "id": "title",
       "label": "Header Title"
+    },
+    {
+      "type": "text",
+      "id": "title_2",
+      "label": "Header Title 2"
     },
     {
       "type": "color",
