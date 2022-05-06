@@ -40,7 +40,6 @@
 .shopify-section.basic-content .content-wrp .bg-image {
   display: block;
   padding-top: 100%;
-  width: 100%;
 }
 
 @media screen and (min-width: 767px) {
@@ -53,6 +52,11 @@
 .shopify-section.basic-content .content-wrp .copy-wrp {
   max-width: 450px;
   margin: 0 auto;
+}
+
+.shopify-section.basic-content .content-wrp .bg-image,
+.shopify-section.basic-content .content-wrp .copy-sctn {
+  width: 100%;
 }
 
 @media screen and (min-width: 767px) {

@@ -35,7 +35,6 @@ $k-heavy:'Korolev-Heavy';
       .bg-image{
         display: block;
         padding-top: 100%;
-        width: 100%;
         @media screen and (min-width: 767px) {
           height: 670px;
           padding:0;
@@ -47,6 +46,7 @@ $k-heavy:'Korolev-Heavy';
       }
       .bg-image,
       .copy-sctn{
+        width:100%;
         @media screen and (min-width: 767px) {
           width:50%;
           height: 670px;
