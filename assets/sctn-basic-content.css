@@ -65,14 +65,14 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 767px) {
   .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp h1 {
     font-size: 40px;
     max-width: 350px;
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1000px) {
   .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp h1 {
     font-size: 50px;
     max-width: 400px;
@@ -84,7 +84,7 @@
   line-height: 1.5;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1000px) {
   .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p {
     font-size: 20px;
   }
