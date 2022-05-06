@@ -36,6 +36,11 @@ $k-heavy:'Korolev-Heavy';
     .section-wrp{
       max-width: 590px;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width: 767px) {
+        flex-direction: row;
+      }
 
       .section-image{
         max-width:590px;

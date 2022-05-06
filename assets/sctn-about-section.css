@@ -27,6 +27,22 @@
 .shopify-section.about-section .section-wrp {
   max-width: 590px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .shopify-section.about-section .section-wrp .section-image {
