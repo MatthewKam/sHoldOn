@@ -15,9 +15,27 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "1651821398f0d3a6e3": {
+      "type": "facts-background",
+      "settings": {
+        "facts_mobile_img": "shopify:\/\/shop_images\/bg-water-m.png",
+        "facts_desktop_img": "shopify:\/\/shop_images\/bg-water-d.png",
+        "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
+        "title": "Did You Know?",
+        "title_color": "#00fabe",
+        "facts_answer": "100 Billion",
+        "facts_answer_color": "#ffffff",
+        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy_color": "#ffffff",
+        "facts_link_copy": "Learn More",
+        "facts_link": "#",
+        "facts_link_color": "#ffffff"
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "1651821398f0d3a6e3"
   ]
 }
