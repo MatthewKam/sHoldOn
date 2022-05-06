@@ -16,6 +16,62 @@
         "show_text_below": false
       }
     },
+    "1651821949044048fa": {
+      "type": "values-bar",
+      "blocks": {
+        "f99ebae1-e7a6-44d7-bbe8-fb0a44c697d1": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-Compostable-dark.png",
+            "values_copy_1": "Home",
+            "values_copy_2": "Compostable"
+          }
+        },
+        "80685560-7872-407c-9964-5992cc865896": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-PlantBased-dark.png",
+            "values_copy_1": "Plant-",
+            "values_copy_2": "Based"
+          }
+        },
+        "c79a2663-b67f-47f5-b03c-0069c240ed92": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-HeavyDuty-dark.png",
+            "values_copy_1": "Heavy",
+            "values_copy_2": "Duty"
+          }
+        },
+        "79589869-fb67-413b-ad5c-783a02e66233": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-BPICert-dark.png",
+            "values_copy_1": "BPI-",
+            "values_copy_2": "Certified"
+          }
+        },
+        "2132b1c0-c8df-4a23-88e3-4553b7f50e7a": {
+          "type": "image",
+          "settings": {
+            "values_image": "shopify:\/\/shop_images\/icon-BPAFree-dark.png",
+            "values_copy_1": "Non-",
+            "values_copy_2": "Toxic"
+          }
+        }
+      },
+      "block_order": [
+        "f99ebae1-e7a6-44d7-bbe8-fb0a44c697d1",
+        "80685560-7872-407c-9964-5992cc865896",
+        "c79a2663-b67f-47f5-b03c-0069c240ed92",
+        "79589869-fb67-413b-ad5c-783a02e66233",
+        "2132b1c0-c8df-4a23-88e3-4553b7f50e7a"
+      ],
+      "settings": {
+        "bg_color": "#00fabe",
+        "text_color": "#065142"
+      }
+    },
     "1651821398f0d3a6e3": {
       "type": "facts-background",
       "settings": {
@@ -65,6 +121,7 @@
   },
   "order": [
     "image_banner",
+    "1651821949044048fa",
     "1651821398f0d3a6e3",
     "16518218022a1fb7d8"
   ]
