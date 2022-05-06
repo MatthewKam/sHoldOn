@@ -33,5 +33,13 @@
 
 .shopify-section.basic-content .content-wrp .bg-image {
   display: block;
+  padding-top: 100%;
+  max-height: 670px;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.basic-content .content-wrp .bg-image {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=sctn-basic-content.css.map */
