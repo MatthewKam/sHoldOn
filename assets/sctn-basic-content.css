@@ -47,5 +47,14 @@
 
 .shopify-section.basic-content .content-wrp .bg-image {
   display: block;
+  padding-top: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.basic-content .content-wrp .bg-image {
+    height: 670px;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=sctn-basic-content.css.map */
