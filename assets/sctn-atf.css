@@ -77,24 +77,21 @@
 }
 
 .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
+  font-family: "Korolev-Heavy";
   display: inline-block;
-  font-size: 35px;
+  font-size: 50px;
   text-transform: uppercase;
-  max-width: 300px;
-  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
-    font-size: 40px;
-    max-width: 350px;
+    font-size: 60px;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
-    font-size: 50px;
-    max-width: 400px;
+    font-size: 70px;
   }
 }
 

@@ -54,18 +54,15 @@ $k-heavy:'Korolev-Heavy';
           margin:0 auto;
           h1{
             span{
+              font-family: $k-heavy;
               display:inline-block;
-              font-size:35px;
+              font-size:50px;
               text-transform:uppercase;
-              max-width: 300px;
-              margin-bottom:10px;
               @media screen and (min-width: 767px) {
-                font-size:40px;
-                max-width: 350px;
+                font-size:60px;
               }
               @media screen and (min-width: 1000px) {
-                font-size:50px;
-                max-width: 400px;
+                font-size:70px;
               }
             }
           }
