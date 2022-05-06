@@ -173,7 +173,7 @@
 }
 
 .shopify-section.about-section .icon-logo-wrp .logos {
-  max-width: 1000px;
+  max-width: 420px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,6 +193,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    max-width: 1000px;
   }
 }
 

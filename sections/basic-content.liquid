@@ -1,0 +1,90 @@
+{% assign sings = section.settings %}
+{{ 'sctn-basic-content.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .basic-content-{{ section.id }} .bg-image{
+    background:url({{ sings.bg_img }}) center top no-repeat;
+    background-size:cover;
+  }  
+  .basic-content-{{ section.id }} .copy-bg{
+    background-color:{{ sings.bg_color }};
+  }
+{%- endstyle -%}
+<div class="basic-content-wrp basic-content-{{ section.id }}">
+  <div class="basic-content-content">
+    <div class="bg-image"></div>
+    <div class="copy-sctn">
+      <h1>{{sings.title}}</h1>
+      <p>{{sings.copy}}</p>
+      {% if sings.button_url %}
+        <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Basic Content - Custom",
+  "tag": "section",
+  "class": "section basic-content-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Copy Section"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Copy Background Color",
+      "default":"#EFFCF6"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Copy Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "copy",
+      "label": "Copy"
+    },
+    {
+      "type": "color",
+      "id": "copy_color",
+      "label": "Title Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_url_text",
+      "label": "Button Text",
+      "default": "Learn more"
+    },
+    {
+      "type": "header",
+      "content": "Background Section"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basic Content - Custom"
+    }
+  ]
+}
+{% endschema %}

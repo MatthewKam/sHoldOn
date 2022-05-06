@@ -129,14 +129,15 @@ $k-heavy:'Korolev-Heavy';
         max-width: unset;
       }
       .logos{
-        max-width: 1000px;
-        margin:0 auto;
+        max-width:420px;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         @media screen and (min-width: 640px) {
           justify-content: space-between;
+          max-width: 1000px;
         }
       }
       img{
