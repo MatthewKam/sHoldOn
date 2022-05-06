@@ -14,8 +14,14 @@ $k-heavy:'Korolev-Heavy';
       max-width:1200px;
       margin:0 auto;
       padding:60px 20px;
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 767px) {
         padding:100px 20px;
+      }
+    }
+
+    .section-wrp{
+      .section-image{
+        max-width:590px;
       }
     }
   }

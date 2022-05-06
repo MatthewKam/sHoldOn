@@ -9,7 +9,7 @@
   <div class="about-section-content">
     <div class="section-wrp section-1-wrp">
       {% if sings.section_1_img %}
-        <img src="{{ sings.section_1_img | image_url }}" alt="">
+        <img src="{{ sings.section_1_img | image_url }}" class="section-image" alt="">
       {% endif %}
       <div class="section-1-content">
         <h1>{{ sings.section_1_headline }}</h1>
@@ -21,7 +21,7 @@
     </div>
     <div class="section-wrp section-2-wrp">
       {% if sings.section_2_img %}
-          <img src="{{ sings.section_2_img | image_url }}" alt="">
+          <img src="{{ sings.section_2_img | image_url }}" class="section-image" alt="">
       {% endif %}
       <div class="section-2-content">
         <h1>{{ sings.section_2_headline }}</h1>

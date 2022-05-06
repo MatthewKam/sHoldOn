@@ -4,9 +4,13 @@
   padding: 60px 20px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 767px) {
   .shopify-section.about-section .about-section-content {
     padding: 100px 20px;
   }
+}
+
+.shopify-section.about-section .section-wrp .section-image {
+  max-width: 590px;
 }
 /*# sourceMappingURL=sctn-about-section.css.map */
