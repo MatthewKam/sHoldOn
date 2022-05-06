@@ -9,7 +9,7 @@
   <div class="about-section-content">
     <div class="section-wrp section-1-wrp">
       {% if sings.section_1_img %}
-        <img src="{{ sings.section_1_img }}" alt="">
+        <img src="{{ sings.section_1_img | image_url }}" alt="">
       {% endif %}
       <div class="section-1-content">
         <h1>{{ sings.section_1_headline }}</h1>
@@ -28,21 +28,21 @@
         {% endif %}
       </div>
       {% if sings.section_2_img %}
-        <img src="{{ sings.section_2_img }}" alt="">
+        <img src="{{ sings.section_2_img | image_url }}" alt="">
       {% endif %}
     </div>
     <div class="icon-logo-wrp">
       {% if sings.icon_1 %}
-        <img src="{{ sings.icon_1 }}" alt="">
+        <img src="{{ sings.icon_1 | image_url }}" alt="">
       {% endif %}
       {% if sings.icon_2 %}
-        <img src="{{ sings.icon_2 }}" alt="">
+        <img src="{{ sings.icon_2 | image_url }}" alt="">
       {% endif %}
       {% if sings.icon_3 %}
-        <img src="{{ sings.icon_3 }}" alt="">
+        <img src="{{ sings.icon_3 | image_url }}" alt="">
       {% endif %}
       {% if sings.icon_4 %}
-        <img src="{{ sings.icon_4 }}" alt="">
+        <img src="{{ sings.icon_4 | image_url }}" alt="">
       {% endif %}
     </div>
   </div>
