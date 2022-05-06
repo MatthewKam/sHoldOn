@@ -10,6 +10,19 @@ $k-heavy:'Korolev-Heavy';
 
 .shopify-section{
   &.about-section{
+    // Reset
+    p, h1, h2, h3, h4{
+      letter-spacing: 0;
+    }
+    ul{
+      padding:0; 
+      margin:0;
+    }
+    li{
+      list-style: none;
+    }
+    // End Reset
+
     .about-section-content{
       max-width:1200px;
       margin:0 auto;
@@ -20,8 +33,29 @@ $k-heavy:'Korolev-Heavy';
     }
 
     .section-wrp{
+      max-width: 590px;
+      margin: 0 auto;
+
       .section-image{
         max-width:590px;
+      }
+      .section-content{
+        max-width:540px;
+        margin: 0 auto;
+        h1{
+          font-size:35px;
+          line-height: 1;
+          margin-bottom: 10px;
+          @media screen and (min-width: 767px) {
+            font-size:50px;
+          }
+        }
+      }
+      &.section-1-wrp{
+        margin-bottom:30px;
+        @media screen and (min-width: 767px) {
+          margin-bottom:50px;
+        }
       }
     }
   }

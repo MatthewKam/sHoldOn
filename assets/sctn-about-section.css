@@ -1,3 +1,16 @@
+.shopify-section.about-section p, .shopify-section.about-section h1, .shopify-section.about-section h2, .shopify-section.about-section h3, .shopify-section.about-section h4 {
+  letter-spacing: 0;
+}
+
+.shopify-section.about-section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.shopify-section.about-section li {
+  list-style: none;
+}
+
 .shopify-section.about-section .about-section-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -10,7 +23,39 @@
   }
 }
 
+.shopify-section.about-section .section-wrp {
+  max-width: 590px;
+  margin: 0 auto;
+}
+
 .shopify-section.about-section .section-wrp .section-image {
   max-width: 590px;
+}
+
+.shopify-section.about-section .section-wrp .section-content {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.shopify-section.about-section .section-wrp .section-content h1 {
+  font-size: 35px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp .section-content h1 {
+    font-size: 50px;
+  }
+}
+
+.shopify-section.about-section .section-wrp.section-1-wrp {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp.section-1-wrp {
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=sctn-about-section.css.map */
