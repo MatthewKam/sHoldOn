@@ -2,8 +2,9 @@
 {{ 'sctn-basic-content.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .basic-content-{{ section.id }} .bg-image{
-    background:url({{ sings.bg_img }}) center top no-repeat;
+    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
     background-size:cover;
+    display: block;
   }  
   .basic-content-{{ section.id }} .copy-sctn{
     background-color:{{ sings.bg_color }};
