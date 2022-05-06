@@ -1,0 +1,14 @@
+.shopify-section.basic-content-section p, .shopify-section.basic-content-section h1, .shopify-section.basic-content-section h2, .shopify-section.basic-content-section h3, .shopify-section.basic-content-section h4 {
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.shopify-section.basic-content-section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.shopify-section.basic-content-section li {
+  list-style: none;
+}
+/*# sourceMappingURL=sctn-basic-content.css.map */

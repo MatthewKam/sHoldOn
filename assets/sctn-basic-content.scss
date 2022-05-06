@@ -1,0 +1,27 @@
+$dark-green: #065142;
+$dark-green-secondary: #418275;
+$neon-green: #00FABE;
+$cream: #F8F0DC;
+$neon-grellow: #ADFF44;
+$pale-blue: #EFFCF6;
+$error-red: #FF4466;
+$k-med:'Korolev-Medium';
+$k-heavy:'Korolev-Heavy';
+
+.shopify-section{
+  &.basic-content-section{
+    // Reset
+    p, h1, h2, h3, h4{
+      letter-spacing: 0;
+      line-height:1;
+    }
+    ul{
+      padding:0; 
+      margin:0;
+    }
+    li{
+      list-style: none;
+    }
+    // End Reset
+  }
+}

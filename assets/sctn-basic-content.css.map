@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AAGI,gBAHY,AACb,sBAAsB,CAErB,CAAC,EAHL,gBAAgB,AACb,sBAAsB,CAElB,EAAE,EAHT,gBAAgB,AACb,sBAAsB,CAEd,EAAE,EAHb,gBAAgB,AACb,sBAAsB,CAEV,EAAE,EAHjB,gBAAgB,AACb,sBAAsB,CAEN,EAAE,CAAA;EACf,cAAc,EAAE,CAAC;EACjB,WAAW,EAAC,CAAC;CACd;;AANL,AAOI,gBAPY,AACb,sBAAsB,CAMrB,EAAE,CAAA;EACA,OAAO,EAAC,CAAC;EACT,MAAM,EAAC,CAAC;CACT;;AAVL,AAWI,gBAXY,AACb,sBAAsB,CAUrB,EAAE,CAAA;EACA,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "sctn-basic-content.scss"
+    ],
+    "names": [],
+    "file": "sctn-basic-content.css"
+}
