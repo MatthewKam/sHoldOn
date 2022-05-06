@@ -1,18 +1,18 @@
-.shopify-section.basic-content-section p, .shopify-section.basic-content-section h1, .shopify-section.basic-content-section h2, .shopify-section.basic-content-section h3, .shopify-section.basic-content-section h4 {
+.shopify-section.basic-content p, .shopify-section.basic-content h1, .shopify-section.basic-content h2, .shopify-section.basic-content h3, .shopify-section.basic-content h4 {
   letter-spacing: 0;
   line-height: 1;
 }
 
-.shopify-section.basic-content-section ul {
+.shopify-section.basic-content ul {
   padding: 0;
   margin: 0;
 }
 
-.shopify-section.basic-content-section li {
+.shopify-section.basic-content li {
   list-style: none;
 }
 
-.shopify-section.basic-content-section .content-wrp {
+.shopify-section.basic-content .content-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,7 +24,7 @@
           align-items: center;
 }
 
-.shopify-section.basic-content-section .content-wrp .bg-img {
+.shopify-section.basic-content .content-wrp .bg-img {
   display: block;
 }
 /*# sourceMappingURL=sctn-basic-content.css.map */
