@@ -32,18 +32,20 @@
       </div>
     </div>
     <div class="icon-logo-wrp">
-      {% if sings.icon_1 %}
-        <img src="{{ sings.icon_1 | image_url }}" alt="">
-      {% endif %}
-      {% if sings.icon_2 %}
-        <img src="{{ sings.icon_2 | image_url }}" alt="">
-      {% endif %}
-      {% if sings.icon_3 %}
-        <img src="{{ sings.icon_3 | image_url }}" alt="">
-      {% endif %}
-      {% if sings.icon_4 %}
-        <img src="{{ sings.icon_4 | image_url }}" alt="">
-      {% endif %}
+      <div class="logos">
+        {% if sings.icon_1 %}
+          <img src="{{ sings.icon_1 | image_url }}" alt="">
+        {% endif %}
+        {% if sings.icon_2 %}
+          <img src="{{ sings.icon_2 | image_url }}" alt="">
+        {% endif %}
+        {% if sings.icon_3 %}
+          <img src="{{ sings.icon_3 | image_url }}" alt="">
+        {% endif %}
+        {% if sings.icon_4 %}
+          <img src="{{ sings.icon_4 | image_url }}" alt="">
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
