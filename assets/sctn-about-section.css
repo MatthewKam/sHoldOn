@@ -48,16 +48,19 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: unset;
   }
 }
 
 .shopify-section.about-section .section-wrp .section-image {
-  max-width: 590px;
+  max-width: 420px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.about-section .section-wrp .section-image {
+    max-width: 590px;
     margin-bottom: 0;
     width: 50%;
   }
@@ -82,6 +85,12 @@
 
 @media screen and (min-width: 767px) {
   .shopify-section.about-section .section-wrp .section-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 100px) {
+  .shopify-section.about-section .section-wrp .section-content h1 {
     font-size: 50px;
   }
 }
@@ -93,6 +102,12 @@
 }
 
 @media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp .section-content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .shopify-section.about-section .section-wrp .section-content p {
     font-size: 20px;
   }
@@ -106,6 +121,18 @@
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp.section-1-wrp .section-1-content.section-content {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section.about-section .section-wrp.section-1-wrp .section-1-content.section-content {
+    padding: 0;
+  }
+}
+
 .shopify-section.about-section .section-wrp.section-2-wrp {
   margin-bottom: 60px;
 }
@@ -113,6 +140,22 @@
 @media screen and (min-width: 767px) {
   .shopify-section.about-section .section-wrp.section-2-wrp {
     margin-bottom: 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.about-section .section-wrp.section-2-wrp .section-2-content.section-content {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section.about-section .section-wrp.section-2-wrp .section-2-content.section-content {
+    padding: 0;
   }
 }
 
