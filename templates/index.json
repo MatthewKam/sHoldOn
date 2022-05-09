@@ -92,28 +92,34 @@
         "d48b18b0-1cd5-4cd3-993c-2cf7ed702e96": {
           "type": "image",
           "settings": {
-            "collection_name": "",
-            "collection_desc": "",
+            "collection": "trash-bags",
             "collection_bg_color": "",
-            "collection": "trash-bags"
+            "collection_name_override": true,
+            "collection_name": "Compostable Trash Bags",
+            "collection_desc_override": false,
+            "collection_desc": ""
           }
         },
         "0ae96c0c-822f-4cfc-b68e-2268f31ae814": {
           "type": "image",
           "settings": {
-            "collection_name": "",
-            "collection_desc": "",
+            "collection": "kitchen-bags",
             "collection_bg_color": "",
-            "collection": "kitchen-bags"
+            "collection_name_override": true,
+            "collection_name": "Compostable Kitchen storage bags",
+            "collection_desc_override": false,
+            "collection_desc": ""
           }
         },
         "32a80384-b8f2-4fe1-8f97-273ca985328c": {
           "type": "image",
           "settings": {
-            "collection_name": "",
-            "collection_desc": "",
+            "collection": "sets",
             "collection_bg_color": "",
-            "collection": "sets"
+            "collection_name_override": true,
+            "collection_name": "Shop Sets",
+            "collection_desc_override": false,
+            "collection_desc": ""
           }
         }
       },
