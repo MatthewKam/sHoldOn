@@ -36,16 +36,14 @@
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
-                {{ bings.collection_name }}
-                {% if bings.collection_name == nil or bings.collection_name == blank %}
-                {{ bings.collection_name }}
+                {% if bings.collection_name_override %}
+                  {{ bings.collection_name }} 
                 {% else %}
                   {{ bings.collection.title }}
                 {% endif %}
               </h2>
               <p>
-                {{ bings.collection_desc | truncate: 50 | escape }}
-                {% if bings.collection_desc != '' or bings.collection_desc != ' '%}
+                {% if bings.collection_desc_override%}
                   {{ bings.collection_desc | truncate: 50 | escape }}
                 {% else %}
                   {{ bings.collection.description | truncate: 50 | escape }}
@@ -109,9 +107,21 @@
           "label": "Optional Collection BG Color"
         },
         {
+          "type": "checkbox",
+          "id": "collection_name_override",
+          "label": "Name Override",
+          "default": false
+        },
+        {
           "type": "text",
           "id": "collection_name",
           "label": "Collection Name Override"
+        },
+        {
+          "type": "checkbox",
+          "id": "collection_desc_override",
+          "label": "Collection Description Override",
+          "default": false
         },
         {
           "type": "text",
