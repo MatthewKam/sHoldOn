@@ -21,7 +21,7 @@
     <ul class="discover-list-container">
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
-        <li>
+        <li {{ block.shopify_attributes }} >
           <div class="image-wrp" 
             {% if bings.collection_bg_color %}
               style="background-color:{{ bings.collection_bg_color }}"
@@ -36,13 +36,15 @@
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
+                {{ bings.collection_name }}
                 {% if bings.collection_name == nil or bings.collection_name == blank %}
-                  {{ bings.collection_name }}
+                {{ bings.collection_name }}
                 {% else %}
                   {{ bings.collection.title }}
                 {% endif %}
               </h2>
               <p>
+                {{ bings.collection_desc | truncate: 50 | escape }}
                 {% if bings.collection_desc != '' or bings.collection_desc != ' '%}
                   {{ bings.collection_desc | truncate: 50 | escape }}
                 {% else %}
