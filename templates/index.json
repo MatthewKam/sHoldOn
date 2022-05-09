@@ -89,8 +89,8 @@
     "1652078138d12cd7db": {
       "type": "discover-products",
       "blocks": {
-        "0bbab641-8f30-410b-b1d3-2319dc7cf050": {
-          "type": "featured_collection",
+        "195b9fa3-9812-4070-a09c-aa45f6ae2bf0": {
+          "type": "collection",
           "settings": {
             "collection_name": "",
             "collection_desc": "",
@@ -98,8 +98,8 @@
             "collection": "trash-bags"
           }
         },
-        "137d3a7f-24c6-4f68-b6d1-503883ff466e": {
-          "type": "featured_collection",
+        "784667ae-cbd5-47e5-b2e2-f0c1e447827a": {
+          "type": "collection",
           "settings": {
             "collection_name": "",
             "collection_desc": "",
@@ -107,8 +107,8 @@
             "collection": "kitchen-bags"
           }
         },
-        "e111eb71-712e-43ce-985e-016bd4133c0e": {
-          "type": "featured_collection",
+        "c8fad473-047e-491d-ac44-8daf7f4665a0": {
+          "type": "collection",
           "settings": {
             "collection_name": "",
             "collection_desc": "",
@@ -118,9 +118,9 @@
         }
       },
       "block_order": [
-        "0bbab641-8f30-410b-b1d3-2319dc7cf050",
-        "137d3a7f-24c6-4f68-b6d1-503883ff466e",
-        "e111eb71-712e-43ce-985e-016bd4133c0e"
+        "195b9fa3-9812-4070-a09c-aa45f6ae2bf0",
+        "784667ae-cbd5-47e5-b2e2-f0c1e447827a",
+        "c8fad473-047e-491d-ac44-8daf7f4665a0"
       ],
       "settings": {
         "title": "Discover Compostable Bags",
