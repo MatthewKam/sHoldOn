@@ -45,13 +45,29 @@
           align-items: center;
 }
 
-.shopify-section.section-discover-collections .discover-collections .section-header h1 {
+.shopify-section.section-discover-collections .discover-collections .section-header h2 {
+  text-transform: uppercase;
   font-size: 35px;
 }
 
 @media screen and (min-width: 640px) {
-  .shopify-section.section-discover-collections .discover-collections .section-header h1 {
+  .shopify-section.section-discover-collections .discover-collections .section-header h2 {
     font-size: 50px;
   }
+}
+
+.shopify-section.section-discover-collections .discover-collections .discover-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=sctn-discover-collections.css.map */
