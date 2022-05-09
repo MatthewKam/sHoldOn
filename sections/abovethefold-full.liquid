@@ -1,21 +1,21 @@
 {% assign sings = section.settings %}
 {{ 'sctn-atf.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  .atf-{{ section.id }} .content-wrp{
+  .atf-full-{{ section.id }} .content-wrp{
     background:url({{ sings.bg_img | image_url }}) center top no-repeat;
     background-size:cover;
   }  
-  .atf-{{ section.id }} .copy-sctn{
+  .atf-full-{{ section.id }} .copy-sctn{
     background-color:{{ sings.bg_color }};
   }
-  .atf-{{ section.id }} .copy-sctn h1{
+  .atf-full-{{ section.id }} .copy-sctn h1{
     color:{{ sings.title_color }};
   }
-  .atf-{{ section.id }} .copy-sctn p{
+  .atf-full-{{ section.id }} .copy-sctn p{
     color:{{ sings.copy_color }};
   }
 {%- endstyle -%}
-<div class="atf-wrp atf-{{ section.id }}">
+<div class="atf-wrp atf-full-{{ section.id }}">
   <div class="content-wrp">
     <div class="copy-sctn">
       <div class="copy-wrp">
