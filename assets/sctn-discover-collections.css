@@ -1,0 +1,30 @@
+.shopify-section.section-discover-collections p, .shopify-section.section-discover-collections h1, .shopify-section.section-discover-collections h2, .shopify-section.section-discover-collections h3, .shopify-section.section-discover-collections h4 {
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.shopify-section.section-discover-collections ul {
+  padding: 0;
+  margin: 0;
+}
+
+.shopify-section.section-discover-collections li {
+  list-style: none;
+}
+
+.shopify-section.section-discover-collections .divider-top,
+.shopify-section.section-discover-collections .divider-bottom {
+  border-bottom: 4px solid #065142;
+  width: 100%;
+}
+
+.shopify-section.section-discover-collections .discover-collections {
+  padding: 100px 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .shopify-section.section-discover-collections .discover-collections {
+    padding: 100px 0px;
+  }
+}
+/*# sourceMappingURL=sctn-discover-collections.css.map */
