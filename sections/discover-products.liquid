@@ -58,10 +58,12 @@
       {% endfor %}
     </ul>
     {% if sings.link_url %}
-      <a href="{{ sings.link_url }}" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        class="btn-link btn-basic btn-mbl">{{ sings.link_text }}</a>
+      <div class="btn-container">
+        <a href="{{ sings.link_url }}" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-link btn-basic btn-mbl">{{ sings.link_text }}</a>
+      </div>
     {% endif %}
   </div>
 </div>
