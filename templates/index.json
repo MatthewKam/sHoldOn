@@ -86,6 +86,15 @@
         "text_color": "#065142"
       }
     },
+    "1652078138d12cd7db": {
+      "type": "discover-products",
+      "settings": {
+        "title": "Discover Compostable Bags",
+        "link_text": "Shop All",
+        "link_url": "shopify:\/\/collections\/all-products",
+        "top_line": true
+      }
+    },
     "1651827940e593be13": {
       "type": "about-section",
       "settings": {
@@ -170,6 +179,7 @@
     "image_banner",
     "16518395354202219f",
     "1651821949044048fa",
+    "1652078138d12cd7db",
     "1651827940e593be13",
     "16518361943e65dc8a",
     "1651821398f0d3a6e3",
