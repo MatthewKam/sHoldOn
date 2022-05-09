@@ -36,14 +36,14 @@
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
-                {% if bings.collection_name == '' or bings.collection_name == ' '%}
+                {% if bings.collection_name != '' or bings.collection_name != ' '%}
                 {{ bings.collection_name }}
                 {% else %}
                   {{ bings.collection.title }}
                 {% endif %}
               </h2>
               <p>
-                {% if bings.collection_desc == '' or bings.collection_desc == ' '%}
+                {% if bings.collection_desc != '' or bings.collection_desc != ' '%}
                   {{ bings.collection_desc | truncate: 50 | escape }}
                 {% else %}
                   {{ bings.collection.description | truncate: 50 | escape }}
