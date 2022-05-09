@@ -84,6 +84,9 @@ $k-heavy:'Korolev-Heavy';
             display: flex;
             flex-direction: column;
             width: 155px;
+            @media screen and (min-width: 340px) {
+              width:170px;
+            }
           }
         }
       }

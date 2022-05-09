@@ -136,4 +136,10 @@
           flex-direction: column;
   width: 155px;
 }
+
+@media screen and (min-width: 340px) {
+  .shopify-section.section-discover-collections .discover-collections .discover-list-container li .collection-info-wrp {
+    width: 170px;
+  }
+}
 /*# sourceMappingURL=sctn-discover-collections.css.map */
