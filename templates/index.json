@@ -16,6 +16,20 @@
         "show_text_below": false
       }
     },
+    "165209023232c6435c": {
+      "type": "abovethefold-full",
+      "settings": {
+        "bg_color": "transparent",
+        "title": "A Better Way.",
+        "title_2": "A Better Bag.",
+        "title_color": "#ffffff",
+        "copy": "Heavy duty, plant-based, 100% home  compostable trash and storage bags that make a world of difference.",
+        "copy_color": "#FFFFFF",
+        "button_url": "shopify:\/\/collections\/all-products",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/bg-placeholder-atf.png"
+      }
+    },
     "16518395354202219f": {
       "type": "abovethefold",
       "settings": {
@@ -217,6 +231,7 @@
   },
   "order": [
     "image_banner",
+    "165209023232c6435c",
     "16518395354202219f",
     "1651821949044048fa",
     "1652078138d12cd7db",
