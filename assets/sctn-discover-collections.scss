@@ -54,6 +54,11 @@ $k-heavy:'Korolev-Heavy';
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
+        align-items: center;
+
+        li{
+          max-width:335px;
+        }
       }
     }
   }
