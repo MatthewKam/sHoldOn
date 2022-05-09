@@ -36,7 +36,7 @@
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
-                {% if bings.collection_name != '' or bings.collection_name != ' '%}
+                {% if bings.collection_name != '' or bings.collection_name != ' ' %}
                 {{ bings.collection_name }}
                 {% else %}
                   {{ bings.collection.title }}
@@ -92,7 +92,7 @@
   ],
   "blocks": [
     {
-      "type": "featured_collection",
+      "type": "collection",
       "name": "Collection",
       "limit": 3,
       "settings": [
