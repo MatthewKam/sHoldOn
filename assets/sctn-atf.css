@@ -1,18 +1,18 @@
-.shopify-section.atf p, .shopify-section.atf h1, .shopify-section.atf h2, .shopify-section.atf h3, .shopify-section.atf h4 {
+.shopify-section.atf p, .shopify-section.atf h1, .shopify-section.atf h2, .shopify-section.atf h3, .shopify-section.atf h4, .shopify-section.atf-full p, .shopify-section.atf-full h1, .shopify-section.atf-full h2, .shopify-section.atf-full h3, .shopify-section.atf-full h4 {
   letter-spacing: 0;
   line-height: 1;
 }
 
-.shopify-section.atf ul {
+.shopify-section.atf ul, .shopify-section.atf-full ul {
   padding: 0;
   margin: 0;
 }
 
-.shopify-section.atf li {
+.shopify-section.atf li, .shopify-section.atf-full li {
   list-style: none;
 }
 
-.shopify-section.atf .content-wrp {
+.shopify-section.atf .content-wrp, .shopify-section.atf-full .content-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.atf .content-wrp {
+  .shopify-section.atf .content-wrp, .shopify-section.atf-full .content-wrp {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -37,19 +37,19 @@
   }
 }
 
-.shopify-section.atf .content-wrp .bg-image {
+.shopify-section.atf .content-wrp .bg-image, .shopify-section.atf-full .content-wrp .bg-image {
   display: block;
   padding-top: 100%;
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.atf .content-wrp .bg-image {
+  .shopify-section.atf .content-wrp .bg-image, .shopify-section.atf-full .content-wrp .bg-image {
     height: 670px;
     padding: 0;
   }
 }
 
-.shopify-section.atf .content-wrp .copy-sctn {
+.shopify-section.atf .content-wrp .copy-sctn, .shopify-section.atf-full .content-wrp .copy-sctn {
   padding: 100px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,12 +66,12 @@
           align-items: center;
 }
 
-.shopify-section.atf .content-wrp .copy-sctn .copy-wrp {
+.shopify-section.atf .content-wrp .copy-sctn .copy-wrp, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp {
   max-width: 450px;
   margin: 0 auto;
 }
 
-.shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
+.shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp h1 span {
   font-family: "Korolev-Heavy";
   display: inline-block;
   font-size: 50px;
@@ -79,40 +79,42 @@
 }
 
 @media screen and (min-width: 767px) {
-  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
+  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp h1 span {
     font-size: 60px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span {
+  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp h1 span {
     font-size: 70px;
   }
 }
 
-.shopify-section.atf .content-wrp .copy-sctn .copy-wrp p {
+.shopify-section.atf .content-wrp .copy-sctn .copy-wrp p, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp p {
   font-size: 16px;
   line-height: 1.5;
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp p {
+  .shopify-section.atf .content-wrp .copy-sctn .copy-wrp p, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp p {
     font-size: 20px;
   }
 }
 
-.shopify-section.atf .content-wrp .copy-sctn .copy-wrp a {
+.shopify-section.atf .content-wrp .copy-sctn .copy-wrp a, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp a {
   margin-top: 50px;
 }
 
 .shopify-section.atf .content-wrp .bg-image,
-.shopify-section.atf .content-wrp .copy-sctn {
+.shopify-section.atf .content-wrp .copy-sctn, .shopify-section.atf-full .content-wrp .bg-image,
+.shopify-section.atf-full .content-wrp .copy-sctn {
   width: 100%;
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.atf .content-wrp .bg-image,
-  .shopify-section.atf .content-wrp .copy-sctn {
+  .shopify-section.atf .content-wrp .copy-sctn, .shopify-section.atf-full .content-wrp .bg-image,
+  .shopify-section.atf-full .content-wrp .copy-sctn {
     width: 50%;
     height: 670px;
   }
