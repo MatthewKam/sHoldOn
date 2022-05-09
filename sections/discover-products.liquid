@@ -36,8 +36,9 @@
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
+                {{ bings.collection_name }}
                 {% if bings.collection_name == blank %}
-                  {{ bings.collection_name }}
+                {{ bings.collection_name }}
                 {% else %}
                   {{ bings.collection.title }}
                 {% endif %}
