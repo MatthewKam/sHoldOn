@@ -58,15 +58,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -76,13 +67,10 @@
             "page": ""
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
+        "08af83cc-9cdc-4db5-b943-64e985251fd6": {
+          "type": "shopify:\/\/apps\/recurring-billing-by-recharge\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
+            "product": "{{product}}"
           }
         },
         "share": {
@@ -102,9 +90,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
+        "08af83cc-9cdc-4db5-b943-64e985251fd6",
         "share"
       ],
       "settings": {
