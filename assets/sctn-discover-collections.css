@@ -65,9 +65,11 @@
 
 .shopify-section.section-discover-collections .discover-collections {
   padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1240px) {
   .shopify-section.section-discover-collections .discover-collections {
     padding: 100px 0px;
   }
@@ -119,6 +121,16 @@
   .shopify-section.section-discover-collections .discover-collections .discover-list-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
   }
 }
 
@@ -142,12 +154,12 @@
 
 @media screen and (min-width: 640px) {
   .shopify-section.section-discover-collections .discover-collections .discover-list-container li {
-    max-width: 375px;
+    width: 375px;
+    margin-bottom: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 0px;
   }
 }
 
@@ -189,7 +201,18 @@
 
 @media screen and (min-width: 640px) {
   .shopify-section.section-discover-collections .discover-collections .discover-list-container li .collection-info-wrp {
-    padding: 0;
+    padding: 20px 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    width: 100%;
   }
 }
 
@@ -218,11 +241,16 @@
 .shopify-section.section-discover-collections .discover-collections .btn-container {
   max-width: 335px;
   margin: 0 auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.section-discover-collections .discover-collections .btn-container {
     max-width: 375px;
+    display: none;
   }
 }
 /*# sourceMappingURL=sctn-discover-collections.css.map */
