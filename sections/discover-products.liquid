@@ -25,10 +25,10 @@
           assign bings = block.settings
         %}
         <li>
-          {% if bings.collection.featured_image %}
-            <img src="{{ bings.collection.featured_image | image_url }}" alt="{{ bings.collection.title }}">
+          {% if bings.discover_product.featured_image %}
+            <img src="{{ bings.collection.featured_image | image_url }}" alt="{{ bings.discover_product.title }}">
           {% else %}
-            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.collection.title }}">
+            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.discover_product.title }}">
           {% endif %}
           <div class="collection-info-wrp">
             <div class="collection-info">
