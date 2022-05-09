@@ -5,6 +5,9 @@
 {%- endstyle -%}
 <div class="discover-wrp">
   <div class="discover-products">
+    {% if sings.top_line %}
+      <div class="divider-top"></div>
+    {% endif %}
     <div class="section-header">
       {% if sings.title %}
         <h2 class="discover-header">{{ sings.title }}</h2>
