@@ -1,0 +1,120 @@
+{% assign sings = section.settings %}
+
+{{ 'sctn-you-may-also.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+{%- endstyle -%}
+<div class="discover-wrp">
+  <div class="discover-products">
+    <div class="section-header">
+      {% if sings.title %}
+        <h2 class="discover-header">{{ sings.title }}</h2>
+      {% endif %}
+      {% if sings.link_url %}
+        <a href="{{ sings.link_url }}" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-link btn-basic">{{ sings.link_text }}</a>
+      {% endif %}
+    </div>
+    <ul class="discover-list-container">
+      {%- for block in section.blocks -%}
+        {% liquid 
+          assign bings = block.settings
+          assign product = bings.ymal_product
+          assign gallon = product.metafields.product_info.gallons.value 
+          assign count = product.metafields.product_info.count.value 
+          assign numItems = product.metafields.product_info.numItems.value 
+        %}
+        <li product-id="{{ product.id }}">
+          {% if product.featured_image %}
+            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
+          {% else %}
+            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
+          {% endif %}
+          <div class="reviews">
+
+          </div>
+          <div class="label-price">
+            <div class="product-header">
+              <h2>{{ product.title }}</h2>
+            </div>
+            <p>
+              {% if product.compared_at_price %}
+                <strike class="prod-price-strike">{{ product.compared_at_price | money }} </strike>
+              {% endif %}
+              <span class="prod-price">{{ product.price | money }}</span>
+            </p>
+          </div>
+          {% if gallon or count or numItems %}  
+            <div class="product-info">
+              {% if gallon %}
+                <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
+              {% endif %}
+              {% if count %}
+                <p class="prod-box"><span>{{ count }}</span> bags/box</p>
+              {% endif %}
+              {% if numItems %}
+                <p class="prod-num-items"><span>{{ numItems }}</span> items</p>
+              {% endif %}
+            </div>
+          {% endif %}
+          <div class="btn-wrp">
+            <!-- <button class="btn-submit btn-limegreen">Add to Cart</button> -->
+            <a href="{{product.url}}" class="btn-link">Learn more</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+   
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Discover Products",
+  "tag": "section",
+  "class": "section section-collection section-discover-products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "top_line",
+      "label": "top Line Visible",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Product - Discover",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "product",
+          "id": "discover_product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Discover Products"
+    }
+  ]
+}
+{% endschema %}
