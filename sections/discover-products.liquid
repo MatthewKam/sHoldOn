@@ -15,7 +15,7 @@
         <a href="{{ sings.link_url }}" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="btn-link btn-basic">{{ sings.link_text }}</a>
+          class="btn-link btn-basic btn-dsktp">{{ sings.link_text }}</a>
       {% endif %}
     </div>
     <ul class="discover-list-container">
@@ -57,7 +57,12 @@
         </li>
       {% endfor %}
     </ul>
-   
+    {% if sings.link_url %}
+      <a href="{{ sings.link_url }}" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="btn-link btn-basic btn-mbl">{{ sings.link_text }}</a>
+    {% endif %}
   </div>
 </div>
 
