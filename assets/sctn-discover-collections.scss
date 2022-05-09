@@ -23,7 +23,9 @@ $k-heavy:'Korolev-Heavy';
       list-style: none;
     }
     // End Reset
-
+    div:empty{
+      display:block;
+    }
     .divider-top,
     .divider-bottom{
       border-bottom:4px solid $dark-green;
@@ -34,7 +36,18 @@ $k-heavy:'Korolev-Heavy';
       @media screen and (min-width: 1200px) {
         padding: 100px 0px;
       }
-
+      .section-header {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+          font-size:35px;
+          @media screen and (min-width: 640px) {
+            font-size:50px;
+          }
+        }
+      }
     }
   }
 }

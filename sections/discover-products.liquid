@@ -1,8 +1,7 @@
 {% assign sings = section.settings %}
 
 {{ 'sctn-discover-collections.css' | asset_url | stylesheet_tag }}
-{%- style -%}
-{%- endstyle -%}
+
 <div class="discover-wrp">
   <div class="discover-collections">
     {% if sings.top_line %}
@@ -25,11 +24,15 @@
           assign bings = block.settings
         %}
         <li>
-          {% if bings.discover_product.featured_image %}
-            <img src="{{ bings.discover_product.featured_image | image_url }}" alt="{{ bings.discover_product.title }}">
-          {% else %}
-            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.discover_product.title }}">
-          {% endif %}
+          <div class="image-wrp" 
+            style="{% if bings.collection_bg_color %}background-color:{{ bings.collection_bg_color }}{% endif %}"
+          >
+            {% if bings.discover_product.featured_image %}
+              <img src="{{ bings.discover_product.featured_image | image_url }}" alt="{{ bings.discover_product.title }}">
+            {% else %}
+              <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.discover_product.title }}">
+            {% endif %}
+          </div>
           <div class="collection-info-wrp">
             <div class="collection-info">
               <h2>
@@ -102,6 +105,11 @@
           "type": "text",
           "id": "collection_desc",
           "label": "Collection Description Override"
+        },
+        {
+          "type": "color",
+          "id": "collection_bg_color",
+          "label": "Optional Collection BG Color"
         },
         {
           "type": "collection",
