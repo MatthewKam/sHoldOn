@@ -60,12 +60,30 @@ $k-heavy:'Korolev-Heavy';
         }
 
         li{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
           max-width:335px;
           @media screen and (min-width: 640px) {
             max-width:375px;
+            flex-direction: column;
           }
-          img {
-            max-width: 100%;
+
+          .image-wrp{
+            width: 165px;
+            height: 165px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              max-width: 100%;
+            }
+          }
+          .collection-info-wrp {
+            display: flex;
+            flex-direction: column;
+            width: 155px;
           }
         }
       }
