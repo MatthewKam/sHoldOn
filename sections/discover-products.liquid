@@ -20,18 +20,13 @@
     </div>
     <ul class="discover-list-container">
       {%- for block in section.blocks -%}
-        {% liquid 
-          assign bings = block.settings
-        %}
+        {% assign bings = block.settings %}
         <li>
-          
-            <div class="image-wrp" 
-              {% if bings.collection_bg_color %}
-                style="background-color:{{ bings.collection_bg_color }}"
-              {% endif %}
-            >
-
-          
+          <div class="image-wrp" 
+            {% if bings.collection_bg_color %}
+              style="background-color:{{ bings.collection_bg_color }}"
+            {% endif %}
+          >
             {% if bings.collection.featured_image %}
               <img src="{{ bings.collection.featured_image | image_url }}" alt="{{ bings.collection.title }}">
             {% else %}
@@ -97,8 +92,8 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "Collection - Discover",
+      "type": "featured_collection",
+      "name": "Collection",
       "limit": 3,
       "settings": [
         {
