@@ -93,7 +93,7 @@
           "type": "image",
           "settings": {
             "collection": "trash-bags",
-            "collection_bg_color": "",
+            "collection_bg_color": "#f8f0dc",
             "collection_name_override": true,
             "collection_name": "Compostable Trash Bags",
             "collection_desc_override": false,
@@ -104,7 +104,7 @@
           "type": "image",
           "settings": {
             "collection": "kitchen-bags",
-            "collection_bg_color": "",
+            "collection_bg_color": "#f8f0dc",
             "collection_name_override": true,
             "collection_name": "Compostable Kitchen storage bags",
             "collection_desc_override": false,
@@ -115,7 +115,7 @@
           "type": "image",
           "settings": {
             "collection": "sets",
-            "collection_bg_color": "",
+            "collection_bg_color": "#f8f0dc",
             "collection_name_override": true,
             "collection_name": "Shop Sets",
             "collection_desc_override": false,
