@@ -1,7 +1,7 @@
 {% assign sings = section.settings %}
 {{ 'sctn-atf.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  .atf-{{ section.id }} .bg-image{
+  .atf-{{ section.id }} .content-wrp{
     background:url({{ sings.bg_img | image_url }}) center top no-repeat;
     background-size:cover;
   }  
@@ -35,7 +35,7 @@
 
 {% schema %}
 {
-  "name": "Above the Fold - Half",
+  "name": "Above the Fold - Full",
   "tag": "section",
   "class": "section atf",
   "settings": [
@@ -47,7 +47,7 @@
       "type": "color",
       "id": "bg_color",
       "label": "Copy Background Color",
-      "default":"#EFFCF6"
+      "default":"transparent"
     },
     {
       "type": "text",
@@ -99,7 +99,7 @@
   ],
   "presets": [
     {
-      "name": "Above the Fold - Half"
+      "name": "Above the Fold - Full"
     }
   ]
 }
