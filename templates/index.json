@@ -110,9 +110,9 @@
             "collection": "trash-bags",
             "collection_bg_color": "#f8f0dc",
             "collection_name_override": true,
-            "collection_name": "Compostable Trash Bags",
+            "collection_name": "Trash Bags",
             "collection_desc_override": true,
-            "collection_desc": "Description here"
+            "collection_desc": "Strong and sustainable trash bags"
           }
         },
         "0ae96c0c-822f-4cfc-b68e-2268f31ae814": {
@@ -121,9 +121,9 @@
             "collection": "kitchen-bags",
             "collection_bg_color": "#f8f0dc",
             "collection_name_override": true,
-            "collection_name": "Compostable Kitchen storage bags",
+            "collection_name": "Kitchen & Storage bags",
             "collection_desc_override": true,
-            "collection_desc": "Description here"
+            "collection_desc": "Food-safe bags for kitchen and storage"
           }
         },
         "32a80384-b8f2-4fe1-8f97-273ca985328c": {
@@ -134,7 +134,7 @@
             "collection_name_override": true,
             "collection_name": "Shop Sets",
             "collection_desc_override": true,
-            "collection_desc": "Description here"
+            "collection_desc": "Save more when you shop sets"
           }
         }
       },
