@@ -237,7 +237,7 @@
           "type": "image",
           "settings": {
             "bnft_title": "How To Use",
-            "bnft_copy": "<p>Use HoldOn bags like you would your normal trash or compost bags - fill ‘em, tie ‘em, and toss ‘em. Trash:If using for trash, simply dispose as you would normally. After they land in the dump, they’ll break down cleanly, leaving only plant-based materials (no toxic residue of microplastics) that will return to the earth. Compost: If using to collect kitchen scraps and other compostable materials, you can compost HoldOn bags with an industrial compost drop off, community pick up program, or your home compost. They’ll break down cleanly in a matter of weeks.TUV Certified Home Compostable BPI Certified<\/p>"
+            "bnft_copy": "<p>Use HoldOn bags just like you would use a plastic storage bag. Once you're finished, dispose of it in the trash or compost.<br\/><br\/> Our storage bags can be tossed in the trash, commercially composted, or composted at home. No matter which way you toss it, HoldOn bags will break down cleanly without harming the earth. <br\/><br\/>For optimal composting, cut off the zip seal and toss both pieces in the compost.<\/p>"
           }
         }
       },
@@ -304,9 +304,9 @@
         "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
         "title": "Did you know?",
         "title_color": "#00fabe",
-        "facts_answer": "100 billion",
+        "facts_answer": "91% of plastic",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "Isn't recycled - meaning that most of it winds up in landfills or oceans, where it creates microplastic waste and emits harmful greenhouse gases. We've created a better solution.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "#",
@@ -320,8 +320,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "get involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": ""
           }
         },
@@ -329,8 +329,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "Follow us on tiktok",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": ""
           }
         }
