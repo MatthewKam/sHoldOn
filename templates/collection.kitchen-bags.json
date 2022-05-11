@@ -31,7 +31,7 @@
       "type": "collection-header",
       "settings": {
         "title": "Kitchen Bags",
-        "collection_description": "Some short description about why Holdon is great"
+        "collection_description": "Nontoxic storage bags with a zip seal to keep food fresh and prevent spills - without any plastic waste guilt."
       }
     },
     "1651302089e4c95a6c": {
@@ -58,9 +58,9 @@
         "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
         "title": "Did you know?",
         "title_color": "#00fabe",
-        "facts_answer": "100 Billion",
+        "facts_answer": "12 billion",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "Barrels of oil is used each year to produce plastic bags in the United States. We're changing that.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "",
@@ -74,8 +74,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "Join a Beach Clean up",
-            "social_copy": "Join a clean up lorem ipsum",
+            "social_title": "Get involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": "#"
           }
         },
@@ -84,7 +84,7 @@
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
             "social_title": "Follow us on tiktok",
-            "social_copy": "We have great content, really! We’re amazing!",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": "#"
           }
         }
