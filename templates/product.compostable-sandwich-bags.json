@@ -156,7 +156,7 @@
         "product_image_3": "shopify:\/\/shop_images\/HoldOn_Gallon.jpg",
         "product_image_4": "shopify:\/\/shop_images\/green-2_1.jpg",
         "product_title_custom": "",
-        "product_description_custom": "",
+        "product_description_custom": "Our compostable sandwich bags measure 6.5” x 5.88” and feature a zip seal to prevent spills and keep snacks secure.",
         "product_items_total": 1
       }
     },
@@ -223,21 +223,21 @@
           "type": "image",
           "settings": {
             "bnft_title": "Product Details",
-            "bnft_copy": "<p>-13 gallon capacity<\/p><p>-Fits most standard tall kitchen trash bins<\/p><p>-TUV Certified Home Compostable <\/p><p>-BPI Certified-Measures 8.4” x 25” x 23” <\/p><p>-Super strong drawstring closure<\/p><p>-Multi-way flex material is strong and durable to prevent rips and tears <\/p><p>-Flexible drawstring grips the can to ensure bag stays in place<\/p><p>-Triple ply to prevent leaks and allow you to carry with confidence<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
+            "bnft_copy": "<p>-15 oz capacity<\/p><p>-Measures 6.5” x 5.88”<\/p><p>-TUV Certified Home Compostable <\/p><p>-BPI Certified<\/p><p>-Secure zip seal helps to keep snacks secure and prevent spills<\/p><p>-Food safe: Nontoxic and BPA-free<\/p><p>-For the Kitchen: Great for food preparation and storage<\/p><p>-Small Space & Travel Storage: Organize bags, backpacks, office drawers and more by stowing odds and ends <\/p><p>-Kid-Friendly: Excellent for packing lunches and toting snacks on-the-go<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
           }
         },
         "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
           "type": "image",
           "settings": {
             "bnft_title": "Materials",
-            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. \nHoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic.<\/p>"
+            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. HoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic. <\/p><p>What it’s made of: <\/p><p>-PBAT<\/p><p>-PLA<\/p><p>-Cornstarch<\/p>"
           }
         },
         "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
           "type": "image",
           "settings": {
             "bnft_title": "How To Use",
-            "bnft_copy": "<p>Use HoldOn bags like you would your normal trash or compost bags - fill ‘em, tie ‘em, and toss ‘em. Trash:If using for trash, simply dispose as you would normally. After they land in the dump, they’ll break down cleanly, leaving only plant-based materials (no toxic residue of microplastics) that will return to the earth. Compost: If using to collect kitchen scraps and other compostable materials, you can compost HoldOn bags with an industrial compost drop off, community pick up program, or your home compost. They’ll break down cleanly in a matter of weeks.TUV Certified Home Compostable BPI Certified<\/p>"
+            "bnft_copy": "<p>Use HoldOn bags like you would your normal storage and sandwich bags (minus the plastic waste guilt). Just use them and then toss in the trash or compost when finished! <\/p><p>Trash:<\/p><p>If disposing of in the trash, simply dispose of like you would a typical bag. After they land in the dump, they’ll break down quickly and cleanly, leaving only plant-based materials  (no toxic residue of microplastics) that will return to the earth. For faster decomposition, cut off the press seal closure and toss both the bag section and press seal in the trash.<\/p><p>Compost: <\/p><p>You can compost HoldOn bags with an industrial compost drop off, community pick up program, or  your home compost. They’ll break down cleanly in a matter of weeks. To compost, remove any non-compostable material from the bag. And toss in the compost. For faster decomposition, cut off the press seal closure and toss both the bag piece and press seal piece in the compost. <\/p><p>TUV Certified Home Compostable<br\/>BPI Certified<\/p>"
           }
         }
       },
@@ -251,8 +251,8 @@
         "bnfts_alt_title": "A better way, a better bag.",
         "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
         "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
-        "brkdwn_title": "Only the best for you and the planet",
-        "brkdwn_title_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+        "brkdwn_title": "Better bags for people and the planet",
+        "brkdwn_title_copy": "HoldOn bags are just as convenient as single-use plastic bags and are created with nontoxic, plant-based materials that break down without harming the earth.",
         "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
       }
     },
