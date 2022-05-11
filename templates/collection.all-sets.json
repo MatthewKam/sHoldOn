@@ -30,19 +30,20 @@
     "1650959802f78eafbe": {
       "type": "collection-header",
       "settings": {
-        "title": "Shop All",
+        "title": "Sets",
         "collection_description": "Brief description of collection"
       }
     },
     "16510475473400b526": {
       "type": "collection-items",
       "settings": {
-        "title": "Singles",
-        "collection": "singles"
+        "title": "",
+        "collection": "sets"
       }
     },
     "16510475268bad2cd6": {
       "type": "collection-items",
+      "disabled": true,
       "settings": {
         "title": "Sets",
         "collection": "sets",
