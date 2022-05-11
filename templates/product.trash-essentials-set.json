@@ -304,9 +304,9 @@
         "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
         "title": "Did you know?",
         "title_color": "#00fabe",
-        "facts_answer": "100 billion",
+        "facts_answer": "1000 years",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "That's how long it takes for a plastic bag to break down, leaving behind toxic residue and microplastic debris. We believe in a better way.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "#",
@@ -320,8 +320,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "Get involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": ""
           }
         },
@@ -329,8 +329,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "Follow us on tiktok",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": ""
           }
         }
