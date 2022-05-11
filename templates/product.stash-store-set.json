@@ -223,14 +223,14 @@
           "type": "image",
           "settings": {
             "bnft_title": "Product Details",
-            "bnft_copy": "<p>-13 gallon capacity<\/p><p>-Fits most standard tall kitchen trash bins<\/p><p>-TUV Certified Home Compostable <\/p><p>-BPI Certified-Measures 8.4” x 25” x 23” <\/p><p>-Super strong drawstring closure<\/p><p>-Multi-way flex material is strong and durable to prevent rips and tears <\/p><p>-Flexible drawstring grips the can to ensure bag stays in place<\/p><p>-Triple ply to prevent leaks and allow you to carry with confidence<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
+            "bnft_copy": "<p>Set Contains:<br\/>-Gallon Storage\/25 Ct<br\/>-Sandwich Zip\/100 Ct<br\/><br\/>-TUV Certified Home Compostable <br\/>-BPI Certified<\/p><p>-Secure zip seal prevents spills and keeps food fresher longer<\/p><p>-Food safe: Nontoxic and BPA-free<\/p><p>-For the Kitchen: Excellent for food preparation and storage, toting snacks on-the-go<\/p><p>-For the Home: Fantastic for toy storage, and organizing closets and supplies<br\/>-For Travel: A must-have  for more packing clothing and toiletries while traveling<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
           }
         },
         "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
           "type": "image",
           "settings": {
             "bnft_title": "Materials",
-            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. \nHoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic.<\/p>"
+            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. <br\/>HoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic. <\/p>"
           }
         },
         "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
@@ -251,8 +251,8 @@
         "bnfts_alt_title": "A better way, a better bag.",
         "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
         "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
-        "brkdwn_title": "Only the best for you and the planet",
-        "brkdwn_title_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+        "brkdwn_title": "Better bags for people and the planet",
+        "brkdwn_title_copy": "HoldOn bags are just as convenient as single-use plastic bags and are created with nontoxic, plant-based materials that break down without harming the earth.",
         "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
       }
     },
