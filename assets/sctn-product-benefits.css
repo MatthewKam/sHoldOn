@@ -69,8 +69,10 @@
   }
 }
 
-.shopify-section.product-benefits .benefits-wrp .benefits-breakdown, .shopify-section.product-benefits .benefits-wrp .benefits-image {
-  width: 50%;
+@media screen and (min-width: 640px) {
+  .shopify-section.product-benefits .benefits-wrp .benefits-breakdown, .shopify-section.product-benefits .benefits-wrp .benefits-image {
+    width: 50%;
+  }
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown {
