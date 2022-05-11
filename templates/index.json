@@ -154,11 +154,12 @@
       "type": "about-section",
       "settings": {
         "bg_color": "#effcf6",
+        "section_1_img": "shopify:\/\/shop_images\/sky-1_copy.jpg",
         "section_1_headline": "STRONG BAGS WITH STRONG PURPOSE",
         "section_1_copy": "We’re on a mission to transform daily chores into meaningful experiences you can feel good about - one bag at a time.",
         "section_1_url": "#",
         "section_1_url_text": "Learn more",
-        "section_2_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2.jpg",
+        "section_2_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b.jpg",
         "section_2_headline": "Sustainability Without Sacrifice",
         "section_2_copy": "Our heavy duty bags are a unique mix of cornstarch, plant-based renewables and nontoxic materials, so they’re 100% home compostable and break down in weeks - not centuries.",
         "section_2_url": "#",
@@ -179,7 +180,7 @@
         "copy_color": "#ffffff",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop All",
-        "bg_img": "shopify:\/\/shop_images\/sandwich-lifestyle-1.jpg"
+        "bg_img": "shopify:\/\/shop_images\/sandwich-lifestyle-1_d3307b5a-15bf-4275-96c1-dea6d02fcb1d.jpg"
       }
     },
     "1651821398f0d3a6e3": {
