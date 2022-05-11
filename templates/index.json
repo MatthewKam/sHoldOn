@@ -19,12 +19,12 @@
     "165209023232c6435c": {
       "type": "abovethefold-full",
       "settings": {
-        "bg_color": "transparent",
+        "bg_color": "rgba(0,0,0,0)",
         "title": "A Better Way.",
         "title_2": "A Better Bag.",
         "title_color": "#ffffff",
         "copy": "Heavy duty, plant-based, 100% home  compostable trash and storage bags that make a world of difference.",
-        "copy_color": "#FFFFFF",
+        "copy_color": "#ffffff",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Learn more",
         "bg_img": "shopify:\/\/shop_images\/bg-placeholder-atf.png"
@@ -32,6 +32,7 @@
     },
     "16518395354202219f": {
       "type": "abovethefold",
+      "disabled": true,
       "settings": {
         "bg_color": "#f8f0dc",
         "title": "A Better Way.",
@@ -153,14 +154,14 @@
       "type": "about-section",
       "settings": {
         "bg_color": "#effcf6",
-        "section_1_img": "shopify:\/\/shop_images\/about-purpose.png",
-        "section_1_headline": "STRONG BAGS WITH A STRONG PURPOSE",
+        "section_1_img": "shopify:\/\/shop_images\/sky-1_1.jpg",
+        "section_1_headline": "STRONG BAGS WITH STRONG PURPOSE",
         "section_1_copy": "We’re on a mission to transform daily chores into meaningful experiences you can feel good about - one bag at a time.",
         "section_1_url": "#",
         "section_1_url_text": "Learn more",
-        "section_2_img": "shopify:\/\/shop_images\/about-sustainable_1a6c50ad-6889-4e43-bb1e-200b031b51c5.png",
+        "section_2_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2.jpg",
         "section_2_headline": "Sustainability Without Sacrifice",
-        "section_2_copy": "Our super strong bags are a unique mix of cornstarch, plant-based renewables and nontoxic materials, so they’re 100% home compostable and break down in weeks - not centuries.",
+        "section_2_copy": "Our heavy duty bags are a unique mix of cornstarch, plant-based renewables and nontoxic materials, so they’re 100% home compostable and break down in weeks - not centuries.",
         "section_2_url": "#",
         "section_2_url_text": "Shop all",
         "icon_1": "shopify:\/\/shop_images\/logo-text-Strong.png",
@@ -173,13 +174,13 @@
       "type": "basic-content",
       "settings": {
         "bg_color": "#065142",
-        "title": "Why We created HoldOn bags.",
+        "title": "Why HoldOn?",
         "title_color": "#ffffff",
-        "copy": "HoldOn was born from the simple idea that there must be a more sustainable way to go about our daily chores. Trash bags, sandwich bags and storage bags are an irreplaceable staple in our daily lives. But do they have to be 100% plastic? Answer: 100% no.  That's why we created plant-based, nontoxic, home compostable bags that are just as strong and durable as traditional plastic bags, so you never have to sacrifice convenience to care for the planet. That's how we HoldOn to a cleaner future.",
+        "copy": "HoldOn was born from the idea that there must be a better, more sustainable, less toxic way to do some of our daily chores. Trash bags, sandwich bags and storage bags are irreplaceable staples, but do they need to be 100% plastic? 100% no. That’s why we created HoldOn: plant-based, nontoxic, home compostable bags that are just as strong and durable as traditional plastic bags. We believe you don’t have to sacrifice convenience to care for the planet. We believe that if everyone stopped for a minute and said, “Holdon, there has to be a better way?” then the world we live in begins to be a better place.",
         "copy_color": "#ffffff",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop All",
-        "bg_img": "shopify:\/\/shop_images\/about-why.png"
+        "bg_img": "shopify:\/\/shop_images\/sandwich-lifestyle-1.jpg"
       }
     },
     "1651821398f0d3a6e3": {
@@ -192,7 +193,7 @@
         "title_color": "#00fabe",
         "facts_answer": "100 Billion",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "Bags are used and thrown away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "#",
@@ -205,8 +206,8 @@
         "6818e4df-3920-4d85-af97-305a6c2ecb17": {
           "type": "image",
           "settings": {
-            "social_title": "Join a Beach Clean up",
-            "social_copy": "Join a clean up lorem ipsum",
+            "social_title": "Get Involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": "#"
           }
         },
@@ -214,7 +215,7 @@
           "type": "image",
           "settings": {
             "social_title": "Follow us on tiktok",
-            "social_copy": "We have great content, really! We’re amazing!",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": "#"
           }
         }
