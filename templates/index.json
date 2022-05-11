@@ -76,7 +76,7 @@
           "type": "image",
           "settings": {
             "values_image": "shopify:\/\/shop_images\/icon-BPICert-dark.png",
-            "values_copy_1": "BPI-",
+            "values_copy_1": "BPI",
             "values_copy_2": "Certified"
           }
         },
@@ -84,7 +84,7 @@
           "type": "image",
           "settings": {
             "values_image": "shopify:\/\/shop_images\/icon-BPAFree-dark.png",
-            "values_copy_1": "Non-",
+            "values_copy_1": "Non",
             "values_copy_2": "Toxic"
           }
         }
