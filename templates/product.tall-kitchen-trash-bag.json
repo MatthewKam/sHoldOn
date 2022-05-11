@@ -156,7 +156,7 @@
         "product_image_3": "shopify:\/\/shop_images\/HoldOn_Gallon.jpg",
         "product_image_4": "shopify:\/\/shop_images\/green-2_1.jpg",
         "product_title_custom": "",
-        "product_description_custom": "",
+        "product_description_custom": "Our tall kitchen drawstring trash bags measure 8.4” x 25” x 23” and fit most standard tall kitchen trash cans or tall compost bins.",
         "product_items_total": 1
       }
     },
@@ -223,21 +223,21 @@
           "type": "image",
           "settings": {
             "bnft_title": "Product Details",
-            "bnft_copy": "<p>-13 gallon capacity<\/p><p>-Fits most standard tall kitchen trash bins<\/p><p>-TUV Certified Home Compostable <\/p><p>-BPI Certified-Measures 8.4” x 25” x 23” <\/p><p>-Super strong drawstring closure<\/p><p>-Multi-way flex material is strong and durable to prevent rips and tears <\/p><p>-Flexible drawstring grips the can to ensure bag stays in place<\/p><p>-Triple ply to prevent leaks and allow you to carry with confidence<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
+            "bnft_copy": "<p>-13 gallon capacity<\/p><p>-Fits most standard tall kitchen trash bins<br\/><br\/>-Measures 8.4” x 25” x 23” <\/p><p>-TUV Certified Home Compostable <\/p><p>-BPI Certified<br\/><br\/>-Super strong drawstring closure<\/p><p>-Multi-way flex material is strong and durable to prevent rips and tears <\/p><p>-Flexible drawstring grips the can to ensure bag stays in place<br\/>-Triple ply to prevent leaks and allow you to carry with confidence<\/p><p>-WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
           }
         },
         "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
           "type": "image",
           "settings": {
             "bnft_title": "Materials",
-            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. \nHoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic.<\/p>"
+            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. HoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic. <br\/><br\/>What it’s made of: <br\/>-PBAT<br\/>-PLA<br\/>-Cornstarch<br\/>-Calcium Carbonate<\/p>"
           }
         },
         "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
           "type": "image",
           "settings": {
             "bnft_title": "How To Use",
-            "bnft_copy": "<p>Use HoldOn bags like you would your normal trash or compost bags - fill ‘em, tie ‘em, and toss ‘em. Trash:If using for trash, simply dispose as you would normally. After they land in the dump, they’ll break down cleanly, leaving only plant-based materials (no toxic residue of microplastics) that will return to the earth. Compost: If using to collect kitchen scraps and other compostable materials, you can compost HoldOn bags with an industrial compost drop off, community pick up program, or your home compost. They’ll break down cleanly in a matter of weeks.TUV Certified Home Compostable BPI Certified<\/p>"
+            "bnft_copy": "<p>Use HoldOn bags like you would your normal trash or compost bags - fill ‘em, tie ‘em, and toss ‘em. <\/p><p>Trash:<\/p><p>If using for trash, simply dispose as you would normally. After they land in the dump, they’ll break down cleanly, leaving only plant-based materials (no toxic residue of microplastics) that will return to the earth. <\/p><p>Compost: <br\/>If using to collect kitchen scraps and other compostable materials, you can compost HoldOn bags with an industrial compost drop off, community pick up program, or your home compost. They’ll break down cleanly in a matter of weeks.<br\/><br\/>TUV Certified Home Compostable<br\/>BPI Certified<\/p>"
           }
         }
       },
@@ -251,8 +251,8 @@
         "bnfts_alt_title": "A better way, a better bag.",
         "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
         "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
-        "brkdwn_title": "Only the best for you and the planet",
-        "brkdwn_title_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+        "brkdwn_title": "Better bags for people and the planet",
+        "brkdwn_title_copy": "Better bags for people and the planet. HoldOn bags are just as convenient as single-use plastic bags and are created with nontoxic, plant-based materials that break down without harming the planet.",
         "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
       }
     },
@@ -304,9 +304,9 @@
         "facts_badge": "shopify:\/\/shop_images\/hon-badge-teal.png",
         "title": "Did you know?",
         "title_color": "#00fabe",
-        "facts_answer": "100 billion",
+        "facts_answer": "1 million",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Bags are used and tossed away each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "Marine animals are killed by plastic pollution each year. We think that's 1 million too many.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "#",
@@ -320,8 +320,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "Get involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": ""
           }
         },
@@ -329,8 +329,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "",
-            "social_copy": "",
+            "social_title": "Follow us on Tiktok",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": ""
           }
         }
