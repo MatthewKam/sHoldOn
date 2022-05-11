@@ -78,6 +78,14 @@ $k-heavy:'Korolev-Heavy';
         justify-content: space-between;
         align-items: center;
         margin: 20px auto;
+
+        quantity-input.quantity{
+          &::after {
+            border-radius: 10px;
+            border: 2px solid $dark-green;
+          }
+          
+        }
       }
       .product-gallery {
         width:100%;

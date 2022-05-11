@@ -110,6 +110,11 @@
   margin: 20px auto;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity::after {
+  border-radius: 10px;
+  border: 2px solid #065142;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
   width: 100%;
   display: -webkit-box;
