@@ -75,8 +75,8 @@
           "type": "image",
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
-            "social_title": "Join a Beach Clean up",
-            "social_copy": "Join a clean up lorem ipsum",
+            "social_title": "get involved",
+            "social_copy": "Join us as we Reclaim Clean",
             "social_link": "#"
           }
         },
@@ -85,7 +85,7 @@
           "settings": {
             "social_image": "shopify:\/\/shop_images\/sp-bg.png",
             "social_title": "Follow us on tiktok",
-            "social_copy": "We have great content, really! We’re amazing!",
+            "social_copy": "Good vibes, guaranteed",
             "social_link": "#"
           }
         }
