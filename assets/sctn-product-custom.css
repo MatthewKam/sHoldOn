@@ -115,6 +115,11 @@
   border: 2px solid #065142;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity .quantity__button:not(:focus-visible):not(.focused),
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity .quantity__input:not(:focus-visible):not(.focused) {
+  border: none;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
   width: 100%;
   display: -webkit-box;
