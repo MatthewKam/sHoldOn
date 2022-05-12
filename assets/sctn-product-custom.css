@@ -127,6 +127,7 @@
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit {
   background-color: #ADFF44;
+  border-radius: 10px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit:after {
