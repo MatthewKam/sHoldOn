@@ -97,13 +97,17 @@
   }
 }
 
-.shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p {
+.shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p,
+.shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p strong,
+.shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p span {
   font-size: 16px;
   line-height: 1.5;
 }
 
 @media screen and (min-width: 1000px) {
-  .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p {
+  .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p,
+  .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p strong,
+  .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p span {
     font-size: 20px;
   }
 }
