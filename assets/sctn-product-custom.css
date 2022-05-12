@@ -125,6 +125,11 @@
   margin-left: 20px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit {
+  background-color: #ADFF44;
+  color: #065142;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
   width: 100%;
   display: -webkit-box;
