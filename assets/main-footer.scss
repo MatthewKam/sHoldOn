@@ -128,8 +128,8 @@ body{
                 &:-webkit-autofill:active{
                     transition: background-color 5000s ease-in-out 0s;
                     color:white !important;
+                    -webkit-text-fill-color: white !important;
                 }
-                &:-webkit-text-fill-color: white !important;
               }
               button{
                 font-size: 0 !important;

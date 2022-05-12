@@ -196,6 +196,7 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[comp
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
   color: white !important;
+  -webkit-text-fill-color: white !important;
 }
 
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] button {
