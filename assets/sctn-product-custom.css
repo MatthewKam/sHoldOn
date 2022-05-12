@@ -127,6 +127,10 @@
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit {
   background-color: #ADFF44;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit span {
+  font-family: "Korolev-Heavy";
   color: #065142;
 }
 

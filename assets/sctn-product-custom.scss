@@ -1,5 +1,5 @@
-$dark-green: #065142;
 $dark-green-secondary: #418275;
+$dark-green: #065142;
 $neon-green: #00FABE;
 $cream: #F8F0DC;
 $neon-grellow: #ADFF44;
@@ -94,7 +94,10 @@ $k-heavy:'Korolev-Heavy';
           margin-left: 20px;
           button.product-form__submit{
             background-color: $neon-grellow;
-            color: $dark-green;
+            span{
+              font-family: $k-heavy;
+              color: $dark-green;
+            }
           }
         }
       }
