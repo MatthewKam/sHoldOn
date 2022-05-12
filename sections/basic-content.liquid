@@ -11,7 +11,10 @@
   .basic-content-{{ section.id }} .copy-sctn h1{
     color:{{ sings.title_color }};
   }
-  .basic-content-{{ section.id }} .copy-sctn p{
+  .basic-content-{{ section.id }} .copy-sctn p,
+  .basic-content-{{ section.id }} .copy-sctn p strong,
+  .basic-content-{{ section.id }} .copy-sctn p span,
+  .basic-content-{{ section.id }} .copy-sctn p i{
     color:{{ sings.copy_color }};
   }
 {%- endstyle -%}
