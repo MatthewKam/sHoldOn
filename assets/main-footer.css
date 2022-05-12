@@ -192,6 +192,10 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[comp
   font-family: "Korolev-Medium";
 }
 
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] input:-webkit-autofill, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] input:-webkit-autofill:hover, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] input:-webkit-autofill:focus, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+}
+
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[component] button {
   font-size: 0 !important;
   background: url("//cdn.shopify.com/s/files/1/0575/8143/7028/files/icon-Arrow-Right.png") center center no-repeat !important;
