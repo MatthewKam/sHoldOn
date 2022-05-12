@@ -130,9 +130,9 @@
           <div class="regular-price">
             {{product.price | money}}
           </div>
-          <div class="subscription-price">
+          <!-- <div class="subscription-price price--large">
             {{ product.price | money }}
-          </div>
+          </div> -->
         </div>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -344,7 +344,6 @@
         }
       ]
     }
-    
   ],
   "settings": [
     {
