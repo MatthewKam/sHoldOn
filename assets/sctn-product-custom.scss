@@ -94,9 +94,15 @@ $k-heavy:'Korolev-Heavy';
           margin-left: 20px;
           button.product-form__submit{
             background-color: $neon-grellow;
+            &:after{
+              box-shadow:none;
+            }
             span{
               font-family: $k-heavy;
               color: $dark-green;
+              text-transform: uppercase;
+              letter-spacing: 0;
+              font-size: 20px;
             }
           }
         }

@@ -129,9 +129,17 @@
   background-color: #ADFF44;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit:after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit span {
   font-family: "Korolev-Heavy";
   color: #065142;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 20px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
