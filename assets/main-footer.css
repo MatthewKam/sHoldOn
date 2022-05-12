@@ -214,7 +214,7 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[comp
       align-self: center !important;
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data-testid="form-row"] {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data-testid="form-row"] input[type="email"] {
   border-radius: 10px;
   border: 2px solid white;
   height: 50px;
