@@ -142,12 +142,15 @@ body{
                 padding: 0 !important;
                 margin-right: 10px !important;
                 align-self: center !important;
+                position: absolute;
+                top: 12px;
+                right: 0px;
               }
             }
             &[data-testid="form-row"] input[type="email"] {
-              border-radius: 10px;
-              border: 2px solid white;
-              height: 50px;
+              border-radius: 10px !important;
+              border: 2px solid white !important;
+              height: 50px !important;
             }
           }
         }
