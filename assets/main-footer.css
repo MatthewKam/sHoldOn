@@ -223,6 +223,10 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data
   height: 50px !important;
 }
 
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data-testid="form-row"] .ql-editor p, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data-testid="form-row"] .ql-editor p strong {
+  color: white !important;
+}
+
 body .footer .footer-content-top .list-social .list-social__item {
   background-color: #ADFF44;
   border-radius: 50%;

@@ -147,10 +147,15 @@ body{
                 right: 0px;
               }
             }
-            &[data-testid="form-row"] input[type="email"] {
-              border-radius: 10px !important;
-              border: 2px solid white !important;
-              height: 50px !important;
+            &[data-testid="form-row"]{
+              input[type="email"] {
+                border-radius: 10px !important;
+                border: 2px solid white !important;
+                height: 50px !important;
+              }
+              .ql-editor p, .ql-editor p strong {
+                color: white !important;
+              }
             }
           }
         }
