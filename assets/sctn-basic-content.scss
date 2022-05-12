@@ -75,6 +75,9 @@ $k-heavy:'Korolev-Heavy';
               font-size:20px;
             }
           }
+          p strong{
+            font-family: $k-heavy;
+          }
           a{
             margin-top:50px;
           }

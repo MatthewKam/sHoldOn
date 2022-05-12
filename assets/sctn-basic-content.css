@@ -112,6 +112,10 @@
   }
 }
 
+.shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp p strong {
+  font-family: "Korolev-Heavy";
+}
+
 .shopify-section.basic-content .content-wrp .copy-sctn .copy-wrp a {
   margin-top: 50px;
 }
