@@ -120,6 +120,11 @@
   border: none;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form {
+  width: 100%;
+  margin-left: 20px;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
   width: 100%;
   display: -webkit-box;

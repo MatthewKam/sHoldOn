@@ -89,6 +89,14 @@ $k-heavy:'Korolev-Heavy';
             border: none;
           }
         }
+        product-form.product-form {
+          width: 100%;
+          margin-left: 20px;
+          button.product-form__submit.{
+            background-color: $neon-grellow;
+            color: $dark-green;
+          }
+        }
       }
       .product-gallery {
         width:100%;
