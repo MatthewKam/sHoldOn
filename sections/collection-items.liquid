@@ -3,8 +3,9 @@
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}
+  .collection-items-{{ section.id }}
 {%- endstyle -%}
-<div class="collection-items-wrp">
+<div class="collection-items-wrp collection-items-{{ section.id }}">
   <div class="collection-items">
     
     {% if sings.card_mobile %}
@@ -28,10 +29,19 @@
             </a>
           </div>
           {% if product.featured_image %}
+            {% assign bg_url = product.featured_image | image_url %}
+          {% else %}
+            {% assign bg_url = 'collection-product-bg.png' | file_url %}
+          {% endif %}
+          <div class="product-img" 
+            style="background:url({{ bg_url }})center top no-repeat;">
+
+          </div>
+          <!-- {% if product.featured_image %}
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
           {% else %}
             <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
-          {% endif %}
+          {% endif %} -->
           <div class="reviews">
 
           </div>
