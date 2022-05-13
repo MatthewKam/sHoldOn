@@ -38,12 +38,13 @@
   font-size: 35px;
   text-transform: uppercase;
   max-width: 310px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .header-wrp h1 {
     font-size: 50px;
-    width: 440px;
+    max-width: 440px;
   }
 }
 
@@ -63,12 +64,39 @@
 
 .shopify-section.atf-breakdown .content-wrp .header-wrp .icon-image {
   width: 100px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .header-wrp .icon-image {
     width: 200px;
+  }
+}
+
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Korolev-Heavy";
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #065142;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
+    font-size: 35px;
+  }
+}
+
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
+  width: 200px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
+    width: 270px;
   }
 }
 /*# sourceMappingURL=sctn-atf-breakdown.css.map */

@@ -39,9 +39,10 @@ $k-heavy:'Korolev-Heavy';
           font-size:35px;
           text-transform:uppercase;
           max-width:310px;
+          margin:0 auto;
           @media screen and (min-width: 640px) {
             font-size:50px;
-            width: 440px;
+            max-width: 440px;
           }
         }
         p{
@@ -56,9 +57,33 @@ $k-heavy:'Korolev-Heavy';
         }
         .icon-image{
           width:100px;
-          margin:0 auto;
+          margin:20px auto;
           @media screen and (min-width: 640px) {
             width:200px;
+          }
+        }
+      }
+      .breakdown-wrp{
+        .breakdown-title {
+          text-align: center;
+          width: 100%;
+          text-transform: uppercase;
+          font-family: $k-heavy;
+          font-size: 25px;
+          padding-bottom: 10px;
+          border-bottom: 4px solid $dark-green;
+          margin-bottom: 30px;
+          @media screen and (min-width: 640px) {
+            font-size: 35px;
+          }
+        }
+        .breakdown-item {
+          width: 200px;
+          @media screen and (min-width: 640px) {
+            width: 270px;
+          }
+          img {
+            
           }
         }
       }
