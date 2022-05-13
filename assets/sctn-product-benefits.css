@@ -220,6 +220,7 @@
 @media screen and (min-width: 767px) {
   .shopify-section.product-benefits.prod-benefits-full .benefits-wrp .benefits-image {
     width: 55%;
+    padding-bottom: 50%;
   }
 }
 /*# sourceMappingURL=sctn-product-benefits.css.map */
