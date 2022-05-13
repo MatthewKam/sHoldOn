@@ -8,6 +8,12 @@
     background:url({{ sings.bnfts_main_img | image_url }}) center top no-repeat;
     background-size:contain;
   }
+  @media screen and (min-width: 767px) {
+    .prod-benefits-full .product-benefits-{{ section.id }} .benefits-image{
+      background:url({{ sings.bnfts_main_img | image_url }}) center top no-repeat;
+      background-size:contain;
+    }
+  }
 {%- endstyle -%}
 <div class="product-benefits-wrp product-benefits-{{ section.id }}">
   <div class="product-benefits">

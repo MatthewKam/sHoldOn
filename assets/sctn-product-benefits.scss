@@ -149,7 +149,6 @@ $k-heavy:'Korolev-Heavy';
           width: 60%;
         }
         @media screen and (min-width: 767px) {
-          
           width: 55%;
         }
       }
@@ -161,6 +160,14 @@ $k-heavy:'Korolev-Heavy';
       .benefits-wrp {
         .benefits-breakdown{
           order:1;
+        }
+        .benefits-image{
+          width: 100%;
+          height: 0;
+          padding-bottom:90%;
+          @media screen and (min-width: 767px) {
+            width: 55%;
+          }
         }
       }
     }
