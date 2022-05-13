@@ -1,17 +1,20 @@
 {% assign sings = section.settings %}
-{% if product.featured_image %}
-  {% assign bg_url = product.featured_image | image_url %}
-{% else %}
-  {% assign bg_url = 'collection-product-bg.png' | file_url %}
-{% endif %}
+
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .collection-items-{{ section.id }} .product-img{
-    background:url("{{ bg_url }}")center top no-repeat;
+    background:url("
+      {% if product.featured_image %}
+        {{ product.featured_image | image_url }}
+      {% else %}
+        {{ 'collection-product-bg.png' | file_url }}
+      {% endif %}
+    ") center top no-repeat;
     background-size:cover;
     width:270px;
     height:270px;
+    display: block;
   }
 {%- endstyle -%}
 <div class="collection-items-wrp collection-items-{{ section.id }}">
