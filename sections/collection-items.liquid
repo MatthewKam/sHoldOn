@@ -4,11 +4,7 @@
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .collection-items-{{ section.id }} .product-img{
-    background:url("{% if product.featured_image %}
-        {{ product.featured_image | image_url }}
-      {% else %}
-        {{ 'collection-product-bg.png' | file_url }}
-      {% endif %}") center top no-repeat;
+    background:url("{% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}") center top no-repeat;
     background-size:cover;
     width:270px;
     height:270px;
