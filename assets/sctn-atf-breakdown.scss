@@ -1,0 +1,60 @@
+$dark-green: #065142;
+$dark-green-secondary: #418275;
+$neon-green: #00FABE;
+$cream: #F8F0DC;
+$neon-grellow: #ADFF44;
+$pale-blue: #EFFCF6;
+$error-red: #FF4466;
+$k-med:'Korolev-Medium';
+$k-heavy:'Korolev-Heavy';
+
+.shopify-section{
+  &.atf-breakdown{
+    // Reset
+    p, h1, h2, h3, h4{
+      letter-spacing: 0;
+      line-height:1;
+    }
+    ul{
+      padding:0; 
+      margin:0;
+    }
+    li{
+      list-style: none;
+    }
+    // End Reset
+    .content-wrp{
+      max-width:1200px;
+      padding:70px 20px;
+      margin:0 auto;
+      @media screen and (min-width: 640px) {
+        padding:100px 20px;
+      }
+      @media screen and (min-width: 1240px) {
+        padding:100px 0;
+      }
+      .header-wrp{
+        h1{
+          font-size:35px;
+          text-transform:uppercase;
+          @media screen and (min-width: 640px) {
+            font-size:50px;
+          }
+        }
+        p{
+          font-size:16px;
+          line-height:1.4;
+          @media screen and (min-width: 640px) {
+            font-size:20px;
+          }
+        }
+        .icon-image{
+          width:100px;
+          @media screen and (min-width: 640px) {
+            width:200px;
+          }
+        }
+      }
+    }
+  }
+}
