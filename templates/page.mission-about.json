@@ -61,6 +61,26 @@
     },
     "1652440771eaa9cf35": {
       "type": "product-benefits",
+      "blocks": {
+        "7fdda313-87d0-4f8c-97bf-e2b8a2d5cabb": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Learn more about BPI Certification",
+            "bnft_copy": "<p>Learn more about BPI Certification Learn more about BPI CertificationL earn more about BPI Certification Learn more about  BPI CertificationLearn  more about BPI Certification<\/p>"
+          }
+        },
+        "26cd057a-4a8b-4ed0-b788-66e8231cb393": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Learn more about TUV Certification",
+            "bnft_copy": "<p>Learn more about TUV Certification Learn more about TUV Certification Learn more about TUV Certification Learn more about TUV Certification<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7fdda313-87d0-4f8c-97bf-e2b8a2d5cabb",
+        "26cd057a-4a8b-4ed0-b788-66e8231cb393"
+      ],
       "settings": {
         "bnfts_bg_color": "#e9e5dc",
         "bnfts_alt_title": "",
