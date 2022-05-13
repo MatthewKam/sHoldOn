@@ -10,6 +10,7 @@ $k-heavy:'Korolev-Heavy';
 
 .shopify-section{
   &.product-benefits{
+    
     p, h1, h2, h3, h4{
       letter-spacing: 0;
     }
@@ -150,6 +151,16 @@ $k-heavy:'Korolev-Heavy';
         @media screen and (min-width: 767px) {
           
           width: 55%;
+        }
+      }
+    }
+
+
+
+    &.prod-benefits-full{
+      .benefits-wrp {
+        .benefits-breakdown{
+          order:1;
         }
       }
     }

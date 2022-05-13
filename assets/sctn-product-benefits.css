@@ -204,4 +204,10 @@
     width: 55%;
   }
 }
+
+.shopify-section.product-benefits.prod-benefits-full .benefits-wrp .benefits-breakdown {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
 /*# sourceMappingURL=sctn-product-benefits.css.map */
