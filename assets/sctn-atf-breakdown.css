@@ -121,12 +121,15 @@
 .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
   width: 200px;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
     width: 270px;
+    margin: 0;
+    margin-bottom: 30px;
   }
 }
 
