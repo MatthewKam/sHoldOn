@@ -34,22 +34,29 @@ $k-heavy:'Korolev-Heavy';
         padding:100px 0;
       }
       .header-wrp{
+        text-align:center;
         h1{
           font-size:35px;
           text-transform:uppercase;
+          max-width:310px;
           @media screen and (min-width: 640px) {
             font-size:50px;
+            width: 440px;
           }
         }
         p{
           font-size:16px;
           line-height:1.4;
+          max-width:335px;
+          margin:0 auto;
           @media screen and (min-width: 640px) {
             font-size:20px;
+            max-width:550px;
           }
         }
         .icon-image{
           width:100px;
+          margin:0 auto;
           @media screen and (min-width: 640px) {
             width:200px;
           }
