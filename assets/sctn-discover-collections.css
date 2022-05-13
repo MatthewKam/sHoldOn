@@ -167,7 +167,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .shopify-section.section-discover-collections .discover-collections .discover-list-container li {
     max-width: 375px;
     margin: 0;
@@ -176,6 +176,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .shopify-section.section-discover-collections .discover-collections .discover-list-container li {
+    max-width: 375px;
   }
 }
 
