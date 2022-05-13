@@ -55,12 +55,6 @@
   }
 }
 
-.section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card:hover .btn-wrp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .section.section-collection.section-collection-items .collection-items-wrp .collection-list-container .product-card .btn-wrp {
   display: none;
   position: absolute;
