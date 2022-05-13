@@ -33,13 +33,7 @@
               Shop Now
             </a>
           </div>
-          
-          <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center top no-repeat; background-size:cover;"></div>
-          <!-- {% if product.featured_image %}
-            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
-          {% else %}
-            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
-          {% endif %} -->
+          <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
           <div class="reviews">
 
           </div>
@@ -62,6 +56,9 @@
               {% endif %}
             </div>
           {% endif %}
+          <a href="{{ product.url }}" class="learn-more-link btn-link">
+            Shop Now
+          </a>
         </li>
       {%- endfor -%}
       {% if sings.card_desktop %}
