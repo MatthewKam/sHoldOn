@@ -87,11 +87,25 @@
         "brkdwn_title_copy": "HoldOn bags are TUV-certified home compostable and BPI-certified, meaning that they meet the highest standards of compostability. Our bags can be composted or thrown away as trash and will break down in a matter of weeks, without producing gases that contribute to climate change.",
         "bnfts_main_img": "shopify:\/\/shop_images\/bg-certified.png"
       }
+    },
+    "165244302703c2848e": {
+      "type": "basic-content",
+      "settings": {
+        "bg_color": "#ffffff",
+        "title": "There’s A Cleaner Way to Take Out  the Trash",
+        "title_color": "#065142",
+        "copy": "<p>At HoldOn, we want to make reducing your carbon footprint easier than ever. If you live in an area where composting isn't an option, or simply want to reduce your plastic use, HoldOn bags are a sustainable replacement for traditional plastic bags. By switching to HoldOn, you are alleviating the environmental impact of single-use plastics on the planet.<\/p>",
+        "copy_color": "#065142",
+        "button_url": "shopify:\/\/collections\/all-products",
+        "button_url_text": "Shop Now",
+        "bg_img": "shopify:\/\/shop_images\/bg-trash.png"
+      }
     }
   },
   "order": [
     "main",
     "16524331776a342052",
-    "16524414202af90018"
+    "16524414202af90018",
+    "165244302703c2848e"
   ]
 }
