@@ -90,7 +90,7 @@ $k-heavy:'Korolev-Heavy';
           justify-content: center;
           align-items: start;
         }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 900px) {
           justify-content: space-between;
         }
 
@@ -108,10 +108,13 @@ $k-heavy:'Korolev-Heavy';
             
           }
           @media screen and (min-width: 900px) {
-            max-width: 375px;
+            max-width: 280px;
             margin:0;
             margin-bottom: 20px;
             flex-direction: column;
+          }
+          @media screen and (min-width: 1000px) {
+            // max-width: 375px;
           }
           @media screen and (min-width: 1200px) {
             max-width: 375px;
@@ -128,7 +131,12 @@ $k-heavy:'Korolev-Heavy';
               height: 285px;
             }
             @media screen and (min-width: 900px) {
-
+              width: 280px;
+              height: 280px;
+            }
+            @media screen and (min-width: 1000px) {
+              // width: 280px;
+              // height: 280px;
             }
             @media screen and (min-width: 1200px) {
               width: 375px;
@@ -154,7 +162,7 @@ $k-heavy:'Korolev-Heavy';
               align-items: start;
               width:400px;
             }
-            @media screen and (min-width: 1200px) {
+            @media screen and (min-width: 900px) {
               width: 100%;
             }
 
