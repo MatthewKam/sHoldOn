@@ -65,7 +65,7 @@
 
 .shopify-section.atf-breakdown .content-wrp .header-wrp .icon-image {
   width: 100px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 @media screen and (min-width: 640px) {
@@ -88,6 +88,7 @@
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
     font-size: 35px;
+    margin-bottom: 50px;
   }
 }
 
@@ -111,9 +112,9 @@
           align-items: flex-start;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1200px) {
   .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-items {
-    width: 270px;
+    max-width: unset;
   }
 }
 
@@ -136,8 +137,11 @@
 
 .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item h2 {
   font-size: 16px;
-  margin-bottom: 10px;
   text-transform: uppercase;
+  height: 40px;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 640px) {
