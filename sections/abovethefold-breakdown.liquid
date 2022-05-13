@@ -1,0 +1,113 @@
+{% assign sings = section.settings %}
+{{ 'sctn-atf-breakdown.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .atf-full-{{ section.id }} .content-wrp{
+    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    background-size:cover;
+  }  
+  .atf-full-{{ section.id }} .copy-sctn{
+    background-color:{{ sings.bg_color }};
+  }
+  .atf-full-{{ section.id }} .copy-sctn h1 span{
+    color:{{ sings.title_color }};
+  }
+  .atf-full-{{ section.id }} .copy-sctn p{
+    color:{{ sings.copy_color }};
+  }
+{%- endstyle -%}
+<div class="atf-wrp atf-full-{{ section.id }}">
+  <div class="content-wrp">
+    <div class="copy-sctn">
+      <div class="copy-wrp">
+        <h1>
+          <span>{{sings.title}}</span>
+          <span>{{sings.title_2}}</span>
+        </h1>
+        <p>{{sings.copy}}</p>
+        {% if sings.button_url %}
+        <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="bg-image"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ATF - Breakdown",
+  "tag": "section",
+  "class": "section atf-breakdown",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "header",
+      "content": "Header Section"
+    },
+    {
+      "type": "color",
+      "id": "copy_color",
+      "label": "Copy Color",
+      "default":"#065142"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title"
+    },
+    {
+      "type": "richtext",
+      "id": "header_desc",
+      "label": "Header Copy"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image",
+      "label": "Icon Image"
+    },
+    {
+      "type": "header",
+      "content": "Breakdown info"
+    },
+    {
+      "type": "text",
+      "id": "breakdown_title",
+      "label": "Breakdown Title",
+      "default": "Our Material Breakdown"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Ingredients",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "ingredient_image",
+          "label": "Ingredient image"
+        },
+        {
+          "type": "text",
+          "id": "ingredient_title",
+          "label": "Ingredient Title"
+        },
+        {
+          "type": "text",
+          "id": "ingredient_copy",
+          "label": "Ingredient Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ATF - Breakdown"
+    }
+  ]
+}
+{% endschema %}
