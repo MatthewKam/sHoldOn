@@ -179,6 +179,12 @@
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .shopify-section.section-discover-collections .discover-collections .discover-list-container li {
+    max-width: 320px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .shopify-section.section-discover-collections .discover-collections .discover-list-container li {
     max-width: 375px;
@@ -210,6 +216,13 @@
   .shopify-section.section-discover-collections .discover-collections .discover-list-container li .image-wrp {
     width: 280px;
     height: 280px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section.section-discover-collections .discover-collections .discover-list-container li .image-wrp {
+    width: 320px;
+    height: 320px;
   }
 }
 
