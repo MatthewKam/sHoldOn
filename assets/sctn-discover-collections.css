@@ -36,6 +36,10 @@
   }
 }
 
+.shopify-section.section-discover-collections a.link-wrp {
+  text-decoration: none;
+}
+
 .shopify-section.section-discover-collections a.btn-arrow {
   background-color: #ADFF44;
   display: -webkit-box;

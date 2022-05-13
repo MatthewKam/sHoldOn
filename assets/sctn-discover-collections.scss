@@ -38,6 +38,9 @@ $k-heavy:'Korolev-Heavy';
       }
     }
     // End Reset
+    a.link-wrp{
+      text-decoration: none;
+    }
     a.btn-arrow {
       background-color: $neon-grellow;
       display: flex;
