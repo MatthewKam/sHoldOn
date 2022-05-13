@@ -124,6 +124,7 @@
   border: none;
   font-size: 20px;
   font-family: "Korolev-Heavy";
+  color: #065142;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity button.quantity__button {
