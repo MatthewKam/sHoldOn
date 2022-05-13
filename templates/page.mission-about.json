@@ -61,10 +61,31 @@
     },
     "16524414202af90018": {
       "type": "product-benefits-full",
+      "blocks": {
+        "3b12a981-dad3-4a86-8eee-8b9de5242440": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Learn more about BPI Certification",
+            "bnft_copy": "<p>Learn more about BPI Certification<\/p>"
+          }
+        },
+        "b033fb64-9cb7-4920-bec7-09398fb76e42": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "Learn more about TUV Certification",
+            "bnft_copy": "<p>Learn more about TUV Certification<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3b12a981-dad3-4a86-8eee-8b9de5242440",
+        "b033fb64-9cb7-4920-bec7-09398fb76e42"
+      ],
       "settings": {
         "bnfts_bg_color": "#e9e5dc",
-        "brkdwn_title": "",
-        "brkdwn_title_copy": ""
+        "brkdwn_title": "Bags that break down in weeks - not centuries",
+        "brkdwn_title_copy": "HoldOn bags are TUV-certified home compostable and BPI-certified, meaning that they meet the highest standards of compostability. Our bags can be composted or thrown away as trash and will break down in a matter of weeks, without producing gases that contribute to climate change.",
+        "bnfts_main_img": "shopify:\/\/shop_images\/bg-certified.png"
       }
     }
   },
