@@ -1,9 +1,16 @@
 {% assign sings = section.settings %}
-
+{% if product.featured_image %}
+  {% assign bg_url = product.featured_image | image_url %}
+{% else %}
+  {% assign bg_url = 'collection-product-bg.png' | file_url %}
+{% endif %}
 {{ 'collection-pages.css' | asset_url | stylesheet_tag }}
 {{ 'collection-items.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  .collection-items-{{ section.id }}
+  .collection-items-{{ section.id }} .product-img{
+    background:url({{ bg_url }})center top no-repeat;
+    background-size:cover;
+  }
 {%- endstyle -%}
 <div class="collection-items-wrp collection-items-{{ section.id }}">
   <div class="collection-items">
@@ -28,15 +35,8 @@
               Shop Now
             </a>
           </div>
-          {% if product.featured_image %}
-            {% assign bg_url = product.featured_image | image_url %}
-          {% else %}
-            {% assign bg_url = 'collection-product-bg.png' | file_url %}
-          {% endif %}
-          <div class="product-img" 
-            style="background:url({{ bg_url }})center top no-repeat;">
-
-          </div>
+          
+          <div class="product-img"></div>
           <!-- {% if product.featured_image %}
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
           {% else %}
