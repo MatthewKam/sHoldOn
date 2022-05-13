@@ -21,7 +21,7 @@
     <div class="breakdown-wrp">
       <div class="breakdown-title">{{ sings.breakdown_title }}</div>
       <div class="breakdown-items">
-        {% for block in section.block %}
+        {% for block in section.blocks %}
           {% assign bings = block.settings %}
           <div class="breakdown-item item-{{ block }}">
             <img src="{{ bings.ingredient_image }}" alt="{{ bings.ingredient_title }}">
