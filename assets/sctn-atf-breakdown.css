@@ -39,6 +39,7 @@
   text-transform: uppercase;
   max-width: 310px;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 640px) {
@@ -92,11 +93,38 @@
 
 .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
   width: 200px;
+  text-align: center;
 }
 
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item {
     width: 270px;
+  }
+}
+
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item img {
+  max-width: 100%;
+}
+
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item h2 {
+    font-size: 20px;
+  }
+}
+
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item p {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-item p {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=sctn-atf-breakdown.css.map */

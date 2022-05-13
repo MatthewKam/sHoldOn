@@ -40,6 +40,7 @@ $k-heavy:'Korolev-Heavy';
           text-transform:uppercase;
           max-width:310px;
           margin:0 auto;
+          margin-bottom:15px;
           @media screen and (min-width: 640px) {
             font-size:50px;
             max-width: 440px;
@@ -79,11 +80,26 @@ $k-heavy:'Korolev-Heavy';
         }
         .breakdown-item {
           width: 200px;
+          text-align: center;
           @media screen and (min-width: 640px) {
             width: 270px;
           }
           img {
-            
+            max-width: 100%;
+          }
+          h2{
+            font-size: 16px;
+            margin-bottom:10px;
+            @media screen and (min-width: 640px) {
+              font-size: 20px;
+            }
+          }
+          p{
+            font-size: 12px;
+            line-height: 1.4;
+            @media screen and (min-width: 640px) {
+              font-size: 16px;
+            }
           }
         }
       }
