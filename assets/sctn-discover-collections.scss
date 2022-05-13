@@ -102,12 +102,13 @@ $k-heavy:'Korolev-Heavy';
           max-width:335px;
           margin-bottom: 10px;
           @media screen and (min-width: 640px) {
-            max-width: 375px;
+            max-width: 600px;
             // margin: 0 20px;
             margin-bottom: 20px;
             
           }
           @media screen and (min-width: 1200px) {
+            max-width: 375px;
             margin:0;
             margin-bottom: 20px;
             flex-direction: column;
@@ -120,6 +121,10 @@ $k-heavy:'Korolev-Heavy';
             justify-content: center;
             align-items: center;
             @media screen and (min-width: 640px) {
+              width: 375px;
+              height: 285px;
+            }
+            @media screen and (min-width: 1200px) {
               width: 375px;
               height: 375px;
             }
@@ -141,6 +146,9 @@ $k-heavy:'Korolev-Heavy';
               flex-direction: row;
               justify-content: space-between;
               align-items: start;
+              width:400px;
+            }
+            @media screen and (min-width: 1200px) {
               width: 100%;
             }
 
