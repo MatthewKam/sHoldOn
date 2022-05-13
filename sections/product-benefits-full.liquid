@@ -1,12 +1,12 @@
 {% assign sings = section.settings %}
 {{ 'sctn-product-benefits.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  .product-benefits-{{ section.id }} {
+  .product-benefits-{{ section.id }}{
     background-color:{{ sings.bnfts_bg_color }};
   }
-  .product-benefits-{{ section.id }} .benefits-wrp{
+  .product-benefits-{{ section.id }} .benefits-image{
     background:url({{ sings.bnfts_main_img | image_url }}) center top no-repeat;
-    background-size:cover;
+    background-size:contain;
   }
 {%- endstyle -%}
 <div class="product-benefits-wrp product-benefits-{{ section.id }}">
@@ -33,6 +33,7 @@
           {% endfor %}
         </div>
       </div>
+      <div class="benefits-image"></div>
     </div>
   </div>
 </div>
