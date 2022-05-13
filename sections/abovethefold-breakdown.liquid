@@ -16,7 +16,7 @@
     <div class="header-wrp">
       <h1>{{ sings.title }}</h1>
       <p>{{ sings.header_desc }}</p>
-      <img src="{{sings.icon_image}}" alt="{{sings.title}} title" class="icon-image">
+      <img src="{{ sings.icon_image | image_url }}" alt="{{ sings.title }} title" class="icon-image">
     </div>
     <div class="breakdown-wrp">
       <div class="breakdown-title">{{ sings.breakdown_title }}</div>
@@ -24,7 +24,7 @@
         {% for block in section.blocks %}
           {% assign bings = block.settings %}
           <div class="breakdown-item item-{{ block }}">
-            <img src="{{ bings.ingredient_image }}" alt="{{ bings.ingredient_title }}">
+            <img src="{{ bings.ingredient_image | image_url }}" alt="{{ bings.ingredient_title }}">
             <h2>{{ bings.ingredient_title }}</h2>
             <p>{{ bings.ingredient_copy }}</p>
           </div>
