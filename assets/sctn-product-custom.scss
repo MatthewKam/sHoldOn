@@ -80,6 +80,7 @@ $k-heavy:'Korolev-Heavy';
         margin: 20px auto;
 
         quantity-input.quantity{
+          max-width: 100px;
           &::after {
             border-radius: 10px;
             border: 2px solid $dark-green;
@@ -87,6 +88,12 @@ $k-heavy:'Korolev-Heavy';
           .quantity__button:not(:focus-visible):not(.focused), 
           .quantity__input:not(:focus-visible):not(.focused) {
             border: none;
+            font-size: 20px;
+            font-family: $k-heavy;
+          }
+          button.quantity__button {
+            width: 35px;
+            font-family: $k-heavy;
           }
         }
         product-form.product-form {
@@ -95,6 +102,8 @@ $k-heavy:'Korolev-Heavy';
           button.product-form__submit{
             background-color: $neon-grellow;
             border-radius: 10px;
+            max-width: 300px;
+            width: 100%;
             &:after{
               box-shadow:none;
             }

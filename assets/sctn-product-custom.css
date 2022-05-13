@@ -110,6 +110,10 @@
   margin: 20px auto;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity {
+  max-width: 100px;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity::after {
   border-radius: 10px;
   border: 2px solid #065142;
@@ -118,6 +122,13 @@
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity .quantity__button:not(:focus-visible):not(.focused),
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity .quantity__input:not(:focus-visible):not(.focused) {
   border: none;
+  font-size: 20px;
+  font-family: "Korolev-Heavy";
+}
+
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity button.quantity__button {
+  width: 35px;
+  font-family: "Korolev-Heavy";
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form {
@@ -128,6 +139,8 @@
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit {
   background-color: #ADFF44;
   border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit:after {
