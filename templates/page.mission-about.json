@@ -15,7 +15,7 @@
           "type": "image",
           "settings": {
             "ingredient_image": "shopify:\/\/shop_images\/circle-polybutylene.png",
-            "ingredient_title": "Polybutylene adipate <span>terephthalate<\/span>",
+            "ingredient_title": "Polybutylene adipate terephthalate",
             "ingredient_copy": "PBAT is a biodegradable polymer that requires less crude oil during production than plastics and breaks down quickly, without emitting methane gas or creating toxic residue."
           }
         },
@@ -23,7 +23,7 @@
           "type": "image",
           "settings": {
             "ingredient_image": "shopify:\/\/shop_images\/circle-polylactic-acid.png",
-            "ingredient_title": "Polylactic <span>acid<\/span>",
+            "ingredient_title": "Polylactic acid",
             "ingredient_copy": "PLA is a monomer derived from organic, renewable sources - like sugar or corn. It requires less energy in production and emits less greenhouse gas in decomposition than plastic."
           }
         },
@@ -39,7 +39,7 @@
           "type": "image",
           "settings": {
             "ingredient_image": "shopify:\/\/shop_images\/circle-responsible-packagin.png",
-            "ingredient_title": "RESPONSIBLE  <span>PACKAGING<\/span>",
+            "ingredient_title": "RESPONSIBLE PACKAGING",
             "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
           }
         }
