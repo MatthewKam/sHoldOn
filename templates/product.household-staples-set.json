@@ -140,7 +140,7 @@
       "type": "product-info",
       "blocks": {
         "da86ab8e-5bde-421e-a36e-c161b60db82a": {
-          "type": "shopify:\/\/apps\/recurring-billing-by-recharge\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "{{product}}"
           }
@@ -151,9 +151,8 @@
       ],
       "settings": {
         "mobile_carousel_enabled": true,
-        "product_image_1": "shopify:\/\/shop_images\/Gal_-_Hold.jpg",
-        "product_image_2": "shopify:\/\/shop_images\/Gal_-_Box.jpg",
-        "product_image_3": "shopify:\/\/shop_images\/household-staples_copy.jpg",
+        "product_image_2": "shopify:\/\/shop_images\/HoldOn-22.jpg",
+        "product_image_3": "shopify:\/\/shop_images\/HoldOn_7.jpg",
         "product_image_4": "shopify:\/\/shop_images\/green-2_1.jpg",
         "product_title_custom": "",
         "product_description_custom": "Our best value! Make the switch to sustainable bags with our must-have zip seal storage bags and ultra strong trash bags. Includes the most popular sizes of compostable storage and trash bags.",
