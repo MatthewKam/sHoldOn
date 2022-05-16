@@ -124,17 +124,13 @@
             </script>
           </variant-radios>
         {%- endunless -%}
-
-        <div class="rc-widget-injection-parent"></div>
-        <div class="rc-container"></div>
-        <div class="prices">
-          <div class="regular-price">
-            {{product.price | money}}
+        {% if product.tags contains 'Sets' %}
+          <div class="prices">
+            <div class="regular-price">
+              {{product.price | money}}
+            </div>
           </div>
-          <!-- <div class="subscription-price price--large">
-            {{ product.price | money }}
-          </div> -->
-        </div>
+        {% endif %}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
