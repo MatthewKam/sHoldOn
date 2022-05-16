@@ -24,6 +24,17 @@
     align-items:flex-start;
     flex-wrap:wrap;
   }
+  .three-cards-{{ section.id }} .cards{
+    max-width: 375px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  .three-cards-{{ section.id }} img{
+    max-width: 125px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
   .three-cards-{{ section.id }} .three-cards-header .cards-copy{
     margin-bottom:40px;
   }
@@ -37,6 +48,9 @@
     .three-cards-{{ section.id }} .three-cards-header h1 {
       font-size:50px;
       margin-bottom:20px;
+    }
+    .three-cards-{{ section.id }} img{
+      max-width: 200px;
     }
     .three-cards-{{ section.id }} .three-cards-header .cards-copy{
       margin-bottom:50px;
@@ -61,6 +75,7 @@
           <div class="card-img-wrp">
             <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
           </div>
+          <h2>{{ bings.card_title }}</h2>
           <div class="card-info-wrp">{{ bings.card_copy }}</div>
           <a href="{{ bings.card_url }}">{{bings.card_link_text}}</a>
         </div>
