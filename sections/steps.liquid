@@ -1,5 +1,18 @@
 {% assign sings = section.settings %}
 {%- style -%}
+  .steps-{{ section.id }} h1,
+  .steps-{{ section.id }} h2,
+  .steps-{{ section.id }} p,
+  .steps-{{ section.id }} strong,
+  .steps-{{ section.id }} span{
+    letter-spacing:0;
+    line-height:1;
+  }
+  .steps-{{ section.id }} p,
+  .steps-{{ section.id }} strong,
+  .steps-{{ section.id }} span{
+    line-height:1.4;
+  }
   .steps-{{ section.id }}{
     background-color:{{ sings.bg_color }};
     padding:50px 20px;
@@ -8,6 +21,10 @@
     color:{{ sings.text_color }};
     max-width:335px;
     margin:0 auto;
+    text-align: center;
+  }
+  .steps-{{ section.id }} .steps-header h1{
+    font-size:35px;
   }
   .steps-{{ section.id }} .steps-header img{
     width:100%;
@@ -20,6 +37,9 @@
     .steps-{{ section.id }} .steps-header{
       max-width:560px;
       margin:0 auto;
+    }
+    .steps-{{ section.id }} .steps-header h1{
+      font-size:70px;
     }
     .steps-{{ section.id }} .steps-header img{
       margin-bottom:20px;
