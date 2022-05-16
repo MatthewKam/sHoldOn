@@ -7,7 +7,6 @@
   font-family: "Korolev-Heavy";
   src: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff2') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/KorolevHeavy.woff') format('woff');
 }
-
 div#shopify-section-coming-soon {
   background-color: #065142;
   overflow: hidden;
