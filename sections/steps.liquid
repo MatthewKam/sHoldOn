@@ -11,7 +11,7 @@
   .steps-{{ section.id }} p,
   .steps-{{ section.id }} strong,
   .steps-{{ section.id }} span{
-    line-height:1.4;
+    line-height:1.3;
   }
   .steps-{{ section.id }}{
     background-color:{{ sings.bg_color }};
@@ -100,27 +100,27 @@
         {% assign bings = block.settings %}
         {%- style -%}
           {% if bings.hide_desktop %}
-            .steps-{{ section.id }} .hide_on_mbl{
+            .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktop{
               display:none;
             }
           {% endif %}
           @media screen and (min-width: 640px) {
             {% if bings.hide_mobile %}
-              .steps-{{ section.id }} .hide_on_dsktp{
+              .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_mbl{
                 display:none;
               }
             {% endif %}
           }
         {%- endstyle -%}
-        <div class="step" style="color:{{ bings.step_color }};">
+        <div class="step step-{{ forloop.index | add: 1 }}" style="color:{{ bings.step_color }};">
           <h2>{{ forloop.index | add: 1 }}</h2>
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
             {% if bings.step_image_desktop %}
-              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_on_mbl" alt="">
+              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktop" alt="">
             {% endif %}
             {% if bings.step_image_mobile %}
-              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_on_dsktp" alt="">
+              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl" alt="">
             {% endif %}
           </div>
         </div>
