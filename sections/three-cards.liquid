@@ -5,9 +5,6 @@
     padding:100px 20px;
     color:{{ sings.text_color }};
   }
-  .cards{
-    background-color:{{ sings.bg_color }}
-  }
   
   @media screen and (min-width: 640px) {
     
@@ -21,7 +18,7 @@
     </div>
     {%- for block in section.blocks -%}
       {% assign bings = block.settings %}
-      <div class="cards">
+      <div class="cards" style="background-color:{{ bings.card_color }}; color:{{ bings.card_text_color }}">
         <div class="card-img-wrp">
           <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
         </div>
