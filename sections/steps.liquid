@@ -51,7 +51,7 @@
     font-size:50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .steps-{{ section.id }} .step .step-info{
     flex: 1;
@@ -99,6 +99,9 @@
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
         {%- style -%}
+          .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_mbl{
+            display:block;
+          }
           {% if bings.hide_desktop %}
             .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktp{
               display:none;
@@ -110,6 +113,9 @@
                 display:none;
               }
             {% endif %}
+            .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktp{
+              display:block;
+            }
           }
         {%- endstyle -%}
         <div class="step step-{{ forloop.index | add: 1 }}" style="color:{{ bings.step_color }};">
