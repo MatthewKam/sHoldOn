@@ -94,34 +94,37 @@
         "84069f31-85d9-4c3d-b700-1ce77da27c1a": {
           "type": "image",
           "settings": {
-            "card_color": "#F8F0DC",
-            "card_text_color": "#F8F0DC",
-            "card_title": "",
-            "card_copy": "",
-            "card_link_text": "",
-            "card_url": ""
+            "card_color": "#f8f0dc",
+            "card_image": "shopify:\/\/shop_images\/icon-Compostable-teal.png",
+            "card_text_color": "#f8f0dc",
+            "card_title": "Trash",
+            "card_copy": "Composting at home is an easy way to reduce waste - getting started is simple with HoldOn.",
+            "card_link_text": "Learn More",
+            "card_url": "#"
           }
         },
         "51ef6f5b-9790-456d-bf31-ce5c70d103f1": {
           "type": "image",
           "settings": {
-            "card_color": "#F8F0DC",
-            "card_text_color": "#F8F0DC",
-            "card_title": "",
-            "card_copy": "",
-            "card_link_text": "",
-            "card_url": ""
+            "card_color": "#f8f0dc",
+            "card_image": "shopify:\/\/shop_images\/icon-Compostable-teal.png",
+            "card_text_color": "#f8f0dc",
+            "card_title": "COMPOST AT HOME",
+            "card_copy": "Composting at home is an easy way to reduce waste - getting started is simple with HoldOn.",
+            "card_link_text": "Learn More",
+            "card_url": "#"
           }
         },
         "f26d6f71-b5d6-40da-a339-89c665017402": {
           "type": "image",
           "settings": {
-            "card_color": "#F8F0DC",
-            "card_text_color": "#F8F0DC",
-            "card_title": "",
-            "card_copy": "",
-            "card_link_text": "",
-            "card_url": ""
+            "card_color": "#f8f0dc",
+            "card_image": "shopify:\/\/shop_images\/icon-Compostable-teal.png",
+            "card_text_color": "#f8f0dc",
+            "card_title": "Compost commercially",
+            "card_copy": "External compost services offer convenient pick-up options for compostable waste.",
+            "card_link_text": "Find pick up services",
+            "card_url": "#"
           }
         }
       },
@@ -131,10 +134,10 @@
         "f26d6f71-b5d6-40da-a339-89c665017402"
       ],
       "settings": {
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "text_color": "#065142",
         "header_title": "using holdon bags",
-        "header_copy": "Composting reduces your carbon footprint by decreasing the amount of waste that winds up in landfills. Material that comes from the earth - kitchen scraps, garden trimmings, and most paper - can be composted. Composting yields rich, moist soil that is excellent for fertilizing gardens."
+        "header_copy": "<p>Composting reduces your carbon footprint by decreasing the amount of waste that winds up in landfills. Material that comes from the earth - kitchen scraps, garden trimmings, and most paper - can be composted. Composting yields rich, moist soil that is excellent for fertilizing gardens.<\/p>"
       }
     },
     "165268388632beb678": {
