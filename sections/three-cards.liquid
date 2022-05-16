@@ -44,6 +44,25 @@
     font-size:16px;
     line-height: 1.4;
   }
+  .three-cards-{{ section.id }} .cards h2,
+  .three-cards-{{ section.id }} .cards .card-info-wrp,
+  .three-cards-{{ section.id }} .cards .card-url{
+    letter-spacing:0;
+    line-height:1;
+  }
+  .three-cards-{{ section.id }} .cards h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .three-cards-{{ section.id }} .cards .card-info-wrp,
+  .three-cards-{{ section.id }} .cards .card-url{
+    font-size: 12px;
+    line-height:1.4;
+  }
+  .three-cards-{{ section.id }} .cards .card-url{
+
+  }
   @media screen and (min-width: 640px) {
     .three-cards-{{ section.id }} .three-cards-header h1 {
       font-size:50px;
@@ -59,6 +78,12 @@
     .three-cards-{{ section.id }} .three-cards-header .cards-copy span,
     .three-cards-{{ section.id }} .three-cards-header .cards-copy strong,{
       font-size:20px;
+    }
+    .three-cards-{{ section.id }} .cards h2{
+      font-size: 25px;
+    }
+    .three-cards-{{ section.id }} .cards .card-info-wrp{
+      font-size: 16px;
     }
   }
 {%- endstyle -%}
@@ -76,8 +101,8 @@
             <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
           </div>
           <h2>{{ bings.card_title }}</h2>
-          <div class="card-info-wrp">{{ bings.card_copy }}</div>
-          <a href="{{ bings.card_url }}">{{bings.card_link_text}}</a>
+          <div class="card-info-wrp">{{ bings.card_copy | truncate: 100 }}</div>
+          <a href="{{ bings.card_url }}" class="card-url">{{bings.card_link_text}}</a>
         </div>
       {%- endfor -%}
     </div>
