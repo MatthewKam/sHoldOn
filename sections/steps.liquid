@@ -100,7 +100,7 @@
         {% assign bings = block.settings %}
         {%- style -%}
           {% if bings.hide_desktop %}
-            .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktop{
+            .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktp{
               display:none;
             }
           {% endif %}
@@ -117,7 +117,7 @@
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
             {% if bings.step_image_desktop %}
-              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktop" alt="">
+              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktp" alt="">
             {% endif %}
             {% if bings.step_image_mobile %}
               <img src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl" alt="">
