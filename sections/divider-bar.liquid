@@ -1,63 +1,60 @@
 {% assign sings = section.settings %}
 {{ 'sctn-facts-background.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  #shopify-section-{{ section.id }}{
-    padding:0;
-  }
-  .facts-{{ section.id }}{
+  .divider-bar-{{ section.id }}{
+    padding:100px 0;
     background:url(
-     {{ sings.facts_mobile_img | image_url}}
+     {{ sings.divider_bg_m | image_url}}
     ) center top no-repeat;
     background-size:cover;
   }
+  .divider-bar-{{ section.id }} .divider-bar{
+    border-top:4px solid {{ sings.divider_color }};
+  }
+  .divider-bar-{{ section.id }} img{
+    margin:0 auto;
+  }
+  .divider-bar-{{ section.id }} .img-m{
+    display:block;
+  }
+  .divider-bar-{{ section.id }} .img-d{
+    display:none;
+  }
+  .divider-bar-{{ section.id }} h3{
+    display:inline-block;
+  }
+  .divider-bar-{{ section.id }} h3.header-title-1{
+    color:{{ sings.header_title_1_color}};
+  }
+  .divider-bar-{{ section.id }} h3.header-title-2{
+    color:{{ sings.header_title_2_color}};
+  }
   @media screen and (min-width: 640px) {
-    .facts-{{ section.id }}{
+    .divider-bar-{{ section.id }}{
       background:url(
-        {{ sings.facts_desktop_img | image_url}}
+        {{ sings.divider_bg_d | image_url}}
       ) center top no-repeat;
       background-size:cover;
     }
+    .divider-bar-{{ section.id }} .img-d{
+      display:block;
+    }
+    .divider-bar-{{ section.id }} .img-m{
+      display:none;
+    }
   }
 {%- endstyle -%}
-<div class="facts-bg-wrp facts-{{ section.id }}">
-  <div class="facts-content">
-    {% if sings.facts_badge %}
-      <img src="{{ sings.facts_badge | image_url}}" alt="A better way, a better bag." class="facts-badge">
-    {% endif %}
-    {% if sings.title %}
-      <h3 class="facts-header" 
-        {% if sings.title_color %}
-          style="color:{{ sings.title_color }}"
-        {% endif %}
-      >{{ sings.title }}</h3>
-    {% endif %}
-    {% if sings.title %}
-      <h1 class="facts-sub-header" 
-        {% if sings.facts_answer_color %}
-          style="color:{{ sings.facts_answer_color }}"
-        {% endif %}
-      >{{ sings.facts_answer }}</h1>
-    {% endif %}
-    <div class="facts-copy-wrp">
-      {% if sings.facts_copy %}
-        <p class="facts-copy" 
-          {% if sings.facts_copy_color %}
-            style="color:{{ sings.facts_copy_color }}"
-          {% endif %}
-        >{{ sings.facts_copy }}</p>
-      {% endif %}
-      {% if sings.facts_link %}
-        <a href="{{ sings.facts_link }}" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="learn-more-link" 
-          {% if sings.facts_link_color %}
-            style="color:{{ sings.facts_link_color }}"
-          {% endif %}
-        >{{ sings.facts_link_copy }}</a>
-      {% endif %}
-    </div>
+<div class="divider-bar-wrp divider-bar-{{ section.id }}">
+  <div class="tagline">
+    {% if sings.image_text %}
+      <img src="{{ sings.divider_bg_d | image_url }}" alt="" class="img-d">
+      <img src="{{ sings.divider_bg_m | image_url }}" alt="" class="img-m">
+    {% else %} 
+      <h3 class="header-title-1">{{ sings.header_title_1 }}</h3>
+      <h3 class="header-title-2">{{ sings.header_title_2 }}</h3>
+    {% endif %} 
   </div>
+  <div class="divider-bar"></div>
 </div>
 
 {% schema %}
@@ -67,23 +64,34 @@
   "class": "section divider-bar",
   "settings": [
     {
-      "type": "image_picker",
-      "id": "diver_bg_d",
-      "label": "Background Image Desktop"
+      "type": "checkbox",
+      "id": "image_text",
+      "default": true,
+      "label": "Image Text"
     },
     {
       "type": "image_picker",
-      "id": "diver_bg_m",
+      "id": "divider_bg_m",
       "label": "Background Image Mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "divider_bg_d",
+      "label": "Background Image Desktop"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider Color"
     },
     {
       "type": "header",
       "content": "Divider Content"
     },
     {
-      "type": "text",
-      "id": "title",
-      "label": "Question/Header"
+      "type": "image_picker",
+      "id": "headline_image_m",
+      "label": "Headline Image Mobile"
     },
     {
       "type": "image_picker",
@@ -91,9 +99,24 @@
       "label": "Headline Image Desktop"
     },
     {
-      "type": "image_picker",
-      "id": "headline_image_m",
-      "label": "Headline Image Mobile"
+      "type": "text",
+      "id": "header_title_1",
+      "label": "Title 1"
+    },
+    {
+      "type": "color",
+      "id": "header_title_1_color",
+      "label": "Title 1 Color"
+    },
+    {
+      "type": "text",
+      "id": "header_title_2",
+      "label": "Title 2"
+    },
+    {
+      "type": "color",
+      "id": "header_title_2_color",
+      "label": "Title 2 Color"
     }
   ],
   "presets": [
