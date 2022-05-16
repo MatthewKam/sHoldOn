@@ -26,13 +26,17 @@
   .steps-{{ section.id }} .steps-header h1{
     font-size:35px;
     text-transform: uppercase;
+    margin-bottom:15px;
   }
   .steps-{{ section.id }} .steps-header img{
     width:100%;
-    margin-bottom:40px;
+    margin-bottom:20px;
   }
   .steps-{{ section.id }} .steps{
-
+    width:90%;
+    max-width:800px;
+    margin:0 auto;
+    border-top:4px solid #065142;
   }
   @media screen and (min-width: 640px) {
     .steps-{{ section.id }} .steps-header{
@@ -41,9 +45,10 @@
     }
     .steps-{{ section.id }} .steps-header h1{
       font-size:70px;
+      margin-bottom:20px;
     }
     .steps-{{ section.id }} .steps-header img{
-      margin-bottom:20px;
+      margin-bottom:0px;
     }
   }
 {%- endstyle -%}
