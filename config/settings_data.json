@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/holdOn-fav.png",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -185,6 +186,11 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "coming-soon": {
+        "type": "coming-soon",
+        "settings": {
         }
       }
     },
