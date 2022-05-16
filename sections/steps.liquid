@@ -49,6 +49,12 @@
   .steps-{{ section.id }} .step h2{
     width:50px;
     font-size:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .steps-{{ section.id }} .step .step-info{
+    flex: 1;
   }
   @media screen and (min-width: 640px) {
     .steps-{{ section.id }} .steps-header{
@@ -100,8 +106,12 @@
           <h2>{{ forloop.index | add: 1 }}</h2>
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
-            <img src="{{ bings.step_image_desktop | image_url }}" class="hide_on_mbl" alt="">
-            <img src="{{ bings.step_image_mobile | image_url }}" class="hide_on_dsktp" alt="">
+            {% if bings.step_image_desktop %}
+              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_on_mbl" alt="">
+            {% endif %}
+            {% if bings.step_image_mobile %}
+              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_on_dsktp" alt="">
+            {% endif %}
           </div>
         </div>
       {%- endfor -%}
