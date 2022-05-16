@@ -8,6 +8,9 @@
     ) center top no-repeat;
     background-size:cover;
   }
+  .divider-bar-{{ section.id }} div:empty{
+    display:block;
+  }
   .divider-bar-{{ section.id }} .divider-bar{
     border-top:4px solid {{ sings.divider_color }};
     max-width: 1200px;
