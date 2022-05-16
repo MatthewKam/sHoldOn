@@ -18,6 +18,7 @@
     color:{{ sings.copy_color }};
   }
 {%- endstyle -%}
+
 <div class="basic-content-wrp basic-content-{{ section.id }}">
   <div class="content-wrp">
     <div class="bg-image"></div>
@@ -42,6 +43,12 @@
     {
       "type": "header",
       "content": "Copy Section"
+    },
+    {
+      "type": "checkbox",
+      "id": "content_right",
+      "label": "Copy Content Right",
+      "default":true
     },
     {
       "type": "color",

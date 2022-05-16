@@ -101,6 +101,8 @@
         {%- style -%}
           .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_mbl{
             display:block;
+            max-width: 200px;
+            margin-top: 20px;
           }
           {% if bings.hide_desktop %}
             .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktp{
@@ -115,6 +117,8 @@
             {% endif %}
             .steps-{{ section.id }} .step-{{ forloop.index | add: 1 }} .hide_dsktp{
               display:block;
+              max-width: 100%;
+              margin-top: 20px;
             }
           }
         {%- endstyle -%}
