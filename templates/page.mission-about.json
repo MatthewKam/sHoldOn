@@ -88,6 +88,21 @@
         "bnfts_main_img": "shopify:\/\/shop_images\/bg-certified.png"
       }
     },
+    "165268388632beb678": {
+      "type": "divider-bar",
+      "settings": {
+        "image_text": true,
+        "divider_bg_m": "shopify:\/\/shop_images\/prd-bnfts-m.png",
+        "divider_bg_d": "shopify:\/\/shop_images\/prd-bnfts-d.png",
+        "divider_color": "#ffffff",
+        "headline_image_m": "shopify:\/\/shop_images\/bg-divider-bar-1-m.png",
+        "headline_image_d": "shopify:\/\/shop_images\/bg-divider-bar-1.png",
+        "header_title_1": "",
+        "header_title_1_color": "",
+        "header_title_2": "",
+        "header_title_2_color": ""
+      }
+    },
     "165244302703c2848e": {
       "type": "basic-content",
       "settings": {
@@ -106,6 +121,7 @@
     "main",
     "16524331776a342052",
     "16524414202af90018",
+    "165268388632beb678",
     "165244302703c2848e"
   ]
 }
