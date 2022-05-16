@@ -10,6 +10,9 @@
   }
   .divider-bar-{{ section.id }} .divider-bar{
     border-top:4px solid {{ sings.divider_color }};
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
   }
   .divider-bar-{{ section.id }} img{
     margin:0 auto;
@@ -47,8 +50,8 @@
 <div class="divider-bar-wrp divider-bar-{{ section.id }}">
   <div class="tagline">
     {% if sings.image_text %}
-      <img src="{{ sings.divider_bg_d | image_url }}" alt="" class="img-d">
-      <img src="{{ sings.divider_bg_m | image_url }}" alt="" class="img-m">
+      <img src="{{ sings.headline_image_m | image_url }}" alt="" class="img-m">
+      <img src="{{ sings.headline_image_d | image_url }}" alt="" class="img-d">
     {% else %} 
       <h3 class="header-title-1">{{ sings.header_title_1 }}</h3>
       <h3 class="header-title-2">{{ sings.header_title_2 }}</h3>
