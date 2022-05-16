@@ -22,7 +22,11 @@
     {%- for block in section.blocks -%}
       {% assign bings = block.settings %}
       <div class="cards">
-
+        <div class="card-img-wrp">
+          <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
+        </div>
+        <div class="card-info-wrp">{{ bings.card_copy }}</div>
+        <a href="{{ bings.card_url }}">{{bings.card_link_text}}</a>
       </div>
     {%- endfor -%}
   </div>
