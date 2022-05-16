@@ -104,9 +104,8 @@ div#shopify-section-coming-soon .product-bg{
 div#shopify-section-coming-soon .coming-soon{
   padding: 80px 0;
   text-align:center;
-  background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-water.jpg?v=1648536588)center top no-repeat;
-  background-size: 700px;
-  background-position: center -135px;
+  background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-m.png)center top no-repeat;
+  background-size: cover;
 }
 div#shopify-section-coming-soon .coming-soon h4{
   font-size:22px;
@@ -167,7 +166,7 @@ div#shopify-section-coming-soon .contact-section .icon-tag {
 	
 div#shopify-section-coming-soon .contact-section input,
 div#shopify-section-coming-soon .contact-section input.go2856106647.kl-private-reset-css-Xuajs1 {
-  border: 2px solid green !important;
+  border: 2px solid #065142 !important;
   background-color: transparent !important;
   border-radius: 10px !important;
   width: 100%;
@@ -187,8 +186,8 @@ div#shopify-section-coming-soon .contact-section div[data-testid="form-row"]{
 }
 
 div#shopify-section-coming-soon .contact-section button.btn-submit.btn-lime,
-div#shopify-section-coming-soon .contact-section button.go332817621.kl-private-reset-css-Xuajs1{
-  width: 100%;
+div#shopify-section-coming-soon .contact-section button.needsclick.kl-private-reset-css-Xuajs1{
+  width: 100% !important;
   padding: 13px 20px 14px !important;
   display: inline-block !important;
   background-color: #adff44 !important;
@@ -198,16 +197,17 @@ div#shopify-section-coming-soon .contact-section button.go332817621.kl-private-r
   text-transform: uppercase;
   font-size: 16px !important;
   line-height: 1.2 !important;
-  margin-top: 30px;
+  margin-top: 25px !important;
   border: none;
   cursor: pointer !important;
   height: auto !important;
 }
 	
 div#shopify-section-coming-soon .contact-section .needsclick.kl-private-reset-css-Xuajs1[data-testid="form-component"] {
-    height: auto !important;
-    padding: 0 !important;
-    flex: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  flex: auto !important;
+  width: 100%;
 }
 .kl-private-quill-wrapper-Lkqws1 span{
   font-family: Korolev-Medium !important;
@@ -315,7 +315,11 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
   div#shopify-section-coming-soon img.dsktp-view{
 	display:block;
   }
-  
+  div#shopify-section-coming-soon .coming-soon{
+    background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-d.png?v=1649822046)center top no-repeat;
+    background-size:cover;
+    height: 350px;
+  }
   div#shopify-section-coming-soon .pg-atf {
     padding: 60px 0;
     padding-top: 90px;
@@ -351,11 +355,6 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
   	height: 40px;
     margin: 15px auto;
     margin-top: 40px;
-  }
-  div#shopify-section-coming-soon .coming-soon {
-    background-size: cover;
-    background-position: center -115px;
-    height: 350px;
   }
   div#shopify-section-coming-soon .contact-section .pg-content {
     padding-top: 100px;
@@ -404,8 +403,5 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
 @media screen and (min-width: 1000px) {
   div#shopify-section-coming-soon .product-bg img.dsktp-view{
     width: 1000px;
-  }
-  div#shopify-section-coming-soon .coming-soon {
-    background-position: center -245px;
   }
 }
