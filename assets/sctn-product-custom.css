@@ -104,6 +104,21 @@
   padding-right: 5px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .how-it-works {
+  color: white;
+  font-size: 14px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .how-it-works strong {
+  color: white;
+  font-family: "Korolev-Heavy";
+  font-size: 20px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .how-it-works a {
+  font-size: 14px;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,5 +232,6 @@
   width: 100%;
   padding-bottom: 25%;
   border-top: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
 }
 /*# sourceMappingURL=sctn-product-custom.css.map */

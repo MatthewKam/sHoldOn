@@ -76,6 +76,19 @@ $border-image-gallery: #FFFFFF;
             };
           }
         }
+        .how-it-works {
+          color: white;
+          font-size: 14px;
+          strong{
+            color: white;
+            font-family: $k-heavy;
+            font-size: 20px;
+          }
+          a{
+            font-size: 14px;
+          }
+        }
+
       }
       .submit-selection-wrp {
         display: flex;
@@ -160,6 +173,7 @@ $border-image-gallery: #FFFFFF;
           width: 100%;
           padding-bottom: 25%;
           border-top: 2px solid $border-image-gallery;
+          border-bottom: 2px solid $border-image-gallery;
         }
       }
       
