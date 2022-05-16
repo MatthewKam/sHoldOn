@@ -5,9 +5,47 @@
     padding:100px 20px;
     color:{{ sings.text_color }};
   }
-  
+  .three-cards-{{ section.id }} .three-cards-header {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .three-cards-{{ section.id }} .three-cards-header h1 {
+    font-size:35px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    letter-spacing:0;
+    line-height:1;
+  }
+  .three-cards-{{ section.id }} .cards-wrp{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+  }
+  .three-cards-{{ section.id }} .three-cards-header .cards-copy{
+    margin-bottom:40px;
+  }
+  .three-cards-{{ section.id }} .three-cards-header .cards-copy p,
+  .three-cards-{{ section.id }} .three-cards-header .cards-copy span,
+  .three-cards-{{ section.id }} .three-cards-header .cards-copy strong,{
+    font-size:16px;
+    line-height: 1.4;
+  }
   @media screen and (min-width: 640px) {
-    
+    .three-cards-{{ section.id }} .three-cards-header h1 {
+      font-size:50px;
+      margin-bottom:20px;
+    }
+    .three-cards-{{ section.id }} .three-cards-header .cards-copy{
+      margin-bottom:50px;
+    }
+    .three-cards-{{ section.id }} .three-cards-header .cards-copy p,
+    .three-cards-{{ section.id }} .three-cards-header .cards-copy span,
+    .three-cards-{{ section.id }} .three-cards-header .cards-copy strong,{
+      font-size:20px;
+    }
   }
 {%- endstyle -%}
 <div class="three-cards-wrp three-cards-{{ section.id }}">
@@ -16,16 +54,18 @@
       <h1>{{ sings.header_title }}</h1>
       <div class="cards-copy">{{ sings.header_copy }}</div>
     </div>
-    {%- for block in section.blocks -%}
-      {% assign bings = block.settings %}
-      <div class="cards" style="background-color:{{ bings.card_color }}; color:{{ bings.card_text_color }}">
-        <div class="card-img-wrp">
-          <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
+    <div class="cards-wrp">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        <div class="cards" style="background-color:{{ bings.card_color }}; color:{{ bings.card_text_color }}">
+          <div class="card-img-wrp">
+            <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
+          </div>
+          <div class="card-info-wrp">{{ bings.card_copy }}</div>
+          <a href="{{ bings.card_url }}">{{bings.card_link_text}}</a>
         </div>
-        <div class="card-info-wrp">{{ bings.card_copy }}</div>
-        <a href="{{ bings.card_url }}">{{bings.card_link_text}}</a>
-      </div>
-    {%- endfor -%}
+      {%- endfor -%}
+    </div>
   </div>
 </div>
 
