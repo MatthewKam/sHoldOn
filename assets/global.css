@@ -373,7 +373,8 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
     width: 135px;
     top: -85px;
   }
-  div#shopify-section-coming-soon .contact-section h1 {
+  div#shopify-section-coming-soon .contact-section h1,
+  div#shopify-section-coming-soon .contact-section h1 span{
     font-size: 50px;
     line-height: 1;
   }
