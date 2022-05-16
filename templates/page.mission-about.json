@@ -88,6 +88,15 @@
         "bnfts_main_img": "shopify:\/\/shop_images\/bg-certified.png"
       }
     },
+    "165269030063301b69": {
+      "type": "three-cards",
+      "settings": {
+        "bg_color": "#FFFFFF",
+        "text_color": "#065142",
+        "header_title": "using holdon bags",
+        "header_copy": "Composting reduces your carbon footprint by decreasing the amount of waste that winds up in landfills. Material that comes from the earth - kitchen scraps, garden trimmings, and most paper - can be composted. Composting yields rich, moist soil that is excellent for fertilizing gardens."
+      }
+    },
     "165268388632beb678": {
       "type": "divider-bar",
       "settings": {
@@ -121,6 +130,7 @@
     "main",
     "16524331776a342052",
     "16524414202af90018",
+    "165269030063301b69",
     "165268388632beb678",
     "165244302703c2848e"
   ]
