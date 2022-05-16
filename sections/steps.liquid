@@ -1,0 +1,140 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .steps-{{ section.id }}{
+    background-color:{{ sings.bg_color }};
+  }
+  .steps-{{ section.id }} .steps-header{
+    color:{{ sings.text_color }};
+  }
+  .steps-{{ section.id }} .steps{
+
+  }
+  @media screen and (min-width: 640px) {
+    
+  }
+{%- endstyle -%}
+<div class="steps-wrp steps-{{ section.id }}">
+  <div class="steps-container">
+    <div class="steps-header">
+      <img src="{{ sings.header_image | image_url }}" alt="">
+      <h1>{{ sings.header_title }}</h1>
+      <div class="steps-copy">{{ sings.header_copy }}</div>
+    </div>
+    <div class="steps">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        {%- style -%}
+          {% if bings.hide_desktop %}
+            .steps-{{ section.id }} .hide_on_mbl{
+              display:none;
+            }
+          {% endif %}
+          @media screen and (min-width: 640px) {
+            {% if bings.hide_mobile %}
+              .steps-{{ section.id }} .hide_on_dsktp{
+                display:none;
+              }
+            {% endif %}
+          }
+        {%- endstyle -%}
+        <div class="step" style="color{{ bings.step_color }};">
+          <h2>{{ forloop.index | add: 1 }}</h2>
+          <div class="step-info">
+            <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
+            <img src="{{ bings.step_image_desktop | image_url }}" class="hide_on_mbl" alt="">
+            <img src="{{ bings.step_image_mobile | image_url }}" class="hide_on_dsktp" alt="">
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Steps",
+  "tag": "section",
+  "class": "section steps",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#EFFCF6"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_image",
+      "label": "Header Image"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default":"#065142"
+    },
+    {
+      "type": "text",
+      "id": "header_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "richtext",
+      "id": "header_copy",
+      "label": "Section Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Steps",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "color",
+          "id": "step_color",
+          "label": "Step Color",
+          "default":"#F8F0DC"
+        },
+        {
+          "type": "text",
+          "id": "step_title",
+          "label": "Step Title"
+        },
+        {
+          "type": "text",
+          "id": "step_copy",
+          "label": "Step Copy"
+        },
+        {
+          "type": "image_picker",
+          "id": "step_image_desktop",
+          "label": "Icon Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_desktop",
+          "label": "Hide Desktop Image on Mobile",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "step_image_mobile",
+          "label": "Icon Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_mobile",
+          "label": "Hide Mobile Image on Desktop",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Steps"
+    }
+  ]
+}
+{% endschema %}
