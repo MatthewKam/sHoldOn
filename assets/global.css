@@ -104,7 +104,7 @@ div#shopify-section-coming-soon .product-bg{
 div#shopify-section-coming-soon .coming-soon{
   padding: 80px 0;
   text-align:center;
-  background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-m.png)center top no-repeat;
+  background: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-m.png') center top no-repeat;
   background-size: cover;
 }
 div#shopify-section-coming-soon .coming-soon h4{
@@ -316,7 +316,7 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
 	display:block;
   }
   div#shopify-section-coming-soon .coming-soon{
-    background: url(https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-d.png?v=1649822046)center top no-repeat;
+    background: url('https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-leafs-d.png?') center top no-repeat;
     background-size:cover;
     height: 350px;
   }
@@ -375,6 +375,7 @@ div#shopify-section-coming-soon .product-bg img.mbl-view{
   }
   div#shopify-section-coming-soon .contact-section h1,
   div#shopify-section-coming-soon .contact-section h1 span{
+    font-family: "Korolev-Heavy";
     font-size: 50px;
     line-height: 1;
   }
