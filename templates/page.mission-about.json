@@ -66,14 +66,14 @@
           "type": "image",
           "settings": {
             "bnft_title": "Learn more about BPI Certification",
-            "bnft_copy": "<p>Learn more about BPI Certification<\/p>"
+            "bnft_copy": "<p>BPI Certification signifies that our products can be effectively composted in a commercial composting facility. This rigorous testing ensures that HoldOn bags biodegrade without leaving behind synthetic residue. <br\/><\/p><p>In other words, you can compost HoldOn bags in a commercial or industrial facility.<\/p>"
           }
         },
         "b033fb64-9cb7-4920-bec7-09398fb76e42": {
           "type": "image",
           "settings": {
             "bnft_title": "Learn more about TUV Certification",
-            "bnft_copy": "<p>Learn more about TUV Certification<\/p>"
+            "bnft_copy": "<p>TUV Austria is the most intensive certifying body for compostable goods. HoldOn bags are TUV Certified home compostable. This means that they have passed the most stringent tests for at-home composting and have been proven to break down effectively in a home compost in a timely manner. <\/p><p>In essence, this means that you can compost HoldOn bags right in your backyard and they will biodegrade cleanly and quickly.<\/p><p><\/p>"
           }
         }
       },
@@ -84,7 +84,7 @@
       "settings": {
         "bnfts_bg_color": "#e9e5dc",
         "brkdwn_title": "Bags that break down in weeks - not centuries",
-        "brkdwn_title_copy": "HoldOn bags are TUV-certified home compostable and BPI-certified, meaning that they meet the highest standards of compostability. Our bags can be composted or thrown away as trash and will break down in a matter of weeks, without producing gases that contribute to climate change.",
+        "brkdwn_title_copy": "HoldOn bags are TUV-certified home compostable and BPI-certified, meaning that they meet the highest standards of compostability. Our bags can be composted or thrown away as trash and will break down in a matter of weeks, without producing microplastic or toxic gas emissions.",
         "bnfts_main_img": "shopify:\/\/shop_images\/bg-certified.png"
       }
     },
@@ -137,7 +137,7 @@
         "bg_color": "#ffffff",
         "text_color": "#065142",
         "header_title": "using holdon bags",
-        "header_copy": "<p>Composting reduces your carbon footprint by decreasing the amount of waste that winds up in landfills. Material that comes from the earth - kitchen scraps, garden trimmings, and most paper - can be composted. Composting yields rich, moist soil that is excellent for fertilizing gardens.<\/p>"
+        "header_copy": "<p>Composting reduces your carbon footprint by decreasing the amount of waste that winds up in landfills. To get started, find the best composting method for your lifestyle and location.<\/p>"
       }
     },
     "165268388632beb678": {
@@ -163,7 +163,7 @@
           "settings": {
             "step_color": "#065142",
             "step_title": "FIND YOUR STORAGE BIN.",
-            "step_copy": "Use a small metal or ceramic bin with a lid to keep in odors. Line with a HoldOn compostable compost bag and store where you'll need it most - the kitchen is an ideal spot to collect food scrap waste.",
+            "step_copy": "Use a small metal or ceramic bin with a lid to trap odors. Line with a HoldOn compostable compost bag and store where you'll need it most - the kitchen is an ideal spot to collect food scrap waste.",
             "hide_mobile": true,
             "hide_desktop": true
           }
