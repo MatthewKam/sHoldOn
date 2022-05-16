@@ -1,0 +1,112 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .three-cards-{{ section.id }}{
+    background-color:{{ sings.bg_color }};
+    padding:100px 20px;
+    color:{{ sings.text_color }};
+  }
+  .cards{
+    background-color:{{ sings.bg_color }}
+  }
+  
+  @media screen and (min-width: 640px) {
+    
+  }
+{%- endstyle -%}
+<div class="three-cards-wrp three-cards-{{ section.id }}">
+  <div class="three-cards">
+    <div class="three-cards-header">
+      <h1>{{ sings.header_title }}</h1>
+      <div class="cards-copy">{{ sings.header_copy }}</div>
+    </div>
+    {%- for block in section.blocks -%}
+      {% assign bings = block.settings %}
+      <div class="cards">
+
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Three Cards",
+  "tag": "section",
+  "class": "section three-cards",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default":"#065142"
+    },
+    {
+      "type": "text",
+      "id": "header_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "header_copy",
+      "label": "Section Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Cards",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "color",
+          "id": "card_color",
+          "label": "Card Color",
+          "default":"#F8F0DC"
+        },
+        {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "color",
+          "id": "card_text_color",
+          "label": "Card Text Color",
+          "default":"#F8F0DC"
+        },
+        {
+          "type": "text",
+          "id": "card_title",
+          "label": "Card Title"
+        },
+        {
+          "type": "text",
+          "id": "card_copy",
+          "label": "Card Copy"
+        },
+        {
+          "type": "text",
+          "id": "card_link_text",
+          "label": "Card Link Text"
+        },
+        {
+          "type": "url",
+          "id": "card_url",
+          "label": "Card URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Three Cards"
+    }
+  ]
+}
+{% endschema %}
