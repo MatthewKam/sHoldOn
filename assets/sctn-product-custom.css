@@ -203,13 +203,19 @@
   padding-top: 108%;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-1 {
+  border-bottom: 2px solid #FFFFFF;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-3 {
   width: 61%;
   padding-top: 84%;
+  border-left: 2px solid #FFFFFF;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery .gallery-image-4 {
   width: 100%;
   padding-bottom: 25%;
+  border-top: 2px solid #FFFFFF;
 }
 /*# sourceMappingURL=sctn-product-custom.css.map */

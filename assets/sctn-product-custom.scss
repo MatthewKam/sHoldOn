@@ -8,6 +8,7 @@ $error-red: #FF4466;
 $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
 
+$border-image-gallery: #FFFFFF;
 .shopify-section{
   &.section-product-custom{
     // Reset
@@ -145,7 +146,7 @@ $k-heavy:'Korolev-Heavy';
           padding-top: 108%;
         }
         .gallery-image-1{
-          
+          border-bottom: 2px solid $border-image-gallery;
         }
         .gallery-image-2{
 
@@ -153,10 +154,12 @@ $k-heavy:'Korolev-Heavy';
         .gallery-image-3{
           width:61%;
           padding-top: 84%;
+          border-left: 2px solid $border-image-gallery;
         }
         .gallery-image-4{
           width: 100%;
           padding-bottom: 25%;
+          border-top: 2px solid $border-image-gallery;
         }
       }
       
