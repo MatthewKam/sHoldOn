@@ -49,7 +49,7 @@
               <span class="prod-price">{{ product.price | money }}</span>
             </p>
           </div>
-          {% if gallon or count or numItems %}  
+          <!-- {% if gallon or count or numItems %}  
             <div class="product-info">
               {% if gallon %}
                 <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
@@ -61,7 +61,7 @@
                 <p class="prod-num-items"><span>{{ numItems }}</span> items</p>
               {% endif %}
             </div>
-          {% endif %}
+          {% endif %} -->
           <div class="btn-wrp">
             <!-- <button class="btn-submit btn-limegreen">Add to Cart</button> -->
             <a href="{{product.url}}" class="btn-link">Learn more</a>
