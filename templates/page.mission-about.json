@@ -155,15 +155,6 @@
         "header_title_2_color": ""
       }
     },
-    "165269433175b9376a": {
-      "type": "steps",
-      "settings": {
-        "bg_color": "#EFFCF6",
-        "text_color": "#065142",
-        "header_title": "",
-        "header_copy": ""
-      }
-    },
     "165244302703c2848e": {
       "type": "basic-content",
       "settings": {
@@ -184,7 +175,6 @@
     "16524414202af90018",
     "165269030063301b69",
     "165268388632beb678",
-    "165269433175b9376a",
     "165244302703c2848e"
   ]
 }

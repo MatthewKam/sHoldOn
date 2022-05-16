@@ -37,7 +37,7 @@
             {% endif %}
           }
         {%- endstyle -%}
-        <div class="step" style="color{{ bings.step_color }};">
+        <div class="step" style="color:{{ bings.step_color }};">
           <h2>{{ forloop.index | add: 1 }}</h2>
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
@@ -94,7 +94,7 @@
           "type": "color",
           "id": "step_color",
           "label": "Step Color",
-          "default":"#F8F0DC"
+          "default":"#065142"
         },
         {
           "type": "text",
@@ -109,7 +109,7 @@
         {
           "type": "image_picker",
           "id": "step_image_desktop",
-          "label": "Icon Image"
+          "label": "Step Image Desktop"
         },
         {
           "type": "checkbox",
@@ -120,7 +120,7 @@
         {
           "type": "image_picker",
           "id": "step_image_mobile",
-          "label": "Icon Image"
+          "label": "Step Image Mobile"
         },
         {
           "type": "checkbox",
