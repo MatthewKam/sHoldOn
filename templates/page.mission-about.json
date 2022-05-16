@@ -155,6 +155,77 @@
         "header_title_2_color": ""
       }
     },
+    "16526947788c95ac61": {
+      "type": "steps",
+      "blocks": {
+        "bcf04f10-7cd0-4a4d-8776-4badeabb64b6": {
+          "type": "image",
+          "settings": {
+            "step_color": "#065142",
+            "step_title": "FIND YOUR STORAGE BIN.",
+            "step_copy": "Use a small metal or ceramic bin with a lid to keep in odors. Line with a HoldOn compostable compost bag and store where you'll need it most - the kitchen is an ideal spot to collect food scrap waste.",
+            "hide_desktop": true,
+            "hide_mobile": true
+          }
+        },
+        "31d3e27b-4fbe-4104-90dd-8948d44e8b5c": {
+          "type": "image",
+          "settings": {
+            "step_color": "#065142",
+            "step_title": "CREATE A DEDICATED COMPOST SPACE.",
+            "step_copy": "Use a compost barrel or bin, or even begin a compost pile on bare soil. A shady spot is ideal for composting, as it will help your compost to maintain proper moisture levels.",
+            "hide_desktop": true,
+            "hide_mobile": true
+          }
+        },
+        "0af7296c-3cfb-4e6a-ad2b-3b6ce9511095": {
+          "type": "image",
+          "settings": {
+            "step_color": "#065142",
+            "step_title": "Lay A FOUNDATION.",
+            "step_copy": "Prep your outdoor compost with twigs and straw, which will help to aerate your pile and keep it from becoming too dense.",
+            "hide_desktop": true,
+            "hide_mobile": true
+          }
+        },
+        "26e083ec-3343-49d6-b418-e3b4fdaf318b": {
+          "type": "image",
+          "settings": {
+            "step_color": "#065142",
+            "step_title": "Identify what to compost.",
+            "step_copy": "As a general rule of thumb, materials that come from the earth are compostable. Do not compost inorganic materials, as they won't break down, as well as meat or dairy, which may attract pests.",
+            "step_image_desktop": "shopify:\/\/shop_images\/list-items-d.png",
+            "hide_desktop": true,
+            "step_image_mobile": "shopify:\/\/shop_images\/list-items-m.png",
+            "hide_mobile": true
+          }
+        },
+        "4f5dfce0-a23a-42f8-abdc-172c906af8d8": {
+          "type": "image",
+          "settings": {
+            "step_color": "#065142",
+            "step_title": "turn over your composT OCCASIONALLY.",
+            "step_copy": "This will aerate materials and help them to decompose evenly.",
+            "hide_desktop": true,
+            "hide_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "bcf04f10-7cd0-4a4d-8776-4badeabb64b6",
+        "31d3e27b-4fbe-4104-90dd-8948d44e8b5c",
+        "0af7296c-3cfb-4e6a-ad2b-3b6ce9511095",
+        "26e083ec-3343-49d6-b418-e3b4fdaf318b",
+        "4f5dfce0-a23a-42f8-abdc-172c906af8d8"
+      ],
+      "settings": {
+        "bg_color": "#EFFCF6",
+        "header_image": "shopify:\/\/shop_images\/steps-header.png",
+        "text_color": "#065142",
+        "header_title": "Get started",
+        "header_copy": "<p>HoldOn bags are TUV-certified home compostable, so you can compost them right in your own backyard. Here's how to get started:<\/p>"
+      }
+    },
     "165244302703c2848e": {
       "type": "basic-content",
       "settings": {
@@ -175,6 +246,7 @@
     "16524414202af90018",
     "165269030063301b69",
     "165268388632beb678",
+    "16526947788c95ac61",
     "165244302703c2848e"
   ]
 }
