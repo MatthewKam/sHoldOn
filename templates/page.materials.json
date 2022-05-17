@@ -8,49 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "1652775858b7c856c2": {
-      "type": "divider-bar",
-      "settings": {
-        "image_text": true,
-        "divider_bg_m": "shopify:\/\/shop_images\/bg-divider-bar-1-m.png",
-        "divider_bg_d": "shopify:\/\/shop_images\/bg-divider-bar-1.png",
-        "divider_color": "#ffffff",
-        "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
-        "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
-        "header_title_1": "",
-        "header_title_1_color": "",
-        "header_title_2": "",
-        "header_title_2_color": ""
-      }
-    },
-    "16527758600246a85f": {
-      "type": "basic-content",
-      "settings": {
-        "content_right": true,
-        "bg_color": "#ffffff",
-        "title": "Why We Started HoldOn",
-        "title_color": "#065142",
-        "copy": "<p>We started HoldOn because we kept on saying to ourselves, “Hold on a second?!” There has to be a better way to toss our trash. So we set to work developing plant-based, nontoxic bags that use far less fossil fuel in production and are 100% home compostable. HoldOn bags are made with a unique blend of renewables that break down cleanly and nontoxic-ly in weeks, not centuries. <\/p>",
-        "copy_color": "#065142",
-        "button_url": "shopify:\/\/collections\/all-products",
-        "button_url_text": "Shop Now",
-        "bg_img": "shopify:\/\/shop_images\/bg-materials-1.png"
-      }
-    },
-    "1652775911b4243ec8": {
-      "type": "basic-content",
-      "settings": {
-        "content_right": false,
-        "bg_color": "#ffffff",
-        "title": "Committed to Improvement",
-        "title_color": "#065142",
-        "copy": "<p>This is a journey and it’s far from over. We’re constantly in search of ways to improve our products and business practices to be more responsible global citizens. As technology evolves, we’re committed to adopting the most advanced sustainability practices in an effort to reduce our carbon footprint even more.<\/p><p> <\/p><p><strong>- The HoldOn Team<\/strong><\/p>",
-        "copy_color": "#065142",
-        "button_url": "",
-        "button_url_text": "Learn more",
-        "bg_img": "shopify:\/\/shop_images\/bg-materials-2.png"
-      }
-    },
     "16527785643405b294": {
       "type": "abovethefold-breakdown",
       "blocks": {
@@ -105,13 +62,56 @@
         "link_text": "Learn More",
         "link_url": "shopify:\/\/pages\/about"
       }
+    },
+    "1652775858b7c856c2": {
+      "type": "divider-bar",
+      "settings": {
+        "image_text": true,
+        "divider_bg_m": "shopify:\/\/shop_images\/bg-divider-bar-1-m.png",
+        "divider_bg_d": "shopify:\/\/shop_images\/bg-divider-bar-1.png",
+        "divider_color": "#ffffff",
+        "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
+        "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
+        "header_title_1": "",
+        "header_title_1_color": "",
+        "header_title_2": "",
+        "header_title_2_color": ""
+      }
+    },
+    "16527758600246a85f": {
+      "type": "basic-content",
+      "settings": {
+        "content_right": true,
+        "bg_color": "#ffffff",
+        "title": "Why We Started HoldOn",
+        "title_color": "#065142",
+        "copy": "<p>We started HoldOn because we kept on saying to ourselves, “Hold on a second?!” There has to be a better way to toss our trash. So we set to work developing plant-based, nontoxic bags that use far less fossil fuel in production and are 100% home compostable. HoldOn bags are made with a unique blend of renewables that break down cleanly and nontoxic-ly in weeks, not centuries. <\/p>",
+        "copy_color": "#065142",
+        "button_url": "shopify:\/\/collections\/all-products",
+        "button_url_text": "Shop Now",
+        "bg_img": "shopify:\/\/shop_images\/bg-materials-1.png"
+      }
+    },
+    "1652775911b4243ec8": {
+      "type": "basic-content",
+      "settings": {
+        "content_right": false,
+        "bg_color": "#ffffff",
+        "title": "Committed to Improvement",
+        "title_color": "#065142",
+        "copy": "<p>This is a journey and it’s far from over. We’re constantly in search of ways to improve our products and business practices to be more responsible global citizens. As technology evolves, we’re committed to adopting the most advanced sustainability practices in an effort to reduce our carbon footprint even more.<\/p><p> <\/p><p><strong>- The HoldOn Team<\/strong><\/p>",
+        "copy_color": "#065142",
+        "button_url": "",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/bg-materials-2.png"
+      }
     }
   },
   "order": [
     "main",
+    "16527785643405b294",
     "1652775858b7c856c2",
     "16527758600246a85f",
-    "1652775911b4243ec8",
-    "16527785643405b294"
+    "1652775911b4243ec8"
   ]
 }
