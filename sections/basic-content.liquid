@@ -18,8 +18,10 @@
     color:{{ sings.copy_color }};
   }
 {%- endstyle -%}
-
-<div class="basic-content-wrp basic-content-{{ section.id }}">
+{% if sings.content_right == false %}
+  {% assign content_side = 'bc-left' %}
+{% endif %}
+<div class="basic-content-wrp basic-content-{{ section.id }}{{ content_side | prepend: ' '}}">
   <div class="content-wrp">
     <div class="bg-image"></div>
     <div class="copy-sctn">
