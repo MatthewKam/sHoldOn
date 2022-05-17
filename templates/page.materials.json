@@ -59,19 +59,25 @@
         "breakdown_title": "Our Material Breakdown"
       }
     },
-    "1652775801ba4917e7": {
-      "type": "steps",
+    "1652775858b7c856c2": {
+      "type": "divider-bar",
       "settings": {
-        "bg_color": "#EFFCF6",
-        "text_color": "#065142",
-        "header_title": "",
-        "header_copy": ""
+        "image_text": true,
+        "divider_bg_m": "shopify:\/\/shop_images\/bg-divider-bar-1-m.png",
+        "divider_bg_d": "shopify:\/\/shop_images\/bg-divider-bar-1.png",
+        "divider_color": "#ffffff",
+        "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
+        "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
+        "header_title_1": "",
+        "header_title_1_color": "",
+        "header_title_2": "",
+        "header_title_2_color": ""
       }
     }
   },
   "order": [
     "main",
     "16524331776a342052",
-    "1652775801ba4917e7"
+    "1652775858b7c856c2"
   ]
 }
