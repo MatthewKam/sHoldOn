@@ -1,0 +1,55 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .bg-content-{{ section.id }}{
+    padding:70px 20px;
+    background:url({{ sings.bg_mobile | image_url }})center top no-repeat;
+    background-size:cover;
+  }
+  @media screen and (min-width: 767px) {
+    .bg-content-{{ section.id }}{
+      padding:100px 30px;
+      background:url({{ sings.bg_desktop | image_url }})center top no-repeat;
+      background-size:cover;
+    }
+  }
+{%- endstyle -%}
+<div class="bg-content-wrp bg-content-{{ section.id }}">
+  <div class="bg-content-header">
+    <h1 style="color:{{ sings.header_title_color }}">{{ sings.header_title }}</h1>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Background with Text",
+  "tag": "section",
+  "class": "section bg-content",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "header_title_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_desktop",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_mobile",
+      "label": "Mobile Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Background with Text"
+    }
+  ]
+}
+{% endschema %}
