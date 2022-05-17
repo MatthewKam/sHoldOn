@@ -27,6 +27,7 @@
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom:40px;
   }
   .ac-{{ section.id }} .ac-header .ac-header-copy{
     max-width: 550px;
@@ -48,7 +49,7 @@
       <h1>{{ sings.header_title }}</h1>
       <div class="ac-header-copy">{{ sings.header_copy }}</div>
       {% if sings.header_icon %}
-        <img src="{{ sings.header_icon | image_url }}" alt="{{ sings.header_title }}" style="max-width:60px; margin:40px auto;">
+        <img src="{{ sings.header_icon | image_url }}" alt="{{ sings.header_title }}" style="max-width:60px; margin:0px auto; margin-bottom:40px;">
       {% endif %}
     </div>
     <div class="ac-wrp">
