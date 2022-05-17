@@ -34,7 +34,7 @@
           "settings": {
             "ac_image": "shopify:\/\/shop_images\/iStock-1148581085_1.png",
             "ac_color": "#065142",
-            "ac_title": "1000 YEARS TO DECOMPOSE",
+            "ac_title": "BAGS SHOULDN'T LAST 1000 YEARS.",
             "ac_copy": "<p>It takes 1000 years for a plastic bag to break down in a landfill, emitting toxic gases and leaving behind microplastic debris.<\/p>"
           }
         },
@@ -102,7 +102,7 @@
         "9e5c188b-d751-40d6-8dc4-b9192511eaf1": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/recycled_1.png",
+            "ingredient_image": "shopify:\/\/shop_images\/recycled_1_8bab6cf9-cf85-4cdb-a356-9f15e498c30c.png",
             "ingredient_title": "FSC Certified RESPONSIBLE PACKAGING",
             "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
           }
