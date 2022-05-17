@@ -132,4 +132,13 @@
     height: 670px;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .shopify-section.basic-content .basic-content-wrp.bc-left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
 /*# sourceMappingURL=sctn-basic-content.css.map */

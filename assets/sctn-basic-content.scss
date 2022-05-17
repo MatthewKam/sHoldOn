@@ -93,5 +93,12 @@ $k-heavy:'Korolev-Heavy';
         }
       }
     }
+
+
+    .basic-content-wrp.bc-left{
+      @media screen and (min-width: 767px) {
+        flex-direction: row-reverse;
+      }
+    }
   }
 }
