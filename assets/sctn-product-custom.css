@@ -59,6 +59,11 @@
   }
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .product__info-container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-title {
   font-size: 25px;
   letter-spacing: 0;
