@@ -27,7 +27,7 @@
         "copy_color": "#ffffff",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Learn more",
-        "bg_img": "shopify:\/\/shop_images\/HoldOn_8.jpg"
+        "bg_img": "shopify:\/\/shop_images\/HOME-Hero-FULL.jpg"
       }
     },
     "16518395354202219f": {
@@ -42,7 +42,7 @@
         "copy_color": "#065142",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop Now",
-        "bg_img": "shopify:\/\/shop_images\/bg-atf.png"
+        "bg_img": "shopify:\/\/shop_images\/HOME-Hero-HALF.jpg"
       }
     },
     "1651821949044048fa": {
@@ -173,6 +173,7 @@
     "16518361943e65dc8a": {
       "type": "basic-content",
       "settings": {
+        "content_right": true,
         "bg_color": "#065142",
         "title": "Why We Created HoldOn Bags",
         "title_color": "#ffffff",
@@ -180,7 +181,7 @@
         "copy_color": "#ffffff",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop All",
-        "bg_img": "shopify:\/\/shop_images\/sandwich-lifestyle-1_d3307b5a-15bf-4275-96c1-dea6d02fcb1d.jpg"
+        "bg_img": "shopify:\/\/shop_images\/Home-Lifestyle.jpg"
       }
     },
     "1651821398f0d3a6e3": {
