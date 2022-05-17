@@ -41,7 +41,7 @@
       "type": "basic-content",
       "settings": {
         "content_right": false,
-        "bg_color": "#fff",
+        "bg_color": "#ffffff",
         "title": "Committed to Improvement",
         "title_color": "#065142",
         "copy": "<p>This is a journey and it’s far from over. We’re constantly in search of ways to improve our products and business practices to be more responsible global citizens. As technology evolves, we’re committed to adopting the most advanced sustainability practices in an effort to reduce our carbon footprint even more.<\/p><p> <\/p><p><strong>- The HoldOn Team<\/strong><\/p>",
@@ -50,12 +50,28 @@
         "button_url_text": "Learn more",
         "bg_img": "shopify:\/\/shop_images\/bg-materials-2.png"
       }
+    },
+    "16527785643405b294": {
+      "type": "abovethefold-breakdown",
+      "settings": {
+        "bg_color": "#f8f0dc",
+        "copy_color": "#065142",
+        "title": "There has to be a better way.",
+        "header_desc": "",
+        "header_image": "shopify:\/\/shop_images\/materials-image.png",
+        "himg_max_m": 300,
+        "himg_max_d": 700,
+        "breakdown_title": "Our Material Breakdown",
+        "link_text": "Learn More",
+        "link_url": "shopify:\/\/pages\/about"
+      }
     }
   },
   "order": [
     "main",
     "1652775858b7c856c2",
     "16527758600246a85f",
-    "1652775911b4243ec8"
+    "1652775911b4243ec8",
+    "16527785643405b294"
   ]
 }
