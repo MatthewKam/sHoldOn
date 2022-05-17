@@ -14,8 +14,7 @@
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
         {% assign evenIndex = forloop.index | add: 1 | modulo: 2 %}
-        {{ evenIndex }}
-        <div class="ac ac-{{ forloop.index | add: 1 }}">
+        <div class="ac ac-{{ forloop.index | add: 1 }} {% if evenIndex == 0 %} ac-even{% endif %}">
           <img src="{{ bings.ac_image | image_url }}" class="ac-image" alt="{{ bings.ac_title }}">
           <div class="ac-copy-wrp">
             <div class="ac-copy">
