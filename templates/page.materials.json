@@ -53,6 +53,46 @@
     },
     "16527785643405b294": {
       "type": "abovethefold-breakdown",
+      "blocks": {
+        "a28e9ca7-a516-4cb8-8221-2483995a91f3": {
+          "type": "image",
+          "settings": {
+            "ingredient_image": "shopify:\/\/shop_images\/circle-polybutylene.png",
+            "ingredient_title": "Polybutylene adipate terephthalate",
+            "ingredient_copy": "PBAT is a biodegradable polymer that requires less crude oil during production than plastics and breaks down quickly without emitting methane gas or creating toxic residue."
+          }
+        },
+        "b8a40375-07a6-4279-ac82-359f3f155da0": {
+          "type": "image",
+          "settings": {
+            "ingredient_image": "shopify:\/\/shop_images\/circle-polylactic-acid.png",
+            "ingredient_title": "Polylactic acid",
+            "ingredient_copy": "PLA is a monomer derived from organic, renewable sources - like sugar or corn. It requires less energy in production and emits less greenhouse gas in decomposition than plastic."
+          }
+        },
+        "f81fa4ab-7068-4d48-856b-af223e3a1960": {
+          "type": "image",
+          "settings": {
+            "ingredient_image": "shopify:\/\/shop_images\/circle-cornstarch.png",
+            "ingredient_title": "CORNSTARCH",
+            "ingredient_copy": "Cornstarch is an organic substance ethically harvested from corn that decomposes quickly, without emitting toxic gas."
+          }
+        },
+        "9e5c188b-d751-40d6-8dc4-b9192511eaf1": {
+          "type": "image",
+          "settings": {
+            "ingredient_image": "shopify:\/\/shop_images\/circle-responsible-packagin.png",
+            "ingredient_title": "FSC Certified RESPONSIBLE PACKAGING",
+            "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
+          }
+        }
+      },
+      "block_order": [
+        "a28e9ca7-a516-4cb8-8221-2483995a91f3",
+        "b8a40375-07a6-4279-ac82-359f3f155da0",
+        "f81fa4ab-7068-4d48-856b-af223e3a1960",
+        "9e5c188b-d751-40d6-8dc4-b9192511eaf1"
+      ],
       "settings": {
         "bg_color": "#f8f0dc",
         "copy_color": "#065142",
