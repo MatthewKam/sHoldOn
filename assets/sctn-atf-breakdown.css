@@ -64,14 +64,8 @@
 }
 
 .shopify-section.atf-breakdown .content-wrp .header-wrp .icon-image {
-  width: 100px;
+  width: 100%;
   margin: 0px auto;
-}
-
-@media screen and (min-width: 640px) {
-  .shopify-section.atf-breakdown .content-wrp .header-wrp .icon-image {
-    width: 200px;
-  }
 }
 
 .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
