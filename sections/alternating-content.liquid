@@ -13,7 +13,8 @@
     <div class="ac-wrp">
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
-        {{ forloop.index | add: 1 | modulo: 2 }}
+        {% assign evenIndex = forloop.index | add: 1 | modulo: 2 %}
+        {{ evenIndex }}
         <div class="ac ac-{{ forloop.index | add: 1 }}">
           <img src="{{ bings.ac_image | image_url }}" class="ac-image" alt="{{ bings.ac_title }}">
           <div class="ac-copy-wrp">
@@ -83,12 +84,12 @@
         {
           "type": "text",
           "id": "ac_title",
-          "label": "Step Title"
+          "label": "Alternating Content Title"
         },
         {
           "type": "richtext",
           "id": "ac_copy",
-          "label": "Step Copy"
+          "label": "Alternating Content Copy"
         }
       ]
     }
