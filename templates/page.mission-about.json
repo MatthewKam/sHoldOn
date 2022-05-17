@@ -52,11 +52,16 @@
       ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-hero-about_e03b8f38-57ce-42fa-adea-39c5b82e7480.png",
+        "bg_color": "#FFFFFF",
         "copy_color": "#065142",
         "title": "From the earth, for the earth",
         "header_desc": "<p>We use nontoxic ingredients like PBAT, PLA and cornstarch to produce our strong and sustainable material. Our plant-based renewables come from the earth and degrade cleanly back into the earth, without producing microplastics or toxic residue.<\/p>",
-        "icon_image": "shopify:\/\/shop_images\/icon-Compostable-white.png",
-        "breakdown_title": "Our Material Breakdown"
+        "header_image": "shopify:\/\/shop_images\/icon-Compostable-white.png",
+        "himg_max_m": 100,
+        "himg_max_d": 200,
+        "breakdown_title": "Our Material Breakdown",
+        "link_text": "Learn More",
+        "link_url": ""
       }
     },
     "16524414202af90018": {
