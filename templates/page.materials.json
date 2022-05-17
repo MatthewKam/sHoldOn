@@ -13,7 +13,7 @@
       "settings": {
         "title": "We’re ON A MISSION  TO LEAVE the world cleaner than we found it.",
         "header_title_color": "#f8f0dc",
-        "bg_desktop": "shopify:\/\/shop_images\/bg-materials-atf-d.png",
+        "bg_desktop": "shopify:\/\/shop_images\/mission_1.png",
         "bg_mobile": "shopify:\/\/shop_images\/bg-materials-atf-m.png"
       }
     },
@@ -23,7 +23,7 @@
         "27afe2e7-b68a-402f-ba4c-f64b74e8b92a": {
           "type": "image",
           "settings": {
-            "ac_image": "shopify:\/\/shop_images\/ac-1.png",
+            "ac_image": "shopify:\/\/shop_images\/trash_1.png",
             "ac_color": "#065142",
             "ac_title": "100 BILLION BAGS TOSSED",
             "ac_copy": "<p>100 billion bags are used - and tossed - each year in America alone. That's a garbage truck full every 60 seconds. <\/p>"
@@ -50,7 +50,7 @@
         "9b330d29-b2f9-451e-9889-b891f1ced32a": {
           "type": "image",
           "settings": {
-            "ac_image": "shopify:\/\/shop_images\/ac-4.png",
+            "ac_image": "shopify:\/\/shop_images\/emissions_1.png",
             "ac_color": "#065142",
             "ac_title": "232 Million tons OF GAS EMISSIONS",
             "ac_copy": "<p>232 million tons of CO2 gas is emitted each year from plastic production in the United States, and even more greenhouse gases are emitted as plastics decompose.<\/p>"
@@ -78,7 +78,7 @@
         "a28e9ca7-a516-4cb8-8221-2483995a91f3": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polybutylene.png",
+            "ingredient_image": "shopify:\/\/shop_images\/pbat_1.png",
             "ingredient_title": "Polybutylene adipate terephthalate",
             "ingredient_copy": "PBAT is a biodegradable polymer that requires less crude oil during production than plastics and breaks down quickly without emitting methane gas or creating toxic residue."
           }
@@ -86,7 +86,7 @@
         "b8a40375-07a6-4279-ac82-359f3f155da0": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polylactic-acid.png",
+            "ingredient_image": "shopify:\/\/shop_images\/pla_1.png",
             "ingredient_title": "Polylactic acid",
             "ingredient_copy": "PLA is a monomer derived from organic, renewable sources - like sugar or corn. It requires less energy in production and emits less greenhouse gas in decomposition than plastic."
           }
@@ -94,7 +94,7 @@
         "f81fa4ab-7068-4d48-856b-af223e3a1960": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-cornstarch.png",
+            "ingredient_image": "shopify:\/\/shop_images\/Image_1_1.png",
             "ingredient_title": "CORNSTARCH",
             "ingredient_copy": "Cornstarch is an organic substance ethically harvested from corn that decomposes quickly, without emitting toxic gas."
           }
@@ -102,7 +102,7 @@
         "9e5c188b-d751-40d6-8dc4-b9192511eaf1": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-responsible-packagin.png",
+            "ingredient_image": "shopify:\/\/shop_images\/recycled_1.png",
             "ingredient_title": "FSC Certified RESPONSIBLE PACKAGING",
             "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
           }
@@ -153,7 +153,7 @@
         "copy_color": "#065142",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop Now",
-        "bg_img": "shopify:\/\/shop_images\/bg-materials-1.png"
+        "bg_img": "shopify:\/\/shop_images\/banana_1.png"
       }
     },
     "1652775911b4243ec8": {
