@@ -69,19 +69,32 @@
 }
 
 .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
-  text-align: center;
   width: 100%;
-  text-transform: uppercase;
-  font-family: "Korolev-Heavy";
-  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 10px;
   border-bottom: 4px solid #065142;
   margin-bottom: 30px;
 }
 
+.shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title span {
+  text-transform: uppercase;
+  font-family: "Korolev-Heavy";
+  font-size: 25px;
+}
+
+@media screen and (min-width: 640px) {
+  .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title span {
+    font-size: 35px;
+  }
+}
+
 @media screen and (min-width: 640px) {
   .shopify-section.atf-breakdown .content-wrp .breakdown-wrp .breakdown-title {
-    font-size: 35px;
     margin-bottom: 50px;
   }
 }

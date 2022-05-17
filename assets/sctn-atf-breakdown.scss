@@ -63,16 +63,21 @@ $k-heavy:'Korolev-Heavy';
       }
       .breakdown-wrp{
         .breakdown-title {
-          text-align: center;
           width: 100%;
-          text-transform: uppercase;
-          font-family: $k-heavy;
-          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          span{
+            text-transform: uppercase;
+            font-family: $k-heavy;
+            font-size: 25px;
+            @media screen and (min-width: 640px) {
+              font-size: 35px;
+            }
+          }
           padding-bottom: 10px;
           border-bottom: 4px solid $dark-green;
           margin-bottom: 30px;
           @media screen and (min-width: 640px) {
-            font-size: 35px;
             margin-bottom: 50px;
           }
         }

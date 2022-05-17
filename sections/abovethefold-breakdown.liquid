@@ -17,10 +17,34 @@
   .atf-breakdown-{{ section.id }} .header-wrp .icon-image{
     max-width:{{ sings.himg_max_m }}px;
   }
+  {% if sings.link_url %}
+    .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title{
+      justify-content:space-between;
+    }
+    .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title .materials-link-bottom{
+      display:block;
+    }
+    .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title .materials-link{
+      display:none;
+    }
+  {% endif %}
   @media screen and (min-width: 640px) {
     .atf-breakdown-{{ section.id }} .header-wrp .icon-image{
       max-width:{{ sings.himg_max_d }}px;
     }
+    {% if sings.link_url %}
+      .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title{
+        
+        justify-content:center;
+      }
+      .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title .materials-link{
+        display:block;
+      }
+      .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title .materials-link-bottom{
+        display:none;
+      }
+    {% endif %}
+    
   }
 {%- endstyle -%}
 <div class="atf-wrp atf-breakdown-{{ section.id }}">
@@ -41,7 +65,7 @@
       <div class="breakdown-title">
         <span>{{ sings.breakdown_title }}</span>
         {% if sings.link_url %}
-          <a class="btn-link" href="{{ sings.link_url }}">{{ sings.link_text }}</a>
+          <a class="btn-link materials-link-top" href="{{ sings.link_url }}">{{ sings.link_text }}</a>
         {% endif %}
       </div>
       <div class="breakdown-items">
@@ -54,6 +78,11 @@
           </div>
         {% endfor %}
       </div>
+      {% if sings.link_url %}
+        <div class="btn-wrp materials-link-bottom">
+          <a class="btn-link " href="{{ sings.link_url }}">{{ sings.link_text }}</a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
