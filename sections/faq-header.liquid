@@ -2,12 +2,14 @@
 {%- style -%}
   .faq-header-{{ section.id }}{
     padding: 70px 20px;
-    padding-bottom: 30px;
   }
   .faq-header-{{ section.id }} .faq-header-content,
   .faq-header-{{ section.id }} .links-wrp{
     max-width:1200px;
     margin:0 auto;
+  }
+  .faq-header-{{ section.id }} .faq-header-content{
+    margin-bottom:30px;
   }
   .faq-header-{{ section.id }} h1,
   .faq-header-{{ section.id }} p{
@@ -17,6 +19,7 @@
   .faq-header-{{ section.id }} h1{
     font-size:50px;
     margin-bottom:10px;
+    text-transform:uppercase;
   }
   .faq-header-{{ section.id }} p{
     font-size:16px;
@@ -31,7 +34,9 @@
   @media screen and (min-width: 640px) {
     .faq-header-{{ section.id }}{
       padding: 100px 30px;
-      padding-bottom: 50px;
+    }
+    .faq-header-{{ section.id }} .faq-header-content{
+      margin-bottom:50px;
     }
     .faq-header-{{ section.id }} h1{
       font-size:70px;
