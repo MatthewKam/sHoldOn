@@ -2,24 +2,48 @@
 {{ 'sctn-atf-breakdown.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .atf-breakdown-{{ section.id }}{
-    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
-    background-size:cover;
+    {% if sings.bg_img %}  
+      background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+      background-size:cover;
+    {% else %}
+      background-color: {{ sings.bg_color }};
+    {% endif %}
   }  
   .atf-breakdown-{{ section.id }} h1,
   .atf-breakdown-{{ section.id }} h2,
   .atf-breakdown-{{ section.id }} p{
     color:{{ sings.copy_color }};
   }
+  .atf-breakdown-{{ section.id }} .header-wrp .icon-image{
+    max-width:{{ sings.himg_max_m }};
+  }
+  @media screen and (min-width: 640px) {
+    .atf-breakdown-{{ section.id }} .header-wrp .icon-image{
+      max-width:{{ sings.himg_max_d }};
+    }
+  }
 {%- endstyle -%}
 <div class="atf-wrp atf-breakdown-{{ section.id }}">
   <div class="content-wrp">
     <div class="header-wrp">
+      {% if sings.top_image %}
+        <img src="{{ sings.top_image | image_url }}" alt="{{ sings.title }} title" class="top-image">
+      {% endif %}
       <h1>{{ sings.title }}</h1>
-      <p>{{ sings.header_desc }}</p>
-      <img src="{{ sings.icon_image | image_url }}" alt="{{ sings.title }} title" class="icon-image">
+      {% if sings.header_desc %}
+        <p>{{ sings.header_desc }}</p>
+      {% endif %}
+      {% if sings.header_image %}
+        <img src="{{ sings.header_image | image_url }}" alt="{{ sings.title }} title" class="icon-image">
+      {% endif %}
     </div>
     <div class="breakdown-wrp">
-      <div class="breakdown-title">{{ sings.breakdown_title }}</div>
+      <div class="breakdown-title">
+        <span>{{ sings.breakdown_title }}</span>
+        {% if sings.link_url %}
+          <a class="btn-link" href="{{ sings.link_url }}">{{ sings.link_text }}</a>
+        {% endif %}
+      </div>
       <div class="breakdown-items">
         {% for block in section.blocks %}
           {% assign bings = block.settings %}
@@ -36,7 +60,7 @@
 
 {% schema %}
 {
-  "name": "ATF - Breakdown",
+  "name": "Materials Breakdown",
   "tag": "section",
   "class": "section atf-breakdown",
   "settings": [
@@ -44,6 +68,12 @@
       "type": "image_picker",
       "id": "bg_img",
       "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#FFFFFF"
     },
     {
       "type": "header",
@@ -67,8 +97,28 @@
     },
     {
       "type": "image_picker",
-      "id": "icon_image",
-      "label": "Icon Image"
+      "id": "header_image",
+      "label": "Header Image"
+    },
+    {
+      "type": "range",
+      "id": "himg_max_m",
+      "label": "Image Max Width Mobile",
+      "min": 50,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "himg_max_d",
+      "label": "Image Max Width Desktop",
+      "min": 50,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "default": 200
     },
     {
       "type": "header",
@@ -79,6 +129,17 @@
       "id": "breakdown_title",
       "label": "Breakdown Title",
       "default": "Our Material Breakdown"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
     }
   ],
   "blocks": [
@@ -107,7 +168,7 @@
   ],
   "presets": [
     {
-      "name": "ATF - Breakdown"
+      "name": "Materials Breakdown"
     }
   ]
 }
