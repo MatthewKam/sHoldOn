@@ -1,0 +1,95 @@
+{% assign sings = section.settings %}
+{% stylesheet %}
+  .faq-header-{{ section.id }}{
+    padding: 70px 20px;
+    padding-bottom: 30px;
+  }
+  .faq-header-{{ section.id }} .faq-header-content,
+  .faq-header-{{ section.id }} .links-wrp{
+    max-width:1200px;
+    margin:0 auto;
+  }
+  .faq-header-{{ section.id }} h1,
+  .faq-header-{{ section.id }} p{
+    color:{{ sings.header_color }};
+    text-align:center;
+  }
+  .faq-header-{{ section.id }} h1{
+    font-size:50px;
+    margin-bottom:10px;
+  }
+  .faq-header-{{ section.id }} p{
+    font-size:16px;
+  }
+  .faq-header-{{ section.id }} .links-wrp{
+    border-top:4px solid #065142;
+    border-bottom:4px solid #065142;
+  }
+  .faq-header-{{ section.id }} .links-wrp a{
+    
+  }
+  @media screen and (min-width: 640px) {
+    .faq-header-{{ section.id }}{
+      padding: 100px 30px;
+      padding-bottom: 50px;
+    }
+    .faq-header-{{ section.id }} h1{
+      font-size:70px;
+      margin-bottom:20px;
+    }
+    .faq-header-{{ section.id }} p{
+      font-size:20px;
+    }
+    
+  }
+{% endstylesheet %}
+<div class="faq-header-wrp faq-header-{{ section.id }}">
+  <div class="faq-header-content">
+    <h1>{{ sings.title }}</h1>
+    <p>{{ sings.description }}</p>
+  </div>
+  <div class="links-wrp">
+    <a href="#section-link">Section</a>
+  </div>
+</div>
+<script>
+  $("a[href^='#']").click(function(e) {   
+    e.preventDefault();   
+    var dest = $(this).attr('href');   
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
+  });
+
+  $(function(){
+
+  });
+</script>
+{% schema %}
+{
+  "name": "FAQ Header",
+  "tag": "section",
+  "class": "section faq-header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title"
+    },
+    {
+      "type": "color",
+      "id": "header_color",
+      "label": "Text Color",
+      "default": "#065142"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Header Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Background with Text"
+    }
+  ]
+}
+{% endschema %}
