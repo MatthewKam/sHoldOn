@@ -8,6 +8,60 @@
         "padding_bottom": 28
       }
     },
+    "1652784353a6f38f6d": {
+      "type": "alternating-content",
+      "blocks": {
+        "27afe2e7-b68a-402f-ba4c-f64b74e8b92a": {
+          "type": "image",
+          "settings": {
+            "ac_image": "shopify:\/\/shop_images\/ac-1.png",
+            "ac_color": "#065142",
+            "ac_title": "100 BILLION BAGS TOSSED",
+            "ac_copy": "<p>100 billion bags are used - and tossed - each year in America alone. That's a garbage truck full every 60 seconds. <\/p>"
+          }
+        },
+        "b71236b6-407d-4cb3-836b-070954c987d6": {
+          "type": "image",
+          "settings": {
+            "ac_image": "shopify:\/\/shop_images\/ac-2.png",
+            "ac_color": "#065142",
+            "ac_title": "1000 YEARS TO DECOMPOSE",
+            "ac_copy": "<p>It takes 1000 years for a plastic bag to break down in a landfill, emitting toxic gases and leaving behind microplastic debris.<\/p>"
+          }
+        },
+        "3b719126-a200-4868-859f-690b7198a0ac": {
+          "type": "image",
+          "settings": {
+            "ac_image": "shopify:\/\/shop_images\/ac-3.png",
+            "ac_color": "#065142",
+            "ac_title": "MICROPLASTICS In our water - AND OUR blood",
+            "ac_copy": "<p>Microplastic particles pollute our water and food sources and wind up in our bodies. On average, we’re consuming a credit card worth of microplastic a week.<\/p>"
+          }
+        },
+        "9b330d29-b2f9-451e-9889-b891f1ced32a": {
+          "type": "image",
+          "settings": {
+            "ac_image": "shopify:\/\/shop_images\/ac-4.png",
+            "ac_color": "#065142",
+            "ac_title": "232 Million tons OF GAS EMISSIONS",
+            "ac_copy": "<p>232 million tons of CO2 gas is emitted each year from plastic production in the United States, and even more greenhouse gases are emitted as plastics decompose.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "27afe2e7-b68a-402f-ba4c-f64b74e8b92a",
+        "b71236b6-407d-4cb3-836b-070954c987d6",
+        "3b719126-a200-4868-859f-690b7198a0ac",
+        "9b330d29-b2f9-451e-9889-b891f1ced32a"
+      ],
+      "settings": {
+        "bg_color_start": "#FFFFFF",
+        "bg_color_end": "#EFFCF6",
+        "text_color": "#065142",
+        "header_title": "PLASTIC - It’s everywhere",
+        "header_copy": "<p>Some of it we need. Lots of it we don’t. We want to be part of the growing movement away from single-use plastic, which if you ask most experts, is the single worst kind of plastic. At every stage: production, disposal, and decomposition - plastic bags are doing harm to our water, our Earth, and even our bodies. <\/p>"
+      }
+    },
     "16527785643405b294": {
       "type": "abovethefold-breakdown",
       "blocks": {
@@ -109,6 +163,7 @@
   },
   "order": [
     "main",
+    "1652784353a6f38f6d",
     "16527785643405b294",
     "1652775858b7c856c2",
     "16527758600246a85f",
