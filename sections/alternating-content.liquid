@@ -3,6 +3,33 @@
   .ac-{{ section.id }}{
     background: linear-gradient(180deg, {{ sings.bg_color_start }} 0%, {{ sings.bg_color_end }} 68.75%);
   }
+  .ac-{{ section.id }} .ac-container{
+    padding: 70px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .ac-{{ section.id }} h1,
+  .ac-{{ section.id }} p,
+  .ac-{{ section.id }} span,
+  .ac-{{ section.id }} strong{
+    letter-spacing:0;
+    line-height:1;
+  }
+  .ac-{{ section.id }} h1{
+    font-size:35px;
+  }
+  .ac-{{ section.id }} p{
+    font-size:16px;
+    line-height:1.3;
+  }
+  @media screen and (min-width: 640px) {
+    .ac-{{ section.id }} h1{
+      font-size:50px;
+    }
+    .ac-{{ section.id }} p{
+      font-size:20px;
+    }
+  }
 {%- endstyle -%}
 <div class="alternating-content-wrp ac-{{ section.id }}">
   <div class="ac-container">
@@ -14,7 +41,7 @@
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
         {% assign evenIndex = forloop.index | add: 1 | modulo: 2 %}
-        <div class="ac ac-{{ forloop.index | add: 1 }} {% if evenIndex == 0 %} ac-even{% endif %}">
+        <div class="ac ac-{{ forloop.index | add: 1 }}{% if evenIndex == 0 %} ac-even{% endif %}">
           <img src="{{ bings.ac_image | image_url }}" class="ac-image" alt="{{ bings.ac_title }}">
           <div class="ac-copy-wrp">
             <div class="ac-copy">
