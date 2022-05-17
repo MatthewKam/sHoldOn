@@ -32,6 +32,8 @@
     .atf-breakdown-{{ section.id }} .header-wrp .icon-image{
       max-width:{{ sings.himg_max_d }}px;
     }
+  }
+  @media screen and (min-width: 767px) {
     {% if sings.link_url %}
       .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title{
         justify-content:space-between;
@@ -43,7 +45,6 @@
         display:block;
       }
     {% endif %}
-    
   }
 {%- endstyle -%}
 <div class="atf-wrp atf-breakdown-{{ section.id }}">
