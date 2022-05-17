@@ -1,0 +1,102 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .ac-{{ section.id }}{
+    background: linear-gradient(180deg, {{ sings.bg_color_start }} 0%, {{ sings.bg_color_end }} 68.75%);
+  }
+{%- endstyle -%}
+<div class="alternating-content-wrp ac-{{ section.id }}">
+  <div class="ac-container">
+    <div class="ac-header">
+      <h1>{{ sings.header_title }}</h1>
+      <div class="ac-header-copy">{{ sings.header_copy }}</div>
+    </div>
+    <div class="ac-wrp">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        {{ forloop.index | add: 1 | modulo: 2 }}
+        <div class="ac ac-{{ forloop.index | add: 1 }}">
+          <img src="{{ bings.ac_image | image_url }}" class="ac-image" alt="{{ bings.ac_title }}">
+          <div class="ac-copy-wrp">
+            <div class="ac-copy">
+              <h1>{{ bings.ac_title }}</h1>
+              <div class="ac-content">{{ bings.ac_copy }}</div>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Alternating Content",
+  "tag": "section",
+  "class": "section alternating-content",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color_start",
+      "label": "Background Gradient Start",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "bg_color_end",
+      "label": "Background Gradient End",
+      "default":"#EFFCF6"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default":"#065142"
+    },
+    {
+      "type": "text",
+      "id": "header_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "richtext",
+      "id": "header_copy",
+      "label": "Section Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Alternating Content",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "ac_image",
+          "label": "Content Image"
+        },
+        {
+          "type": "color",
+          "id": "ac_color",
+          "label": "Alternating Content Color",
+          "default":"#065142"
+        },
+        {
+          "type": "text",
+          "id": "ac_title",
+          "label": "Step Title"
+        },
+        {
+          "type": "richtext",
+          "id": "ac_copy",
+          "label": "Step Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Alternating Content"
+    }
+  ]
+}
+{% endschema %}
