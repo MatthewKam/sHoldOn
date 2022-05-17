@@ -14,7 +14,7 @@
         "97ea2eaa-df2c-4d05-99c9-eed7b0aec645": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polybutylene.png",
+            "ingredient_image": "shopify:\/\/shop_images\/pbat_1.png",
             "ingredient_title": "Polybutylene adipate terephthalate",
             "ingredient_copy": "PBAT is a biodegradable polymer that requires less crude oil during production than plastics and breaks down quickly, without emitting methane gas or creating toxic residue."
           }
@@ -22,7 +22,7 @@
         "3e3ae135-62a3-4003-a62e-11dab680b679": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polylactic-acid.png",
+            "ingredient_image": "shopify:\/\/shop_images\/pla_1.png",
             "ingredient_title": "Polylactic acid",
             "ingredient_copy": "PLA is a monomer derived from organic, renewable sources - like sugar or corn. It requires less energy in production and emits less greenhouse gas in decomposition than plastic."
           }
@@ -30,7 +30,7 @@
         "b7759c57-532c-4792-87f7-541e64541272": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-cornstarch.png",
+            "ingredient_image": "shopify:\/\/shop_images\/Image_1_1.png",
             "ingredient_title": "CORNSTARCH",
             "ingredient_copy": "Cornstarch is an organic substance that is ethically harvested from corn and biodegrades quickly, without emitting toxic gas."
           }
@@ -38,7 +38,7 @@
         "73fe5ff0-5013-4a2f-8630-8b5bcb783e05": {
           "type": "image",
           "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-responsible-packagin.png",
+            "ingredient_image": "shopify:\/\/shop_images\/recycled_1.png",
             "ingredient_title": "RESPONSIBLE PACKAGING",
             "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
           }
@@ -52,7 +52,7 @@
       ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-hero-about_e03b8f38-57ce-42fa-adea-39c5b82e7480.png",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "copy_color": "#065142",
         "title": "From the earth, for the earth",
         "header_desc": "<p>We use nontoxic ingredients like PBAT, PLA and cornstarch to produce our strong and sustainable material. Our plant-based renewables come from the earth and degrade cleanly back into the earth, without producing microplastics or toxic residue.<\/p>",
@@ -225,7 +225,7 @@
       ],
       "settings": {
         "bg_color": "#effcf6",
-        "header_image": "shopify:\/\/shop_images\/steps-header.png",
+        "header_image": "shopify:\/\/shop_images\/materials1_1.png",
         "text_color": "#065142",
         "header_title": "Get started",
         "header_copy": "<p>HoldOn bags are TUV-certified home compostable, so you can compost them right in your own backyard. Here's how to get started:<\/p>"
@@ -242,7 +242,7 @@
         "copy_color": "#065142",
         "button_url": "shopify:\/\/collections\/all-products",
         "button_url_text": "Shop Now",
-        "bg_img": "shopify:\/\/shop_images\/HoldOn-25.jpg"
+        "bg_img": "shopify:\/\/shop_images\/L4A0753_1_1.png"
       }
     }
   },
