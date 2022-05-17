@@ -55,11 +55,12 @@
         "9b330d29-b2f9-451e-9889-b891f1ced32a"
       ],
       "settings": {
-        "bg_color_start": "#FFFFFF",
-        "bg_color_end": "#EFFCF6",
+        "bg_color_start": "#ffffff",
+        "bg_color_end": "#effcf6",
         "text_color": "#065142",
         "header_title": "PLASTIC - It’s everywhere",
-        "header_copy": "<p>Some of it we need. Lots of it we don’t. We want to be part of the growing movement away from single-use plastic, which if you ask most experts, is the single worst kind of plastic. At every stage: production, disposal, and decomposition - plastic bags are doing harm to our water, our Earth, and even our bodies. <\/p>"
+        "header_copy": "<p>Some of it we need. Lots of it we don’t. We want to be part of the growing movement away from single-use plastic, which if you ask most experts, is the single worst kind of plastic. At every stage: production, disposal, and decomposition - plastic bags are doing harm to our water, our Earth, and even our bodies. <\/p>",
+        "header_icon": "shopify:\/\/shop_images\/icon-Compostable-teal-small.png"
       }
     },
     "16527785643405b294": {
