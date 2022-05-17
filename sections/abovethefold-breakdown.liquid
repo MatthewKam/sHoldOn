@@ -23,6 +23,8 @@
     }
     .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .materials-link-bottom{
       display:block;
+      text-align: center;
+      padding: 20px 0;
     }
     .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title .materials-link-top{
       display:none;
@@ -36,7 +38,8 @@
   @media screen and (min-width: 767px) {
     {% if sings.link_url %}
       .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .breakdown-title{
-        justify-content:space-between;
+        justify-content: space-between !important;
+        align-items: center;
       }
       .atf-breakdown-{{ section.id }} .content-wrp .breakdown-wrp .materials-link-bottom{
         display:none;
