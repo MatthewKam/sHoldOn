@@ -5,7 +5,7 @@
   }
   .ac-{{ section.id }} .ac-container{
     padding: 70px 20px;
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
   }
   .ac-{{ section.id }} h1,
@@ -50,6 +50,9 @@
   .ac-{{ section.id }} .ac-copy {
     max-width: 450px;
   }
+  .ac-{{ section.id }} .ac-copy h1{
+    margin-bottom:10px;
+  }
   @media screen and (min-width: 640px) {
     .ac-{{ section.id }} h1{
       font-size:50px;
@@ -57,8 +60,14 @@
     .ac-{{ section.id }} p{
       font-size:20px;
     }
+    .ac-{{ section.id }} .ac-copy h1{
+      margin-bottom:20px;
+    }
   }
   @media screen and (min-width: 767px) {
+    .ac-{{ section.id }} .ac-container{
+      max-width: 1200px;
+    }
     .ac-{{ section.id }} .ac-copy-wrp {
       display: flex;
       justify-content: center;
