@@ -58,10 +58,20 @@
         "icon_image": "shopify:\/\/shop_images\/icon-Compostable-white.png",
         "breakdown_title": "Our Material Breakdown"
       }
+    },
+    "1652775801ba4917e7": {
+      "type": "steps",
+      "settings": {
+        "bg_color": "#EFFCF6",
+        "text_color": "#065142",
+        "header_title": "",
+        "header_copy": ""
+      }
     }
   },
   "order": [
     "main",
-    "16524331776a342052"
+    "16524331776a342052",
+    "1652775801ba4917e7"
   ]
 }
