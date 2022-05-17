@@ -149,8 +149,8 @@
       "type": "divider-bar",
       "settings": {
         "image_text": true,
-        "divider_bg_m": "shopify:\/\/shop_images\/bg-divider-bar-1-m.png",
-        "divider_bg_d": "shopify:\/\/shop_images\/bg-divider-bar-1.png",
+        "divider_bg_m": "shopify:\/\/shop_images\/green-5_2_1.jpg",
+        "divider_bg_d": "shopify:\/\/shop_images\/green-5_1_1.jpg",
         "divider_color": "#ffffff",
         "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
         "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
