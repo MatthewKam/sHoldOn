@@ -5,17 +5,24 @@
     background:url({{ sings.bg_mobile | image_url }})center top no-repeat;
     background-size:cover;
   }
+  .bg-content-{{ section.id }} h1{
+    max-width:335px;
+    margin:0 auto;
+  }
   @media screen and (min-width: 767px) {
     .bg-content-{{ section.id }}{
       padding:100px 30px;
       background:url({{ sings.bg_desktop | image_url }})center top no-repeat;
       background-size:cover;
     }
+    .bg-content-{{ section.id }} h1{
+      max-width:600px;
+    }
   }
 {%- endstyle -%}
 <div class="bg-content-wrp bg-content-{{ section.id }}">
   <div class="bg-content-header">
-    <h1 style="color:{{ sings.header_title_color }}">{{ sings.header_title }}</h1>
+    <h1 style="color:{{ sings.header_title_color }}">{{ sings.title }}</h1>
   </div>
 </div>
 
@@ -33,7 +40,8 @@
     {
       "type": "color",
       "id": "header_title_color",
-      "label": "Text Color"
+      "label": "Text Color",
+      "default": "#F8F0DC"
     },
     {
       "type": "image_picker",
