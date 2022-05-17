@@ -91,7 +91,9 @@
 <div class="steps-wrp steps-{{ section.id }}">
   <div class="steps-container">
     <div class="steps-header">
-      <img src="{{ sings.header_image | image_url }}" alt="">
+      {% if sings.header_image %}
+        <img src="{{ sings.header_image | image_url }}" alt="">
+      {% endif %}
       <h1>{{ sings.header_title }}</h1>
       <div class="steps-copy">{{ sings.header_copy }}</div>
     </div>
