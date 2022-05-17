@@ -60,18 +60,38 @@
     .ac-{{ section.id }} p{
       font-size:20px;
     }
-    .ac-{{ section.id }} .ac-copy h1{
-      margin-bottom:20px;
-    }
   }
   @media screen and (min-width: 767px) {
     .ac-{{ section.id }} .ac-container{
       max-width: 1200px;
     }
+    .ac-{{ section.id }} .ac {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 50px;
+    }   
+    .ac-{{ section.id }} .ac img{
+      max-width: 600px;
+      width: 50%;
+    }
     .ac-{{ section.id }} .ac-copy-wrp {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 0 20px;
+    }
+    .ac-{{ section.id }} .ac-copy h1{
+      margin-bottom:20px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .ac-{{ section.id }} .ac-copy-wrp {
+      padding: 0 50px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .ac-{{ section.id }} .ac-copy-wrp {
+      padding: 0 100px;
     }
   }
 {%- endstyle -%}
