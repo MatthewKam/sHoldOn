@@ -8,60 +8,17 @@
         "padding_bottom": 28
       }
     },
-    "16524331776a342052": {
-      "type": "abovethefold-breakdown",
-      "blocks": {
-        "97ea2eaa-df2c-4d05-99c9-eed7b0aec645": {
-          "type": "image",
-          "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polybutylene.png",
-            "ingredient_title": "Polybutylene adipate <span>terephthalate<\/span>",
-            "ingredient_copy": "PBAT is a biodegradable polymer that requires less crude oil during production than plastics and breaks down quickly, without emitting methane gas or creating toxic residue."
-          }
-        },
-        "3e3ae135-62a3-4003-a62e-11dab680b679": {
-          "type": "image",
-          "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-polylactic-acid.png",
-            "ingredient_title": "Polylactic <span>acid<\/span>",
-            "ingredient_copy": "PLA is a monomer derived from organic, renewable sources - like sugar or corn. It requires less energy in production and emits less greenhouse gas in decomposition than plastic."
-          }
-        },
-        "b7759c57-532c-4792-87f7-541e64541272": {
-          "type": "image",
-          "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-cornstarch.png",
-            "ingredient_title": "CORNSTARCH",
-            "ingredient_copy": "Cornstarch is an organic substance ethically harvested from corn that biodegrades quickly, without emitting toxic gas."
-          }
-        },
-        "73fe5ff0-5013-4a2f-8630-8b5bcb783e05": {
-          "type": "image",
-          "settings": {
-            "ingredient_image": "shopify:\/\/shop_images\/circle-responsible-packagin.png",
-            "ingredient_title": "RESPONSIBLE  <span>PACKAGING<\/span>",
-            "ingredient_copy": "We use minimal, recyclable packaging made with 100% FSC certified material from responsible sources in an effort to reduce waste."
-          }
-        }
-      },
-      "block_order": [
-        "97ea2eaa-df2c-4d05-99c9-eed7b0aec645",
-        "3e3ae135-62a3-4003-a62e-11dab680b679",
-        "b7759c57-532c-4792-87f7-541e64541272",
-        "73fe5ff0-5013-4a2f-8630-8b5bcb783e05"
-      ],
+    "1652790247f81eadd9": {
+      "type": "faq-header",
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/bg-hero-about_e03b8f38-57ce-42fa-adea-39c5b82e7480.png",
-        "copy_color": "#065142",
-        "title": "From the earth, for the earth",
-        "header_desc": "<p>We use nontoxic ingredients like PBAT, PLA and cornstarch to produce our strong and sustainable material. Our plant-based renewables come from the earth and degrade cleanly back into the earth, without producing microplastics or toxic residue.<\/p>",
-        "icon_image": "shopify:\/\/shop_images\/icon-Compostable-white.png",
-        "breakdown_title": "Our Material Breakdown"
+        "title": "FAQs",
+        "header_color": "#065142",
+        "description": "Looking for answers? We’ve got them!"
       }
     }
   },
   "order": [
     "main",
-    "16524331776a342052"
+    "1652790247f81eadd9"
   ]
 }
