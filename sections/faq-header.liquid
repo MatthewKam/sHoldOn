@@ -1,5 +1,5 @@
 {% assign sings = section.settings %}
-{% stylesheet %}
+{%- style -%}
   .faq-header-{{ section.id }}{
     padding: 70px 20px;
     padding-bottom: 30px;
@@ -42,7 +42,7 @@
     }
     
   }
-{% endstylesheet %}
+{%- endstyle -%}
 <div class="faq-header-wrp faq-header-{{ section.id }}">
   <div class="faq-header-content">
     <h1>{{ sings.title }}</h1>
