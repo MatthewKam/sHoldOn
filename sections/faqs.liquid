@@ -1,35 +1,103 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .faq-dropdown-{{ section.id }}{
+    padding:20px;
+  }
+  .faq-dropdown-{{ section.id }} .faq-dropdown-content{
+    max-width:800px;
+    margin:0 auto;
+  }
+  @media screen and (min-width: 767px) {
+    .faq-dropdown-{{ section.id }}{
+      padding:100px 30px;
+      
+    }
+  }
+{%- endstyle -%}
+<div class="faq-dropdown-wrp faq-dropdown-{{ section.id }}" id="{{ sings.title | handleize }}">
+  <div class="faq-dropdown-content">
+    <div class="faq-dropdown-header">
+      <h1 style="color:{{ sings.header_title_color }}">{{ sings.title }}</h1>
+    </div>
+    <div class="faq-dropdowns">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        <div class="faq-drpdwn">
+          <div class="plus-minus">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="drpdwn-content">
+            <h1></h1>
+            <div class="drpdwn-copy"></div>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+<script>
+  $(".faq-dropdown-{{ section.id }}").click(function(e) {   
+    e.preventDefault();   
+    console.log('clicked!')
+  });
 
+  $(function(){
+
+  });
+</script>
 {% schema %}
 {
-  "name": "Background with Text",
+  "name": "FAQ Dropdowns",
   "tag": "section",
-  "class": "section bg-content",
+  "class": "section faq-dropdowns",
   "settings": [
     {
       "type": "text",
       "id": "title",
-      "label": "Text"
+      "label": "Header Text"
     },
     {
       "type": "color",
       "id": "header_title_color",
-      "label": "Text Color",
+      "label": "Header Text Color",
+      "default": "#065142"
+    },
+    {
+      "type": "color",
+      "id": "faq_bg_color",
+      "label": "FAQ BG Color",
       "default": "#F8F0DC"
     },
     {
-      "type": "image_picker",
-      "id": "bg_desktop",
-      "label": "Desktop Image"
-    },
+      "type": "color",
+      "id": "faq_bg_copy_color",
+      "label": "FAQ Text Color",
+      "default": "#065142"
+    }
+  ],
+  "blocks": [
     {
-      "type": "image_picker",
-      "id": "bg_mobile",
-      "label": "Mobile Image"
+      "type": "text",
+      "name": "Dropdown",
+      "limit": 7,
+      "settings": [
+        {
+          "type": "text",
+          "id": "faq_title",
+          "label": "FAQ Question/Title"
+        },
+        {
+          "type": "text",
+          "id": "faq_copy",
+          "label": "FAQ Answer/Copy"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Background with Text"
+      "name": "FAQ Dropdowns"
     }
   ]
 }
