@@ -8,6 +8,15 @@
         "padding_bottom": 28
       }
     },
+    "165278768210fefdfe": {
+      "type": "bg-content",
+      "settings": {
+        "title": "We’re ON A MISSION  TO LEAVE the world cleaner than we found it.",
+        "header_title_color": "#f8f0dc",
+        "bg_desktop": "shopify:\/\/shop_images\/bg-materials-atf-d.png",
+        "bg_mobile": "shopify:\/\/shop_images\/bg-materials-atf-m.png"
+      }
+    },
     "1652784353a6f38f6d": {
       "type": "alternating-content",
       "blocks": {
@@ -164,6 +173,7 @@
   },
   "order": [
     "main",
+    "165278768210fefdfe",
     "1652784353a6f38f6d",
     "16527785643405b294",
     "1652775858b7c856c2",
