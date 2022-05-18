@@ -98,12 +98,20 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 0;
+  padding-bottom: 0;
 }
 
 .shopify-section.section-you-may-also-items ul.you-may-also-list-container li .label-price h2 {
   font-size: 16px;
   letter-spacing: 0;
   padding-right: 15px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 640px) {
