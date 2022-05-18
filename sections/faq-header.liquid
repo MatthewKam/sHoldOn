@@ -68,16 +68,10 @@
     <h1>{{ sings.title }}</h1>
     <p>{{ sings.description }}</p>
   </div>
-  <div class="links-wrp">
-    <a href="#section-link">Section</a>
-  </div>
+  <div class="links-wrp">&nbsp;</div>
 </div>
 <script>
-  $("a[href^='#']").click(function(e) {   
-    e.preventDefault();   
-    var dest = $(this).attr('href');   
-    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
-  });
+  
 
   $(function(){
     let faqSections = $('.faq-wrp').length;
@@ -86,7 +80,11 @@
       sectionTitles.push($(this).attr('id'));
       $('.links-wrp').append(`<a href="#${$(this).attr('id')}">${$(this).attr('id').split('-').join(' ')}</a>`);
     })
-    // $('.links-wrp').html()
+    $("a[href^='#']").click(function(e) {   
+      e.preventDefault();   
+      var dest = $(this).attr('href');   
+      $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
+    });
   });
 </script>
 {% schema %}
