@@ -151,13 +151,25 @@ $border-image-gallery: #FFFFFF;
       }
 
       .product-details-wrp{
+        margin-top
         .product-details{
           border-top: 2px solid green;
           border-bottom: 2px solid green;
-          padding: 20px 0;
+          padding: 15px 10px;
         }
         .details-header{
-
+          cursor: pointer;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          h4{
+            text-transform: uppercase;
+            font-size: 20px;
+          }
+          img{
+            width: 25px;
+          }
         }
         .details-copy{
           display:none;

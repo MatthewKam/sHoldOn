@@ -286,6 +286,9 @@
       hiddenInput.value = event.currentTarget.value;
     });
   });
+  $('.product-details-wrp .product-details').on('click', function(){
+    $(this).find('.details-copy').slideToggle();
+  });
 </script>
 
 {%- liquid
