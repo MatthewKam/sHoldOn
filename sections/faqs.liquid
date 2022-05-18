@@ -15,11 +15,28 @@
   .faq-{{ section.id }} .faq-header h1{
     font-size:25px;
   }
+  .faq-{{ section.id }} .plus-minus {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .faq-{{ section.id }} .plus-minus span{
+    border-bottom: 3px solid green;
+    width: 25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .faq-{{ section.id }} .faq-drpdwn{
     background-color:{{sings.faq_bg_color}};
     color:{{ sings.faq_bg_copy_color }};
     border-radius: 20px;
     padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
   }
   .faq-{{ section.id }} .drpdwn-title {
     font-size:16px;
@@ -50,8 +67,8 @@
         {% assign bings = block.settings %}
         <div class="faq-drpdwn">
           <div class="plus-minus">
-            <span></span>
-            <span></span>
+            <span class="first-line"></span>
+            <span class="second-line"></span>
           </div>
           <div class="drpdwn-content">
             <h1 class="drpdwn-title">{{ bings.faq_title }}</h1>
