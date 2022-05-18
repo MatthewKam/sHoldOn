@@ -34,9 +34,10 @@
                 Shop Now
               </a>
             </div>
-            <a href="{{ product.url }}" class="col-list-link">
-              <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
-            </a>
+            
+            <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;">
+              <a href="{{ product.url }}" class="col-list-link"></a>
+            </div>
             <div class="reviews">
 
             </div>
