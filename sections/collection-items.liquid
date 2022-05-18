@@ -28,13 +28,15 @@
           assign itemCount = product.metafields.product_info.itemCount.value 
         %}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          <a href="{{ product.url }}" class="col-list-link">
+          
             <div class="btn-wrp">
               <a href="{{ product.url }}" class="learn-more-link btn-link">
                 Shop Now
               </a>
             </div>
-            <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
+            <a href="{{ product.url }}" class="col-list-link">
+              <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
+            </a>
             <div class="reviews">
 
             </div>
@@ -60,7 +62,7 @@
                 {% endif %}
               </div>
             {% endif %} -->
-          </a>
+          
           <a href="{{ product.url }}" class="learn-more-link btn-link">
             Shop Now
           </a>
