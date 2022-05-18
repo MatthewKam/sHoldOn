@@ -22,8 +22,8 @@
         "056f9901-6d0e-4a4d-b184-125f858bfb39": {
           "type": "text",
           "settings": {
-            "faq_title": "Question here lorem ipsum dolor?",
-            "faq_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
+            "faq_title": "Can HoldOn bags be used for recycling? Can I recycle HoldOn bags?",
+            "faq_copy": "<p>In short: it depends! <\/p><p>Many recycling programs require items to be picked up from special bins loose, meaning a HoldOn bag full of recyclables would not be accepted. <\/p><p>If your program allows recyclable waste to be placed in trash bags, a HoldOn trash bag would be a more sustainable alternative to plastic trash bags. <\/p><p>We recommend following your recycling program instructions to ensure that your items are approved and recycled properly. If you are currently using plastic bags for trash, HoldOn compostable bags will be a positive step in the right direction, as they break down into nontoxic, plant-based elements, without producing microplastics or greenhouse gases.<\/p>"
           }
         },
         "1510b735-b0ea-4078-8568-152c527785d5": {
@@ -79,7 +79,7 @@
         "77e58334-5b41-4112-87d6-5292bcea8db9"
       ],
       "settings": {
-        "title": "",
+        "title": "HOW TO USE",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
