@@ -124,6 +124,13 @@
   font-size: 14px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .rc-selling-plans-dropdown__select {
+  border-radius: 10px;
+  border: 2px solid #065142;
+  font-family: "Korolev-Medium";
+  color: #065142;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp {
   display: -webkit-box;
   display: -ms-flexbox;

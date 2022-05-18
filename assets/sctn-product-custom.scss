@@ -92,6 +92,12 @@ $border-image-gallery: #FFFFFF;
             font-size: 14px;
           }
         }
+        .rc-selling-plans-dropdown__select {
+          border-radius: 10px;
+          border: 2px solid #065142;
+          font-family: $k-med;
+          color: #065142;
+        }
 
       }
       .submit-selection-wrp {
