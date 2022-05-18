@@ -70,6 +70,7 @@ $k-heavy:'Korolev-Heavy';
           justify-content: space-between;
           align-items: center;
           padding: 10px 0;
+          padding-bottom: 0;
           h2 {
             font-size: 16px;
             letter-spacing: 0;
@@ -77,7 +78,7 @@ $k-heavy:'Korolev-Heavy';
             height: 52px;
             display: flex;
             align-items: center;
-            
+
             @media screen and (min-width: 640px) {
               font-size: 20px;
             }
@@ -109,6 +110,9 @@ $k-heavy:'Korolev-Heavy';
               margin-right:10px;
             }
           }
+        }
+        a.learn-more-link.btn-link {
+          margin-top: 10px;
         }
       }
     }

@@ -27,39 +27,40 @@
           assign count = product.metafields.product_info.count.value 
           assign itemCount = product.metafields.product_info.itemCount.value 
         %}
-
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="product-card product-{{ product.title | handleize}}">
-          <div class="btn-wrp">
-            <a href="{{ product.url }}" class="learn-more-link btn-link">
-              Shop Now
-            </a>
-          </div>
-          <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
-          <div class="reviews">
-
-          </div>
-          <div class="label-price">
-            <h2>{{ product.title }}</h2>
-            <p>
-              {% if product.compared_at_price %}
-                <strike class="prod-price-strike">{{ product.compared_at_price | money }} </strike>
-              {% endif %}
-              <span class="prod-price">{{ product.price | money }}</span>
-            </p>
-          </div>
-          {% if gallon or count or itemCount %}  
-            <div class="product-info">
-              {% if gallon %}
-                <p class="prod-gallon"><span>{{ gallon }}</span> gallon(s)</p>
-              {% endif %}
-              {% if count %}
-                <p class="prod-box"><span>{{ count }}</span> bags/box</p>
-              {% endif %}
-              {% if itemCount %}
-                <p class="prod-items"><span>{{ itemCount }}</span> item(s)</p>
-              {% endif %}
+          <a href="{{ product.url }}" class="col-list-link">
+            <div class="btn-wrp">
+              <a href="{{ product.url }}" class="learn-more-link btn-link">
+                Shop Now
+              </a>
             </div>
-          {% endif %}
+            <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;"></div>
+            <div class="reviews">
+
+            </div>
+            <div class="label-price">
+              <h2>{{ product.title }}</h2>
+              <p>
+                {% if product.compared_at_price %}
+                  <strike class="prod-price-strike">{{ product.compared_at_price | money }} </strike>
+                {% endif %}
+                <span class="prod-price">{{ product.price | money }}</span>
+              </p>
+            </div>
+            <!-- {% if gallon or count or itemCount %}  
+              <div class="product-info">
+                {% if gallon %}
+                  <p class="prod-gallon"><span>{{ gallon }}</span> gallon(s)</p>
+                {% endif %}
+                {% if count %}
+                  <p class="prod-box"><span>{{ count }}</span> bags/box</p>
+                {% endif %}
+                {% if itemCount %}
+                  <p class="prod-items"><span>{{ itemCount }}</span> item(s)</p>
+                {% endif %}
+              </div>
+            {% endif %} -->
+          </a>
           <a href="{{ product.url }}" class="learn-more-link btn-link">
             Shop Now
           </a>
