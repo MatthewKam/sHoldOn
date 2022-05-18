@@ -80,6 +80,9 @@ $border-image-gallery: #FFFFFF;
             };
           }
         }
+        .prod-desc{
+          margin-bottom: 10px;
+        }
         .how-it-works {
           color: white;
           font-size: 14px;
@@ -105,6 +108,7 @@ $border-image-gallery: #FFFFFF;
         justify-content: space-between;
         align-items: center;
         margin: 20px auto;
+        margin-top: 5px;
 
         quantity-input.quantity{
           max-width: 100px;
@@ -143,6 +147,20 @@ $border-image-gallery: #FFFFFF;
               font-size: 20px;
             }
           }
+        }
+      }
+
+      .product-details-wrp{
+        .product-details{
+          border-top: 2px solid green;
+          border-bottom: 2px solid green;
+          padding: 20px 0;
+        }
+        .details-header{
+
+        }
+        .details-copy{
+          display:none;
         }
       }
       .product-gallery {

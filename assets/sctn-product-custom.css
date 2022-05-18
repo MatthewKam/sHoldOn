@@ -109,6 +109,10 @@
   padding-right: 5px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .prod-desc {
+  margin-bottom: 10px;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown .how-it-works {
   color: white;
   font-size: 14px;
@@ -142,6 +146,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 20px auto;
+  margin-top: 5px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity {
@@ -189,6 +194,16 @@
   text-transform: uppercase;
   letter-spacing: 0;
   font-size: 20px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-details-wrp .product-details {
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  padding: 20px 0;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-details-wrp .details-copy {
+  display: none;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .product-gallery {
