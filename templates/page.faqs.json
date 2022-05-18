@@ -77,12 +77,42 @@
         "faq_bg_color": "#F8F0DC",
         "faq_bg_copy_color": "#065142"
       }
+    },
+    "1652867248fe1e3018": {
+      "type": "faqs",
+      "settings": {
+        "title": "PRODUCT SIZES & FEATURES",
+        "header_title_color": "#065142",
+        "faq_bg_color": "#F8F0DC",
+        "faq_bg_copy_color": "#065142"
+      }
+    },
+    "16528672605337f917": {
+      "type": "faqs",
+      "settings": {
+        "title": "CUSTOMER SERVICE",
+        "header_title_color": "#065142",
+        "faq_bg_color": "#F8F0DC",
+        "faq_bg_copy_color": "#065142"
+      }
+    },
+    "16528672861b2eb4ff": {
+      "type": "faqs",
+      "settings": {
+        "title": "MISCELLANEOUS",
+        "header_title_color": "#065142",
+        "faq_bg_color": "#F8F0DC",
+        "faq_bg_copy_color": "#065142"
+      }
     }
   },
   "order": [
     "main",
     "1652790247f81eadd9",
     "1652791647d9566bbd",
-    "1652867222d56dcada"
+    "1652867222d56dcada",
+    "1652867248fe1e3018",
+    "16528672605337f917",
+    "16528672861b2eb4ff"
   ]
 }
