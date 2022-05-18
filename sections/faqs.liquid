@@ -1,26 +1,25 @@
 {% assign sings = section.settings %}
 {%- style -%}
-  .faq-dropdown-{{ section.id }}{
+  .faq-{{ section.id }}{
     padding:20px;
   }
-  .faq-dropdown-{{ section.id }} .faq-dropdown-content{
+  .faq-{{ section.id }} .faq-content{
     max-width:800px;
     margin:0 auto;
   }
-  .faq-dropdown-{{ section.id }} .faq-drpdwn{
+  .faq-{{ section.id }} .faq-drpdwn{
     background-color:{{sings.faq_bg_color}};
     color:{{ sings.faq_bg_copy_color }}
   }
   @media screen and (min-width: 767px) {
-    .faq-dropdown-{{ section.id }}{
-      padding:100px 30px;
+    .faq-{{ section.id }}{
       
     }
   }
 {%- endstyle -%}
-<div class="faq-dropdown-wrp faq-dropdown-{{ section.id }}" id="{{ sings.title | handleize }}">
-  <div class="faq-dropdown-content">
-    <div class="faq-dropdown-header">
+<div class="faq-wrp faq-{{ section.id }}" id="{{ sings.title | handleize }}">
+  <div class="faq-content">
+    <div class="faq-header">
       <h1 style="color:{{ sings.header_title_color }}">{{ sings.title }}</h1>
     </div>
     <div class="faq-dropdowns">
