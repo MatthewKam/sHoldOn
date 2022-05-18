@@ -83,8 +83,9 @@
     let faqSections = $('.faq-wrp').length;
     let sectionTitles = [];
     $('.faq-wrp').each(function(i, obj){
-      console.log('obj',$(this).attr('id'));
+      sectionTitles.push($(this).attr('id'));
     })
+    console.log(sectionTitles);
   });
 </script>
 {% schema %}
