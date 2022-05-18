@@ -68,59 +68,11 @@
         "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
       }
-    },
-    "16528667330a2d34bd": {
-      "type": "faqs",
-      "blocks": {
-        "702a9bcf-4ee8-41a5-9ad3-7979f1a5c29f": {
-          "type": "text",
-          "settings": {
-            "faq_title": "What does TUV certified compostable mean? What does BPI certified compostable mean?",
-            "faq_copy": "<p>TUV Austria is the most intensive certifying body for compostable goods. HoldOn bags are TUV Certified home compostable. This means that they have passed the most stringent tests for at-home composting and have been proven to break down effectively in a home compost in a timely manner. <\/p><p><br\/>BPI Certification signifies that our products can be effectively composted in a commercial composting facility. This rigorous testing ensures that HoldOn bags biodegrade without leaving behind synthetic residue. <br\/><br\/><\/p><p>In a nutshell, HoldOn bags have been rigorously tested and can be composted right in your backyard or an industrial facility.<\/p>"
-          }
-        },
-        "a969b3c8-4bb0-4e45-a812-fe3bd8e688a3": {
-          "type": "text",
-          "settings": {
-            "faq_title": "What are HoldOn bags made out of? What materials are used to make HoldOn compostable bags?",
-            "faq_copy": "<p>We use nontoxic, plant-based materials to create our ultra-strong and sustainable bags. Here’s a look at what’s inside:<br\/><br\/><\/p><p>PBAT<\/p><p>PLA<\/p><p>Cornstarch<\/p><p>Calcium Carbonate <br\/><br\/><\/p><p>You can explore materials by product or learn more here. &lt;link to material page&gt;<\/p>"
-          }
-        },
-        "4d08ca16-bf2d-4cbb-9e2d-aeb74580056d": {
-          "type": "text",
-          "settings": {
-            "faq_title": "Are HoldOn kitchen bags nontoxic?",
-            "faq_copy": "<p>We’re proud to use only nontoxic, plant-based materials for all of our products. That means HoldOn kitchen and storage bags are food-safe - so you can conveniently prepare and store food without worrying about toxic chemicals! <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "702a9bcf-4ee8-41a5-9ad3-7979f1a5c29f",
-        "a969b3c8-4bb0-4e45-a812-fe3bd8e688a3",
-        "4d08ca16-bf2d-4cbb-9e2d-aeb74580056d"
-      ],
-      "settings": {
-        "title": "MATERIALS",
-        "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
-        "faq_bg_copy_color": "#065142"
-      }
-    },
-    "16528667879ec2861a": {
-      "type": "faqs",
-      "settings": {
-        "title": "",
-        "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
-        "faq_bg_copy_color": "#065142"
-      }
     }
   },
   "order": [
     "main",
     "1652790247f81eadd9",
-    "1652791647d9566bbd",
-    "16528667330a2d34bd",
-    "16528667879ec2861a"
+    "1652791647d9566bbd"
   ]
 }
