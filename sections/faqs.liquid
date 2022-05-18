@@ -15,6 +15,9 @@
   .faq-{{ section.id }} .faq-header h1{
     font-size:25px;
   }
+  .faq-{{ section.id }} .drpdwn-content {
+    width: 100%;
+  }
   .faq-{{ section.id }} .plus-minus {
     width: 40px;
     height: 40px;
@@ -27,6 +30,15 @@
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .faq-{{ section.id }} .plus-minus span.first-line{
+    top: 20px;
+    left: 7px;
+  }
+  .faq-{{ section.id }} .plus-minus span.second-line{
+    transform:rotate(90deg);
+    top: 20px;
+    left: 7px;
   }
   .faq-{{ section.id }} .faq-drpdwn{
     background-color:{{sings.faq_bg_color}};
