@@ -198,6 +198,19 @@
               </div>
             {%- endform -%}
           </product-form>
+
+        </div>
+
+        <div class="product-details-wrp">
+          <div class="product-details">
+            <div class="details-header">
+              <h4>Product Details</h4>
+              <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="icon-product-details">
+              <div class="details-copy">
+                {{ sings.product_details }}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -376,6 +389,11 @@
     {
       "type": "header",
       "content": "Product Info"
+    },
+    {
+      "type": "richtext",
+      "id": "product_details",
+      "label": "Product Details"
     },
     {
       "type": "text",
