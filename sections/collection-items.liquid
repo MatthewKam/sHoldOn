@@ -50,13 +50,13 @@
           {% if gallon or count or itemCount %}  
             <div class="product-info">
               {% if gallon %}
-                <p class="prod-gallon"><span>{{ gallon }}</span> gallon</p>
+                <p class="prod-gallon"><span>{{ gallon }}</span> gallon(s)</p>
               {% endif %}
               {% if count %}
                 <p class="prod-box"><span>{{ count }}</span> bags/box</p>
               {% endif %}
-              {% if count %}
-                <p class="prod-items"><span>{{ itemCount }}</span> items</p>
+              {% if itemCount %}
+                <p class="prod-items"><span>{{ itemCount }}</span> item(s)</p>
               {% endif %}
             </div>
           {% endif %}
