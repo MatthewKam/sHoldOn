@@ -29,14 +29,14 @@
         "1510b735-b0ea-4078-8568-152c527785d5": {
           "type": "text",
           "settings": {
-            "faq_title": "Question here lorem ipsum dolor?",
-            "faq_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
+            "faq_title": "Can I use HoldOn bags for trash? Do I need to compost HoldOn bags?",
+            "faq_copy": "<p>HoldOn bags are meant to reduce plastic waste, no matter how you take out the trash. You can use HoldOn for composting or for your traditional garbage disposal.Use just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm<\/p>"
           }
         },
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa": {
           "type": "text",
           "settings": {
-            "faq_title": "Question here lorem ipsum dolor?",
+            "faq_title": "Can I compost HoldOn bags at home? What about a commercial\/industrial pick up service? here lorem ipsum dolor?",
             "faq_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
           }
         },
