@@ -196,8 +196,11 @@
   font-size: 20px;
 }
 
-.shopify-section.section-product-custom .product-info-wrp .product-details-wrp margin-top
-.product-details {
+.shopify-section.section-product-custom .product-info-wrp .product-details-wrp {
+  margin-top: 30px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .product-details-wrp .product-details {
   border-top: 2px solid green;
   border-bottom: 2px solid green;
   padding: 15px 10px;
