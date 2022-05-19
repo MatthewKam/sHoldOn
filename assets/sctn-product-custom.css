@@ -132,6 +132,12 @@
   color: #065142;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-breakdown .rc-subscription-details {
+  visibility: hidden !important;
+  margin-bottom: 0px;
+  height: 0;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp {
   display: -webkit-box;
   display: -ms-flexbox;

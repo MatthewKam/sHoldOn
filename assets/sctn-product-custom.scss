@@ -101,6 +101,11 @@ $border-image-gallery: #FFFFFF;
           font-family: $k-med;
           color: #065142;
         }
+        .rc-subscription-details {
+          visibility: hidden !important;
+          margin-bottom: 0px;
+          height: 0;
+      }
 
       }
       .submit-selection-wrp {
@@ -231,4 +236,4 @@ $border-image-gallery: #FFFFFF;
       
     }
   }
-}
+} 
