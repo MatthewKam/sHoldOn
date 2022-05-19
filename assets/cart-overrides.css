@@ -1,5 +1,5 @@
 .cart__items {
-  border-bottom: 0.1rem solid #065142;
+  border-bottom: 0.2rem solid #065142;
 }
 
 cart-items .title-wrapper-with-link {
@@ -85,6 +85,7 @@ cart-items table.cart-items .cart-item td.cart-item__details .cart-item__name {
 cart-items table.cart-items .cart-item td.cart-item__details .product-option {
   font-size: 16px;
   font-family: "Korolev-Medium";
+  color: #065142;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__quantity {
@@ -146,6 +147,7 @@ cart-items table.cart-items .cart-item td.cart-item__totals .cart-item__price-wr
   margin: 0;
   font-size: 16px;
   font-family: "Korolev-Medium";
+  color: #065142;
 }
 
 cart-items table.cart-items .cart-item__image-container.gradient.global-media-settings img.cart-item__image {

@@ -7,8 +7,9 @@ $pale-blue: #EFFCF6;
 $error-red: #FF4466;
 $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
+
 .cart__items{
-  border-bottom: 0.1rem solid $dark-green;
+  border-bottom: 0.2rem solid $dark-green;
 }
 cart-items{
   .title-wrapper-with-link {
@@ -60,6 +61,7 @@ cart-items{
           .product-option {
             font-size: 16px;
             font-family: $k-med;
+            color: $dark-green;
           }
         }
         &.cart-item__quantity{
@@ -101,6 +103,7 @@ cart-items{
             margin: 0;
             font-size: 16px;
             font-family: $k-med;
+            color: $dark-green;
           }
         }
       }
