@@ -135,6 +135,7 @@ body .header .header__icons .header__icon {
   text-decoration: none;
   border-radius: 5px;
   padding: 0 5px;
+  position: relative;
 }
 
 body .header .header__icons .header__icon:hover {
@@ -156,6 +157,14 @@ body .header .header__icons .header__icon .lnk-img {
   height: auto;
   width: 25px;
   padding: 5px 0;
+}
+
+body .header .header__icons .header__icon--cart {
+  right: 0;
+  left: auto;
+  color: white !important;
+  background-color: #00fabe !important;
+  bottom: 0;
 }
 
 body .header .nav-text {

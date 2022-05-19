@@ -132,6 +132,7 @@ body{
         text-decoration: none;
         border-radius: 5px;
         padding: 0 5px;
+        position: relative;
         &:hover{
           background-color:$neon-grellow;
         }
@@ -149,7 +150,15 @@ body{
           width: 25px;
           padding: 5px 0;
         }
+        &--cart{
+          right: 0;
+          left: auto;
+          color: white!important;
+          background-color: #00fabe !important;
+          bottom: 0;
+        }
       }
+  
     }
     .nav-text{
       display: none !important;
