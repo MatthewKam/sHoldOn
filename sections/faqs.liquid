@@ -108,7 +108,7 @@
 </div>
 <script>
   $(document).ready(function(){
-    $(document).on('click', ".faq-drpdwn", function(e) {   
+    $(document).click( ".faq-drpdwn", function(e) {   
       e.stopPropagation();
       $(this).toggleClass('active');
       $(this).find('.drpdwn-copy').slideToggle();
