@@ -200,17 +200,50 @@
           </product-form>
 
         </div>
-
+        {
+          "type": "richtext",
+          "id": "materials_list",
+          "label": "Materials Info"
+        },
+        {
+          "type": "richtext",
+          "id": "how_to_use",
+          "label": "How to Use"
+        },
         <div class="product-details-wrp">
-          <div class="product-details">
-            <div class="details-header">
-              <h4>Product Details</h4>
-              <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="icon-product-details">
+          {% if sings.product_details %}
+            <div class="product-details">
+              <div class="details-header">
+                <h4>Product Details</h4>
+                <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="icon-product-details">
+              </div>
+              <div class="details-copy">
+                {{ sings.product_details }}
+              </div>
             </div>
-            <div class="details-copy">
-              {{ sings.product_details }}
+          {% endif %}
+          {% if sings.materials_list %}  
+            <div class="product-details">
+              <div class="details-header">
+                <h4>Materials</h4>
+                <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="icon-product-details">
+              </div>
+              <div class="details-copy">
+                {{ sings.materials_list }}
+              </div>
             </div>
-          </div>
+          {% endif %}
+          {% if sings.how_to_use %}  
+            <div class="product-details">
+              <div class="details-header">
+                <h4>How To Use</h4>
+                <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="icon-product-details">
+              </div>
+              <div class="details-copy">
+                {{ sings.how_to_use }}
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -290,11 +323,6 @@
     $(this).toggleClass('active');
     $(this).find('.details-copy').slideToggle();
   });
-  $(function(){
-    let subPrice = $('.subscription-radio .price-label').html().replace("$","");
-    let originalPrice = $('.onetime-radio .price-label').html().replace("$","");
-    $('.subscription-radio .discount-label').html(`Subscribe & save ${Math.floor(parseFloat(subPrice)/parseFloat(originalPrice))}%`);
-  })
 </script>
 
 {%- liquid
@@ -403,6 +431,16 @@
       "type": "richtext",
       "id": "product_details",
       "label": "Product Details"
+    },
+    {
+      "type": "richtext",
+      "id": "materials_list",
+      "label": "Materials Info"
+    },
+    {
+      "type": "richtext",
+      "id": "how_to_use",
+      "label": "How to Use"
     },
     {
       "type": "text",
