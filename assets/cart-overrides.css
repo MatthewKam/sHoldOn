@@ -22,6 +22,22 @@ cart-items table.cart-items thead {
   display: none;
 }
 
+cart-items table.cart-items .cart-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 cart-items table.cart-items .cart-item td {
   padding-top: 0;
   line-height: 0;
@@ -51,6 +67,7 @@ cart-items table.cart-items .cart-item td.cart-item__details {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: unset;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__details .cart-item__name {
@@ -66,7 +83,7 @@ cart-items table.cart-items .cart-item td.cart-item__details .product-option {
 }
 
 cart-items table.cart-items .cart-item td.cart-item__quantity {
-  padding-left: 4rem;
+  padding-left: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,6 +98,7 @@ cart-items table.cart-items .cart-item td.cart-item__quantity {
 cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity {
   background-color: #ADFF44;
   color: #065142;
+  width: 100px;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity:after {
@@ -88,6 +106,33 @@ cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.qua
   border-radius: 7px;
   -webkit-box-shadow: unset;
           box-shadow: unset;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity .quantity__input {
+  font-family: "Korolev-Heavy";
+  font-size: 18px;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity button.quantity__button {
+  width: auto;
+  padding: 0 10px;
+  border-radius: 7px;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity cart-remove-button {
+  margin: 0;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__totals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 cart-items table.cart-items .cart-item__image-container.gradient.global-media-settings img.cart-item__image {
