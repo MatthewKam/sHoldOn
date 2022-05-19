@@ -221,42 +221,14 @@
     },
     "1651306453b4e09c76": {
       "type": "product-benefits",
-      "blocks": {
-        "2612f2cc-bcd3-4566-9a74-c11e84712555": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "Product Details",
-            "bnft_copy": "<p><strong>INCLUDES<br\/><\/strong>Compostable Tall Kitchen Trash  Bags - 13 Gal \/ 40 Ct<br\/>Compostable Small Space Trash Bags - 4 Gal \/ 50 Ct<br\/><br\/><strong>FEATURES<br\/><\/strong>-13 gallon drawstring bags fit most tall kitchen trash bins<br\/>-4 gallon tie-top trash bags are ideal for small spaces like office and bathroom trash bins as well as countertop compost bins<br\/>-Multi-way flex material is strong and durable to prevent rips and tears <br\/>-Triple ply to prevent leaks <br\/>-Tall sides allow a snug fold over the trash bin rim to prevent slipping<br\/>-TUV Certified Home Compostable <br\/>-BPI Certified Industrially Compostable<\/p><p><br\/>WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
-          }
-        },
-        "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "Materials",
-            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. <br\/>HoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic. <br\/><br\/><a href=\"\/pages\/materials\" title=\"Materials\"><strong>LEARN MORE<\/strong><\/a><\/p>"
-          }
-        },
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "How To Use",
-            "bnft_copy": "<p>Our compostable trash bags can be used for typical trash, recycling, commercial composting, or home composting.<br\/><br\/>No matter which way you toss it, HoldOn bags will break down cleanly without harming the earth. <br\/><br\/><a href=\"\/pages\/materials\" title=\"Materials\"><strong>LEARN MORE<\/strong><\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "2612f2cc-bcd3-4566-9a74-c11e84712555",
-        "5ce17adf-a80d-4b16-9102-9ca6fd1be535",
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196"
-      ],
       "settings": {
         "bnfts_bg_color": "#effcf6",
         "bnfts_alt_title": "A better way, a better bag.",
         "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
         "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
         "brkdwn_title": "Better bags for people and the planet",
-        "brkdwn_title_copy": "HoldOn bags are just as convenient as single-use plastic bags and are created with nontoxic, plant-based materials that break down without harming the earth.",
-        "bnfts_main_img": "shopify:\/\/shop_images\/benefits-img.png"
+        "brkdwn_title_copy": "Plastic bags create an enormous amount of pollution, piling up in landfills and oceans long after we've thrown them away. We knew there had to be a better way - so we created HoldOn. Our bags are made from plant-based material that is nontoxic and home compostable. Now, you don't have to compromise to care for the planet.",
+        "bnfts_main_img": "shopify:\/\/shop_images\/trash-out-family_1_1.jpg"
       }
     },
     "1651482750afa64acf": {
