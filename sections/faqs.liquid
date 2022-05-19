@@ -1,7 +1,7 @@
 {% assign sings = section.settings %}
 {%- style -%}
   .faq-{{ section.id }}{
-    padding:120px;
+    padding:20px;
   }
   .faq-{{ section.id }} .faq-content{
     max-width:800px;
@@ -108,19 +108,11 @@
 </div>
 <script>
   $(document).ready(function(){
-
-  })
-  $(function(){
     $(document).on('click', ".faq-drpdwn", function(e) {   
       e.stopPropagation();
       $(this).toggleClass('active');
       $(this).find('.drpdwn-copy').slideToggle();
     });
-    // $(".faq-drpdwn").on('click', function(e) {   
-    //   e.stopPropagation();
-    //   $(this).toggleClass('active');
-    //   $(this).find('.drpdwn-copy').slideToggle();
-    // });
   })
 </script>
 
