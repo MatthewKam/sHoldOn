@@ -106,16 +106,16 @@
     </div>
   </div>
 </div>
-<script>
-  $(document).ready(function(){
-    $(".faq-drpdwn").click( function(e) {   
-      e.stopPropagation();
-      e.preventDefault();
-      $(this).toggleClass('active');
-      $(this).find('.drpdwn-copy').slideToggle();
-    });
-  })
-</script>
+{% if sings.first_faq_section %}
+  <script>
+    $(document).ready(function(){
+      $(".faq-drpdwn").unbind().click( function() {   
+        $(this).toggleClass('active');
+        $(this).find('.drpdwn-copy').slideToggle();
+      });
+    })
+  </script>
+{% endif %}
 
 {% schema %}
 {
@@ -145,6 +145,12 @@
       "id": "faq_bg_copy_color",
       "label": "FAQ Text Color",
       "default": "#065142"
+    },
+    {
+      "type": "checkbox",
+      "id": "first_faq_section",
+      "label": "First FAQ Section",
+      "default": true
     }
   ],
   "blocks": [
