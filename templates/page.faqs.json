@@ -22,7 +22,7 @@
         "056f9901-6d0e-4a4d-b184-125f858bfb39": {
           "type": "text",
           "settings": {
-            "faq_title": "Can HoldOn bags be used for recycling? Can I recycle HoldOn bags?",
+            "faq_title": "Can HoldOn bags be used for recycling?",
             "faq_copy": "<p>In short: it depends! <\/p><p>Many recycling programs require items to be picked up from special bins loose, meaning a HoldOn bag full of recyclables would not be accepted. <\/p><p>If your program allows recyclable waste to be placed in trash bags, a HoldOn trash bag would be a more sustainable alternative to plastic trash bags. <\/p><p>We recommend following your recycling program instructions to ensure that your items are approved and recycled properly. If you are currently using plastic bags for trash, HoldOn compostable bags will be a positive step in the right direction, as they break down into nontoxic, plant-based elements, without producing microplastics or greenhouse gases.<\/p>"
           }
         },
@@ -30,28 +30,35 @@
           "type": "text",
           "settings": {
             "faq_title": "Can I use HoldOn bags for trash? Do I need to compost HoldOn bags?",
-            "faq_copy": "<p>HoldOn bags are meant to reduce plastic waste, no matter how you take out the trash. You can use HoldOn for composting or for your traditional garbage disposal.Use just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm<\/p>"
+            "faq_copy": "<p>HoldOn bags are meant to reduce plastic waste, no matter how you take out the trash. You can use HoldOn for composting or for your traditional garbage disposal. Use HoldOn bags just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm.<\/p>"
           }
         },
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa": {
           "type": "text",
           "settings": {
             "faq_title": "Can I compost HoldOn bags at home? What about a commercial\/industrial pick up service?",
-            "faq_copy": "<p>HoldOn bags are TUV Certified Home Compostable and BPI Certified Industrially Compostable. That means you can compost at home or using a commercial or industrial service. <span style=\"text-decoration:underline\">Learn more about composting HoldOn Bags. <\/span><\/p>"
+            "faq_copy": "<p>HoldOn bags are TUV Certified Home Compostable and BPI Certified Industrially Compostable. That means you can compost at home or use a commercial or industrial service. <a href=\"https:\/\/holdonbags.com\/pages\/materials\" title=\"https:\/\/holdonbags.com\/pages\/materials\"><span style=\"text-decoration:underline\">Learn more about how to compost HoldOn Bags. <\/span><\/a><\/p>"
           }
         },
         "00c1fca9-337f-4bae-b02b-9bf0dee2ade8": {
           "type": "text",
           "settings": {
             "faq_title": "How do I compost HoldOn storage bags?",
-            "faq_copy": "<p>Our kitchen and storage bags are carefully crafted to be home compostable. Once you’re finished using your bag, remove any inorganic elements. To compost more efficiently, trim off the cinch-seal top, then throw both sections into the compost. Your bags will break down in a matter of weeks and become integrated with your rich, fertile compost matter. To learn how to compost at home, keep reading. <\/p>"
+            "faq_copy": "<p>Our kitchen and storage bags are carefully crafted to be home compostable. Once you’re finished using your bag, remove any inorganic elements. To compost more efficiently, trim off the zip-seal top, then throw both sections into the compost. Your bags will break down in a matter of weeks and become integrated with your rich, fertile compost matter. <a href=\"https:\/\/holdonbags.com\/pages\/materials\" title=\"https:\/\/holdonbags.com\/pages\/materials\">Learn more about how to compost HoldOn storage bags.<\/a><\/p>"
           }
         },
         "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff": {
           "type": "text",
           "settings": {
             "faq_title": "Can I throw my zip bags in the compost if they contain food?",
-            "faq_copy": "<p>If your bag contains organic material that is compostable (produce, grains, or anything else derived from the earth), then yes! Do not throw your zip bag in the compost if it contains plastic or other inorganic material as it won't break down, or animal products (meat, dairy, eggs,) as they will attract pests to your compost. If you're unsure, check out our composting guide to learn more about what can be composted.<\/p>"
+            "faq_copy": "<p>If your bag contains organic material that is compostable (produce, grains, or anything else derived from the earth), then yes! Do not throw your zip bag in the compost if it contains plastic or other inorganic material as it won't break down, or animal products (meat, dairy, eggs,) as they will attract pests to your compost. If you're unsure, check out our <a href=\"https:\/\/holdonbags.com\/pages\/materials\" title=\"https:\/\/holdonbags.com\/pages\/materials\">composting guide<\/a> to learn more about what can be composted.<\/p>"
+          }
+        },
+        "f910303e-5589-4e54-9919-8a2e228c9816": {
+          "type": "text",
+          "settings": {
+            "faq_title": "How should I store my HoldOn Bags?",
+            "faq_copy": "<p>We recommend storing your bags in a cool, dry area to keep them in tip-top shape. <\/p>"
           }
         }
       },
@@ -60,7 +67,8 @@
         "1510b735-b0ea-4078-8568-152c527785d5",
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa",
         "00c1fca9-337f-4bae-b02b-9bf0dee2ade8",
-        "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff"
+        "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff",
+        "f910303e-5589-4e54-9919-8a2e228c9816"
       ],
       "settings": {
         "title": "HOW TO USE",
@@ -76,60 +84,184 @@
           "type": "text",
           "settings": {
             "faq_title": "What does TUV certified compostable mean? What does BPI certified compostable mean?",
-            "faq_copy": "<p>TUV Austria is the most intensive certifying body for compostable goods. HoldOn bags are TUV Certified home compostable. This means that they have passed the most stringent tests for at-home composting and have been proven to break down effectively in a home compost in a timely manner. <\/p><p><br\/>BPI Certification signifies that our products can be effectively composted in a commercial composting facility. This rigorous testing ensures that HoldOn bags biodegrade without leaving behind synthetic residue. <br\/><br\/><\/p><p>In a nutshell, HoldOn bags have been rigorously tested and can be composted right in your backyard or an industrial facility.<\/p>"
+            "faq_copy": "<p>TUV Austria is the most intensive certifying body for compostable goods. HoldOn bags are TUV Certified home compostable. This means that they have passed the most stringent tests for at-home composting and have been proven to break down effectively in a home compost in a timely manner. <br\/><br\/>BPI Certification signifies that our products can be effectively composted in a commercial composting facility. This rigorous testing ensures that HoldOn bags biodegrade without leaving behind synthetic residue. <\/p><p>In a nutshell, HoldOn bags have been rigorously tested and can be composted right in your backyard or an industrial facility.<\/p>"
           }
         },
         "c66050bc-b4e3-468f-b194-6583b3c88824": {
           "type": "text",
           "settings": {
-            "faq_title": "",
-            "faq_copy": ""
+            "faq_title": "What are HoldOn bags made out of?",
+            "faq_copy": "<p>We use nontoxic, plant-based materials to create our strong and sustainable bags. Here’s a look at what’s inside:<\/p><p>-PBAT<br\/>-PLA<br\/>-Cornstarch<br\/>-Calcium Carbonate <\/p><p><a href=\"https:\/\/holdonbags.com\/pages\/materials\" title=\"https:\/\/holdonbags.com\/pages\/materials\">Learn more about our materials.<\/a><\/p>"
           }
         },
         "faee2199-cb4c-4378-8cdb-adbfdd950bfd": {
           "type": "text",
           "settings": {
-            "faq_title": "",
-            "faq_copy": ""
+            "faq_title": "Are HoldOn kitchen bags nontoxic?",
+            "faq_copy": "<p>We’re proud to use only nontoxic, plant-based materials for all of our products. That means HoldOn kitchen and storage bags are food-safe - so you can conveniently prepare and store food without worrying about toxic chemicals! <\/p>"
+          }
+        },
+        "d618600b-717c-4309-8bd3-a1f2c01aaec6": {
+          "type": "text",
+          "settings": {
+            "faq_title": "What is HoldOn Packaging Made Of?",
+            "faq_copy": "<p>We use minimal packaging to reduce the impact of single-use waste on the planet. Our packaging is all recyclable and FSC-certified.<\/p>"
           }
         }
       },
       "block_order": [
         "3a4d2de3-af75-4c3c-96c8-258bdc3a5ea4",
         "c66050bc-b4e3-468f-b194-6583b3c88824",
-        "faee2199-cb4c-4378-8cdb-adbfdd950bfd"
+        "faee2199-cb4c-4378-8cdb-adbfdd950bfd",
+        "d618600b-717c-4309-8bd3-a1f2c01aaec6"
       ],
       "settings": {
         "title": "Materials",
         "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
+        "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
       }
     },
     "1652867248fe1e3018": {
       "type": "faqs",
+      "blocks": {
+        "7749d62f-0244-4bf7-8c81-207c0e5a298f": {
+          "type": "text",
+          "settings": {
+            "faq_title": "What size trash bag should I buy for my bathroom trash bin?",
+            "faq_copy": "<p>Our Compostable Small Space Trash Bag is ideal for bathroom trash bins, office wastebaskets, and countertop compost bins. <br\/><br\/><a href=\"https:\/\/holdonbags.com\/products\/compostable-small-space-trash-bag?selling_plan=2866806884\" title=\"https:\/\/holdonbags.com\/products\/compostable-small-space-trash-bag?selling_plan=2866806884\">Shop the Compostable Small Space Trash Bag<\/a><\/p>"
+          }
+        },
+        "5cdf7c65-8193-4732-a7d4-71bc734c82d9": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Do HoldOn compostable trash bags have drawstring tops?",
+            "faq_copy": "<p>Our Compostable Tall Kitchen Trash Bags feature a strong and durable drawstring top to tote heavy loads with ease. Our Compostable Small Space Trash Bags feature a strong tie-top closure.<br\/><br\/><a href=\"https:\/\/holdonbags.com\/collections\/trash-bags\" title=\"https:\/\/holdonbags.com\/collections\/trash-bags\">Shop Trash Bags<\/a><\/p>"
+          }
+        },
+        "6d698333-c63a-4288-8b99-dc29cdc7e2e0": {
+          "type": "text",
+          "settings": {
+            "faq_title": "How big is the tall kitchen trash bag?",
+            "faq_copy": "<p>The Compostable Tall Kitchen Trash Bag has a 13 gallon capacity and fits most kitchen trash cans.<br\/><br\/><a href=\"https:\/\/holdonbags.com\/products\/compostable-tall-kitchen-bag?selling_plan=2867003492\" title=\"https:\/\/holdonbags.com\/products\/compostable-tall-kitchen-bag?selling_plan=2867003492\">Shop the Compostable Tall Kitchen Trash Bag<\/a><\/p>"
+          }
+        },
+        "1a47da84-7ba7-43f4-bb90-c909d03dcd36": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Can I use my zip seal storage bags for food prep? What about for wet materials like marinades?",
+            "faq_copy": "<p>Yes! HoldOn Compostable Gallon Bags are ideal for food prep and storage, as they contain only are food-safe and use only nontoxic material. If you're using liquid like a marinade, we recommend placing a plate underneath the bag to capture any excess moisture or condensation. <br\/><br\/><a href=\"https:\/\/holdonbags.com\/collections\/kitchen-bags\" title=\"https:\/\/holdonbags.com\/collections\/kitchen-bags\">Shop Storage Bags<\/a><\/p>"
+          }
+        },
+        "d62e3535-26e5-44ca-a89b-6abe7e487684": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Do HoldOn Compostable storage bags have zip seals?",
+            "faq_copy": "<p>Yes! Our kitchen and storage bags feature a secure zip seal to prevent leaks and spills and help keep food fresher, longer. <br\/><br\/><a href=\"https:\/\/holdonbags.com\/collections\/kitchen-bags\" title=\"https:\/\/holdonbags.com\/collections\/kitchen-bags\">Shop Kitchen & Storage Bags<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7749d62f-0244-4bf7-8c81-207c0e5a298f",
+        "5cdf7c65-8193-4732-a7d4-71bc734c82d9",
+        "6d698333-c63a-4288-8b99-dc29cdc7e2e0",
+        "1a47da84-7ba7-43f4-bb90-c909d03dcd36",
+        "d62e3535-26e5-44ca-a89b-6abe7e487684"
+      ],
       "settings": {
         "title": "PRODUCT SIZES & FEATURES",
         "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
+        "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
       }
     },
     "16528672605337f917": {
       "type": "faqs",
+      "blocks": {
+        "5bdeaf23-dea3-4f3a-ad8c-2940223bf48c": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Does my order qualify for free shipping?",
+            "faq_copy": "<p>We offer free shipping on all orders over $35, and flat-rate shipping of $7 on all orders under $35.<\/p>"
+          }
+        },
+        "5fb0f9c6-0560-4483-9a04-8a11fbd415ae": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Do you ship internationally?",
+            "faq_copy": "<p>We currently do not offer international shipping. To be the first to know about international shipping and other updates, subscribe to our email list! <\/p>"
+          }
+        },
+        "6b792565-7d78-4e74-ab2e-2d9ae89a662c": {
+          "type": "text",
+          "settings": {
+            "faq_title": "How can I track my order?",
+            "faq_copy": "<p>If you have an account, visit your account page and select the order you're interested in tracking. The tracking number will be listed next to your order.<br\/><br\/>We’ll also email you when your order ships with tracking information so you can follow the journey of your HoldOn happy mail.<\/p>"
+          }
+        },
+        "4afdc93c-d12f-4108-8102-7386c15fb9b7": {
+          "type": "text",
+          "settings": {
+            "faq_title": "What's your return policy?",
+            "faq_copy": "<p>We want you to love your HoldOn products and offer a hassle-free return policy on any product that doesn’t live up to your expectations. We’re happy to accept returns within 30 days from the delivery date for a full refund. <br\/><br\/>If for any reason you aren’t satisfied with your purchase, send us an email to hello@holdonbags.com and we’ll get the return process started. <\/p>"
+          }
+        },
+        "122f0ae0-1df5-4780-8348-a501bb35298e": {
+          "type": "text",
+          "settings": {
+            "faq_title": "How can I contact customer service?",
+            "faq_copy": "<p>We want to get in touch with you! Drop us a line at <a href=\"mailto:hello@holdonbags.com\"><span style=\"text-decoration:underline\">hello@holdonbags.com<\/span><\/a> and we’ll respond within 24 business hours. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5bdeaf23-dea3-4f3a-ad8c-2940223bf48c",
+        "5fb0f9c6-0560-4483-9a04-8a11fbd415ae",
+        "6b792565-7d78-4e74-ab2e-2d9ae89a662c",
+        "4afdc93c-d12f-4108-8102-7386c15fb9b7",
+        "122f0ae0-1df5-4780-8348-a501bb35298e"
+      ],
       "settings": {
         "title": "CUSTOMER SERVICE",
         "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
+        "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
       }
     },
     "16528672861b2eb4ff": {
       "type": "faqs",
+      "blocks": {
+        "89d85e8a-81c9-48f6-9d47-a10bd1e6ab97": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Can I reuse my compostable storage bags?",
+            "faq_copy": "<p>HoldOn bags are durable enough to rinse and reuse again as long as they don’t contain potential contaminants (i.e.; we wouldn’t recommend reusing a bag you’ve used to store meat products). That being said, if your bag has been used to hold dry materials, reusing is a great option.<\/p><p><\/p><p>To reuse, simply empty the bag and turn inside out to rinse off any additional residue, if needed. Allow bag to fully air dry inside out before using again. Don’t put HoldOn bags in the dishwasher to clean - this will destroy the plant-based material. <br\/><\/p><p>While HoldOn bags can certainly be reused, you can also use HoldOn bags once and toss, without single-use guilt. HoldOn bags are completely compostable and will break down cleanly in a matter of weeks, without causing environmental harm.<\/p>"
+          }
+        },
+        "9e857202-e621-4007-b853-86a53e2eeb1e": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Can I wash my HoldOn bags in the dishwasher?",
+            "faq_copy": "<p>HoldOn bags should not be placed in the dishwasher or submerged in hot water, as this could break down the plant-based material. <\/p>"
+          }
+        },
+        "4433e7e9-33ae-49e6-8400-77059a6af93d": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Can I use my HoldOn bags in the microwave? What about the oven?",
+            "faq_copy": "<p>HoldOn bags should not be used in or around any heat source like an oven, microwave, or open flame, as this will damage the plant-based material.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "89d85e8a-81c9-48f6-9d47-a10bd1e6ab97",
+        "9e857202-e621-4007-b853-86a53e2eeb1e",
+        "4433e7e9-33ae-49e6-8400-77059a6af93d"
+      ],
       "settings": {
         "title": "MISCELLANEOUS",
         "header_title_color": "#065142",
-        "faq_bg_color": "#F8F0DC",
+        "faq_bg_color": "#f8f0dc",
         "faq_bg_copy_color": "#065142"
       }
     }
