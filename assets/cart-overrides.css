@@ -150,7 +150,14 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   max-width: unset;
 }
 
-.shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
+.cart__footer button#checkout {
+  background-color: #ADFF44;
+  color: #065142;
+  border-radius: 7px;
+  min-height: 40px;
+}
+
+.cart__footer .shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
   text-align: right !important;
   width: auto !important;
   margin-left: auto !important;

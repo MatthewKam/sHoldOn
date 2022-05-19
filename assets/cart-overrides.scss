@@ -115,8 +115,17 @@ cart-items{
     }
   }
 }
-.shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
-  text-align: right !important;
-  width: auto !important;
-  margin-left: auto !important;
+.cart__footer{
+  
+  button#checkout {
+    background-color: $neon-grellow;
+    color: $dark-green;
+    border-radius: 7px;
+    min-height: 40px;
+  }
+  .shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
+    text-align: right !important;
+    width: auto !important;
+    margin-left: auto !important;
+  }
 }
