@@ -135,6 +135,12 @@ cart-items table.cart-items .cart-item td.cart-item__totals {
           align-items: center;
 }
 
+cart-items table.cart-items .cart-item td.cart-item__totals .cart-item__price-wrapper span {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Korolev-Medium";
+}
+
 cart-items table.cart-items .cart-item__image-container.gradient.global-media-settings img.cart-item__image {
   width: 250px;
   height: 250px;

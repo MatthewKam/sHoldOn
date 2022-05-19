@@ -91,6 +91,11 @@ cart-items{
           display: flex;
           justify-content: center;
           align-items: center;
+          .cart-item__price-wrapper span {
+            margin: 0;
+            font-size: 16px;
+            font-family: $k-med;
+          }
         }
       }
     }
