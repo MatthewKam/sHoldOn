@@ -5,7 +5,8 @@
     render 'icon-cart'
   endif
 -%}
-<span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+<span class="lnk-cpy nav-text">Cart</span>
+<img src="{{ 'icon-Cart.png' | file_url }}" class="lnk-img" alt="Cart icon">
 {%- if cart != empty -%}
   <div class="cart-count-bubble">
       {%- if cart.item_count < 100 -%}
