@@ -290,6 +290,11 @@
     $(this).toggleClass('active');
     $(this).find('.details-copy').slideToggle();
   });
+  $(function(){
+    let subPrice = parseFloat($('.subscription-radio .price-label').html().replace("$",""));
+    let originalPrice = parseFloat($('.onetime-radio .price-label').html().replace("$",""));
+    $('.subscription-radio .discount-label').html(`Subscribe & save ${Math.floor(subPrice/originalPrice)}%`);
+  })
 </script>
 
 {%- liquid
