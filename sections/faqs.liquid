@@ -107,11 +107,18 @@
   </div>
 </div>
 <script>
-  $('body').on('click', ".faq-drpdwn", function(e) {   
-    e.stopPropagation();
-    $(this).toggleClass('active');
-    $(this).find('.drpdwn-copy').slideToggle();
-  });
+  $(function(){
+    // $(document).on('click', ".faq-drpdwn", function(e) {   
+    //   e.stopPropagation();
+    //   $(this).toggleClass('active');
+    //   $(this).find('.drpdwn-copy').slideToggle();
+    // });
+    $(".faq-drpdwn").on('click', function(e) {   
+      e.stopPropagation();
+      $(this).toggleClass('active');
+      $(this).find('.drpdwn-copy').slideToggle();
+    });
+  })
 </script>
 
 {% schema %}
