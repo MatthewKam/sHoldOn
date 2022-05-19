@@ -221,34 +221,6 @@
     },
     "1651306453b4e09c76": {
       "type": "product-benefits",
-      "blocks": {
-        "2612f2cc-bcd3-4566-9a74-c11e84712555": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "Product Details",
-            "bnft_copy": "<p><strong>INCLUDES<br\/><\/strong>-Compostable Gallon Zip Seal Bags\/25 Ct<br\/>-Compostable Sandwich Zip Seal Bags\/100 Ct<br\/><br\/><strong>FEATURES<br\/><\/strong>-Food safe: Nontoxic and BPA-free<br\/>-Secure zip seal prevents spills and keeps food fresher longer<strong><br\/><\/strong>-TUV Certified Home Compostable <br\/>-BPI Certified Industrially Compostable<br\/><br\/><strong>GREAT FOR<\/strong><\/p><p>-For the Kitchen: Excellent for food preparation and storage, toting snacks on-the-go<\/p><p>-For the Home: Fantastic for toy storage, and organizing closets and supplies<br\/>-For Travel: A must-have for more packing clothing and toiletries while traveling<br\/><\/p><p>WARNING! To avoid danger of suffocation, keep bags away from babies and young children<\/p>"
-          }
-        },
-        "5ce17adf-a80d-4b16-9102-9ca6fd1be535": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "Materials",
-            "bnft_copy": "<p>We use a unique combination of nontoxic, plant-based ingredients to create our strong and sustainable material. <br\/>HoldOn bags break down cleanly without producing microplastics or toxic residue. What’s more - we always pack in recyclable, 100% FSC-certified packaging - never plastic. <br\/><br\/><a href=\"\/pages\/materials\" title=\"Materials\"><strong>LEARN MORE<\/strong><\/a><\/p>"
-          }
-        },
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196": {
-          "type": "image",
-          "settings": {
-            "bnft_title": "How To Use",
-            "bnft_copy": "<p>Use HoldOn bags like you would your normal storage and sandwich bags (minus the plastic waste guilt). Just use them and then toss in the trash or compost when finished! <\/p><p><\/p><p><strong>TRASH<\/strong><br\/>If disposing of in the trash, simply dispose of like you would a typical bag. After they land in the dump, they’ll break down quickly and cleanly, leaving only plant-based materials  (no toxic residue of microplastics) that will return to the earth. For faster decomposition, cut off the press seal closure and toss both the bag section and press seal in the trash.<\/p><p><\/p><p><strong>COMPOST<\/strong><br\/>You can compost HoldOn bags with an industrial compost drop off, community pick up program, or  your home compost. They’ll break down cleanly in a matter of weeks. To compost, remove any non-compostable material from the bag. And toss in the compost. For faster decomposition, cut off the press seal closure and toss both the bag piece and press seal piece in the compost. <\/p><p><br\/>-TUV Certified Home Compostable<br\/>-BPI Certified Industrially Compostable<br\/><br\/><a href=\"\/pages\/materials\" title=\"Materials\"><strong>LEARN MORE<br\/><\/strong><\/a><br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "2612f2cc-bcd3-4566-9a74-c11e84712555",
-        "5ce17adf-a80d-4b16-9102-9ca6fd1be535",
-        "d33d4737-bb4d-48c0-bdb3-123e1d734196"
-      ],
       "settings": {
         "bnfts_bg_color": "#effcf6",
         "bnfts_alt_title": "A better way, a better bag.",
