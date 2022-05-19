@@ -7,7 +7,9 @@ $pale-blue: #EFFCF6;
 $error-red: #FF4466;
 $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
-
+.cart__items{
+  border-bottom: 0.1rem solid $dark-green;
+}
 cart-items{
   .title-wrapper-with-link {
     flex-direction: column;
@@ -121,7 +123,8 @@ cart-items{
     background-color: $neon-grellow;
     color: $dark-green;
     border-radius: 7px;
-    min-height: 40px;
+    min-height: 50px;
+    margin-bottom: 20px;
     font-family: $k-heavy;
     text-transform: uppercase;
     letter-spacing: 0;

@@ -1,3 +1,7 @@
+.cart__items {
+  border-bottom: 0.1rem solid #065142;
+}
+
 cart-items .title-wrapper-with-link {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -154,7 +158,8 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   background-color: #ADFF44;
   color: #065142;
   border-radius: 7px;
-  min-height: 40px;
+  min-height: 50px;
+  margin-bottom: 20px;
   font-family: "Korolev-Heavy";
   text-transform: uppercase;
   letter-spacing: 0;
