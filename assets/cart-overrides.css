@@ -1,4 +1,35 @@
+cart-items .title-wrapper-with-link {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+cart-items .title-wrapper-with-link h1.title.title--primary {
+  text-transform: uppercase;
+}
+
 cart-items table.cart-items {
-  background-color: red;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+cart-items table.cart-items thead {
+  display: none;
+}
+
+cart-items table.cart-items td {
+  padding-top: 0;
+}
+
+cart-items table.cart-items .cart-item__link {
+  line-height: 1;
+}
+
+cart-items table.cart-items .cart-item__image-container.gradient.global-media-settings img.cart-item__image {
+  width: 200px;
+  height: 200px;
+  max-width: unset;
 }
 /*# sourceMappingURL=cart-overrides.css.map */

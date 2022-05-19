@@ -1,5 +1,30 @@
 cart-items{
+  .title-wrapper-with-link {
+    flex-direction: column;
+    h1.title.title--primary {
+      text-transform: uppercase;
+    }
+  }
   table.cart-items{
-    background-color:red;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    thead {
+      display: none;
+    }
+    td{
+      padding-top:0;
+    }
+    .cart-item__link{
+      line-height:1;
+    }
+    .cart-item__image-container.gradient.global-media-settings{
+      img.cart-item__image {
+        width: 200px;
+        height: 200px;
+        max-width: unset;
+      }
+    }
   }
 }
