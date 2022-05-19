@@ -291,9 +291,9 @@
     $(this).find('.details-copy').slideToggle();
   });
   $(function(){
-    let subPrice = parseFloat($('.subscription-radio .price-label').html().replace("$",""));
-    let originalPrice = parseFloat($('.onetime-radio .price-label').html().replace("$",""));
-    $('.subscription-radio .discount-label').html(`Subscribe & save ${Math.floor(subPrice/originalPrice)}%`);
+    let subPrice = $('.subscription-radio .price-label').html().replace("$","");
+    let originalPrice = $('.onetime-radio .price-label').html().replace("$","");
+    $('.subscription-radio .discount-label').html(`Subscribe & save ${Math.floor(parseFloat(subPrice)/parseFloat(originalPrice))}%`);
   })
 </script>
 
