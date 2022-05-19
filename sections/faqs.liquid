@@ -107,7 +107,8 @@
   </div>
 </div>
 <script>
-  $(".faq-drpdwn").on('click',function() {   
+  $(".faq-drpdwn").on('click',function(e) {   
+    e.preventDefault();
     $(this).toggleClass('active');
     $(this).find('.drpdwn-copy').slideToggle();
   });
