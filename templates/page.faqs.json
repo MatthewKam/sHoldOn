@@ -74,7 +74,8 @@
         "title": "HOW TO USE",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
-        "faq_bg_copy_color": "#065142"
+        "faq_bg_copy_color": "#065142",
+        "first_faq_section": true
       }
     },
     "1652867222d56dcada": {
@@ -119,7 +120,8 @@
         "title": "Materials",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
-        "faq_bg_copy_color": "#065142"
+        "faq_bg_copy_color": "#065142",
+        "first_faq_section": false
       }
     },
     "1652867248fe1e3018": {
@@ -172,7 +174,8 @@
         "title": "PRODUCT SIZES & FEATURES",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
-        "faq_bg_copy_color": "#065142"
+        "faq_bg_copy_color": "#065142",
+        "first_faq_section": false
       }
     },
     "16528672605337f917": {
@@ -225,7 +228,8 @@
         "title": "CUSTOMER SERVICE",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
-        "faq_bg_copy_color": "#065142"
+        "faq_bg_copy_color": "#065142",
+        "first_faq_section": false
       }
     },
     "16528672861b2eb4ff": {
@@ -262,7 +266,8 @@
         "title": "MISCELLANEOUS",
         "header_title_color": "#065142",
         "faq_bg_color": "#f8f0dc",
-        "faq_bg_copy_color": "#065142"
+        "faq_bg_copy_color": "#065142",
+        "first_faq_section": false
       }
     }
   },
