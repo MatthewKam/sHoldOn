@@ -167,6 +167,10 @@ body .header .header__icons .header__icon--cart .cart-count-bubble {
   bottom: 0;
 }
 
+body .header .header__icons .header__icon--cart .cart-count-bubble span {
+  font-size: 12px;
+}
+
 body .header .nav-text {
   display: none !important;
 }
