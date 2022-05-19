@@ -151,10 +151,13 @@
       ],
       "settings": {
         "mobile_carousel_enabled": true,
-        "product_image_1": "shopify:\/\/shop_images\/HoldOn_5.jpg",
-        "product_image_2": "shopify:\/\/shop_images\/HoldOn_30.jpg",
-        "product_image_3": "shopify:\/\/shop_images\/HoldOn_11_3.jpg",
-        "product_image_4": "shopify:\/\/shop_images\/green-2_1.jpg",
+        "product_image_1": "shopify:\/\/shop_images\/SINGLE-Image02.png",
+        "product_image_2": "shopify:\/\/shop_images\/SINGLE-Image03.png",
+        "product_image_3": "shopify:\/\/shop_images\/SINGLE-Image01.png",
+        "product_image_4": "shopify:\/\/shop_images\/SINGLE-Image04.png",
+        "product_details": "",
+        "materials_list": "",
+        "how_to_use": "",
         "product_title_custom": "",
         "product_description_custom": "Our tall kitchen bags are engineered with a durable drawstring closure and heavy duty plant-based material, so you don’t have to sacrifice strength for sustainability.",
         "product_items_total": 1
