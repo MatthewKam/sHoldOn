@@ -1,7 +1,7 @@
 {% assign sings = section.settings %}
 {%- style -%}
   .faq-{{ section.id }}{
-    padding:20px;
+    padding:120px;
   }
   .faq-{{ section.id }} .faq-content{
     max-width:800px;
@@ -107,6 +107,9 @@
   </div>
 </div>
 <script>
+  $(document).ready(function(){
+
+  })
   $(function(){
     $(document).on('click', ".faq-drpdwn", function(e) {   
       e.stopPropagation();
