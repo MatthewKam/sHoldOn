@@ -159,7 +159,7 @@ body .header .header__icons .header__icon .lnk-img {
   padding: 5px 0;
 }
 
-body .header .header__icons .header__icon--cart {
+body .header .header__icons .header__icon--cart .cart-count-bubble {
   right: 0;
   left: auto;
   color: white !important;

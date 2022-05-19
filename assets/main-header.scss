@@ -151,11 +151,13 @@ body{
           padding: 5px 0;
         }
         &--cart{
-          right: 0;
-          left: auto;
-          color: white!important;
-          background-color: #00fabe !important;
-          bottom: 0;
+          .cart-count-bubble{
+            right: 0;
+            left: auto;
+            color: white!important;
+            background-color: #00fabe !important;
+            bottom: 0;
+          }
         }
       }
   
