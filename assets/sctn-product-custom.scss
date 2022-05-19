@@ -152,9 +152,9 @@ $border-image-gallery: #FFFFFF;
 
       .product-details-wrp{
         margin-top:30px;
+        border-top: 2px solid $dark-green;
         .product-details{
-          border-top: 2px solid green;
-          border-bottom: 2px solid green;
+          border-bottom: 2px solid $dark-green;
           padding: 15px 10px;
 
           .details-header{
