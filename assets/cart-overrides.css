@@ -1,5 +1,5 @@
 .cart__items {
-  border-bottom: 0.2rem solid #065142;
+  border-bottom: 0.2rem solid #065142 !important;
 }
 
 cart-items .title-wrapper-with-link {

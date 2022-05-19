@@ -9,7 +9,7 @@ $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
 
 .cart__items{
-  border-bottom: 0.2rem solid $dark-green;
+  border-bottom: 0.2rem solid $dark-green !important;
 }
 cart-items{
   .title-wrapper-with-link {
