@@ -1,3 +1,4 @@
+<span class="lnk-cpy nav-text">Cart</span>
 {%- liquid
   if cart == empty
     render 'icon-cart-empty'
@@ -5,8 +6,6 @@
     render 'icon-cart'
   endif
 -%}
-<span class="lnk-cpy nav-text">Cart</span>
-<img src="{{ 'icon-Cart.png' | file_url }}" class="lnk-img" alt="Cart icon">
 {%- if cart != empty -%}
   <div class="cart-count-bubble">
       {%- if cart.item_count < 100 -%}

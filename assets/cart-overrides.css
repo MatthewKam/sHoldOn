@@ -13,23 +13,86 @@ cart-items table.cart-items {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 cart-items table.cart-items thead {
   display: none;
 }
 
-cart-items table.cart-items td {
+cart-items table.cart-items .cart-item td {
   padding-top: 0;
+  line-height: 0;
+  position: relative;
 }
 
-cart-items table.cart-items .cart-item__link {
-  line-height: 1;
+cart-items table.cart-items .cart-item td.cart-item__media {
+  width: auto;
+  height: auto;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__media .cart-item__link {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: absolute;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__details .cart-item__name {
+  font-family: "Korolev-Heavy";
+  color: #065142;
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__details .product-option {
+  font-size: 16px;
+  font-family: "Korolev-Medium";
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity {
+  padding-left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity {
+  background-color: #ADFF44;
+  color: #065142;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.quantity:after {
+  border: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
 }
 
 cart-items table.cart-items .cart-item__image-container.gradient.global-media-settings img.cart-item__image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   max-width: unset;
 }
 /*# sourceMappingURL=cart-overrides.css.map */
