@@ -103,8 +103,8 @@
             "card_image": "shopify:\/\/shop_images\/icon-Compostable-teal.png",
             "card_text_color": "#065142",
             "card_title": "Trash",
-            "card_copy": "Composting at home is an easy way to reduce waste - getting started is simple with HoldOn.",
-            "card_link_text": "Learn More",
+            "card_copy": "Switching from plastic trash bags to HoldOn trash bags keeps more plastic out of landfills.",
+            "card_link_text": "",
             "card_url": "#"
           }
         },
@@ -116,7 +116,7 @@
             "card_text_color": "#065142",
             "card_title": "COMPOST AT HOME",
             "card_copy": "Composting at home is an easy way to reduce waste - getting started is simple with HoldOn.",
-            "card_link_text": "Learn More",
+            "card_link_text": "",
             "card_url": "#"
           }
         },
@@ -128,7 +128,7 @@
             "card_text_color": "#065142",
             "card_title": "Compost commercially",
             "card_copy": "External compost services offer convenient pick-up options for compostable waste.",
-            "card_link_text": "Find pick up services",
+            "card_link_text": "",
             "card_url": "#"
           }
         }
