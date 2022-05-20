@@ -57,6 +57,7 @@
 .login-wrp .customer.login button {
   margin: 20px 0;
   background-color: #ADFF44;
+  border-radius: 7px;
   color: #065142;
   font-family: "Korolev-Heavy";
   text-transform: uppercase;
@@ -66,6 +67,11 @@
   line-height: 1;
 }
 
+.login-wrp .customer.login button:after {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
 .login-wrp .customer.login a {
   margin: 0;
 }
@@ -73,6 +79,17 @@
 .login-wrp .customer.login #login {
   text-transform: uppercase;
   line-height: 1;
+}
+
+.login-wrp .customer.login .field:after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-wrp .customer.login .field input[type="password"],
+.login-wrp .customer.login .field input[type="email"] {
+  border-radius: 7px;
+  border: 2px solid green;
 }
 
 .login-wrp .customer.login p.login-subtext {

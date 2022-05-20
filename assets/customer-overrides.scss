@@ -48,7 +48,11 @@ $k-heavy:'Korolev-Heavy';
     button{
       margin: 20px 0;
       background-color:$neon-grellow;
+      border-radius: 7px;
       @include korolev_heavy($theme: $dark-green);
+      &:after{
+        box-shadow: unset;
+      }
     }
     a{
       margin:0;
@@ -56,6 +60,14 @@ $k-heavy:'Korolev-Heavy';
     #login{
       text-transform: uppercase;
       line-height: 1;
+    }
+    .field{
+      &:after{box-shadow: none;}
+      input[type="password"],
+      input[type="email"]{
+        border-radius: 7px;
+        border: 2px solid green;
+      }
     }
     p.login-subtext {
       margin-top: 10px;
