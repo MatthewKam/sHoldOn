@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACE,SADO,AAAA,MAAM,CACb,MAAM,CAAA;EACJ,cAAc,EAAE,SAAS;CAC1B",
+    "sources": [
+        "customer-overrides.scss"
+    ],
+    "names": [],
+    "file": "customer-overrides.css"
+}

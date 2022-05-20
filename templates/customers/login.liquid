@@ -1,5 +1,9 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'customer-overrides.css' | asset_url | stylesheet_tag }}
+<div class="login-wrp">
+  <div class="bg-img"></div>
 
+</div>
 <div class="customer login">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
@@ -53,7 +57,7 @@
   </div>
 
   <h1 id="login" tabindex="-1">
-    {{ 'customer.login_page.title' | t }} Stuff to show
+    {{ 'customer.login_page.title' | t }}
   </h1>
   <div>
     {%- if recover_success == true -%}
