@@ -45,6 +45,9 @@ $k-heavy:'Korolev-Heavy';
     .customer form {
       margin-top: 30px;
     }
+    form{
+      margin-top: 20px;
+    }
     button{
       margin: 20px 0;
       background-color:$neon-grellow;
@@ -66,7 +69,10 @@ $k-heavy:'Korolev-Heavy';
       input[type="password"],
       input[type="email"]{
         border-radius: 7px;
-        border: 2px solid green;
+        border: 2px solid $dark-green;
+      }
+      label{
+        color:$dark-green;
       }
     }
     p.login-subtext {

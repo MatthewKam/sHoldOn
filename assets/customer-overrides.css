@@ -54,6 +54,10 @@
   margin-top: 30px;
 }
 
+.login-wrp .customer.login form {
+  margin-top: 20px;
+}
+
 .login-wrp .customer.login button {
   margin: 20px 0;
   background-color: #ADFF44;
@@ -89,7 +93,11 @@
 .login-wrp .customer.login .field input[type="password"],
 .login-wrp .customer.login .field input[type="email"] {
   border-radius: 7px;
-  border: 2px solid green;
+  border: 2px solid #065142;
+}
+
+.login-wrp .customer.login .field label {
+  color: #065142;
 }
 
 .login-wrp .customer.login p.login-subtext {
