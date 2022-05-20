@@ -156,7 +156,12 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   max-width: unset;
 }
 
-.cart__footer button#checkout {
+.cart__footer-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cart__footer-wrapper .cart__footer button#checkout {
   background-color: #ADFF44;
   color: #065142;
   border-radius: 7px;
@@ -168,14 +173,14 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   font-size: 24px;
 }
 
-.cart__footer button#checkout:after {
+.cart__footer-wrapper .cart__footer button#checkout:after {
   border-radius: 7px;
   border: none;
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
 
-.cart__footer .shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
+.cart__footer-wrapper .cart__footer .shopify-cleanslate ._5a6PK6ZZ8knSIndXG3jvY {
   text-align: right !important;
   width: auto !important;
   margin-left: auto !important;
