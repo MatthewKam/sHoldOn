@@ -39,6 +39,24 @@
   }
 }
 
+@media screen and (min-width: 900px) {
+  .login-wrp .bg-img {
+    padding-bottom: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .login-wrp .bg-img {
+    padding-bottom: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login-wrp .bg-img {
+    padding-bottom: 50%;
+  }
+}
+
 .login-wrp .customer-wrp {
   display: -webkit-box;
   display: -ms-flexbox;

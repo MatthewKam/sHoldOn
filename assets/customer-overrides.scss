@@ -38,6 +38,15 @@ $k-heavy:'Korolev-Heavy';
       padding-bottom: 80%;
       display: block;
     }
+    @media screen and (min-width: 900px) {
+      padding-bottom: 70%;
+    }
+    @media screen and (min-width: 1000px) {
+      padding-bottom: 60%;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 50%;
+    }
   }
   .customer-wrp{
     display: flex;
