@@ -1,44 +1,3 @@
-form {
-  margin-top: 20px;
-}
-
-button {
-  margin: 20px 0;
-  background-color: #ADFF44;
-  border-radius: 7px;
-  color: #065142;
-  font-family: "Korolev-Heavy";
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 1;
-}
-
-button:after {
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-}
-
-a {
-  margin: 0;
-}
-
-.field:after {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.field input[type="password"],
-.field input[type="email"] {
-  border-radius: 7px;
-  border: 2px solid #065142;
-}
-
-.field label {
-  color: #065142;
-}
-
 .login-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,15 +45,65 @@ a {
           align-items: center;
 }
 
-.customer.login {
+.customer.login, .customer.register {
   max-width: 400px;
   width: 100%;
   padding: 0 20px;
   text-align: left;
 }
 
-.customer.login .customer form {
-  margin-top: 30px;
+.customer.login form, .customer.register form {
+  margin-top: 20px;
+}
+
+.customer.login button, .customer.register button {
+  margin: 20px 0;
+  background-color: #ADFF44;
+  border-radius: 7px;
+  color: #065142;
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.customer.login button:after, .customer.register button:after {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.customer.login a, .customer.register a {
+  margin: 0;
+}
+
+.customer.login a[href="#recover"], .customer.register a[href="#recover"] {
+  color: #065142;
+  color: #065142;
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.customer.login .field:after, .customer.register .field:after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.customer.login .field input[type="password"],
+.customer.login .field input[type="email"], .customer.register .field input[type="password"],
+.customer.register .field input[type="email"] {
+  border-radius: 7px;
+  border: 2px solid #065142;
+}
+
+.customer.login .field label, .customer.register .field label {
+  color: #065142;
 }
 
 .customer.login #login, .customer.login #recover {
@@ -139,18 +148,6 @@ a {
 .customer.login .create-account p {
   line-height: 1;
   margin: 0;
-}
-
-.customer.login a[href="#recover"] {
-  color: #065142;
-  color: #065142;
-  font-family: "Korolev-Heavy";
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 1;
-  margin-top: 10px;
 }
 
 .customer.login #rc_login {
