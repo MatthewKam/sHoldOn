@@ -73,7 +73,7 @@
       "settings": {
         "title": "HOW TO USE",
         "header_title_color": "#065142",
-        "faq_bg_color": "#f8f0dc",
+        "faq_bg_color": "#fff1da",
         "faq_bg_copy_color": "#065142",
         "first_faq_section": true
       }
@@ -119,7 +119,7 @@
       "settings": {
         "title": "Materials",
         "header_title_color": "#065142",
-        "faq_bg_color": "#f8f0dc",
+        "faq_bg_color": "#fff1da",
         "faq_bg_copy_color": "#065142",
         "first_faq_section": false
       }
@@ -173,7 +173,7 @@
       "settings": {
         "title": "PRODUCT SIZES & FEATURES",
         "header_title_color": "#065142",
-        "faq_bg_color": "#f8f0dc",
+        "faq_bg_color": "#fff1da",
         "faq_bg_copy_color": "#065142",
         "first_faq_section": false
       }
@@ -227,7 +227,7 @@
       "settings": {
         "title": "CUSTOMER SERVICE",
         "header_title_color": "#065142",
-        "faq_bg_color": "#f8f0dc",
+        "faq_bg_color": "#fff1da",
         "faq_bg_copy_color": "#065142",
         "first_faq_section": false
       }
@@ -265,7 +265,7 @@
       "settings": {
         "title": "MISCELLANEOUS",
         "header_title_color": "#065142",
-        "faq_bg_color": "#f8f0dc",
+        "faq_bg_color": "#fff1da",
         "faq_bg_copy_color": "#065142",
         "first_faq_section": false
       }
