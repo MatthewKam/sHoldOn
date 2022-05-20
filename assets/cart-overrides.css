@@ -184,5 +184,6 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   text-align: right !important;
   width: auto !important;
   margin-left: auto !important;
+  font-size: 12px;
 }
 /*# sourceMappingURL=cart-overrides.css.map */
