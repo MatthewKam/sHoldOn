@@ -82,9 +82,14 @@
   margin: 0;
 }
 
-.login-wrp .customer.login #login {
+.login-wrp .customer.login #login, .login-wrp .customer.login #recover {
   text-transform: uppercase;
   line-height: 1;
+  font-size: 50px;
+}
+
+.login-wrp .customer.login #recover:target ~ #login + p {
+  display: none;
 }
 
 .login-wrp .customer.login .field:after {

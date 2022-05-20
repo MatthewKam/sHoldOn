@@ -62,9 +62,13 @@ $k-heavy:'Korolev-Heavy';
     a{
       margin:0;
     }
-    #login{
+    #login, #recover{
       text-transform: uppercase;
       line-height: 1;
+      font-size: 50px;
+    }
+    #recover:target~#login+p {
+      display: none;
     }
     .field{
       &:after{box-shadow: none;}
