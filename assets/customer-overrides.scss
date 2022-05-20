@@ -20,7 +20,19 @@ $k-heavy:'Korolev-Heavy';
       width:50%;
     }
   }
+  .bg-img{
+    padding-bottom: 50%;
+  }
+  .customer-wrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .customer.login{
+    max-width: 400px;
+    width: 100%;
+    padding: 0 20px;
+    
     #login{
       text-transform: uppercase;
     }
