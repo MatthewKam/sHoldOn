@@ -1,3 +1,44 @@
+form {
+  margin-top: 20px;
+}
+
+button {
+  margin: 20px 0;
+  background-color: #ADFF44;
+  border-radius: 7px;
+  color: #065142;
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+button:after {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+a {
+  margin: 0;
+}
+
+.field:after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.field input[type="password"],
+.field input[type="email"] {
+  border-radius: 7px;
+  border: 2px solid #065142;
+}
+
+.field label {
+  color: #065142;
+}
+
 .login-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,75 +86,34 @@
           align-items: center;
 }
 
-.login-wrp .customer.login {
+.customer.login {
   max-width: 400px;
   width: 100%;
   padding: 0 20px;
   text-align: left;
 }
 
-.login-wrp .customer.login .customer form {
+.customer.login .customer form {
   margin-top: 30px;
 }
 
-.login-wrp .customer.login form {
-  margin-top: 20px;
-}
-
-.login-wrp .customer.login button {
-  margin: 20px 0;
-  background-color: #ADFF44;
-  border-radius: 7px;
-  color: #065142;
-  font-family: "Korolev-Heavy";
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 1;
-}
-
-.login-wrp .customer.login button:after {
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-}
-
-.login-wrp .customer.login a {
-  margin: 0;
-}
-
-.login-wrp .customer.login #login, .login-wrp .customer.login #recover {
+.customer.login #login, .customer.login #recover {
   text-transform: uppercase;
   line-height: 1;
   font-size: 50px;
 }
 
-.login-wrp .customer.login #recover:target ~ .login-subtext,
-.login-wrp .customer.login #recover:target ~ .login-fields {
+.customer.login #recover:target ~ .login-subtext,
+.customer.login #recover:target ~ .login-fields {
   display: none;
 }
 
-.login-wrp .customer.login .field:after {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.login-wrp .customer.login .field input[type="password"],
-.login-wrp .customer.login .field input[type="email"] {
-  border-radius: 7px;
-  border: 2px solid #065142;
-}
-
-.login-wrp .customer.login .field label {
-  color: #065142;
-}
-
-.login-wrp .customer.login p.login-subtext {
+.customer.login p.login-subtext {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-.login-wrp .customer.login .create-account {
+.customer.login .create-account {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +125,7 @@
           align-items: center;
 }
 
-.login-wrp .customer.login .create-account a {
+.customer.login .create-account a {
   color: #065142;
   font-family: "Korolev-Heavy";
   text-transform: uppercase;
@@ -136,12 +136,12 @@
   margin-left: 5px;
 }
 
-.login-wrp .customer.login .create-account p {
+.customer.login .create-account p {
   line-height: 1;
   margin: 0;
 }
 
-.login-wrp .customer.login a[href="#recover"] {
+.customer.login a[href="#recover"] {
   color: #065142;
   color: #065142;
   font-family: "Korolev-Heavy";
@@ -153,12 +153,12 @@
   margin-top: 10px;
 }
 
-.login-wrp .customer.login #rc_login {
+.customer.login #rc_login {
   text-align: left;
   margin-top: 20px;
 }
 
-.login-wrp .customer.login #rc_login h5, .login-wrp .customer.login #rc_login p {
+.customer.login #rc_login h5, .customer.login #rc_login p {
   margin: 0;
 }
 /*# sourceMappingURL=customer-overrides.css.map */

@@ -16,6 +16,33 @@ $k-heavy:'Korolev-Heavy';
   letter-spacing: 0;
   line-height: 1;
 }
+form{
+  margin-top: 20px;
+}
+button{
+  margin: 20px 0;
+  background-color:$neon-grellow;
+  border-radius: 7px;
+  @include korolev_heavy($theme: $dark-green);
+  &:after{
+    box-shadow: unset;
+  }
+}
+a{
+  margin:0;
+}
+.field{
+  &:after{box-shadow: none;}
+  input[type="password"],
+  input[type="email"]{
+    border-radius: 7px;
+    border: 2px solid $dark-green;
+  }
+  label{
+    color:$dark-green;
+  }
+}
+
 .login-wrp {
   display: flex;
   justify-content: center;
@@ -39,74 +66,50 @@ $k-heavy:'Korolev-Heavy';
     justify-content: center;
     align-items: center;
   }
-  .customer.login{
-    max-width: 400px;
-    width: 100%;
-    padding: 0 20px;
-    text-align: left;
-    .customer form {
-      margin-top: 30px;
-    }
-    form{
-      margin-top: 20px;
-    }
-    button{
-      margin: 20px 0;
-      background-color:$neon-grellow;
-      border-radius: 7px;
-      @include korolev_heavy($theme: $dark-green);
-      &:after{
-        box-shadow: unset;
-      }
-    }
+}
+.customer.login{
+  max-width: 400px;
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  .customer form {
+    margin-top: 30px;
+  }
+  
+  #login, #recover{
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 50px;
+  }
+  #recover:target~.login-subtext,
+  #recover:target~.login-fields{
+    display: none;
+  }
+  
+  p.login-subtext {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .create-account {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     a{
-      margin:0;
-    }
-    #login, #recover{
-      text-transform: uppercase;
-      line-height: 1;
-      font-size: 50px;
-    }
-    #recover:target~.login-subtext,
-    #recover:target~.login-fields{
-      display: none;
-    }
-    .field{
-      &:after{box-shadow: none;}
-      input[type="password"],
-      input[type="email"]{
-        border-radius: 7px;
-        border: 2px solid $dark-green;
-      }
-      label{
-        color:$dark-green;
-      }
-    }
-    p.login-subtext {
-      margin-top: 10px;
-      margin-bottom: 0;
-    }
-    .create-account {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      a{
-        @include korolev_heavy($theme: $dark-green);
-        margin-left: 5px;
-      }
-      p{line-height: 1;margin:0;}
-    }
-    a[href="#recover"] {
-      color: $dark-green;
       @include korolev_heavy($theme: $dark-green);
-      margin-top: 10px;
+      margin-left: 5px;
     }
-    #rc_login {
-      text-align: left;
-      margin-top: 20px;
-      h5,p{
-        margin:0;
-      }
+    p{line-height: 1;margin:0;}
+  }
+  a[href="#recover"] {
+    color: $dark-green;
+    @include korolev_heavy($theme: $dark-green);
+    margin-top: 10px;
+  }
+  #rc_login {
+    text-align: left;
+    margin-top: 20px;
+    h5,p{
+      margin:0;
     }
   }
 }
