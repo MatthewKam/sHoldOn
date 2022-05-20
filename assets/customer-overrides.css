@@ -28,6 +28,7 @@
 
 .login-wrp .bg-img {
   padding-bottom: 50%;
+  display: block;
 }
 
 .login-wrp .customer-wrp {
@@ -46,9 +47,27 @@
   max-width: 400px;
   width: 100%;
   padding: 0 20px;
+  text-align: left;
+}
+
+.login-wrp .customer.login button {
+  margin: 20px 0;
+}
+
+.login-wrp .customer.login a {
+  margin: 0;
 }
 
 .login-wrp .customer.login #login {
   text-transform: uppercase;
+}
+
+.login-wrp .customer.login #rc_login {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.login-wrp .customer.login #rc_login h5, .login-wrp .customer.login #rc_login p {
+  margin: 0;
 }
 /*# sourceMappingURL=customer-overrides.css.map */
