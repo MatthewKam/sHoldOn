@@ -151,6 +151,7 @@
         "image_text": true,
         "divider_bg_m": "shopify:\/\/shop_images\/green-5_2_1.jpg",
         "divider_bg_d": "shopify:\/\/shop_images\/green-5_1_1.jpg",
+        "bg_color": "",
         "divider_color": "#ffffff",
         "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
         "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
@@ -225,9 +226,8 @@
       ],
       "settings": {
         "bg_color": "#effcf6",
-        "header_image": "shopify:\/\/shop_images\/materials1_1.png",
         "text_color": "#065142",
-        "header_title": "Get started",
+        "header_title": "quick start composting",
         "header_copy": "<p>HoldOn bags are TUV-certified home compostable, so you can compost them right in your own backyard. Here's how to get started:<\/p>"
       }
     },
