@@ -159,4 +159,10 @@
 .customer.login #rc_login h5, .customer.login #rc_login p {
   margin: 0;
 }
+
+.customer.register h1 {
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 50px;
+}
 /*# sourceMappingURL=customer-overrides.css.map */
