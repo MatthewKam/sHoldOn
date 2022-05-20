@@ -29,6 +29,8 @@
 .login-wrp .bg-img {
   padding-bottom: 50%;
   display: block;
+  background: url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-login.png") center top no-repeat;
+  background-size: cover;
 }
 
 .login-wrp .customer-wrp {
