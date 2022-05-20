@@ -46,7 +46,8 @@ $k-heavy:'Korolev-Heavy';
 
 .customer{
   &.login,
-  &.register{
+  &.register,
+  &:not(.account):not(.order){
     max-width: 400px;
     width: 100%;
     padding: 0 20px;
@@ -72,7 +73,6 @@ $k-heavy:'Korolev-Heavy';
         margin-top: 10px;
       }
     }
-    
     .field{
       &:after{box-shadow: none;}
       input[type="password"],

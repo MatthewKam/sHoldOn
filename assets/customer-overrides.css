@@ -45,18 +45,18 @@
           align-items: center;
 }
 
-.customer.login, .customer.register {
+.customer.login, .customer.register, .customer:not(.account):not(.order) {
   max-width: 400px;
   width: 100%;
   padding: 0 20px;
   text-align: left;
 }
 
-.customer.login form, .customer.register form {
+.customer.login form, .customer.register form, .customer:not(.account):not(.order) form {
   margin-top: 20px;
 }
 
-.customer.login button, .customer.register button {
+.customer.login button, .customer.register button, .customer:not(.account):not(.order) button {
   margin: 20px 0;
   background-color: #ADFF44;
   border-radius: 7px;
@@ -69,16 +69,16 @@
   line-height: 1;
 }
 
-.customer.login button:after, .customer.register button:after {
+.customer.login button:after, .customer.register button:after, .customer:not(.account):not(.order) button:after {
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
 
-.customer.login a, .customer.register a {
+.customer.login a, .customer.register a, .customer:not(.account):not(.order) a {
   margin: 0;
 }
 
-.customer.login a[href="#recover"], .customer.register a[href="#recover"] {
+.customer.login a[href="#recover"], .customer.register a[href="#recover"], .customer:not(.account):not(.order) a[href="#recover"] {
   color: #065142;
   color: #065142;
   font-family: "Korolev-Heavy";
@@ -90,19 +90,20 @@
   margin-top: 10px;
 }
 
-.customer.login .field:after, .customer.register .field:after {
+.customer.login .field:after, .customer.register .field:after, .customer:not(.account):not(.order) .field:after {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .customer.login .field input[type="password"],
 .customer.login .field input[type="email"], .customer.register .field input[type="password"],
-.customer.register .field input[type="email"] {
+.customer.register .field input[type="email"], .customer:not(.account):not(.order) .field input[type="password"],
+.customer:not(.account):not(.order) .field input[type="email"] {
   border-radius: 7px;
   border: 2px solid #065142;
 }
 
-.customer.login .field label, .customer.register .field label {
+.customer.login .field label, .customer.register .field label, .customer:not(.account):not(.order) .field label {
   color: #065142;
 }
 
