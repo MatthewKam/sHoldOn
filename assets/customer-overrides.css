@@ -72,6 +72,42 @@
   margin-bottom: 0;
 }
 
+.login-wrp .customer.login .create-account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-wrp .customer.login .create-account a {
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #065142;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin-left: 5px;
+  line-height: 1;
+}
+
+.login-wrp .customer.login .create-account p {
+  line-height: 1;
+  margin: 0;
+}
+
+.login-wrp .customer.login a[href="#recover"] {
+  color: #065142;
+  text-transform: uppercase;
+  font-family: "Korolev-Heavy";
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .login-wrp .customer.login #rc_login {
   text-align: left;
   margin-top: 20px;

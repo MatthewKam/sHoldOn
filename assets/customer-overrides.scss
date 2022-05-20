@@ -51,6 +51,29 @@ $k-heavy:'Korolev-Heavy';
       margin-top: 10px;
       margin-bottom: 0;
     }
+    .create-account {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      a{
+        font-family: $k-heavy;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $dark-green;
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-left: 5px;
+        line-height: 1;
+      }
+      p{line-height: 1;margin:0;}
+    }
+    a[href="#recover"] {
+      color: $dark-green;
+      text-transform: uppercase;
+      font-family: $k-heavy;
+      text-decoration: none;
+      font-size: 20px;
+    }
     #rc_login {
       text-align: left;
       margin-top: 20px;
