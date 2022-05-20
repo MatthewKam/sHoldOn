@@ -3,6 +3,7 @@
 {%- style -%}
   .divider-bar-{{ section.id }}{
     padding:100px 0;
+    background-color:{{ sings.bg_color }};
     background:url(
      {{ sings.divider_bg_m | image_url}}
     ) center top no-repeat;
@@ -88,6 +89,11 @@
       "type": "image_picker",
       "id": "divider_bg_d",
       "label": "Background Image Desktop"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Divider Background Color"
     },
     {
       "type": "color",
