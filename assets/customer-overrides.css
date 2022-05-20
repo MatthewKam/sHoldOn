@@ -27,10 +27,16 @@
 }
 
 .login-wrp .bg-img {
-  padding-bottom: 50%;
-  display: block;
+  display: none;
   background: url("https://cdn.shopify.com/s/files/1/0575/8143/7028/files/bg-login.png") center top no-repeat;
   background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+  .login-wrp .bg-img {
+    padding-bottom: 80%;
+    display: block;
+  }
 }
 
 .login-wrp .customer-wrp {
