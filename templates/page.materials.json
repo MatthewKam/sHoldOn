@@ -115,7 +115,7 @@
         "9e5c188b-d751-40d6-8dc4-b9192511eaf1"
       ],
       "settings": {
-        "bg_color": "#f8f0dc",
+        "bg_color": "#fff1da",
         "copy_color": "#065142",
         "title": "There has to be a better way.",
         "header_desc": "",
@@ -133,6 +133,7 @@
         "image_text": true,
         "divider_bg_m": "shopify:\/\/shop_images\/green-5_2_1.jpg",
         "divider_bg_d": "shopify:\/\/shop_images\/green-5_1_1.jpg",
+        "bg_color": "",
         "divider_color": "#ffffff",
         "headline_image_m": "shopify:\/\/shop_images\/hon-tag-v-white.png",
         "headline_image_d": "shopify:\/\/shop_images\/hon-tag-h-white.png",
