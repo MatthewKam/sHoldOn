@@ -34,8 +34,12 @@
                 Shop Now
               </a>
             </div>
-            
-            <div class="product-img" style="background:url({% if product.featured_image %}{{ product.featured_image | image_url }}{% else %}{{ 'collection-product-bg.png' | file_url }}{% endif %}) center center no-repeat; background-size:cover;">
+            {% if product.featured_image %}
+              {% assign imgURL = product.featured_image | image_url %}
+            {% else %}
+              {% assign imgURL = 'collection-product-bg.png' | file_url %}
+            {% endif %}
+            <div class="product-img" style="background:url({{imgURL}}) center center no-repeat; background-size:cover;">
               <a href="{{ product.url }}" class="col-list-link"></a>
             </div>
             <div class="reviews">
