@@ -47,6 +47,8 @@ $k-heavy:'Korolev-Heavy';
     }
     button{
       margin: 20px 0;
+      background-color:$neon-grellow;
+      @include korolev_heavy($theme: $dark-green);
     }
     a{
       margin:0;
@@ -72,6 +74,7 @@ $k-heavy:'Korolev-Heavy';
     a[href="#recover"] {
       color: $dark-green;
       @include korolev_heavy($theme: $dark-green);
+      margin-top: 10px;
     }
     #rc_login {
       text-align: left;

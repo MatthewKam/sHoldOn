@@ -56,6 +56,14 @@
 
 .login-wrp .customer.login button {
   margin: 20px 0;
+  background-color: #ADFF44;
+  color: #065142;
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .login-wrp .customer.login a {
@@ -109,6 +117,7 @@
   font-size: 20px;
   letter-spacing: 0;
   line-height: 1;
+  margin-top: 10px;
 }
 
 .login-wrp .customer.login #rc_login {
