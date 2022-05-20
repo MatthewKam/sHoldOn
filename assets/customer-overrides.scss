@@ -7,7 +7,15 @@ $pale-blue: #EFFCF6;
 $error-red: #FF4466;
 $k-med:'Korolev-Medium';
 $k-heavy:'Korolev-Heavy';
-
+@mixin korolev_heavy($theme: $dark-green){
+  color:$theme;
+  font-family: $k-heavy;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
+}
 .login-wrp {
   display: flex;
   justify-content: center;
@@ -56,23 +64,14 @@ $k-heavy:'Korolev-Heavy';
       justify-content: flex-start;
       align-items: center;
       a{
-        font-family: $k-heavy;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: $dark-green;
-        font-size: 20px;
-        letter-spacing: 0;
+        @include korolev_heavy($theme: $dark-green);
         margin-left: 5px;
-        line-height: 1;
       }
       p{line-height: 1;margin:0;}
     }
     a[href="#recover"] {
       color: $dark-green;
-      text-transform: uppercase;
-      font-family: $k-heavy;
-      text-decoration: none;
-      font-size: 20px;
+      @include korolev_heavy($theme: $dark-green);
     }
     #rc_login {
       text-align: left;

@@ -85,14 +85,14 @@
 }
 
 .login-wrp .customer.login .create-account a {
+  color: #065142;
   font-family: "Korolev-Heavy";
   text-transform: uppercase;
   text-decoration: none;
-  color: #065142;
   font-size: 20px;
   letter-spacing: 0;
-  margin-left: 5px;
   line-height: 1;
+  margin-left: 5px;
 }
 
 .login-wrp .customer.login .create-account p {
@@ -102,10 +102,13 @@
 
 .login-wrp .customer.login a[href="#recover"] {
   color: #065142;
-  text-transform: uppercase;
+  color: #065142;
   font-family: "Korolev-Heavy";
+  text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .login-wrp .customer.login #rc_login {
