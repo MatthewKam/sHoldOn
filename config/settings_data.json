@@ -192,6 +192,20 @@
         "type": "coming-soon",
         "settings": {
         }
+      },
+      "divider-bar": {
+        "type": "divider-bar",
+        "settings": {
+          "image_text": true,
+          "bg_color": "#00fabe",
+          "divider_color": "",
+          "headline_image_m": "shopify:\/\/shop_images\/Tagline-Vert-dark-white-m.png",
+          "headline_image_d": "shopify:\/\/shop_images\/Tagline-Horiz-dark-white-d.png",
+          "header_title_1": "",
+          "header_title_1_color": "",
+          "header_title_2": "",
+          "header_title_2_color": ""
+        }
       }
     },
     "content_for_index": [
