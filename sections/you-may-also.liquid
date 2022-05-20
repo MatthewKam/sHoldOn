@@ -58,7 +58,7 @@
                 <p class="prod-box"><span>{{ count }}</span> bags/box</p>
               {% endif %}
               {% if itemCount %}
-                <p class="prod-num-items"><span>{{ itemCount }}</span> item{% unless itemCount != '1' %}s{% endunless %}</p>
+                <p class="prod-num-items"><span>{{ itemCount }}</span> item{% if itemCount != '1' %}s{% endif %}</p>
               {% endif %}
             </div>
           {% endif %}
