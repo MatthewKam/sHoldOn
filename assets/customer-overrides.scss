@@ -34,6 +34,9 @@ $k-heavy:'Korolev-Heavy';
     width: 100%;
     padding: 0 20px;
     text-align: left;
+    .customer form {
+      margin-top: 30px;
+    }
     button{
       margin: 20px 0;
     }
@@ -42,6 +45,11 @@ $k-heavy:'Korolev-Heavy';
     }
     #login{
       text-transform: uppercase;
+      line-height: 1;
+    }
+    p.login-subtext {
+      margin-top: 10px;
+      margin-bottom: 0;
     }
     #rc_login {
       text-align: left;

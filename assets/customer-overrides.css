@@ -50,6 +50,10 @@
   text-align: left;
 }
 
+.login-wrp .customer.login .customer form {
+  margin-top: 30px;
+}
+
 .login-wrp .customer.login button {
   margin: 20px 0;
 }
@@ -60,6 +64,12 @@
 
 .login-wrp .customer.login #login {
   text-transform: uppercase;
+  line-height: 1;
+}
+
+.login-wrp .customer.login p.login-subtext {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .login-wrp .customer.login #rc_login {
