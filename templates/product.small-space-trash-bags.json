@@ -221,6 +221,18 @@
     },
     "1651306453b4e09c76": {
       "type": "product-benefits",
+      "blocks": {
+        "4b730bf6-60fe-43fd-83fc-3948cceb34bb": {
+          "type": "image",
+          "settings": {
+            "bnft_title": "",
+            "bnft_copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "4b730bf6-60fe-43fd-83fc-3948cceb34bb"
+      ],
       "settings": {
         "bnfts_bg_color": "#effcf6",
         "bnfts_alt_title": "A better way, a better bag.",
@@ -284,7 +296,7 @@
         "facts_copy": "Tons of plastic will fill the ocean by 2040 if plastic consumption and pollution continues. Let's create a better future for the planet.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
-        "facts_link": "#",
+        "facts_link": "shopify:\/\/pages\/mission",
         "facts_link_color": "#ffffff"
       }
     },
