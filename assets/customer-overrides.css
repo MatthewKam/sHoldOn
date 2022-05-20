@@ -46,7 +46,7 @@
 }
 
 .customer.login, .customer.register, .customer:not(.account):not(.order) {
-  max-width: 400px;
+  max-width: 420px;
   width: 100%;
   padding: 0 20px;
   text-align: left;
@@ -96,8 +96,11 @@
 }
 
 .customer.login .field input[type="password"],
+.customer.login .field input[type="text"],
 .customer.login .field input[type="email"], .customer.register .field input[type="password"],
+.customer.register .field input[type="text"],
 .customer.register .field input[type="email"], .customer:not(.account):not(.order) .field input[type="password"],
+.customer:not(.account):not(.order) .field input[type="text"],
 .customer:not(.account):not(.order) .field input[type="email"] {
   border-radius: 7px;
   border: 2px solid #065142;

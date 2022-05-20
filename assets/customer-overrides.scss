@@ -48,7 +48,7 @@ $k-heavy:'Korolev-Heavy';
   &.login,
   &.register,
   &:not(.account):not(.order){
-    max-width: 400px;
+    max-width: 420px;
     width: 100%;
     padding: 0 20px;
     text-align: left;
@@ -76,6 +76,7 @@ $k-heavy:'Korolev-Heavy';
     .field{
       &:after{box-shadow: none;}
       input[type="password"],
+      input[type="text"],
       input[type="email"]{
         border-radius: 7px;
         border: 2px solid $dark-green;
