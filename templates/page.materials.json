@@ -12,7 +12,7 @@
       "type": "bg-content",
       "settings": {
         "title": "We’re ON A MISSION  TO LEAVE the world cleaner than we found it.",
-        "header_title_color": "#f8f0dc",
+        "header_title_color": "#fff1da",
         "bg_desktop": "shopify:\/\/shop_images\/mission_1.png",
         "bg_mobile": "shopify:\/\/shop_images\/bg-materials-atf-m.png"
       }
