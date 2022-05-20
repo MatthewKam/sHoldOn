@@ -88,8 +88,8 @@
   font-size: 50px;
 }
 
-.login-wrp .customer.login #recover:target ~ #login + p,
-.login-wrp .customer.login #recover:target ~ #login + div.login-fields {
+.login-wrp .customer.login #recover:target ~ .login-subtext,
+.login-wrp .customer.login #recover:target ~ .login-fields {
   display: none;
 }
 

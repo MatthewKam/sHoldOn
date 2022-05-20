@@ -67,8 +67,8 @@ $k-heavy:'Korolev-Heavy';
       line-height: 1;
       font-size: 50px;
     }
-    #recover:target~#login+p,
-    #recover:target~#login+div.login-fields{
+    #recover:target~.login-subtext,
+    #recover:target~.login-fields{
       display: none;
     }
     .field{
