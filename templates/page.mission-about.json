@@ -179,7 +179,7 @@
           "settings": {
             "step_color": "#065142",
             "step_title": "CREATE A DEDICATED COMPOST SPACE.",
-            "step_copy": "Use a compost barrel or bin, or even begin a compost pile on bare soil. A shady spot is ideal for composting, as it will help your compost to maintain proper moisture levels.",
+            "step_copy": "Use a compost barrel or bin, or begin a compost pile on bare soil. A shady spot is ideal for composting, as it will help to maintain proper moisture levels.",
             "hide_mobile": true,
             "hide_desktop": true
           }
@@ -189,7 +189,7 @@
           "settings": {
             "step_color": "#065142",
             "step_title": "Lay A FOUNDATION.",
-            "step_copy": "Prep your outdoor compost with twigs and straw, which will help to aerate your pile and keep it from becoming too dense.",
+            "step_copy": "Prep your outdoor compost with twigs or straw to help aerate your pile and keep it from becoming too dense.",
             "hide_mobile": true,
             "hide_desktop": true
           }
@@ -211,7 +211,7 @@
           "settings": {
             "step_color": "#065142",
             "step_title": "turn over your composT OCCASIONALLY.",
-            "step_copy": "This will aerate materials and help them to decompose evenly.",
+            "step_copy": "This will aerate your compost and help the mixture to biodegrade evenly.",
             "hide_mobile": true,
             "hide_desktop": true
           }
