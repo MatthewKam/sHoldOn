@@ -100,7 +100,7 @@
           "type": "image",
           "settings": {
             "card_color": "#f8f0dc",
-            "card_image": "shopify:\/\/shop_images\/Icon.png",
+            "card_image": "shopify:\/\/shop_images\/Icon_BG.png",
             "card_text_color": "#065142",
             "card_title": "Trash",
             "card_copy": "Switching from plastic trash bags to HoldOn trash bags keeps more plastic out of landfills.",
@@ -112,7 +112,7 @@
           "type": "image",
           "settings": {
             "card_color": "#f8f0dc",
-            "card_image": "shopify:\/\/shop_images\/Icon-1.png",
+            "card_image": "shopify:\/\/shop_images\/Icon_BG-2.png",
             "card_text_color": "#065142",
             "card_title": "COMPOST AT HOME",
             "card_copy": "Composting at home is an easy way to reduce waste - getting started is simple.",
@@ -124,7 +124,7 @@
           "type": "image",
           "settings": {
             "card_color": "#f8f0dc",
-            "card_image": "shopify:\/\/shop_images\/Icon-2.png",
+            "card_image": "shopify:\/\/shop_images\/Icon_BG-3.png",
             "card_text_color": "#065142",
             "card_title": "Compost commercially",
             "card_copy": "External compost services offer convenient pick-up options for compostable waste.",
