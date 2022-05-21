@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1653095673d1619d6a": {
+      "type": "about-section",
+      "settings": {
+        "bg_color": "#EFFCF6",
+        "section_1_headline": "Privacy Policy",
+        "section_1_copy": "",
+        "section_1_url": "",
+        "section_1_url_text": "Learn more",
+        "section_2_headline": "",
+        "section_2_copy": "",
+        "section_2_url": "",
+        "section_2_url_text": "Learn more"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653095673d1619d6a"
+  ]
+}
