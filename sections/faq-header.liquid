@@ -83,7 +83,7 @@
     let sectionTitles = [];
     $('.faq-wrp').each(function(i, obj){
       sectionTitles.push($(this).attr('id'));
-      $('.links-wrp').append(`<a href="#${$(this).attr('id')}">${$(this).attr('id').split('-').join(' ')}</a>`);
+      $('.faq-header-{{ section.id }} .links-wrp').append(`<a href="#${$(this).attr('id')}">${$(this).attr('id').split('-').join(' ')}</a>`);
     })
     $("a[href^='#']").click(function(e) {   
       e.preventDefault();   
