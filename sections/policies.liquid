@@ -5,6 +5,8 @@
     padding: 70px 30px;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
   .policies-{{ section.id }} .title-header h1 {
     font-size: 50px;
@@ -41,6 +43,22 @@
   @media screen and (min-width: 767px) {
     .policies-{{ section.id }} .policies-content {
       padding: 100px 30px;
+      flex-direction: row;
+    }
+    .policies-{{ section.id }} .title-header,
+    .policies-{{ section.id }} .policy-content{
+      width:50%;
+    }
+    .policies-{{ section.id }} .policy-content {
+      margin-top: 100px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .policies-{{ section.id }} .title-header{
+      width:40%;
+    }
+    .policies-{{ section.id }} .policy-content{
+      width:60%;
     }
   }
 {%- endstyle -%}
