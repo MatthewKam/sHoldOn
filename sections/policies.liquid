@@ -1,0 +1,46 @@
+{% assign sings = section.settings %}
+{%- style -%}
+{%- endstyle -%}
+<div class="policies-wrp policies-{{ section.id }}">
+  <div class="policies-content">
+    <div class="title-header">
+      <h1>{{ sings.title }}</h1>
+      {% if sings.title_subtext %}
+        <p>{{ sings.title_subtext }}</p>
+      {% endif %}
+    </div>
+    <div class="policy-content">
+      {{ sings.policy_copy }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Policies",
+  "tag": "section",
+  "class": "section section-policies",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Policy Title"
+    },
+    {
+      "type": "text",
+      "id": "title_subtext",
+      "label": "Policy Title Subtext"
+    },
+    {
+      "type": "richtext",
+      "id": "policy_copy",
+      "label": "Policy Copy"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Policies"
+    }
+  ]
+}
+{% endschema %}
