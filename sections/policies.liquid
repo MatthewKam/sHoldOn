@@ -13,10 +13,16 @@
   .policies-{{ section.id }} .policy-content {
     margin-top:50px;
   }
-  .policies-{{ section.id }} strong {
+  .policies-{{ section.id }} .policy-content h1,
+  .policies-{{ section.id }} .policy-content h2,
+  .policies-{{ section.id }} .policy-content h3,
+  .policies-{{ section.id }} .policy-content h4,
+  .policies-{{ section.id }} .policy-content h5,
+  .policies-{{ section.id }} .policy-content strong
+  {
     font-family:'Korolev-Heavy';
   }
-  
+
   .policies-{{ section.id }} p {
     margin-bottom:10px;
   }
@@ -42,9 +48,7 @@
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
       {%- else -%}
-        <div class='page-placeholder-wrapper placeholder'>
-          {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
-        </div>
+        <p>No content available.</p>
       {%- endif -%}
     </div>
   </div>
