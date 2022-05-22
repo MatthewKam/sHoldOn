@@ -1,5 +1,15 @@
 {% assign sings = section.settings %}
 {%- style -%}
+  
+  .policies-{{ section.id }} .policies-content {
+    padding: 70px 30px;
+  }
+
+  @media screen and (min-width: 767px) {
+    .policies-{{ section.id }} .policies-content {
+      padding: 100px 30px;
+    }
+  }
 {%- endstyle -%}
 <div class="policies-wrp policies-{{ section.id }}">
   <div class="policies-content">
