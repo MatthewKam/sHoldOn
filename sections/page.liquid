@@ -9,13 +9,6 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .section-{{ section.id }} h1, 
-  .section-{{ section.id }} h2, 
-  .section-{{ section.id }} h3, 
-  .section-{{ section.id }} h4, 
-  .section-{{ section.id }} h5{
-    font-family:'Korolev-Heavy';
-  } 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;

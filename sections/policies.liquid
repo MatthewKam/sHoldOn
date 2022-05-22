@@ -30,14 +30,22 @@
 <div class="policies-wrp policies-{{ section.id }}">
   <div class="policies-content">
     <div class="title-header">
-      <h1>{{ sings.title }}</h1>
-      {% if sings.title_subtext %}
-        <p>{{ sings.title_subtext }}</p>
-      {% endif %}
+      <h1>
+        {%- if section.settings.page.title != blank -%}
+          {{ section.settings.page.title | escape }}
+        {%- else -%}
+          {{ 'sections.page.title' | t }}
+        {%- endif -%}
+      </h1>
     </div>
     <div class="policy-content">
-      {{ sings.policy_copy }}
-      {{page.description}}
+      {%- if section.settings.page.content != blank -%}
+        {{ section.settings.page.content }}
+      {%- else -%}
+        <div class='page-placeholder-wrapper placeholder'>
+          {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
+        </div>
+      {%- endif -%}
     </div>
   </div>
 </div>
