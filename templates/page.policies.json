@@ -7,9 +7,16 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165319995327c0529b": {
+      "type": "policies",
+      "settings": {
+        "page": "privacy-policy"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165319995327c0529b"
   ]
 }
