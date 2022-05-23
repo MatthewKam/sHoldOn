@@ -90,7 +90,7 @@
 
 .shopify-section.atf .content-wrp .copy-sctn .copy-wrp h1 span, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp h1 span {
   font-family: "Korolev-Heavy";
-  display: inline-block;
+  display: block;
   font-size: 50px;
   text-transform: uppercase;
 }
