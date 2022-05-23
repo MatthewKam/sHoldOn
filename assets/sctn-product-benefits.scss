@@ -44,6 +44,7 @@ $k-heavy:'Korolev-Heavy';
       flex-direction: column;
       margin: 0 auto;
       padding:0 20px;
+      max-width: 500px;
       @media screen and (min-width: 640px) {
         flex-direction: row;
         padding:0;
@@ -140,13 +141,14 @@ $k-heavy:'Korolev-Heavy';
         }
       }
       .benefits-image{
-        width: 720px;
-        height: 585px;
+        max-width: 100%;
         display: block;
         order:1;
         @media screen and (min-width: 640px) {
           order:2;
           width: 60%;
+          max-width: 720px;
+          height: 585px;
         }
         @media screen and (min-width: 767px) {
           width: 55%;
