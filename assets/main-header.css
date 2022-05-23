@@ -190,11 +190,8 @@ body .header .menu-drawer-container .menu-drawer .menu-drawer__menu-item {
 }
 
 body .header .menu-drawer-container.menu-opening .menu-drawer,
-body .header .menu-drawer-container.menu-opening .menu-drawer__inner-container {
-  background-color: #00FABE;
-}
-
-body .header:has(.menu-opening) {
+body .header .menu-drawer-container.menu-opening .menu-drawer__inner-container,
+body .header .menu-drawer-container.menu-opening .menu-drawer__submenu {
   background-color: #00FABE;
 }
 /*# sourceMappingURL=main-header.css.map */

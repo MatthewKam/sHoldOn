@@ -184,16 +184,13 @@ body{
       }
       &.menu-opening{
         .menu-drawer,
-        .menu-drawer__inner-container {
+        .menu-drawer__inner-container,
+        .menu-drawer__submenu {
           background-color:$neon-green;
         }
       }
     }
 
-    &:has('.menu-opening'){
-      // &.menu-opening>.menu-drawer{
-        background-color: $neon-green;
-      // }
-    }
+    
   }
 }
