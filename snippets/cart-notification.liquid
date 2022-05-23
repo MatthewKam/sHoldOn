@@ -32,16 +32,25 @@
   .cart-notification {
      display: none;
   }
-  cart-notification div#cart-notification h3.cart-notification-product__name.h4 {
+  cart-notification div#cart-notification h3.cart-notification-product__name.h4,
+  cart-notification .cart-notification__links a#cart-notification-button,
+  cart-notification .cart-notification__links button.button.button--primary.button--full-width{
+    color:#065142;
     font-family: "Korolev-Heavy";
     text-transform:uppercase;
     letter-spacing:0;
   }
-  cart-notification .cart-notification__links a#cart-notification-button{
+  cart-notification .cart-notification__links a#cart-notification-button,
+  cart-notification .cart-notification__links button.button.button--primary.button--full-width{
     border-radius: 10px;
-    border: 2px solid #065142;
-    color:#065142;
   }
+  cart-notification .cart-notification__links a#cart-notification-button{
+    border: 2px solid #065142;
+  }
+  cart-notification .cart-notification__links button.button.button--primary.button--full-width {
+    background-color: #ADFF44;
+    font-size: 20px;
+  } 
   cart-notification .cart-notification__links a#cart-notification-button:after{
     box-shadow:unset;
   }
