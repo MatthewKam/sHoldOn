@@ -97,8 +97,6 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/holdOn-fav.png",
     "currency_code_enabled": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/GPL_HOL001_S4R1_AES_Assets_RGB_v2_Wordmark_DG.png",
-    "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

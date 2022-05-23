@@ -119,4 +119,32 @@
     height: 670px;
   }
 }
+
+.shopify-section.atf-full .content-wrp .bg-image {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.atf-full .content-wrp .bg-image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.shopify-section.atf-full .content-wrp .copy-sctn {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.atf-full .content-wrp .copy-sctn {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
 /*# sourceMappingURL=sctn-atf.css.map */

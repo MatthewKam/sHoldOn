@@ -91,4 +91,18 @@ $k-heavy:'Korolev-Heavy';
       }
     }
   }
+  &.atf-full{
+    .content-wrp .bg-image{
+      order:1;
+      @media screen and (min-width: 767px) {
+        order:2;
+      }
+    }
+    .content-wrp .copy-sctn{
+      order:2;
+      @media screen and (min-width: 767px) {
+        order:1;
+      }
+    }
+  }
 }
