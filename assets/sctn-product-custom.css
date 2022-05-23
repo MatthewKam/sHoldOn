@@ -48,6 +48,12 @@
       align-self: flex-start;
 }
 
+@media screen and (min-width: 640px) {
+  .shopify-section.section-product-custom .product-info-wrp .product-breakdown {
+    padding: 75px 20px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .shopify-section.section-product-custom .product-info-wrp .product-breakdown {
     -webkit-box-orient: horizontal;
@@ -55,6 +61,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
     width: 40%;
+    padding: 50px 20px;
   }
 }
 
