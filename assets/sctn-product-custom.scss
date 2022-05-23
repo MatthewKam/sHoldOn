@@ -214,6 +214,11 @@ $border-image-gallery: #FFFFFF;
           .details-copy{
             display:none;
             margin-top:20px;
+            p{
+              strong{
+                font-family: $k-heavy;
+              }
+            }
           }
 
           &.active{

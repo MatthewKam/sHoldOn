@@ -298,6 +298,10 @@
   margin-top: 20px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp .product-details-wrp .product-details .details-copy p strong {
+  font-family: "Korolev-Heavy";
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-details-wrp .product-details.active .details-header img {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
