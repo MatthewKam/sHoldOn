@@ -67,6 +67,7 @@
             flex-direction: row;
     padding: 0;
     padding-left: 20px;
+    max-width: unset;
   }
 }
 
