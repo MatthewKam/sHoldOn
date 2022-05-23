@@ -192,4 +192,8 @@ body .header .menu-drawer-container .menu-drawer .menu-drawer__menu-item {
 body .header .menu-drawer-container.menu-opening .menu-drawer {
   background-color: #00FABE;
 }
+
+body .header .menu-drawer-container:has(.menu-opening) {
+  background-color: red;
+}
 /*# sourceMappingURL=main-header.css.map */

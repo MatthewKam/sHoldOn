@@ -171,7 +171,6 @@ body{
         display: inline-block !important;
       }
     }
-
     .menu-drawer-container{
       .menu-drawer {
         .menu-drawer__menu-item {
@@ -188,6 +187,8 @@ body{
         }
       }
     }
-    
+    .menu-drawer-container:has(.menu-opening){
+      background-color:red;
+    }
   }
 }
