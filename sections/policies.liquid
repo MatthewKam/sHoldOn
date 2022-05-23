@@ -17,6 +17,9 @@
   .policies-{{ section.id }} .policy-content {
     margin-top:50px;
   }
+  .policies-{{ section.id }} .policy-content a{
+    font-size: 12px;
+  }
   .policies-{{ section.id }} .policy-content h1,
   .policies-{{ section.id }} .policy-content h2,
   .policies-{{ section.id }} .policy-content h3,
@@ -47,7 +50,11 @@
   .policies-{{ section.id }} p {
     margin-bottom:10px;
   }
-
+  @media only screen and (min-width: 640px) {
+    .policies-{{ section.id }} .policy-content a{
+      font-size: 16px;
+    }
+  }
   @media screen and (min-width: 767px) {
     .policies-{{ section.id }} .policies-content {
       padding: 100px 30px;
