@@ -53,9 +53,15 @@
 }
 
 .shopify-section.about-section .section-wrp .section-image {
-  max-width: 420px;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 450px) {
+  .shopify-section.about-section .section-wrp .section-image {
+    max-width: 420px;
+  }
 }
 
 @media screen and (min-width: 767px) {
