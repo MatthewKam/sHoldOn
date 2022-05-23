@@ -79,6 +79,9 @@ body{
               justify-content: center;
               align-items: center;
             }
+            &.menu-opening>.menu-drawer{
+              background-color: $neon-green;
+            }
           }
           summary {
             &.list-menu__item{

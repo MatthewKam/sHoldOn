@@ -88,6 +88,10 @@ body .header nav.header__inline-menu .list-menu details[open] > .header__submenu
           align-items: center;
 }
 
+body .header nav.header__inline-menu .list-menu details[open].menu-opening > .menu-drawer {
+  background-color: #00FABE;
+}
+
 body .header nav.header__inline-menu .list-menu details summary.list-menu__item {
   padding: 10px;
   position: relative;
