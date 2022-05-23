@@ -120,6 +120,7 @@ cart-items{
     }
   }
 }
+
 .cart__footer-wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -150,20 +151,3 @@ cart-items{
   }
 }
 
-cart-notification div#cart-notification {
-  h3.cart-notification-product__name.h4 {
-    font-family: $k-heavy;
-    text-transform:uppercase;
-    letter-spacing:0;
-  }
-  .cart-notification__links{
-    a#cart-notification-button{
-      border-radius: 10px;
-      border: 2px solid $dark-green;
-      color:$dark-green;
-      &:after{
-        box-shadow:unset;
-      }
-    }
-  }
-}

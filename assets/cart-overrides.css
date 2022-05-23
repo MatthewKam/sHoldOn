@@ -186,21 +186,4 @@ cart-items table.cart-items .cart-item__image-container.gradient.global-media-se
   margin-left: auto !important;
   font-size: 12px;
 }
-
-cart-notification div#cart-notification h3.cart-notification-product__name.h4 {
-  font-family: "Korolev-Heavy";
-  text-transform: uppercase;
-  letter-spacing: 0;
-}
-
-cart-notification div#cart-notification .cart-notification__links a#cart-notification-button {
-  border-radius: 10px;
-  border: 2px solid #065142;
-  color: #065142;
-}
-
-cart-notification div#cart-notification .cart-notification__links a#cart-notification-button:after {
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-}
 /*# sourceMappingURL=cart-overrides.css.map */
