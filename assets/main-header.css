@@ -180,4 +180,11 @@ body .header .nav-text {
     display: inline-block !important;
   }
 }
+
+body .header .menu-drawer .menu-drawer__menu-item {
+  font-family: "Korolev-Heavy";
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: #065142;
+}
 /*# sourceMappingURL=main-header.css.map */
