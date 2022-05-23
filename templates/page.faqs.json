@@ -19,18 +19,18 @@
     "1652791647d9566bbd": {
       "type": "faqs",
       "blocks": {
+        "1510b735-b0ea-4078-8568-152c527785d5": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Can I use HoldOn bags for trash?",
+            "faq_copy": "<p>Yes! Use HoldOn bags just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm.<\/p>"
+          }
+        },
         "056f9901-6d0e-4a4d-b184-125f858bfb39": {
           "type": "text",
           "settings": {
             "faq_title": "Can HoldOn bags be used for recycling?",
             "faq_copy": "<p>In short: it depends! <\/p><p>Many recycling programs require items to be picked up from special bins loose, meaning a HoldOn bag full of recyclables would not be accepted. <\/p><p>If your program allows recyclable waste to be placed in trash bags, a HoldOn trash bag would be a more sustainable alternative to plastic trash bags. <\/p><p>We recommend following your recycling program instructions to ensure that your items are approved and recycled properly. If you are currently using plastic bags for trash, HoldOn compostable bags will be a positive step in the right direction, as they break down into nontoxic, plant-based elements, without producing microplastics or greenhouse gases.<\/p>"
-          }
-        },
-        "1510b735-b0ea-4078-8568-152c527785d5": {
-          "type": "text",
-          "settings": {
-            "faq_title": "Can I use HoldOn bags for trash? Do I need to compost HoldOn bags?",
-            "faq_copy": "<p>HoldOn bags are meant to reduce plastic waste, no matter how you take out the trash. You can use HoldOn for composting or for your traditional garbage disposal. Use HoldOn bags just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm.<\/p>"
           }
         },
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa": {
@@ -63,8 +63,8 @@
         }
       },
       "block_order": [
-        "056f9901-6d0e-4a4d-b184-125f858bfb39",
         "1510b735-b0ea-4078-8568-152c527785d5",
+        "056f9901-6d0e-4a4d-b184-125f858bfb39",
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa",
         "00c1fca9-337f-4bae-b02b-9bf0dee2ade8",
         "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff",
