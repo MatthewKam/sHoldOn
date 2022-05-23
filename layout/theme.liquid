@@ -11,21 +11,6 @@
       <!-- <script type="text/javascript">
         window.location.href = '{{ shop.url }}';
       </script> -->
-      <style>
-        #shopify-section-announcement-bar,
-        #shopify-section-header,
-        #shopify-section-footer,
-        section{
-          display:none;
-        }
-      </style>
-    {% endif %}
-    {% if template.name != "index" %} 
-      <style>
-        div#shopify-section-coming-soon{
-          display:none;
-        }
-      </style>
     {% endif %}
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
