@@ -79,9 +79,7 @@ body{
               justify-content: center;
               align-items: center;
             }
-            &.menu-opening>.menu-drawer{
-              background-color: $neon-green;
-            }
+           
           }
           summary {
             &.list-menu__item{
@@ -190,6 +188,12 @@ body{
           background-color:$neon-green;
         }
       }
+    }
+
+    &:has(.menu-opening){
+      // &.menu-opening>.menu-drawer{
+        background-color: $neon-green;
+      // }
     }
   }
 }

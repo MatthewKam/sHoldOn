@@ -88,10 +88,6 @@ body .header nav.header__inline-menu .list-menu details[open] > .header__submenu
           align-items: center;
 }
 
-body .header nav.header__inline-menu .list-menu details[open].menu-opening > .menu-drawer {
-  background-color: #00FABE;
-}
-
 body .header nav.header__inline-menu .list-menu details summary.list-menu__item {
   padding: 10px;
   position: relative;
@@ -195,6 +191,10 @@ body .header .menu-drawer-container .menu-drawer .menu-drawer__menu-item {
 
 body .header .menu-drawer-container.menu-opening .menu-drawer,
 body .header .menu-drawer-container.menu-opening .menu-drawer__inner-container {
+  background-color: #00FABE;
+}
+
+body .header:has(.menu-opening) {
   background-color: #00FABE;
 }
 /*# sourceMappingURL=main-header.css.map */
