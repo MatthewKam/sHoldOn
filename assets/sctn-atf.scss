@@ -34,10 +34,11 @@ $k-heavy:'Korolev-Heavy';
       }
       .bg-image{
         display: block;
-        padding-top: 100%;
+        padding-top: 70%;
         order:1;
         @media screen and (min-width: 767px) {
           height: 670px;
+          padding-top: 100%;
           padding:0;
           order:2;
         }
