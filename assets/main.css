@@ -213,4 +213,8 @@ body .grellow-icon {
 body .grellow-icon img {
   width: 15px;
 }
+
+form.klaviyo-form p, form.klaviyo-form span, form.klaviyo-form strong, form.klaviyo-form h1, form.klaviyo-form h2, form.klaviyo-form h3, form.klaviyo-form h4 {
+  color: white !important;
+}
 /*# sourceMappingURL=main.css.map */
