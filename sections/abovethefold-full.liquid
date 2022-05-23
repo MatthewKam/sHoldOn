@@ -14,6 +14,15 @@
   .atf-full-{{ section.id }} .copy-sctn p{
     color:{{ sings.copy_color }};
   }
+  @media screen and (min-width: 767px) {
+    {% if sings.bg_img_m %}
+      .atf-full-{{ section.id }} .content-wrp{
+        background:url({{ sings.bg_img_m | image_url }}) center top no-repeat;
+        background-size:cover;
+      }  
+    {% endif %}
+  }
+  
 {%- endstyle -%}
 <div class="atf-wrp atf-full-{{ section.id }}">
   <div class="content-wrp">
@@ -94,7 +103,12 @@
     {
       "type": "image_picker",
       "id": "bg_img",
-      "label": "Background Image"
+      "label": "Background Image - Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img_m",
+      "label": "Background Image - Mobile"
     }
   ],
   "presets": [
