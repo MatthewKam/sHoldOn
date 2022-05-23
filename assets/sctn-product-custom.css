@@ -43,6 +43,8 @@
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown {
   width: 100%;
   padding: 100px 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 @media screen and (min-width: 767px) {
@@ -52,7 +54,6 @@
         -ms-flex-direction: row;
             flex-direction: row;
     width: 40%;
-    padding: 20px;
   }
 }
 
