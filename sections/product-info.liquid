@@ -132,18 +132,18 @@
                 <p>{{ sings.set_description }}asfasdfaf</p>
               <!-- {% endif %} -->
             </div>
-          </div>
-          <div class="prices">
-            <!-- {/% if product.compared_at_price %}    -->
-              <div class="original-price">
-                <strike>
-                  <!-- {{ product.compared_at_price | money }} -->
-                  asf11
-                </strike>
+            <div class="prices">
+              <!-- {/% if product.compared_at_price %}    -->
+                <div class="original-price">
+                  <strike>
+                    <!-- {{ product.compared_at_price | money }} -->
+                    asf11
+                  </strike>
+                </div>
+              <!-- {/% endif %} -->
+              <div class="regular-price">
+                {{ product.price | money }}
               </div>
-            <!-- {/% endif %} -->
-            <div class="regular-price">
-              {{ product.price | money }}
             </div>
           </div>
         {% endif %}
