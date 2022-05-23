@@ -181,11 +181,15 @@ body .header .nav-text {
   }
 }
 
-body .header .menu-drawer .menu-drawer__menu-item {
+body .header .menu-drawer-container .menu-drawer .menu-drawer__menu-item {
   font-family: "Korolev-Heavy";
   text-transform: uppercase;
   letter-spacing: 0;
   color: #065142;
   font-size: 24px;
+}
+
+body .header .menu-drawer-container.menu-opening .menu-drawer {
+  background-color: #00FABE;
 }
 /*# sourceMappingURL=main-header.css.map */

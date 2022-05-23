@@ -172,15 +172,22 @@ body{
       }
     }
 
-
-    .menu-drawer {
-      .menu-drawer__menu-item {
-        font-family: $k-heavy;
-        text-transform: uppercase;
-        letter-spacing: 0;
-        color: $dark-green;
-        font-size: 24px;
+    .menu-drawer-container{
+      .menu-drawer {
+        .menu-drawer__menu-item {
+          font-family: $k-heavy;
+          text-transform: uppercase;
+          letter-spacing: 0;
+          color: $dark-green;
+          font-size: 24px;
+        }
+      }
+      &.menu-opening{
+        .menu-drawer {
+          background-color:$neon-green;
+        }
       }
     }
+    
   }
 }
