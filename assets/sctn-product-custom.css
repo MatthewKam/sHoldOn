@@ -43,6 +43,7 @@
 .shopify-section.section-product-custom .product-info-wrp .product-breakdown {
   width: 100%;
   padding: 100px 20px;
+  padding-bottom: 50px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
