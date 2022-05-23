@@ -32,13 +32,14 @@ $k-heavy:'Korolev-Heavy';
       @media screen and (min-width: 767px) {
         flex-direction: row;
       }
-      
       .bg-image{
         display: block;
         padding-top: 100%;
+        order:1;
         @media screen and (min-width: 767px) {
           height: 670px;
           padding:0;
+          order:2;
         }
       }
       .copy-sctn{
@@ -47,8 +48,9 @@ $k-heavy:'Korolev-Heavy';
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        @media screen and (min-width: 1000px) {
-          
+        order:2;
+        @media screen and (min-width: 767px) {
+          order:1;
         }
         
         .copy-wrp{
@@ -88,20 +90,6 @@ $k-heavy:'Korolev-Heavy';
           width:50%;
           height: 670px;
         }
-      }
-    }
-  }
-  &.atf-full{
-    .content-wrp .bg-image{
-      order:1;
-      @media screen and (min-width: 767px) {
-        order:2;
-      }
-    }
-    .content-wrp .copy-sctn{
-      order:2;
-      @media screen and (min-width: 767px) {
-        order:1;
       }
     }
   }

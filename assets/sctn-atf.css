@@ -40,12 +40,18 @@
 .shopify-section.atf .content-wrp .bg-image, .shopify-section.atf-full .content-wrp .bg-image {
   display: block;
   padding-top: 100%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 @media screen and (min-width: 767px) {
   .shopify-section.atf .content-wrp .bg-image, .shopify-section.atf-full .content-wrp .bg-image {
     height: 670px;
     padding: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 
@@ -64,6 +70,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.atf .content-wrp .copy-sctn, .shopify-section.atf-full .content-wrp .copy-sctn {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 
 .shopify-section.atf .content-wrp .copy-sctn .copy-wrp, .shopify-section.atf-full .content-wrp .copy-sctn .copy-wrp {
@@ -117,34 +134,6 @@
   .shopify-section.atf-full .content-wrp .copy-sctn {
     width: 50%;
     height: 670px;
-  }
-}
-
-.shopify-section.atf-full .content-wrp .bg-image {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-@media screen and (min-width: 767px) {
-  .shopify-section.atf-full .content-wrp .bg-image {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-}
-
-.shopify-section.atf-full .content-wrp .copy-sctn {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-@media screen and (min-width: 767px) {
-  .shopify-section.atf-full .content-wrp .copy-sctn {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
   }
 }
 /*# sourceMappingURL=sctn-atf.css.map */
