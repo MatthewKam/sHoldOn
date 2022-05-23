@@ -127,6 +127,10 @@ $k-heavy:'Korolev-Heavy';
         }
         a.learn-more-link.btn-link {
           margin-top: 10px;
+          padding:10px;
+          @media screen and (min-width: 640px) {
+            padding: 14px 20px;
+          }
         }
       }
     }
