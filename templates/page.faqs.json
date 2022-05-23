@@ -26,6 +26,13 @@
             "faq_copy": "<p>Yes! Use HoldOn bags just like you would a normal garbage bag: fill, tie, and toss. Once in a dump or landfill, it will break down cleanly into nontoxic elements that won’t cause environmental harm.<\/p>"
           }
         },
+        "57dc2dd4-717c-46a2-a7b9-45a585078aa5": {
+          "type": "text",
+          "settings": {
+            "faq_title": "Do I need to compost HoldOn bags?",
+            "faq_copy": "<p>You can, but you don't need to. HoldOn bags are designed to reduce plastic waste, no matter how you take out your trash. If you want to compost your HoldOn bags, you can compost them commercially using a compost service, or compost at home. HoldOn bags will break down cleanly in a matter of weeks.<\/p>"
+          }
+        },
         "056f9901-6d0e-4a4d-b184-125f858bfb39": {
           "type": "text",
           "settings": {
@@ -64,6 +71,7 @@
       },
       "block_order": [
         "1510b735-b0ea-4078-8568-152c527785d5",
+        "57dc2dd4-717c-46a2-a7b9-45a585078aa5",
         "056f9901-6d0e-4a4d-b184-125f858bfb39",
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa",
         "00c1fca9-337f-4bae-b02b-9bf0dee2ade8",
