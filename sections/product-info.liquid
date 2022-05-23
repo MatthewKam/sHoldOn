@@ -336,7 +336,7 @@
     const percentage = Math.floor(parseFloat(div.innerText.replace(/[^\d.]/g, '')));
     div.innerHTML = `Subscribe & save ${ percentage }%`;
     console.log('something')
-  }, 700)
+  }, 500)
 
   const observer = new MutationObserver((mutations, obs) => {
     const rcWidget = document.querySelector('.rc-widget');
