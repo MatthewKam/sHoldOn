@@ -60,13 +60,6 @@
             "faq_title": "Can I throw my zip bags in the compost if they contain food?",
             "faq_copy": "<p>If your bag contains organic material that is compostable (produce, grains, or anything else derived from the earth), then yes! Do not throw your zip bag in the compost if it contains plastic or other inorganic material as it won't break down, or animal products (meat, dairy, eggs,) as they will attract pests to your compost. If you're unsure, check out our <a href=\"https:\/\/holdonbags.com\/pages\/materials\" title=\"https:\/\/holdonbags.com\/pages\/materials\">composting guide<\/a> to learn more about what can be composted.<\/p>"
           }
-        },
-        "f910303e-5589-4e54-9919-8a2e228c9816": {
-          "type": "text",
-          "settings": {
-            "faq_title": "How should I store my HoldOn Bags?",
-            "faq_copy": "<p>We recommend storing your bags in a cool, dry area to keep them in tip-top shape. <\/p>"
-          }
         }
       },
       "block_order": [
@@ -75,8 +68,7 @@
         "056f9901-6d0e-4a4d-b184-125f858bfb39",
         "e4331ff9-6b0f-4cc3-956b-74ab5d2d54aa",
         "00c1fca9-337f-4bae-b02b-9bf0dee2ade8",
-        "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff",
-        "f910303e-5589-4e54-9919-8a2e228c9816"
+        "d21ff59a-c9ad-467e-bd89-519e2dd7d1ff"
       ],
       "settings": {
         "title": "HOW TO USE",
@@ -263,12 +255,20 @@
             "faq_title": "Can I use my HoldOn bags in the microwave? What about the oven?",
             "faq_copy": "<p>HoldOn bags should not be used in or around any heat source like an oven, microwave, or open flame, as this will damage the plant-based material.<\/p>"
           }
+        },
+        "235bef7e-4903-4e14-ae59-87f41342ccb7": {
+          "type": "text",
+          "settings": {
+            "faq_title": "How should I store my HoldOn bags?",
+            "faq_copy": "<p>We recommend storing your bags in a cool, dry area to keep them in tip-top shape. <\/p>"
+          }
         }
       },
       "block_order": [
         "89d85e8a-81c9-48f6-9d47-a10bd1e6ab97",
         "9e857202-e621-4007-b853-86a53e2eeb1e",
-        "4433e7e9-33ae-49e6-8400-77059a6af93d"
+        "4433e7e9-33ae-49e6-8400-77059a6af93d",
+        "235bef7e-4903-4e14-ae59-87f41342ccb7"
       ],
       "settings": {
         "title": "MISCELLANEOUS",
