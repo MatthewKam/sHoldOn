@@ -329,6 +329,7 @@
     $(this).toggleClass('active');
     $(this).find('.details-copy').slideToggle();
   });
+
   const container = document.querySelector('div[data-v-app]');
   setTimeout(() => {
     const div = document.querySelector('.subscription-radio .discount-label');
@@ -338,7 +339,7 @@
 
   const observer = new MutationObserver((mutations, obs) => {
     const rcWidget = document.querySelector('.rc-widget');
-    if (helrcWidgetlo) {
+    if (rcWidget) {
       console.log('GOt it!!')
       obs.disconnect();
       return;
