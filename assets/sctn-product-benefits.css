@@ -82,6 +82,9 @@
       -ms-flex-order: 2;
           order: 2;
   padding: 50px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (min-width: 640px) {
@@ -112,7 +115,7 @@
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header h2 {
-  font-size: 25px;
+  font-size: 35px;
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 20px;
@@ -120,18 +123,21 @@
 
 @media screen and (min-width: 640px) {
   .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header h2 {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header p {
   line-height: 1.4;
   padding-bottom: 20px;
-  border-bottom: 2px solid #065142;
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item {
   border-bottom: 2px solid #065142;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item:first-child {
+  border-top: 2px solid #065142;
 }
 
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item .breakdown-item-header {
