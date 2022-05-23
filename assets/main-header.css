@@ -189,7 +189,8 @@ body .header .menu-drawer-container .menu-drawer .menu-drawer__menu-item {
   font-size: 24px;
 }
 
-body .header .menu-drawer-container.menu-opening .menu-drawer {
+body .header .menu-drawer-container.menu-opening .menu-drawer,
+body .header .menu-drawer-container.menu-opening .menu-drawer__inner-container {
   background-color: #00FABE;
 }
 /*# sourceMappingURL=main-header.css.map */
