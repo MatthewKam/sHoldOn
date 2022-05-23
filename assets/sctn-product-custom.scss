@@ -87,6 +87,30 @@ $border-image-gallery: #FFFFFF;
         .prod-desc{
           margin-bottom: 10px;
         }
+        .set-price-wrp {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          border-top: 2px solid $dark-green;
+          border-bottom: 2px solid $dark-green;
+          padding: 10px;
+          .set-info{
+            h3{
+              font-size: 16px;
+            }
+            p{
+              font-size:12px;
+            }
+          }
+          .prices{
+            display: flex;
+            flex-direction: row;
+            .regular-price{
+              font-family:$k-heavy;
+            }
+          }
+        }
         .how-it-works {
           color: white;
           font-size: 14px;
