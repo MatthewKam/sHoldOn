@@ -120,6 +120,10 @@ body a, body button {
   }
 }
 
+body a.follow {
+  font-size: 14px;
+}
+
 body small {
   font-size: 12px;
 }
