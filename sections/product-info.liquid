@@ -128,19 +128,18 @@
           <div class="set-price-wrp">
             <div class="set-info">
               <h3>Buy Set</h3>
-              <!-- {% if sings.set_description %}   -->
-                <p>{{ sings.set_description }}asfasdfaf</p>
-              <!-- {% endif %} -->
+              {% if sings.set_description %}  
+                <p>{{ sings.set_description }}</p>
+              {% endif %}
             </div>
             <div class="prices">
-              <!-- {/% if product.compared_at_price %}    -->
+              {% if product.compared_at_price %}   
                 <div class="original-price">
                   <strike>
-                    <!-- {{ product.compared_at_price | money }} -->
-                    asf11
+                    {{ product.compared_at_price | money }}
                   </strike>
                 </div>
-              <!-- {/% endif %} -->
+              {% endif %}
               <div class="regular-price">
                 {{ product.price | money }}
               </div>
