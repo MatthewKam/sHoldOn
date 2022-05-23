@@ -88,6 +88,7 @@ $border-image-gallery: #FFFFFF;
           margin-bottom: 10px;
         }
         .set-price-wrp {
+          margin-bottom: 30px;
           align-items: center;
           display: flex;
           flex-direction: row;
@@ -98,6 +99,7 @@ $border-image-gallery: #FFFFFF;
           .set-info{
             h3{
               font-size: 16px;
+              text-transform:uppercase;
             }
             p{
               font-size:12px;
@@ -106,6 +108,9 @@ $border-image-gallery: #FFFFFF;
           .prices{
             display: flex;
             flex-direction: row;
+            .original-price {
+              margin-right: 10px;
+            }
             .regular-price{
               font-family:$k-heavy;
             }
