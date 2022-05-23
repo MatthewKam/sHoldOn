@@ -193,7 +193,7 @@
       <h1 class="header__heading">
     {%- endif -%}
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          {%- if section.settings.logo != blank -%}
+          <!-- {%- if section.settings.logo != blank -%}
             {%- assign image_size = section.settings.logo_width | append: 'x' -%}
             <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
               src="{{ section.settings.logo | img_url: image_size }}"
@@ -205,7 +205,8 @@
             >
           {%- else -%}
             <span class="h2">{{ shop.name }}</span>
-          {%- endif -%}
+          {%- endif -%} -->
+          <img src="{{ 'logo-header.svg' | asset_url }}" alt="HoldOn Logo">
         </a>
     {%- if request.page_type == 'index' -%}
       </h1>
