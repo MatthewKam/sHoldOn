@@ -425,12 +425,23 @@
   </script>
 {%- endif -%}
 <script type="application/javascript">
-    document.querySelector('details').addEventListener("click", function(){
-      console.log('opened!')
-      // if (document.querySelector('details').hasAttribute('open')){
-      // }
-    });
-    
+  const observer = new MutationObserver((mutations, obs) => {
+    const headerMain = document.querySelector('header.header');
+    const openedHamburgerMenu = document.querySelector('.menu-opening');
+
+    if (openedHamburgerMenu) {
+      headerMain.classList.add("opened-mobile");
+    } else{
+      headerMain.classList.remove("opened-mobile");
+    }
+    obs.disconnect();
+    return;
+  });
+
+  observer.observe(document, {
+    childList: true,
+    subtree: true
+  });
 </script>
 {% schema %}
 {
