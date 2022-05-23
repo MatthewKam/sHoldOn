@@ -45,6 +45,16 @@ $k-heavy:'Korolev-Heavy';
         @media screen and (min-width: 640px) {
           width:270px;
         }
+        .product-img{
+          width:160px;
+          height:160px;
+          display: block;
+          @media screen and (min-width: 640px) {
+            width:270px;
+            height:270px;
+          }
+          
+        }
         a.col-list-link {
           display: block;
           width: 100%;
