@@ -206,6 +206,12 @@
           align-items: center;
   margin: 20px auto;
   margin-top: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp .product-form__input.product-form__quantity {
+  margin-right: 20px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp quantity-input.quantity {
@@ -232,7 +238,6 @@
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form {
   width: 100%;
-  margin-left: 20px;
 }
 
 .shopify-section.section-product-custom .product-info-wrp .submit-selection-wrp product-form.product-form button.product-form__submit {

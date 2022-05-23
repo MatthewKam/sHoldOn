@@ -148,7 +148,11 @@ $border-image-gallery: #FFFFFF;
         align-items: center;
         margin: 20px auto;
         margin-top: 5px;
-
+        flex-wrap: wrap;
+        
+        .product-form__input.product-form__quantity{
+          margin-right:20px;
+        }
         quantity-input.quantity{
           max-width: 100px;
           &::after {
@@ -169,7 +173,7 @@ $border-image-gallery: #FFFFFF;
         }
         product-form.product-form {
           width: 100%;
-          margin-left: 20px;
+          
           button.product-form__submit{
             background-color: $neon-grellow;
             border-radius: 10px;
