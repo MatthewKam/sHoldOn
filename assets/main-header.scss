@@ -190,7 +190,7 @@ body{
       }
     }
 
-    &:has(.menu-opening){
+    &:has('.menu-opening'){
       // &.menu-opening>.menu-drawer{
         background-color: $neon-green;
       // }
