@@ -125,9 +125,24 @@
           </variant-radios>
         {%- endunless -%}
         {% if product.tags contains 'Sets' %}
+          <div class="set-price-wrp">
+            <div class="set-info">
+              <h3>Buy Set</h3>
+              <!-- {% if sings.set_description %}   -->
+                <p>{{ sings.set_description }}asfasdfaf</p>
+              <!-- {% endif %} -->
+            </div>
+          </div>
           <div class="prices">
+            {% if product.compared_at_price %}   
+              <div class="original-price">
+                <strike>
+                  {{ product.compared_at_price | money }}
+                </strike>
+              </div>
+            {% endif %}
             <div class="regular-price">
-              {{product.price | money}}
+              {{ product.price | money }}
             </div>
           </div>
         {% endif %}
@@ -451,6 +466,11 @@
       "step": 1,
       "label": "Number of Items in Set",
       "default": 1
+    },
+    {
+      "type": "text",
+      "id": "set_description",
+      "label": "Set Description"
     }
   ],
   "presets": [
