@@ -329,6 +329,26 @@
     $(this).toggleClass('active');
     $(this).find('.details-copy').slideToggle();
   });
+  const container = document.querySelector('div[data-v-app]');
+  setTimeout(() => {
+    const div = document.querySelector('.subscription-radio .discount-label');
+    div.innerHTML = 'done did it';
+    console.log('something')
+  }, 2000)
+
+  const observer = new MutationObserver((mutations, obs) => {
+    const rcWidget = document.querySelector('.rc-widget');
+    if (helrcWidgetlo) {
+      console.log('GOt it!!')
+      obs.disconnect();
+      return;
+    }
+  });
+
+  observer.observe(document, {
+    childList: true,
+    subtree: true
+  });
 </script>
 
 {%- liquid
