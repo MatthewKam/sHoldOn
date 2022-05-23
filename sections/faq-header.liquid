@@ -52,7 +52,6 @@
   }
   @media screen and (min-width: 640px) {
     .faq-header-{{ section.id }}{
-      padding: 100px 30px;
       padding-bottom: 0;
     }
     .faq-header-{{ section.id }} .faq-header-content{
@@ -68,6 +67,9 @@
     .shopify-section.section.faq-dropdowns{
       padding: 0 30px;
     }
+  }
+  .shopify-section.section.faq-dropdowns:last-child {
+    margin-bottom: 50px;
   }
 {%- endstyle -%}
 <div class="faq-header-wrp faq-header-{{ section.id }}">
