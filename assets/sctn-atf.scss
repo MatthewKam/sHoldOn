@@ -119,6 +119,9 @@ $k-heavy:'Korolev-Heavy';
           padding: 100px 20px;
         }
         .copy-wrp{
+          width: 100%;
+          max-width: 450px;
+
           h1 {
             margin-bottom: 10px;
             span{
@@ -127,6 +130,9 @@ $k-heavy:'Korolev-Heavy';
                 font-size:50px;
               }
             }
+          }
+          p{
+            max-width: 350px;
           }
         }
       }
