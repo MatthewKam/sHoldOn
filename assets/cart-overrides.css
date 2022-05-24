@@ -54,7 +54,7 @@ cart-items table.cart-items .cart-item {
           align-items: flex-end;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 767px) {
   cart-items table.cart-items .cart-item {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
