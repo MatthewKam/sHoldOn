@@ -41,6 +41,13 @@
     border-radius:10px;
     box-shadow:unset;
   }
+  .section-{{ section.id }}-padding .field__input:focus, 
+  .section-{{ section.id }}-padding .select__select:focus, 
+  .section-{{ section.id }}-padding .customer .field input:focus, 
+  .section-{{ section.id }}-padding .customer select:focus, 
+  .section-{{ section.id }}-padding .localization-form__select:focus.localization-form__select:after{
+    border-radius: 10px;
+  }
   .section-{{ section.id }}-padding button.button {
     border-radius: 10px;
     text-transform: uppercase;
