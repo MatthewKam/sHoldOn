@@ -28,8 +28,13 @@
   .section-{{ section.id }}-padding .field:after {
     box-shadow:unset;
   }
-  .section-{{ section.id }}-padding .field:hover.field:after {
-    box-shadow:2px solid #065142;
+  .field:hover.field:after, 
+  .select:hover.select:after, 
+  .select__select:hover.select__select:after, 
+  .customer .field:hover.field:after, 
+  .customer select:hover.select:after, 
+  .localization-form__select:hover.localization-form__select:after{
+    border: 2px solid #065142;
   }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
