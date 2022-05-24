@@ -5,13 +5,16 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .shopify-section-template--{{ section.id }} .main-page-title {
+  .main-page-title {
     font-family: 'Korolev-Heavy';
     text-transform: uppercase;
     color: #065142;
     margin-bottom: 10px;
   }
-
+  h2.title.title-wrapper--no-top-margin.h2 {
+    font-family: 'Korolev-Medium';
+    font-size: 16px;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
