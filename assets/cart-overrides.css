@@ -2,6 +2,14 @@
   border-bottom: 0.2rem solid #065142 !important;
 }
 
+cart-items h1, cart-items .h1,
+cart-items h2, cart-items .h2,
+cart-items h3, cart-items .h3,
+cart-items h4, cart-items .h4,
+cart-items h5, cart-items .h5 {
+  word-break: unset;
+}
+
 cart-items .title-wrapper-with-link {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
