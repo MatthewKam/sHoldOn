@@ -28,6 +28,9 @@
   .section-{{ section.id }}-padding .field:after {
     box-shadow:unset;
   }
+  .section-{{ section.id }}-padding .field:hover.field:after {
+    box-shadow:2px solid #065142;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
