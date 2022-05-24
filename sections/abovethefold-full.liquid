@@ -2,7 +2,11 @@
 {{ 'sctn-atf.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .atf-full-{{ section.id }} .content-wrp{
-    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    {% if sings.bg_img_m %}
+      background:url({{ sings.bg_img_m | image_url }}) center top no-repeat;  
+    {% else %}
+      background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    {% endif %}
     background-size:cover;
   }  
   .atf-full-{{ section.id }} .copy-sctn{
@@ -15,12 +19,10 @@
     color:{{ sings.copy_color }};
   }
   @media screen and (min-width: 767px) {
-    {% if sings.bg_img_m %}
-      .atf-full-{{ section.id }} .content-wrp{
-        background:url({{ sings.bg_img_m | image_url }}) center top no-repeat;
-        background-size:cover;
-      }  
-    {% endif %}
+    .atf-full-{{ section.id }} .content-wrp{
+      background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+      background-size:cover;
+    }  
   }
   
 {%- endstyle -%}
