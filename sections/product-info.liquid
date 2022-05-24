@@ -127,10 +127,13 @@
         {% if product.tags contains 'Sets' %}
           <div class="set-price-wrp">
             <div class="set-info">
-              <h3>Buy Set</h3>
-              {% if sings.set_description %}  
-                <p>{{ sings.set_description }}</p>
-              {% endif %}
+              <h3>
+                {% if sings.set_description %}  
+                  {{ sings.set_description }}
+                {% else %}
+                  Buy Set
+                {% endif %}
+              </h3>
             </div>
             <div class="prices">
               {% if product.compared_at_price %}   
