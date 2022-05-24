@@ -132,6 +132,10 @@
   padding-bottom: 20px;
 }
 
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list {
+  width: 100%;
+}
+
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list .breakdown-item {
   border-bottom: 2px solid #065142;
 }

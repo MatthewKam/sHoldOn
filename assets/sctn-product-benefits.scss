@@ -93,6 +93,7 @@ $k-heavy:'Korolev-Heavy';
           }
         }
         .breakdown-list{
+          width: 100%;
           .breakdown-item{
             border-bottom: 2px solid $dark-green;
             &:first-child{
