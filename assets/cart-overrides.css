@@ -20,6 +20,12 @@ cart-items table.cart-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 cart-items table.cart-items thead {
@@ -30,17 +36,29 @@ cart-items table.cart-items .cart-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media screen and (min-width: 640px) {
+  cart-items table.cart-items .cart-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 cart-items table.cart-items .cart-item td {
@@ -73,6 +91,9 @@ cart-items table.cart-items .cart-item td.cart-item__details {
       -ms-flex-pack: center;
           justify-content: center;
   width: unset;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__details .cart-item__name {
@@ -80,6 +101,7 @@ cart-items table.cart-items .cart-item td.cart-item__details .cart-item__name {
   color: #065142;
   font-size: 30px;
   line-height: 1.1;
+  text-align: right;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__details .product-option {
@@ -129,6 +151,10 @@ cart-items table.cart-items .cart-item td.cart-item__quantity quantity-input.qua
 
 cart-items table.cart-items .cart-item td.cart-item__quantity cart-remove-button {
   margin: 0;
+}
+
+cart-items table.cart-items .cart-item td.cart-item__totals.right.medium-hide.large-up-hide {
+  display: none;
 }
 
 cart-items table.cart-items .cart-item td.cart-item__totals {

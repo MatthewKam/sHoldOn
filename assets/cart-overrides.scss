@@ -23,15 +23,22 @@ cart-items{
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     thead {
       display: none;
     }
     .cart-item{ 
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
       margin-top: 30px;
+      flex-direction: column;
+      align-items: flex-end;
+      @media screen and (min-width: 640px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
       td{
         padding-top:0;
         line-height: 0;
@@ -52,11 +59,15 @@ cart-items{
           flex-direction: column;
           justify-content: center;
           width: unset;
+
+          align-items: flex-end;
+
           .cart-item__name {
             font-family: $k-heavy;
             color: $dark-green;
             font-size: 30px;
             line-height: 1.1;
+            text-align:right;
           }
           .product-option {
             font-size: 16px;
@@ -94,6 +105,9 @@ cart-items{
           cart-remove-button{
             margin:0;
           }
+        }
+        &.cart-item__totals.right.medium-hide.large-up-hide {
+          display: none;
         }
         &.cart-item__totals{
           display: flex;
