@@ -160,7 +160,8 @@
         "how_to_use": "<p>Use HoldOn bags like you would your normal trash or compost bags - fill ‘em, tie ‘em, and toss ‘em. <br\/><br\/><a href=\"\/pages\/materials\" title=\"Materials\"><strong>LEARN MORE<\/strong><\/a><\/p>",
         "product_title_custom": "",
         "product_description_custom": "The cleaner way to take out the trash.",
-        "product_items_total": 1
+        "product_items_total": 1,
+        "set_description": ""
       }
     },
     "16517424531c39ce9c": {
@@ -227,7 +228,7 @@
         "bnfts_title_mobile": "shopify:\/\/shop_images\/prd-bnfts-m.png",
         "bnfts_title_desktop": "shopify:\/\/shop_images\/prd-bnfts-d.png",
         "brkdwn_title": "Better bags for people and the planet",
-        "brkdwn_title_copy": "Plastic bags create an enormous amount of pollution, piling up in landfills and oceans long after we've thrown them away. We knew there had to be a better way - so we created HoldOn. Our bags are made from nontoxic, plant-based material that home compostable. Now, you don't have to compromise to care for the planet.",
+        "brkdwn_title_copy": "Plastic bags create an enormous amount of pollution, piling up in landfills and oceans long after we've thrown them away. We knew there had to be a better way - so we created HoldOn. Our home compostable bags are made from nontoxic, plant-based material. Now, you don't have to compromise to care for the planet.",
         "bnfts_main_img": "shopify:\/\/shop_images\/trash-out-family_1_1_1456ffa7-bb6e-4d61-a8bf-5b2baace493a.jpg"
       }
     },
