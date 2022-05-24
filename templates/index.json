@@ -162,7 +162,7 @@
         "section_1_url_text": "Learn more",
         "section_2_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b.jpg",
         "section_2_headline": "Sustainability Without Sacrifice",
-        "section_2_copy": "Our heavy duty bags are made with a unique mix of cornstarch, plant-based renewables and nontoxic materials, so you don't have to compromise convenience to care for the planet.",
+        "section_2_copy": "Our heavy duty bags are a unique mix of cornstarch, plant-based renewables and nontoxic materials, so they’re 100% home compostable and break down in weeks - not centuries.",
         "section_2_url": "shopify:\/\/collections\/all-products",
         "section_2_url_text": "Shop all",
         "icon_1": "shopify:\/\/shop_images\/logo-text-Strong.png",
@@ -195,10 +195,10 @@
         "title_color": "#00fabe",
         "facts_answer": "100 Billion bags",
         "facts_answer_color": "#ffffff",
-        "facts_copy": "Are used and thrown away in America each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
+        "facts_copy": "are used and thrown away in America each year. Bags that pile up in landfills, clog waterways, and entangle wildlife. Our bags are different.",
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
-        "facts_link": "shopify:\/\/pages\/mission",
+        "facts_link": "#",
         "facts_link_color": "#ffffff"
       }
     },
