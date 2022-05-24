@@ -64,7 +64,7 @@
         "facts_copy_color": "#ffffff",
         "facts_link_copy": "Learn More",
         "facts_link": "shopify:\/\/pages\/mission",
-        "facts_link_color": "#fff"
+        "facts_link_color": "#ffffff"
       }
     },
     "1651302110c6123e31": {
@@ -75,8 +75,8 @@
           "settings": {
             "social_image": "shopify:\/\/shop_images\/5Q18uSGI_1.png",
             "social_title": "the problem with plastic",
-            "social_copy": "Watch the video to learn more.",
-            "social_link": "#"
+            "social_copy": "Watch the video to learn more",
+            "social_link": "shopify:\/\/pages\/holdon-intro"
           }
         },
         "fb03ce14-a68a-4556-8d5a-c6e48e7ead62": {
