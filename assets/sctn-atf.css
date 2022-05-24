@@ -137,4 +137,27 @@
     height: 670px;
   }
 }
+
+.shopify-section.atf-full .content-wrp .bg-image {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-section.atf-full .content-wrp .bg-image {
+    display: block;
+    height: 670px;
+    padding-top: 100%;
+    padding: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.shopify-section.atf-full .content-wrp .copy-sctn {
+  padding: 100px 20px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
 /*# sourceMappingURL=sctn-atf.css.map */
