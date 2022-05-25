@@ -114,6 +114,15 @@
   }
 }
 
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header,
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-list {
+  max-width: 550px;
+}
+
+.shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header {
+  width: 100%;
+}
+
 .shopify-section.product-benefits .benefits-wrp .benefits-breakdown .breakdown-header h2 {
   font-size: 35px;
   text-transform: uppercase;
