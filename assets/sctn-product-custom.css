@@ -280,6 +280,32 @@
   font-size: 20px;
 }
 
+.shopify-section.section-product-custom .product-info-wrp body.klaviyo-bis-close.fadein {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shopify-section.section-product-custom .product-info-wrp body.klaviyo-bis-close.fadein h3.modal-title {
+  font-family: "Korolev-Heavy";
+  color: #065142;
+  font-size: 20px;
+}
+
+.shopify-section.section-product-custom .product-info-wrp a.klaviyo-bis-trigger.btn.btn-notify {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
 .shopify-section.section-product-custom .product-info-wrp .product-details-wrp {
   margin-top: 30px;
   border-top: 2px solid #065142;

@@ -204,6 +204,25 @@ $border-image-gallery: #FFFFFF;
         }
       }
 
+      body.klaviyo-bis-close.fadein {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h3.modal-title {
+          font-family: $k-heavy;
+          color: $dark-green;
+          font-size: 20px;
+        }
+      }
+      a.klaviyo-bis-trigger.btn.btn-notify {
+        font-size: 16px;
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        letter-spacing: 0;
+      }
+      
+      
       .product-details-wrp{
         margin-top:30px;
         border-top: 2px solid $dark-green;
