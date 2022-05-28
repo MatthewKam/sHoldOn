@@ -210,15 +210,18 @@
                       </svg>
                     </div>
                 </button>
+                
                 {%- if block.settings.show_dynamic_checkout -%}
                   {{ form | payment_button }}
                 {%- endif -%}
               </div>
             {%- endform -%}
           </product-form>
-
         </div>
         
+        {% if product.selected_or_first_available_variant.available == false %}
+          <a class="klaviyo-bis-trigger btn btn-notify" style="display:none;" href="#">Notify Me When Available</a>
+        {% endif %}
         <div class="product-details-wrp">
           {% if sings.product_details %}
             <div class="product-details">
