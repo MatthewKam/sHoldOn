@@ -281,7 +281,7 @@
 }
 
 .shopify-section.section-product-custom .product-info-wrp #klaviyo-bis-iframe h3.modal-title {
-  font-family: "Korolev-Heavy";
+  font-family: "Korolev-Heavy" !important;
   color: #065142;
   font-size: 20px;
 }

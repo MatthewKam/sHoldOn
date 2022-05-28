@@ -205,7 +205,7 @@ $border-image-gallery: #FFFFFF;
       }
       #klaviyo-bis-iframe{
         h3.modal-title {
-          font-family: $k-heavy;
+          font-family: $k-heavy !important;
           color: $dark-green;
           font-size: 20px;
         }
