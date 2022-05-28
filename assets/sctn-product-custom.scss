@@ -203,16 +203,18 @@ $border-image-gallery: #FFFFFF;
           }
         }
       }
-
-      body.klaviyo-bis-close.fadein {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      #klaviyo-bis-iframe{
         h3.modal-title {
           font-family: $k-heavy;
           color: $dark-green;
           font-size: 20px;
         }
+      }
+      body.klaviyo-bis-close.fadein {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
       }
       a.klaviyo-bis-trigger.btn.btn-notify {
         font-size: 16px;
