@@ -36,7 +36,7 @@
             {% else %}
               {% assign imgURL = 'collection-product-bg.png' | file_url %}
             {% endif %}
-            <div class="product-img" style="background:url({{imgURL}}) center center no-repeat; background-size:cover;">
+            <div class="product-img lazyload" style="background:url({{imgURL}}) center center no-repeat; background-size:cover;">
               <a href="{{ product.url }}" class="col-list-link"></a>
             </div>
             <div class="reviews">

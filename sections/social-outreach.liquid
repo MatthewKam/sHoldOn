@@ -23,7 +23,7 @@
                 <h2 class="post-title">{{ bings.social_title | escape }}</h2>
                 <p class="post-copy">{{ bings.social_copy | escape }}</p>
             </div>
-            <a href="{{ bings.social_link }}" class="post-link"><img src="{{'icon-Arrow-Right.png' | file_url }}" alt=""></a>
+            <a href="{{ bings.social_link }}" class="post-link"><img src="{{'icon-Arrow-Right.png' | file_url }}" alt="" class="lazyload"></a>
           </div>
         </div>
       {%- endfor -%}
