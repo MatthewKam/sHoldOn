@@ -9,7 +9,7 @@
   <div class="about-section-content">
     <div class="section-wrp section-1-wrp">
       {% if sings.section_1_img %}
-        <img src="{{ sings.section_1_img | image_url }}" class="section-image" alt="">
+        <img src="{{ sings.section_1_img | image_url }}" class="section-image lazyload" alt="">
       {% endif %}
       <div class="section-1-content section-content">
         <h1>{{ sings.section_1_headline }}</h1>
@@ -21,7 +21,7 @@
     </div>
     <div class="section-wrp section-2-wrp">
       {% if sings.section_2_img %}
-          <img src="{{ sings.section_2_img | image_url }}" class="section-image" alt="">
+          <img src="{{ sings.section_2_img | image_url }}" class="section-image lazyload" alt="">
       {% endif %}
       <div class="section-2-content section-content">
         <h1>{{ sings.section_2_headline }}</h1>
@@ -34,16 +34,16 @@
     <div class="icon-logo-wrp">
       <div class="logos">
         {% if sings.icon_1 %}
-          <img src="{{ sings.icon_1 | image_url }}" class="icon-1" alt="">
+          <img src="{{ sings.icon_1 | image_url }}" class="icon-1 lazyload" alt="">
         {% endif %}
         {% if sings.icon_2 %}
-          <img src="{{ sings.icon_2 | image_url }}" class="icon-2" alt="">
+          <img src="{{ sings.icon_2 | image_url }}" class="icon-2 lazyload" alt="">
         {% endif %}
         {% if sings.icon_3 %}
-          <img src="{{ sings.icon_3 | image_url }}" class="icon-3" alt="">
+          <img src="{{ sings.icon_3 | image_url }}" class="icon-3 lazyload" alt="">
         {% endif %}
         {% if sings.icon_4 %}
-          <img src="{{ sings.icon_4 | image_url }}" class="icon-4" alt="">
+          <img src="{{ sings.icon_4 | image_url }}" class="icon-4 lazyload" alt="">
         {% endif %}
       </div>
     </div>

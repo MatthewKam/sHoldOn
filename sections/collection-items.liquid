@@ -11,7 +11,7 @@
   <div class="collection-items">
     
     {% if sings.card_mobile %}
-      <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m">
+      <img src="{{ sings.card_mobile | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-m lazyload">
     {% endif %}
     {% if sings.title %}
       <h2 class="collection-header">{{ sings.title }}</h2>
@@ -70,7 +70,7 @@
         </li>
       {%- endfor -%}
       {% if sings.card_desktop %}
-        <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d">
+        <img src="{{ sings.card_desktop | image_url}}" alt="Subscribe and Save" class="subscribe-img sub-img-d lazyload">
       {% endif %}
       </ul>
     {% endif %}

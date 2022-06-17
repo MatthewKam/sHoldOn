@@ -129,10 +129,10 @@
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
             {% if bings.step_image_desktop %}
-              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktp" alt="">
+              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktp lazyload" alt="">
             {% endif %}
             {% if bings.step_image_mobile %}
-              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl" alt="">
+              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl lazyload" alt="">
             {% endif %}
           </div>
         </div>

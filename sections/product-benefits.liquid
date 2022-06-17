@@ -14,10 +14,10 @@
     <div class="header-img">
       <img src="{{ sings.bnfts_title_mobile | image_url}}" 
         alt="{{ sings.bnfts_alt_title }}" 
-        class="bnfts-title-m bnfts-title">
+        class="bnfts-title-m bnfts-title lazyload">
       <img src="{{ sings.bnfts_title_desktop | image_url}}" 
         alt="{{ sings.bnfts_alt_title }}" 
-        class="bnfts-title-d bnfts-title">
+        class="bnfts-title-d bnfts-title lazyload">
     </div>
     <div class="benefits-wrp">
       <div class="benefits-breakdown">
@@ -32,8 +32,8 @@
               <div class="breakdown-item-header">
                 <h4>{{ bings.bnft_title }}</h4>
                 <div class="carrot-wrp">
-                  <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="carrot-down">
-                  <img src="{{ 'icon-Arrow-Up.png' | file_url }}" class="carrot-up">
+                  <img src="{{ 'icon-Arrow-Down.png' | file_url }}" class="carrot-down lazyload">
+                  <img src="{{ 'icon-Arrow-Up.png' | file_url }}" class="carrot-up lazyload">
                 </div>
               </div>
               <p>{{ bings.bnft_copy }}</p>

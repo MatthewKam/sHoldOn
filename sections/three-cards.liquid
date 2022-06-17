@@ -102,7 +102,7 @@
         {% assign bings = block.settings %}
         <div class="cards" style="background-color:{{ bings.card_color }}; color:{{ bings.card_text_color }}">
           <div class="card-img-wrp">
-            <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}">
+            <img src="{{ bings.card_image | image_url }}" alt="{{ bings.card_title }}" class="lazyload">
           </div>
           <h2>{{ bings.card_title }}</h2>
           <div class="card-info-wrp">{{ bings.card_copy | truncate: 100 }}</div>

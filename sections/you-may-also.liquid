@@ -31,9 +31,9 @@
         %}
         <li product-id="{{ product.id }}">
           {% if product.featured_image %}
-            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
+            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" class="lazyload">
           {% else %}
-            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}">
+            <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ product.title }}" class="lazyload">
           {% endif %}
           <div class="reviews">
 

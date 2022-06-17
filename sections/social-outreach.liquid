@@ -14,9 +14,9 @@
         {% assign bings = block.settings %}
         <div class="social-post">
           {% if bings.social_image %}
-            <img src="{{ bings.social_image | image_url }}" alt="" class="post-image">
+            <img src="{{ bings.social_image | image_url }}" alt="" class="post-image lazyload">
           {% else %}
-            <img src="{{ 'sp-bg.png' | file_url }}" alt="" class="post-image">
+            <img src="{{ 'sp-bg.png' | file_url }}" alt="" class="post-image lazyload">
           {% endif %}
           <div class="post-description">
             <div class="post-copy">
