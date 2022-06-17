@@ -10,7 +10,9 @@
     max-width: 47.8rem;
   }
 }
-
+div#rc_login {
+  display: none !important;
+}
 .customer form {
   margin-top: 4rem;
 }
