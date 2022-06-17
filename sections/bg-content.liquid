@@ -1,4 +1,6 @@
 {% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.bg_mobile | image_url }}">
+<link rel="preload" as="image" href="{{ sings.bg_desktop | image_url }}">
 {%- style -%}
   .bg-content-{{ section.id }}{
     padding:70px 20px;

@@ -1,4 +1,6 @@
 {% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.divider_bg_m | image_url }}">
+<link rel="preload" as="image" href="{{ sings.divider_bg_d | image_url }}">
 {{ 'sctn-facts-background.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .divider-bar-{{ section.id }}{

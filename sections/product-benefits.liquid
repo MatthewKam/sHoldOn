@@ -1,4 +1,5 @@
 {% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.bnfts_main_img | image_url }}">
 {{ 'sctn-product-benefits.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .product-benefits-{{ section.id }}{

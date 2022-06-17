@@ -4,6 +4,10 @@
   assign count = product.metafields.product_info.count.value 
   assign numItems = product.metafields.product_info.numItems.value 
   %}
+<link rel="preload" as="image" href="{{ sings.product_image_1 | image_url }}">
+<link rel="preload" as="image" href="{{ sings.product_image_2 | image_url }}">
+<link rel="preload" as="image" href="{{ sings.product_image_3 | image_url }}">
+<link rel="preload" as="image" href="{{ sings.product_image_4 | image_url }}">
 {{ 'sctn-product-custom.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}

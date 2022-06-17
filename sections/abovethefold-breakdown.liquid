@@ -1,4 +1,5 @@
 {% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
 {{ 'sctn-atf-breakdown.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .atf-breakdown-{{ section.id }}{

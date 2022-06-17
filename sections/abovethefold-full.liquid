@@ -1,6 +1,6 @@
+{% assign sings = section.settings %}
 <link rel="preload" as="image" href="{{ sings.bg_img_m | image_url }}">
 <link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
-{% assign sings = section.settings %}
 {{ 'sctn-atf.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .atf-full-{{ section.id }} .content-wrp{
