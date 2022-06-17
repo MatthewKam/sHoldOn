@@ -43,7 +43,7 @@
     <div class="product-breakdown">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container">
       {%- assign product_form_id = 'product-form-' | append: section.id -%}
-        {%- if product.metafields.reviews.rating.value != blank -%}
+        <!-- {/%- if product.metafields.reviews.rating.value != blank -%}
           {% liquid
             assign rating_decimal = 0
             assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
@@ -63,7 +63,7 @@
             <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
             <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
           </p>
-        {%- endif -%}
+        {/%- endif -%} -->
         <h1 class="prod-title">
           {% if sings.product_title_custom  == '' %}
             {{ product.title }}
