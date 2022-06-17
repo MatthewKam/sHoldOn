@@ -55,14 +55,14 @@
   <div class="content-wrp">
     <div class="header-wrp">
       {% if sings.top_image %}
-        <img src="{{ sings.top_image | image_url }}" alt="{{ sings.title }} title" class="top-image">
+        <img src="{{ sings.top_image | image_url }}" alt="{{ sings.title }} title" class="top-image lazyload">
       {% endif %}
       <h1>{{ sings.title }}</h1>
       {% if sings.header_desc %}
         <p>{{ sings.header_desc }}</p>
       {% endif %}
       {% if sings.header_image %}
-        <img src="{{ sings.header_image | image_url }}" alt="{{ sings.title }} title" class="icon-image">
+        <img src="{{ sings.header_image | image_url }}" alt="{{ sings.title }} title" class="icon-image lazyload">
       {% endif %}
     </div>
     <div class="breakdown-wrp">
@@ -76,7 +76,7 @@
         {% for block in section.blocks %}
           {% assign bings = block.settings %}
           <div class="breakdown-item item-{{ block }}">
-            <img src="{{ bings.ingredient_image | image_url }}" alt="{{ bings.ingredient_title }}">
+            <img src="{{ bings.ingredient_image | image_url }}" alt="{{ bings.ingredient_title }}" class="lazyload">
             <h2>{{ bings.ingredient_title }}</h2>
             <p>{{ bings.ingredient_copy }}</p>
           </div>

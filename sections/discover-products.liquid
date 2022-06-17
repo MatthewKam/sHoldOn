@@ -29,9 +29,9 @@
               {% endif %}
             >
               {% if bings.collection.featured_image %}
-                <img src="{{ bings.collection.featured_image | image_url }}" alt="{{ bings.collection.title }}">
+                <img src="{{ bings.collection.featured_image | image_url }}" alt="{{ bings.collection.title }}" class="lazyload">
               {% else %}
-                <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.collection.title }}">
+                <img src="{{ 'collection-product-bg.png' | file_url }}" alt="{{ bings.collection.title }}" class="lazyload">
               {% endif %}
             </div>
             <div class="collection-info-wrp">
@@ -52,7 +52,7 @@
                 </p>
               </div>
               <div class="btn-wrp">
-                <a href="{{ bings.collection.url }}" class="btn-arrow"><img src="{{ 'icon-Arrow-Right.png' | file_url }}" alt=""></a>
+                <a href="{{ bings.collection.url }}" class="btn-arrow"><img src="{{ 'icon-Arrow-Right.png' | file_url }}" alt="" class="lazyload"></a>
               </div>
             </div>
           </a>
