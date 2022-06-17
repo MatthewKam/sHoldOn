@@ -231,7 +231,8 @@
   crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Ads: 10905516638 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10905516638"></script>
-{{ 'lazysizes.min.js' | asset_url | script_tag }}
+<script async src="{{ 'lazysizes.min.js' | asset_url }}"></script>
+<!-- {/{ 'lazysizes.min.js' | asset_url | script_tag }} -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
