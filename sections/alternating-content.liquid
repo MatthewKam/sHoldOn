@@ -104,7 +104,7 @@
       <h1>{{ sings.header_title }}</h1>
       <div class="ac-header-copy">{{ sings.header_copy }}</div>
       {% if sings.header_icon %}
-        <img src="{{ sings.header_icon | image_url }}" class="lazyload" alt="{{ sings.header_title }}" style="max-width:60px; margin:0px auto; margin-bottom:40px;">
+        <img data-src="{{ sings.header_icon | image_url }}" class="lazyload" alt="{{ sings.header_title }}" style="max-width:60px; margin:0px auto; margin-bottom:40px;">
       {% endif %}
     </div>
     <div class="ac-wrp">
@@ -112,7 +112,7 @@
         {% assign bings = block.settings %}
         {% assign evenIndex = forloop.index | add: 1 | modulo: 2 %}
         <div class="ac ac-{{ forloop.index | add: 1 }}{% if evenIndex == 0 %} ac-even{% endif %}">
-          <img src="{{ bings.ac_image | image_url }}" class="ac-image lazyload" alt="{{ bings.ac_title }}">
+          <img data-src="{{ bings.ac_image | image_url }}" class="ac-image lazyload" alt="{{ bings.ac_title }}">
           <div class="ac-copy-wrp">
             <div class="ac-copy">
               <h1>{{ bings.ac_title }}</h1>
