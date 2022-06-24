@@ -198,11 +198,12 @@
     <link rel="preload" href="{{'main.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{'main-header.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{'main-footer.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <!-- {/{ 'base.css' | asset_url | stylesheet_tag }}
-    {/{ 'global.css' | asset_url | stylesheet_tag }}
-    {/{ 'main.css' | asset_url | stylesheet_tag }}
-    {/{ 'main-header.css' | asset_url | stylesheet_tag }}
-    {/{ 'main-footer.css' | asset_url | stylesheet_tag }} -->
+    
+    <noscript>{{ 'base.css' | asset_url | stylesheet_tag }}</noscript>
+    <noscript>{{ 'global.css' | asset_url | stylesheet_tag }}</noscript>
+    <noscript>{{ 'main.css' | asset_url | stylesheet_tag }}</noscript>
+    <noscript>{{ 'main-header.css' | asset_url | stylesheet_tag }}</noscript>
+    <noscript>{{ 'main-footer.css' | asset_url | stylesheet_tag }}</noscript>
     
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
