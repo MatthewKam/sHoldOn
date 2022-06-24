@@ -24,7 +24,7 @@
 {% endif %}
 <div class="basic-content-wrp basic-content-{{ section.id }}{{ content_side | prepend: ' '}}">
   <div class="content-wrp">
-    <div class="bg-image lazyload"></div>
+    <div class="bg-image lazyload" data-bg="{{ sings.bg_img | image_url }}"></div>
     <div class="copy-sctn">
       <div class="copy-wrp">
         <h1>{{sings.title}}</h1>

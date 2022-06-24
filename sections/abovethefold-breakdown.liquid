@@ -52,7 +52,7 @@
     {% endif %}
   }
 {%- endstyle -%}
-<div class="atf-wrp atf-breakdown-{{ section.id }} lazyload">
+<div class="atf-wrp atf-breakdown-{{ section.id }} lazyload" {% if sings.bg_img %}data-bg="{{ sings.bg_img | image_url }}"{% endif %}>
   <div class="content-wrp">
     <div class="header-wrp">
       {% if sings.top_image %}
