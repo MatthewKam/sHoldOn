@@ -71,7 +71,7 @@
       {% assign bings = block.settings %}
       <div class="values">
         {% if bings.values_image %}
-          <img src="{{ bings.values_image | image_url }}" alt="" class="values-image lazyload">
+          <img data-src="{{ bings.values_image | image_url }}" alt="" class="values-image lazyload">
         {% else %}
           <h3 class="values-placeholder-image">Image</h3>
         {% endif %}

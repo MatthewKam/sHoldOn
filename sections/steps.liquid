@@ -92,7 +92,7 @@
   <div class="steps-container">
     <div class="steps-header">
       {% if sings.header_image %}
-        <img src="{{ sings.header_image | image_url }}" alt="" class="lazyload">
+        <img data-src="{{ sings.header_image | image_url }}" alt="" class="lazyload">
       {% endif %}
       <h1>{{ sings.header_title }}</h1>
       <div class="steps-copy">{{ sings.header_copy }}</div>
@@ -129,10 +129,10 @@
           <div class="step-info">
             <p><strong>{{ bings.step_title }}</strong> <span>{{ bings.step_copy }}</span></p>
             {% if bings.step_image_desktop %}
-              <img src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktp lazyload" alt="">
+              <img data-src="{{ bings.step_image_desktop | image_url }}" class="hide_dsktp lazyload" alt="">
             {% endif %}
             {% if bings.step_image_mobile %}
-              <img src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl lazyload" alt="">
+              <img data-src="{{ bings.step_image_mobile | image_url }}" class="hide_mbl lazyload" alt="">
             {% endif %}
           </div>
         </div>

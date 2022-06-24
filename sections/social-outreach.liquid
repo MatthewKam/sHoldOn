@@ -14,16 +14,16 @@
         {% assign bings = block.settings %}
         <div class="social-post">
           {% if bings.social_image %}
-            <img src="{{ bings.social_image | image_url }}" alt="" class="post-image lazyload">
+            <img data-src="{{ bings.social_image | image_url }}" alt="" class="post-image lazyload">
           {% else %}
-            <img src="{{ 'sp-bg.png' | file_url }}" alt="" class="post-image lazyload">
+            <img data-src="{{ 'sp-bg.png' | file_url }}" alt="" class="post-image lazyload">
           {% endif %}
           <div class="post-description">
             <div class="post-copy">
                 <h2 class="post-title">{{ bings.social_title | escape }}</h2>
                 <p class="post-copy">{{ bings.social_copy | escape }}</p>
             </div>
-            <a href="{{ bings.social_link }}" class="post-link"><img src="{{'icon-Arrow-Right.png' | file_url }}" alt="" class="lazyload"></a>
+            <a href="{{ bings.social_link }}" class="post-link"><img data-src="{{'icon-Arrow-Right.png' | file_url }}" alt="" class="lazyload"></a>
           </div>
         </div>
       {%- endfor -%}
