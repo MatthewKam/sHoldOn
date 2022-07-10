@@ -1,22 +1,15 @@
 {% assign sings = section.settings %}
 <link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
 {%- style -%}
-  .card-guides-{{ section.id }} .bg-image{
+  .card-guides-{{ section.id }}{
     background:url({{ sings.bg_img | image_url }}) center top no-repeat;
     background-size:cover;
-  }  
-  .card-guides-{{ section.id }} .copy-sctn{
     background-color:{{ sings.bg_color }};
+  }  
+  .card-guides-{{ section.id }} .header-wrp h1{
+    color:{{ sings.bg_color }};
   }
-  .card-guides-{{ section.id }} .copy-sctn h1{
-    color:{{ sings.title_color }};
-  }
-  .card-guides-{{ section.id }} .copy-sctn p,
-  .card-guides-{{ section.id }} .copy-sctn p strong,
-  .card-guides-{{ section.id }} .copy-sctn p span,
-  .card-guides-{{ section.id }} .copy-sctn p i{
-    color:{{ sings.copy_color }};
-  }
+  
 {%- endstyle -%}
 {% if sings.content_right == false %}
   {% assign content_side = 'bc-left' %}
@@ -26,15 +19,34 @@
 
 <div class="card-guides-wrp card-guides-{{ section.id }}{{ content_side | prepend: ' '}}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
   <div class="content-wrp">
-    <div class="bg-image lazyload" data-bg="{{ sings.bg_img | image_url }}"></div>
-    <div class="copy-sctn">
-      <div class="copy-wrp">
-        <h1>{{sings.title}}</h1>
-        <p>{{sings.copy}}</p>
-        {% if sings.button_url %}
-          <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
-        {% endif %}
-      </div>
+    <div class="header-wrp">
+      <h1>{{ sings.title }}</h1>
+    </div>
+    <div class="cards">
+
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        <div class="card-wrp">
+          <img data-src="{{ bings.guide_image | image_url }}" class="ac-image lazyload" alt="{{ bings.guide_title }}">
+          <div class="card-copy-wrp">
+            <div class="card-copy">
+              <p class="guide-tag">{{ bings.card_tag }}</p>
+              <div class="title-wrp">
+                <h1>{{ bings.guide_title }}</h1>
+                {% if bings.link_url %}
+                  <a href=""><img src="{{ bings.guide_arrow }}" class="lazyload" alt="{{ bings.guide_title }}"></a>
+                {% endif %}
+              </div>
+              <div class="card-content">
+                {{ bings.guide_copy | truncate: 50 | escape }}
+                {% if bings.link_url %}
+                  <a href="{{ bings.link_url }}">Read More</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
     </div>
   </div>
 </div>
@@ -55,17 +67,6 @@
       "label": "Background Image"
     },
     {
-      "type": "text",
-      "id": "title",
-      "label": "Section Header"
-    },
-    {
-      "type": "color",
-      "id": "title_color",
-      "label": "Background Color",
-      "default":"#FFFFFF"
-    },
-    {
       "type": "color",
       "id": "bg_color",
       "label": "Background Color",
@@ -73,22 +74,33 @@
     },
     {
       "type": "text",
-      "id": "card_tag",
-      "label": "Card Tag",
-      "default": "Guide"
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default":"#FFFFFF"
     },
     {
       "type": "text",
       "id": "id_anchor",
       "label": "Anchor ID"
     }
-  ],
-  "blocks": [
+    ],
+    "blocks": [
     {
       "type": "text",
       "name": "Guides",
       "limit": 3,
       "settings": [
+        {
+          "type": "text",
+          "id": "card_tag",
+          "label": "Card Tag",
+          "default": "Guide"
+        },
         {
           "type": "text",
           "id": "guide_title",
@@ -100,6 +112,11 @@
           "label": "Guide Image"
         },
         {
+          "type": "image_picker",
+          "id": "guide_arrow",
+          "label": "Guide Arrow Image"
+        },
+        {
           "type": "richtext",
           "id": "guide_copy",
           "label": "Guide Excerpt"
@@ -107,7 +124,7 @@
         {
           "type": "url",
           "id": "link_url",
-          "label": "Link URL"
+          "label": "Guide URL"
         }
       ]
     }
