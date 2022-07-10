@@ -71,6 +71,7 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
             "guide_title": "Compostable vs. Biodegradable",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -82,6 +83,7 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
             "guide_title": "Talking to your kids about climate change",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -93,7 +95,8 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "guide_title": "",
+            "copy_color": "#FFF1DA",
+            "guide_title": "Understanding Microplastics",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
             "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
