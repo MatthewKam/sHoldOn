@@ -136,6 +136,46 @@
     },
     "165745032390b414b9": {
       "type": "cards-resources",
+      "blocks": {
+        "32de4f41-93a1-44df-a70f-c29d6fb6566b": {
+          "type": "text",
+          "settings": {
+            "copy_bg_color": "#FFF1DA",
+            "copy_color": "#FFF1DA",
+            "guide_title": "What to Watch",
+            "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "link_url": "#"
+          }
+        },
+        "6e544d8e-e9c7-49fe-8a26-64f917f54a06": {
+          "type": "text",
+          "settings": {
+            "copy_bg_color": "#FFF1DA",
+            "copy_color": "#FFF1DA",
+            "guide_title": "What to Read",
+            "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "link_url": "#"
+          }
+        },
+        "13f245d5-46eb-437f-9e66-209e9887aecc": {
+          "type": "text",
+          "settings": {
+            "copy_bg_color": "#FFF1DA",
+            "copy_color": "#FFF1DA",
+            "guide_title": "What to listen to",
+            "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "link_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "32de4f41-93a1-44df-a70f-c29d6fb6566b",
+        "6e544d8e-e9c7-49fe-8a26-64f917f54a06",
+        "13f245d5-46eb-437f-9e66-209e9887aecc"
+      ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
         "bg_color": "#FFFFFF",
