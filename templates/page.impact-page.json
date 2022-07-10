@@ -133,6 +133,16 @@
         "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg",
         "id_anchor": "events_anchor"
       }
+    },
+    "1657450149e9349711": {
+      "type": "resources",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
+        "bg_color": "#FFFFFF",
+        "title": "Resources",
+        "title_color": "#00fabe",
+        "id_anchor": "resources_anchor"
+      }
     }
   },
   "order": [
@@ -140,6 +150,7 @@
     "165742968949126827",
     "16574328540ad9d1eb",
     "16574411479b5d3ec0",
-    "165742985020807c1f"
+    "165742985020807c1f",
+    "1657450149e9349711"
   ]
 }
