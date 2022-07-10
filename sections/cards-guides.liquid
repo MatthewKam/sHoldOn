@@ -28,7 +28,7 @@
         {% assign bings = block.settings %}
         <div class="card-wrp">
           <img data-src="{{ bings.guide_image | image_url }}" class="ac-image lazyload" alt="{{ bings.guide_title }}">
-          <div class="card-copy-wrp">
+          <div class="card-copy-wrp" style="background-color:{{ bings.copy_color }}">
             <div class="card-copy">
               <p class="guide-tag">{{ bings.card_tag }}</p>
               <div class="title-wrp">
@@ -37,7 +37,7 @@
                   <a href=""><img src="{{ bings.guide_arrow | image_url }}" class="lazyload" alt="{{ bings.guide_title }}"></a>
                 {% endif %}
               </div>
-              <div class="card-content" style="background-color:{{ bings.copy_color }}">
+              <div class="card-content" >
                 {{ bings.guide_copy | truncate: 50  }}
                 {% if bings.link_url %}
                   <a href="{{ bings.link_url }}">Read More</a>
