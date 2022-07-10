@@ -7,7 +7,7 @@
     background-color:{{ sings.bg_color }};
   }  
   .card-guides-{{ section.id }} .header-wrp h1{
-    color:{{ sings.bg_color }};
+    color:{{ sings.title_color }};
   }
   
 {%- endstyle -%}
@@ -17,7 +17,7 @@
 
   
 
-<div class="card-guides-wrp card-guides-{{ section.id }}{{ content_side | prepend: ' '}}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
+<div class="card-guides-wrp card-guides-{{ section.id }}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
   <div class="content-wrp">
     <div class="header-wrp">
       <h1>{{ sings.title }}</h1>
@@ -87,9 +87,20 @@
       "type": "text",
       "id": "id_anchor",
       "label": "Anchor ID"
+    },
+    {
+      "type": "url",
+      "id": "all_url",
+      "label": "Link"
+    },
+    { 
+      "type": "text",
+      "id":"link_text",
+      "label":"Link Text",
+      "default": "See All"
     }
-    ],
-    "blocks": [
+  ],
+  "blocks": [
     {
       "type": "text",
       "name": "Guides",
