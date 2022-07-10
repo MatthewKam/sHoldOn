@@ -32,7 +32,7 @@
             "item_headline": "Learn",
             "item_copy": "<p>Simple guides to help you own your role in creating a cleaner world. <\/p>",
             "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
-            "link_url": "#learn"
+            "link_url": "#learn_anchor"
           }
         },
         "21fb36e9-6f4d-4e00-ab19-f1ebf7823fca": {
@@ -50,7 +50,7 @@
             "item_headline": "Resources",
             "item_copy": "<p>Lists of trusted voices  and content to read, listen, watch, & share! <\/p>",
             "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
-            "link_url": "#resources"
+            "link_url": "#resources_anchor"
           }
         }
       },
