@@ -38,7 +38,7 @@
                 {% endif %}
               </div>
               <div class="card-content" style="background-color:{{ bings.copy_color }}">
-                {{ bings.guide_copy | truncate: 50 | escape }}
+                {{ bings.guide_copy | truncate: 50  }}
                 {% if bings.link_url %}
                   <a href="{{ bings.link_url }}">Read More</a>
                 {% endif %}
