@@ -11,12 +11,12 @@
     "165742968949126827": {
       "type": "abovethefold-full",
       "settings": {
-        "bg_color": "transparent",
+        "bg_color": "rgba(0,0,0,0)",
         "title": "Small Change",
         "title_2": "Big Impact",
-        "title_color": "#FFFFFF",
+        "title_color": "#ffffff",
         "copy": "We're banding together to organize clean-ups across the country through our Reclaim Clean program.",
-        "copy_color": "#FFFFFF",
+        "copy_color": "#ffffff",
         "button_url": "",
         "button_url_text": "Learn more",
         "bg_img": "shopify:\/\/shop_images\/bg-impact-d.png",
@@ -36,11 +36,53 @@
         "button_url_text": "Learn more",
         "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg"
       }
+    },
+    "16574328540ad9d1eb": {
+      "type": "page-banner-text",
+      "blocks": {
+        "1ac2d1f7-60dd-404f-ba42-98a051bdd7d5": {
+          "type": "text",
+          "settings": {
+            "item_headline": "Learn",
+            "item_copy": "<p>Simple guides to help you own your role in creating a cleaner world. <\/p>",
+            "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
+            "link_url": "#learn"
+          }
+        },
+        "21fb36e9-6f4d-4e00-ab19-f1ebf7823fca": {
+          "type": "text",
+          "settings": {
+            "item_headline": "Events",
+            "item_copy": "<p>Organize a cleanup in your community<\/p>",
+            "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
+            "link_url": "#events"
+          }
+        },
+        "ce603275-79d3-445e-af41-4ea7630838a5": {
+          "type": "text",
+          "settings": {
+            "item_headline": "Resources",
+            "item_copy": "<p>Lists of trusted voices  and content to read, listen, watch, & share! <\/p>",
+            "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1ac2d1f7-60dd-404f-ba42-98a051bdd7d5",
+        "21fb36e9-6f4d-4e00-ab19-f1ebf7823fca",
+        "ce603275-79d3-445e-af41-4ea7630838a5"
+      ],
+      "settings": {
+        "bg_color": "#00FABE",
+        "text_color": "#065142"
+      }
     }
   },
   "order": [
     "main",
     "165742968949126827",
-    "165742985020807c1f"
+    "165742985020807c1f",
+    "16574328540ad9d1eb"
   ]
 }
