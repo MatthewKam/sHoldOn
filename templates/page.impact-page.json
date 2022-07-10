@@ -2,13 +2,45 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165742968949126827": {
+      "type": "abovethefold-full",
+      "settings": {
+        "bg_color": "transparent",
+        "title": "Small Change",
+        "title_2": "Big Impact",
+        "title_color": "#FFFFFF",
+        "copy": "We're banding together to organize clean-ups across the country through our Reclaim Clean program.",
+        "copy_color": "#FFFFFF",
+        "button_url": "",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/bg-impact-d.png",
+        "bg_img_m": "shopify:\/\/shop_images\/bg-impact-m.png"
+      }
+    },
+    "165742985020807c1f": {
+      "type": "basic-content",
+      "settings": {
+        "content_right": true,
+        "bg_color": "#00fabe",
+        "title": "Organize A Cleanup",
+        "title_color": "#065142",
+        "copy": "<p>Looking to get started in your own community?  Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
+        "copy_color": "#065142",
+        "button_url": "#",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165742968949126827",
+    "165742985020807c1f"
   ]
 }
