@@ -19,7 +19,7 @@
         {% assign bings = block.settings %}
         <a href="{{ bings.link_url }}">
           <div class="banner-item">
-            <h1>{{ bings.item_headline}}</h1>
+            <h1>{{ bings.heading}}</h1>
             <div class="banner-copy">{{ bings.item_copy}}</div>
             <img src="{{ bings.icon_link | img_url }}" alt="{{ bings.item_headline}}">
           </div>
@@ -60,7 +60,7 @@
       "settings": [
         {
           "type": "text",
-          "id": "item_headline",
+          "id": "heading",
           "label": "Item Headline"
         },
         {
