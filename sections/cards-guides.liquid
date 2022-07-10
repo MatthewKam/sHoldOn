@@ -34,10 +34,10 @@
               <div class="title-wrp">
                 <h1>{{ bings.guide_title }}</h1>
                 {% if bings.link_url %}
-                  <a href=""><img src="{{ bings.guide_arrow }}" class="lazyload" alt="{{ bings.guide_title }}"></a>
+                  <a href=""><img src="{{ bings.guide_arrow | image_url }}" class="lazyload" alt="{{ bings.guide_title }}"></a>
                 {% endif %}
               </div>
-              <div class="card-content">
+              <div class="card-content" style="background-color:{{ bings.copy_color }}">
                 {{ bings.guide_copy | truncate: 50 | escape }}
                 {% if bings.link_url %}
                   <a href="{{ bings.link_url }}">Read More</a>
@@ -111,6 +111,12 @@
           "id": "card_tag",
           "label": "Card Tag",
           "default": "Guide"
+        },
+        {
+          "type": "color",
+          "id": "copy_color",
+          "label": "Copy Color",
+          "default":"#FFF1DA"
         },
         {
           "type": "text",
