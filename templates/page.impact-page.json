@@ -23,20 +23,6 @@
         "bg_img_m": "shopify:\/\/shop_images\/bg-impact-m.png"
       }
     },
-    "165742985020807c1f": {
-      "type": "basic-content",
-      "settings": {
-        "content_right": true,
-        "bg_color": "#00fabe",
-        "title": "Organize A Cleanup",
-        "title_color": "#065142",
-        "copy": "<p>Looking to get started in your own community?  Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
-        "copy_color": "#065142",
-        "button_url": "#",
-        "button_url_text": "Learn more",
-        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg"
-      }
-    },
     "16574328540ad9d1eb": {
       "type": "page-banner-text",
       "blocks": {
@@ -74,15 +60,29 @@
         "ce603275-79d3-445e-af41-4ea7630838a5"
       ],
       "settings": {
-        "bg_color": "#00FABE",
+        "bg_color": "#00fabe",
         "text_color": "#065142"
+      }
+    },
+    "165742985020807c1f": {
+      "type": "basic-content",
+      "settings": {
+        "content_right": true,
+        "bg_color": "#00fabe",
+        "title": "Organize A Cleanup",
+        "title_color": "#065142",
+        "copy": "<p>Looking to get started in your own community?  Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
+        "copy_color": "#065142",
+        "button_url": "#",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg"
       }
     }
   },
   "order": [
     "main",
     "165742968949126827",
-    "165742985020807c1f",
-    "16574328540ad9d1eb"
+    "16574328540ad9d1eb",
+    "165742985020807c1f"
   ]
 }
