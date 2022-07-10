@@ -22,7 +22,10 @@
 {% if sings.content_right == false %}
   {% assign content_side = 'bc-left' %}
 {% endif %}
-<div class="basic-content-wrp basic-content-{{ section.id }}{{ content_side | prepend: ' '}}">
+
+  
+
+<div class="basic-content-wrp basic-content-{{ section.id }}{{ content_side | prepend: ' '}}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
   <div class="content-wrp">
     <div class="bg-image lazyload" data-bg="{{ sings.bg_img | image_url }}"></div>
     <div class="copy-sctn">
@@ -100,6 +103,11 @@
       "type": "image_picker",
       "id": "bg_img",
       "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "id_anchor",
+      "label": "Anchor ID"
     }
   ],
   "presets": [

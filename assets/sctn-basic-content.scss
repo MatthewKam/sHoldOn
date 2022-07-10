@@ -109,12 +109,11 @@ $k-heavy:'Korolev-Heavy';
           @media screen and (min-width: 767px) {
             height: 460px;
           }
-          .bg-image{
+          .bg-image, .copy-sctn{
             @media screen and (min-width: 767px) {
               height: 460px;
             }
           }
-          
         }
       }
     }
