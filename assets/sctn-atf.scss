@@ -137,6 +137,49 @@ $k-heavy:'Korolev-Heavy';
         }
       }
     }
-    
+    .atf-wrp.atf-full-template--15005112336484__165742968949126827{
+      .content-wrp {
+        .bg-image{
+          display: none;
+        }
+        .copy-sctn {
+          width: 100%;
+          padding: 0;
+          height:480px;
+          @media screen and (min-width: 640px) {
+            height:520px;
+          }
+          .copy-wrp {
+            max-width:750px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h1{
+              span{
+                font-size: 80px;
+                @media screen and (min-width: 640px) {
+                  font-size: 150px;
+                }
+                &:first-child {
+                  font-size: 16px;
+                  @media screen and (min-width: 640px) {
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+            p{
+              max-width: 550px;
+              font-size: 16px;
+              @media screen and (min-width: 640px) {
+                font-size: 20px;
+              }
+            }
+          }
+        }      
+      }
+    } 
   }
 }

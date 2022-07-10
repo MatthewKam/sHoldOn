@@ -1,0 +1,90 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .banner-text-{{ section.id }}{
+    background-color:{{ sings.bg_color }};
+    color:{{ sings.text_color }};
+  }  
+  @media screen and (min-width: 767px) {
+    .banner-text-{{ section.id }} .content-wrp{
+      background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+      background-size:cover;
+    }  
+  }
+  
+{%- endstyle -%}
+<div class="banner-text banner-text-{{ section.id }}">
+  <div class="content-wrp lazyload">
+    <div class="banner-items">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        <a href="{{ bings.link_url }}">
+          <div class="banner-item">
+            <h1>{{ bings.item_headline}}</h1>
+            <div class="banner-copy">{{ bings.item_copy}}</div>
+            <img src="{{ bings.icon_link | img_url }}" alt="{{ bings.item_headline}}">
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page Banner Text",
+  "tag": "section",
+  "class": "section banner-text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Banner Background Color",
+      "default":"#00FABE"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default":"#065142"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Banner Content",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "item_headline",
+          "label": "Item Headline"
+        },
+        {
+          "type": "richtext",
+          "id": "item_copy",
+          "label": "Item Copy"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_link",
+          "label": "Item Icon Link"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Banner Text"
+    }
+  ]
+}
+{% endschema %}
