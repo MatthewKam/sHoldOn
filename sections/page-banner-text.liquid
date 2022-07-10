@@ -3,12 +3,49 @@
   .banner-text-{{ section.id }}{
     background-color:{{ sings.bg_color }};
     color:{{ sings.text_color }};
-  }  
-  @media screen and (min-width: 767px) {
-    .banner-text-{{ section.id }} .content-wrp{
-      background:url({{ sings.bg_img | image_url }}) center top no-repeat;
-      background-size:cover;
-    }  
+  }
+  .banner-text-{{ section.id }} .banner-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .banner-text-{{ section.id }} .banner-items a{
+    text-decoration:none;
+  }
+  .banner-text-{{ section.id }} .banner-item {
+    max-width: 250px;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .banner-text-{{ section.id }} .banner-item h1{
+    font-size:35px;
+    word-break: unset;
+    text-transform: uppercase;
+  }
+  .banner-text-{{ section.id }} .banner-item .banner-copy p{
+    font-size:12px;
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
+  .banner-text-{{ section.id }} .banner-item img{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 640px) {
+    .banner-text-{{ section.id }} .banner-items {
+      flex-direction: row;
+    }
+    .banner-text-{{ section.id }} .banner-item h1{
+      font-size:50px;
+    }
+    .banner-text-{{ section.id }} .banner-item .banner-copy p{
+      font-size:16px;
+    }
   }
   
 {%- endstyle -%}
@@ -17,7 +54,7 @@
     <div class="banner-items">
       {%- for block in section.blocks -%}
         {% assign bings = block.settings %}
-        <a href="{{ bings.link_url }}">
+        <a href="{{ bings.link_url }}" class="banner-item-link">
           <div class="banner-item">
             <h1>{{ bings.item_headline}}</h1>
             <div class="banner-copy">{{ bings.item_copy}}</div>
