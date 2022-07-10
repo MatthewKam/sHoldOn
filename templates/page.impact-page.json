@@ -66,13 +66,54 @@
     },
     "16574411479b5d3ec0": {
       "type": "cards-guides",
+      "blocks": {
+        "3308a65e-ac10-40f8-a8f9-43981a9e1125": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "guide_title": "Compostable vs. Biodegradable",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        },
+        "89f89136-a0d9-44ea-98b6-cd3c31eb91cb": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "guide_title": "Talking to your kids about climate change",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        },
+        "b07b5c19-88c0-4464-a9b9-a30a6d1f14d8": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "guide_title": "",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "3308a65e-ac10-40f8-a8f9-43981a9e1125",
+        "89f89136-a0d9-44ea-98b6-cd3c31eb91cb",
+        "b07b5c19-88c0-4464-a9b9-a30a6d1f14d8"
+      ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
+        "bg_color": "#ffffff",
         "title": "Learn",
         "title_color": "#00fabe",
-        "bg_color": "#ffffff",
-        "card_tag": "Guide",
-        "id_anchor": "learn_anchor"
+        "id_anchor": "learn_anchor",
+        "all_url": "#",
+        "link_text": "See All"
       }
     },
     "165742985020807c1f": {
