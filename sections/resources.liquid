@@ -1,0 +1,140 @@
+{% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
+{%- style -%}
+  .card-resources-{{ section.id }}{
+    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    background-size:cover;
+    background-color:{{ sings.bg_color }};
+  }
+  .card-resources-{{ section.id }} .content-wrp{
+    max-width:1200px;
+    padding: 70px 20px;
+    margin: 0 auto;
+  }
+  
+  
+  @media screen and (min-width: 640px) {
+    
+  }
+  @media screen and (min-width: 950px) {
+  
+    
+  }
+  @media screen and (min-width: 1000px) {
+  
+  }
+{%- endstyle -%}
+
+<div class="card-resources-wrp card-resources-{{ section.id }}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
+  <div class="content-wrp">
+    <div class="header-wrp">
+      <h1>{{ sings.title }}</h1>
+    </div>
+    <div class="cards-wrp">
+      <div class="cards">
+        {%- for block in section.blocks -%}
+          {% assign bings = block.settings %}
+          <div class="card-wrp" style="background-color:{{ bings.copy_color }}">
+            <img data-src="{{ bings.icon_image | image_url }}" class="ac-image lazyload" alt="{{ bings.guide_title }}">
+            <h1>{{ bings.guide_title }}</h1>
+                <div class="card-content" >
+                  <a href="">
+                    <p>{{ bings.guide_text }}</p>
+                    <img src="" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Cards - Resources",
+  "tag": "section",
+  "class": "section cards-resources",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "id_anchor",
+      "label": "Anchor ID"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Guides",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "color",
+          "id": "copy_bg_color",
+          "label": "Copy Background Color",
+          "default":"#FFF1DA"
+        },
+        {
+          "type": "color",
+          "id": "copy_color",
+          "label": "Copy Color",
+          "default":"#FFF1DA"
+        },
+        {
+          "type": "text",
+          "id": "guide_title",
+          "label": "Guide Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Guide Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "guide_arrow",
+          "label": "Guide Arrow Image"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Guide URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cards - Resources"
+    }
+  ]
+}
+{% endschema %}
