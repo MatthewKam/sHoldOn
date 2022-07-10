@@ -140,9 +140,10 @@
         "32de4f41-93a1-44df-a70f-c29d6fb6566b": {
           "type": "text",
           "settings": {
-            "copy_bg_color": "#FFF1DA",
-            "copy_color": "#FFF1DA",
-            "guide_title": "What to Watch",
+            "copy_bg_color": "#fff1da",
+            "copy_color": "#065142",
+            "resource_title": "What to Watch",
+            "resource_text": "Watch",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
             "link_url": "#"
@@ -151,9 +152,10 @@
         "6e544d8e-e9c7-49fe-8a26-64f917f54a06": {
           "type": "text",
           "settings": {
-            "copy_bg_color": "#FFF1DA",
-            "copy_color": "#FFF1DA",
-            "guide_title": "What to Read",
+            "copy_bg_color": "#fff1da",
+            "copy_color": "#fff1da",
+            "resource_title": "What to read",
+            "resource_text": "Read",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
             "link_url": "#"
@@ -162,9 +164,10 @@
         "13f245d5-46eb-437f-9e66-209e9887aecc": {
           "type": "text",
           "settings": {
-            "copy_bg_color": "#FFF1DA",
-            "copy_color": "#FFF1DA",
-            "guide_title": "What to listen to",
+            "copy_bg_color": "#fff1da",
+            "copy_color": "#fff1da",
+            "resource_title": "What to Listen to",
+            "resource_text": "Listen",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
             "link_url": "#"
@@ -178,7 +181,7 @@
       ],
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "title": "Resources",
         "title_color": "#00fabe",
         "id_anchor": "resources_anchor"
