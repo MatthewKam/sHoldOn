@@ -75,7 +75,8 @@
         "copy_color": "#065142",
         "button_url": "#",
         "button_url_text": "Learn more",
-        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg"
+        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg",
+        "id_anchor": "events_anchor"
       }
     }
   },
