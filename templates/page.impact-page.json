@@ -64,6 +64,17 @@
         "text_color": "#065142"
       }
     },
+    "16574411479b5d3ec0": {
+      "type": "cards-guides",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
+        "title": "Learn",
+        "title_color": "#00fabe",
+        "bg_color": "#FFFFFF",
+        "card_tag": "Guide",
+        "id_anchor": "#learn_anchor"
+      }
+    },
     "165742985020807c1f": {
       "type": "basic-content",
       "settings": {
@@ -84,6 +95,7 @@
     "main",
     "165742968949126827",
     "16574328540ad9d1eb",
+    "16574411479b5d3ec0",
     "165742985020807c1f"
   ]
 }
