@@ -1,0 +1,122 @@
+{% assign sings = section.settings %}
+<link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
+{{ 'sctn-basic-content.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .basic-content-{{ section.id }} .bg-image{
+    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
+    background-size:cover;
+  }  
+  .basic-content-{{ section.id }} .copy-sctn{
+    background-color:{{ sings.bg_color }};
+  }
+  .basic-content-{{ section.id }} .copy-sctn h1{
+    color:{{ sings.title_color }};
+  }
+  .basic-content-{{ section.id }} .copy-sctn p,
+  .basic-content-{{ section.id }} .copy-sctn p strong,
+  .basic-content-{{ section.id }} .copy-sctn p span,
+  .basic-content-{{ section.id }} .copy-sctn p i{
+    color:{{ sings.copy_color }};
+  }
+{%- endstyle -%}
+{% if sings.content_right == false %}
+  {% assign content_side = 'bc-left' %}
+{% endif %}
+
+  
+
+<div class="basic-content-wrp basic-content-{{ section.id }}{{ content_side | prepend: ' '}}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
+  <div class="content-wrp">
+    <div class="bg-image lazyload" data-bg="{{ sings.bg_img | image_url }}"></div>
+    <div class="copy-sctn">
+      <div class="copy-wrp">
+        <h1>{{sings.title}}</h1>
+        <p>{{sings.copy}}</p>
+        {% if sings.button_url %}
+          <a href="{{ sings.button_url }}" class="btn-link">{{ sings.button_url_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Cards - Guides Links",
+  "tag": "section",
+  "class": "section cards-guides",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Background Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "card_tag",
+      "label": "Card Tag",
+      "default": "Guide"
+    },
+    {
+      "type": "text",
+      "id": "id_anchor",
+      "label": "Anchor ID"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Guides",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "guide_title",
+          "label": "Guide Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "guide_image",
+          "label": "Guide Image"
+        },
+        {
+          "type": "richtext",
+          "id": "guide_copy",
+          "label": "Guide Excerpt"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cards - Guides Links"
+    }
+  ]
+}
+{% endschema %}
