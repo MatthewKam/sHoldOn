@@ -70,9 +70,9 @@
         "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
         "title": "Learn",
         "title_color": "#00fabe",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "card_tag": "Guide",
-        "id_anchor": "#learn_anchor"
+        "id_anchor": "learn_anchor"
       }
     },
     "165742985020807c1f": {
