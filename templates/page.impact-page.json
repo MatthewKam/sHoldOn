@@ -71,7 +71,7 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "Compostable vs. Biodegradable",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -83,7 +83,7 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "Talking to your kids about climate change",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -95,7 +95,7 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "Understanding Microplastics",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -134,8 +134,8 @@
         "id_anchor": "events_anchor"
       }
     },
-    "1657450149e9349711": {
-      "type": "resources",
+    "165745032390b414b9": {
+      "type": "cards-resources",
       "settings": {
         "bg_img": "shopify:\/\/shop_images\/bg-holdon_logo.png",
         "bg_color": "#FFFFFF",
@@ -151,6 +151,6 @@
     "16574328540ad9d1eb",
     "16574411479b5d3ec0",
     "165742985020807c1f",
-    "1657450149e9349711"
+    "165745032390b414b9"
   ]
 }
