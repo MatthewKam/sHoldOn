@@ -190,10 +190,12 @@
                     <a href="{{ bings.link_url }}"><img src="{{ bings.guide_arrow | image_url }}" class="lazyload" alt="{{ bings.guide_title }}"></a>
                   {% endif %}
                 </div>
-                <div class="card-content" style="color:{{ bings.copy_color }}">
-                  {{ bings.guide_copy | truncate: 200  }}
+                <div class="card-content">
+                  <div class="richtext" style="color:{{ bings.copy_color }}">
+                    {{ bings.guide_copy | truncate: 200 }}
+                  </div>
                   {% if bings.link_url %}
-                    <a href="{{ bings.link_url }}">Read More</a>
+                    <a href="{{ bings.link_url }}" style="color:{{ bings.copy_color }}">Read More</a>
                   {% endif %}
                 </div>
               </div>
