@@ -11,9 +11,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16575177045cffca04": {
+      "type": "cards-guides",
+      "blocks": {
+        "76e54c1f-877b-47d1-b89b-1ea29c6b578b": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "Compostable Vs. Biodegradable",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        },
+        "994e3dbf-e421-4121-a045-3457b0ce76e1": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "Talking to your kids about climate change",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        },
+        "236d741c-0f4f-47ae-82af-5e53fc1d8cbb": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "76e54c1f-877b-47d1-b89b-1ea29c6b578b",
+        "994e3dbf-e421-4121-a045-3457b0ce76e1",
+        "236d741c-0f4f-47ae-82af-5e53fc1d8cbb"
+      ],
+      "settings": {
+        "bg_color": "#fff1da",
+        "title": "More Guides",
+        "title_color": "#065142",
+        "id_anchor": "",
+        "all_url": "",
+        "link_text": "See All"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16575177045cffca04"
   ]
 }
