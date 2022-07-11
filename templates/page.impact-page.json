@@ -121,6 +121,7 @@
     },
     "165742985020807c1f": {
       "type": "basic-content",
+      "disabled": true,
       "settings": {
         "content_right": true,
         "bg_color": "#00fabe",
@@ -186,6 +187,20 @@
         "title_color": "#00fabe",
         "id_anchor": "resources_anchor"
       }
+    },
+    "165751700349d898a9": {
+      "type": "organize-cleanup",
+      "settings": {
+        "content_right": true,
+        "bg_color": "#00fabe",
+        "title": "Organize Cleanup",
+        "title_color": "#065142",
+        "copy": "<p>Looking to get started in your own community? Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
+        "copy_color": "#065142",
+        "button_url_text": "Learn more",
+        "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg",
+        "id_anchor": "events_anchor"
+      }
     }
   },
   "order": [
@@ -194,6 +209,7 @@
     "16574328540ad9d1eb",
     "16574411479b5d3ec0",
     "165742985020807c1f",
-    "165745032390b414b9"
+    "165745032390b414b9",
+    "165751700349d898a9"
   ]
 }
