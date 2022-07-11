@@ -13,10 +13,8 @@
       "settings": {
         "bg_color": "#00fabe",
         "title": "Hold On Guides",
-        "title_color": "#065142",
-        "id_anchor": "",
-        "all_url": "",
-        "link_text": "See All"
+        "copy_section": "Making a difference is easier than you think. <span>Learn more about how you can create a cleaner world.<\/span>",
+        "title_color": "#065142"
       }
     }
   },
