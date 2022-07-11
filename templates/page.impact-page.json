@@ -30,7 +30,7 @@
           "type": "text",
           "settings": {
             "item_headline": "Learn",
-            "item_copy": "<p>Simple guides to help you own your role in creating a cleaner world. <\/p>",
+            "item_copy": "<p>Simple guides to help you own your role in creating a cleaner world<\/p>",
             "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
             "link_url": "#learn_anchor"
           }
@@ -39,7 +39,7 @@
           "type": "text",
           "settings": {
             "item_headline": "Events",
-            "item_copy": "<p>Organize a cleanup in your community<\/p>",
+            "item_copy": "<p>Join a cleanup in your community or organize your own<\/p>",
             "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
             "link_url": "#events_anchor"
           }
@@ -48,7 +48,7 @@
           "type": "text",
           "settings": {
             "item_headline": "Resources",
-            "item_copy": "<p>Lists of trusted voices  and content to read, listen, watch, & share! <\/p>",
+            "item_copy": "<p>Lists of what to read, watch, listen to and share<\/p>",
             "icon_link": "shopify:\/\/shop_images\/icon-Vector.png",
             "link_url": "#resources_anchor"
           }
@@ -72,7 +72,7 @@
           "settings": {
             "card_tag": "Guide",
             "copy_color": "#065142",
-            "copy_bg_color": "#FFF1DA",
+            "copy_bg_color": "#fff1da",
             "guide_title": "Compostable vs. Biodegradable",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -98,7 +98,7 @@
           "settings": {
             "card_tag": "Guide",
             "copy_color": "#065142",
-            "copy_bg_color": "#FFF1DA",
+            "copy_bg_color": "#fff1da",
             "guide_title": "Understanding Microplastics",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -119,7 +119,7 @@
         "title_color": "#00fabe",
         "id_anchor": "learn_anchor",
         "all_url": "#",
-        "link_text": "See All"
+        "link_text": "See All guides"
       }
     },
     "165751700349d898a9": {
@@ -127,7 +127,7 @@
       "settings": {
         "content_right": true,
         "bg_color": "#00fabe",
-        "title": "Organize Cleanup",
+        "title": "Organize A Cleanup",
         "title_color": "#065142",
         "copy": "<p>Looking to get started in your own community? Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
         "copy_color": "#065142",
@@ -144,8 +144,8 @@
           "settings": {
             "copy_bg_color": "#fff1da",
             "copy_color": "#065142",
-            "resource_title": "What to Watch",
-            "resource_text": "Watch",
+            "resource_title": "what to watch",
+            "resource_text": "watch",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
             "link_url": "#"
