@@ -43,27 +43,20 @@
   .card-guides-{{ section.id }} a.link-desktop{ display:none; }
   .card-guides-{{ section.id }} a.link-mobile{ display: inline-block; }
 
-  .card-guides-{{ section.id }} .cards-wrp {
-    flex: 1;
-    display: flex;
-    overflow: auto;
-  }
   .card-guides-{{ section.id }} .cards {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .card-guides-{{ section.id }} .card-wrp {
     width: 280px;
-    margin: 0 10px;
+    margin: 10px;
   }
   .card-guides-{{ section.id }} .card-wrp img {
     max-width: 100%;
   }
-  .card-guides-{{ section.id }} .card-wrp:first-child{
-    margin-left:0;
-  }
-  .card-guides-{{ section.id }} .card-wrp:last-child{
-    margin-right:0;
-  }
+
   .card-guides-{{ section.id }} .card-wrp .card-copy{
     padding: 15px;
   }
@@ -131,10 +124,6 @@
     .card-guides-{{ section.id }} .content-wrp{
       padding:100px 20px;
     }
-    .card-guides-{{ section.id }} .cards-wrp {
-      display: block;
-      overflow: unset;
-    }
     .card-guides-{{ section.id }} .card-wrp {
       width: 365px;
     }
@@ -153,11 +142,6 @@
     }
     .card-guides-{{ section.id }} .card-wrp .card-copy p.guide-tag {
       font-size:20px;
-    }
-    .card-guides-{{ section.id }} .cards {
-      display: flex;
-      align-items:start;
-      justify-content: space-between;
     }
     
   }
