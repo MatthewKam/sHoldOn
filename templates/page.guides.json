@@ -2,13 +2,26 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1657522494e7f18ef2": {
+      "type": "cards-guides-full-page",
+      "settings": {
+        "bg_color": "#00fabe",
+        "title": "Hold On Guides",
+        "title_color": "#065142",
+        "id_anchor": "",
+        "all_url": "",
+        "link_text": "See All"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1657522494e7f18ef2"
   ]
 }
