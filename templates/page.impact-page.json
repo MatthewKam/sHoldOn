@@ -71,7 +71,8 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#fff1da",
+            "copy_color": "#065142",
+            "copy_bg_color": "#FFF1DA",
             "guide_title": "Compostable vs. Biodegradable",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -83,7 +84,8 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#fff1da",
+            "copy_color": "#065142",
+            "copy_bg_color": "#fff1da",
             "guide_title": "Talking to your kids about climate change",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -95,7 +97,8 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#fff1da",
+            "copy_color": "#065142",
+            "copy_bg_color": "#FFF1DA",
             "guide_title": "Understanding Microplastics",
             "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
@@ -152,7 +155,7 @@
           "type": "text",
           "settings": {
             "copy_bg_color": "#fff1da",
-            "copy_color": "#fff1da",
+            "copy_color": "#065142",
             "resource_title": "What to read",
             "resource_text": "Read",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
@@ -164,7 +167,7 @@
           "type": "text",
           "settings": {
             "copy_bg_color": "#fff1da",
-            "copy_color": "#fff1da",
+            "copy_color": "#065142",
             "resource_title": "What to Listen to",
             "resource_text": "Listen",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
