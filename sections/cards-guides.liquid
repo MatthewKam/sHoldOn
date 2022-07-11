@@ -193,10 +193,10 @@
                 <div class="card-content">
                   <div class="richtext" style="color:{{ bings.copy_color }}">
                     {{ bings.guide_copy | truncate: 200 }}
+                    {% if bings.link_url %}
+                      <a href="{{ bings.link_url }}" style="color:{{ bings.copy_color }}">Read More</a>
+                    {% endif %}
                   </div>
-                  {% if bings.link_url %}
-                    <a href="{{ bings.link_url }}" style="color:{{ bings.copy_color }}">Read More</a>
-                  {% endif %}
                 </div>
               </div>
             </div>
