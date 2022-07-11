@@ -169,9 +169,6 @@
   <div class="content-wrp">
     <div class="header-wrp">
       <h1>{{ sings.title }}</h1>
-      {% if sings.all_url %}
-        <a href="{{ sings.all_url }}" class="link-all link-desktop">{{ sings.link_text }}</a>
-      {% endif %}
     </div>
     <div class="cards-wrp">
 
@@ -202,9 +199,6 @@
         {%- endfor -%}
       </div>
     </div>
-    {% if sings.all_url %}
-      <a href="{{ sings.all_url }}" class="link-all link-mobile">{{ sings.link_text }}</a>
-    {% endif %}
   </div>
 </div>
 
@@ -235,33 +229,22 @@
       "label": "Section Header"
     },
     {
+      "type": "text",
+      "id": "copy_section",
+      "label": "Section Header Copy"
+    },
+    {
       "type": "color",
       "id": "title_color",
       "label": "Title Color",
       "default":"#FFFFFF"
-    },
-    {
-      "type": "text",
-      "id": "id_anchor",
-      "label": "Anchor ID"
-    },
-    {
-      "type": "url",
-      "id": "all_url",
-      "label": "Link"
-    },
-    { 
-      "type": "text",
-      "id":"link_text",
-      "label":"Link Text",
-      "default": "See All"
     }
   ],
   "blocks": [
     {
       "type": "text",
       "name": "Guides",
-      "limit": 3,
+      "limit": 9,
       "settings": [
         {
           "type": "text",
