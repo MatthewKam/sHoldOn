@@ -15,19 +15,21 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
-            "guide_title": "",
-            "guide_copy": "",
-            "link_url": ""
+            "copy_color": "#fff1da",
+            "guide_title": "Compostable vs. Biodegradable",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
           }
         },
         "e97a2d40-e5e7-4dcc-8c23-d99207190d4b": {
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -35,9 +37,9 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -45,9 +47,9 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -55,9 +57,9 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -65,9 +67,9 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -75,9 +77,9 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
+            "copy_color": "#fff1da",
             "guide_title": "",
-            "guide_copy": "",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         },
@@ -85,19 +87,23 @@
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
-            "guide_title": "",
-            "guide_copy": "",
-            "link_url": ""
+            "copy_color": "#fff1da",
+            "guide_title": "Talking to your kids about climate change",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "#"
           }
         },
         "4456f9db-0ccd-4f6c-9767-a7b4ad31fb12": {
           "type": "text",
           "settings": {
             "card_tag": "Guide",
-            "copy_color": "#FFF1DA",
-            "guide_title": "",
-            "guide_copy": "",
+            "copy_color": "#fff1da",
+            "guide_title": "Understanding Microplastics",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
             "link_url": ""
           }
         }
