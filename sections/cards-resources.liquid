@@ -106,7 +106,7 @@
             <img data-src="{{ bings.icon_image | image_url }}" class="lazyload icon-img" alt="{{ bings.resource_title }}">
             <h1>{{ bings.resource_title }}</h1>
             <div class="card-content" >
-              <a href="{{ bings.link_url }}">
+              <a href="{{ bings.link_url }}" class="pop-link" data-popup="{{ bings.resource_text | handleize}}">
                 <p>{{ bings.resource_text }}</p>
                 <img src="{{ bings.guide_arrow | image_url }}" class="lazyload" alt="">
               </a>
@@ -161,52 +161,6 @@
       "type": "text",
       "name": "Resources",
       "limit": 3,
-      "settings": [
-        {
-          "type": "color",
-          "id": "copy_bg_color",
-          "label": "Copy Background Color",
-          "default":"#FFF1DA"
-        },
-        {
-          "type": "color",
-          "id": "copy_color",
-          "label": "Copy Color",
-          "default":"#065142"
-        },
-        {
-          "type": "text",
-          "id": "resource_title",
-          "label": "Resource Title"
-        },
-        {
-          "type": "text",
-          "id": "resource_text",
-          "label": "Resource Text"
-        },
-        {
-          "type": "image_picker",
-          "id": "icon_image",
-          "label": "Resource Image"
-        },
-        {
-          "type": "image_picker",
-          "id": "guide_arrow",
-          "label": "Resource Arrow Image"
-        },
-        {
-          "type": "url",
-          "id": "link_url",
-          "label": "Resource URL"
-        }
-      ]
-    }
-  ],
-  "blocks": [
-    {
-      "type": "text",
-      "name": "Resourcessss",
-      "limit": 5,
       "settings": [
         {
           "type": "color",
