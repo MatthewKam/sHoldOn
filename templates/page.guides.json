@@ -10,6 +10,109 @@
     },
     "1657522494e7f18ef2": {
       "type": "cards-guides-full-page",
+      "blocks": {
+        "66f9f3b7-e60e-46b3-a629-1c7d4e09eed5": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "e97a2d40-e5e7-4dcc-8c23-d99207190d4b": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "a63feaec-d936-4882-a172-7e6feb84ef94": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "7743ec4a-704e-4a32-91bc-c34e267cd053": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "887eb321-013a-429e-8b6e-6a6b2233feb5": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "5c070945-7b82-4fe7-a5f7-ca1dad07c9e0": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "d92dbbcf-86cf-43b2-8004-9495ad59c492": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "a19f9e92-c796-436b-8c98-ca1f4ea7be2d": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        },
+        "4456f9db-0ccd-4f6c-9767-a7b4ad31fb12": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#FFF1DA",
+            "guide_title": "",
+            "guide_copy": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "66f9f3b7-e60e-46b3-a629-1c7d4e09eed5",
+        "e97a2d40-e5e7-4dcc-8c23-d99207190d4b",
+        "a63feaec-d936-4882-a172-7e6feb84ef94",
+        "7743ec4a-704e-4a32-91bc-c34e267cd053",
+        "887eb321-013a-429e-8b6e-6a6b2233feb5",
+        "5c070945-7b82-4fe7-a5f7-ca1dad07c9e0",
+        "d92dbbcf-86cf-43b2-8004-9495ad59c492",
+        "a19f9e92-c796-436b-8c98-ca1f4ea7be2d",
+        "4456f9db-0ccd-4f6c-9767-a7b4ad31fb12"
+      ],
       "settings": {
         "bg_color": "#00fabe",
         "title": "Hold On Guides",
