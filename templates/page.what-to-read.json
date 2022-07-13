@@ -69,8 +69,8 @@
       "type": "what-to-content",
       "settings": {
         "bg_color": "#effcf6",
-        "title": "",
-        "title_color": "#FFFFFF"
+        "title": "What to hear",
+        "title_color": "#00fabe"
       }
     }
   },
