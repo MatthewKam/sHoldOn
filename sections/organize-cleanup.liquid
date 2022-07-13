@@ -18,6 +18,159 @@
   .basic-content-{{ section.id }} .copy-sctn p i{
     color:{{ sings.copy_color }};
   }
+  .show-container-wrp-{{ section.id }}{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(6, 81, 66, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 111;
+  }
+  .show-container-wrp-{{ section.id }} .show-container-wrp {
+    display: none;
+  }
+  .show-container-wrp-{{ section.id }} .show-container{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    height:100vh;
+    max-width: 720px;
+    background: #EFFCF6;
+    overflow: scroll;
+  }
+  .show-container-wrp-{{ section.id }} .hide-container{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .show-container-wrp-{{ section.id }} .hide-container span {
+    border-bottom: 4px solid #000000;
+    width: 30px;
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 5px;
+    transform: rotate(45deg);
+  }
+  .show-container-wrp-{{ section.id }} .hide-container span:last-child {
+    transform: rotate(-45deg);
+  }
+  .show-container-wrp-{{ section.id }} .show-container .show-content{
+    padding: 90px 50px;
+  }
+  .show-container-wrp-{{ section.id }} .title{
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .show-container-wrp-{{ section.id }} .title h1,
+  .show-container-wrp-{{ section.id }} .title h1 span{
+    font-family: "Korolev-Heavy";
+    font-size:50px;
+    text-transform:uppercase;
+    color:#00FABE;
+  }
+  .show-container-wrp-{{ section.id }} .title h1 span{
+    display:block;
+  }
+  .show-container-wrp-{{ section.id }} .title h1{
+    font-size:50px;
+  }
+  
+  .show-container-wrp-{{ section.id }} .steps .step{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-number{
+    font-family: "Korolev-Heavy";
+    font-size: 50px;
+    flex: 0 0 45px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content h3{
+    text-transform: uppercase;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content p{
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content .sub-content {
+    margin-top: 30px;
+    display: flex;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content .sub-content img{
+    height: 30px;
+    margin-right: 20px;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content .sub-content p{
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Korolev-Heavy';
+    font-size: 20px;
+  }
+  .show-container-wrp-{{ section.id }} .steps .step .step-content .sub-content li{
+    list-style: disc;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  .show-container-wrp-{{ section.id }} .bottom-links{
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+  }
+  .show-container-wrp-{{ section.id }} .bottom-links .links-wrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADFF44;
+    height: 100%;
+    width: 100%;
+  }
+  .show-container-wrp-{{ section.id }} .bottom-links .links-wrp a.bottom-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+  .show-container-wrp-{{ section.id }} .bottom-links .links-wrp a.bottom-link span{
+    font-family: 'Korolev-Heavy';
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  .show-container-wrp-{{ section.id }} .bottom-links .links-wrp a.bottom-link img{
+    width: 25px;
+    margin-left: 5px;
+  }
+  @media screen and (min-width: 640px) {
+    .show-container-wrp-{{ section.id }} .steps{
+      padding: 30px;
+      padding-top: 0;
+    }
+  }
+  @media screen and (min-width: 767px) {
+    .show-container-wrp-{{ section.id }} .title h1,
+    .show-container-wrp-{{ section.id }} .title h1 span{
+      font-size:70px;
+    }
+    .show-container-wrp-{{ section.id }} .show-container .show-content{
+      padding: 110px 100px;
+      padding-bottom: 50px;
+    }
+    
+  }
 {%- endstyle -%}
 {% if sings.content_right == false %}
   {% assign content_side = 'bc-left' %}
@@ -32,14 +185,100 @@
       <div class="copy-wrp">
         <h1>{{sings.title}}</h1>
         <p>{{sings.copy}}</p>
-        <a class="btn-link popup-link">{{ sings.button_url_text }}</a>
+        <a class="btn-link popup-link organize-link">{{ sings.button_url_text }}</a>
       </div>
     </div>
   </div>
 </div>
+<div class="show-container-wrp show-container-wrp-{{ section.id }}">
+  <div class="show-container">
+    <div class="hide-container">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="show-content">
+      <div class="title">
+        <h1>Organize <span>a cleanup</span></h1>
+      </div>
+      <div class="steps">
+        <div class="step step-1">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Pick a location</h3>
+            <p>Choose somewhere special to you that needs a little love - your local playground, a hiking trail, a stretch of road or an empty lot. Spots in your own neighborhood are great places to start. You could also focus your efforts on a national park, beach, or landmark.</p>
+          </div>
+        </div>
+        <div class="step step-2">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Assemble your team</h3>
+            <p>Gather friends, family, neighbors and colleagues to work together for the cause, and encourage them to invite their social circle to expand your reach.</p>
+          </div>
+        </div>
+        <div class="step step-3">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Spread the word</h3>
+            <p>Use our email and social media templates to share in seconds. Reach out to local conservation and environmental groups who will be able to use their platform to spread the word and give you helpful tips.</p>
+          </div>
+        </div>
+        <div class="step step-4">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Gather your supplies</h3>
+            <p>You'll likely have everything you need on hand. If not, you'll be able to find cleanup must-haves at most grocery stores. Be sure to bring extras for last-minute volunteers.</p>
+            <div class="sub-content sc-1">
+              <img src="{{ 'icon-HeavyDuty-circle.png' | file_url }}" alt="Heavy Duty icon">
+              <ul>
+                <p>Supplies</p>
+                <li>Heavy-duty protective gloves</li>
+                <li>HoldOn compostable trash bags to collect garbage </li>
+                <li>Paper bags, boxes, or recycling trash bags for recyclable material </li>
+                <li>Trash pickers and grabbers, if desired </li>
+                <li>Clothes and shoes you don't mind getting dirty</li>
+                <li>A refillable water bottle to stay hydrated</li>
+              </ul>
+            </div>
+            <div class="sub-content sc-2">
+              <img src="{{ 'icon-Natural-circle.png' | file_url }}" alt="Natural icon">
+              <ul>
+                <p>Bonus goods</p>
+                <li>Upbeat tunes and a Bluetooth speaker - with respect to wildlife and noise restrictions, of course. Search the HoldOn Spotify account for the perfect jams</li>
+                <li>Refreshments to keep the troops happy, hydrated, and far from hangry</li>
+                <li>Matching t-shirts - if you have a recurring cleanup, making t-shirts is a great way to build community and spread the word</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if sings.evite_url or sings.share_link %}  
+      <div class="bottom-links">
+        <div class="links-wrp">
+          {% if sings.evite_url %}
+            <a href="{{sings.evite_url}}" class="evite bottom-link"><span>Make Evite</span> <img src="{{ 'icon-Arrow-Right.png' | file_url }}" alt="Link arrow"></a>
+          {% endif %}
+          {% if sings.share_link %}
+            <a href="{{sings.share_link}}" class="share bottom-link"><span>Share Story</span> <img src="{{ 'icon-Arrow-Right.png' | file_url }}" alt="Link arrow"></a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
 <script>
   $(function(){
+   
+    $('.organize-link').on('click', function(){
+      let container = $(".show-container");
+      $(".show-container-wrp").fadeIn();
 
+    }) 
+    $('.hide-container').on('click', function(){
+      let container = $(".show-container");
+      $(".show-container-wrp").fadeOut();
+    })
+    
   });
 </script>
 {% schema %}
@@ -91,6 +330,11 @@
       "id": "button_url_text",
       "label": "Button Text",
       "default": "Learn more"
+    },
+    {
+      "type": "url",
+      "id": "evite_url",
+      "label": "Evite URL"
     },
     {
       "type": "header",

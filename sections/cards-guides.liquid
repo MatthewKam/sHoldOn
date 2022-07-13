@@ -51,6 +51,9 @@
   .card-guides-{{ section.id }} .card-wrp img {
     max-width: 100%;
   }
+  .card-guides-{{ section.id }} .card-wrp img.top-img {
+    max-height: 250px;
+  }
   .card-guides-{{ section.id }} .card-wrp:first-child{
     margin-left:0;
   }
@@ -181,7 +184,7 @@
         {%- for block in section.blocks -%}
           {% assign bings = block.settings %}
           <div class="card-wrp">
-            <img data-src="{{ bings.guide_image | image_url }}" class="ac-image lazyload" alt="{{ bings.guide_title }}">
+            <img data-src="{{ bings.guide_image | image_url }}" class="top-img lazyload" alt="{{ bings.guide_title }}">
             <div class="card-copy-wrp" style="background-color:{{ bings.copy_bg_color }}">
               <div class="card-copy">
                 <p class="guide-tag">{{ bings.card_tag }}</p>
