@@ -16,6 +16,7 @@
           "settings": {
             "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "Don’t look up",
+            "card_bg_color": "",
             "copy_color": "#065142",
             "link_url": "#",
             "card_what": "2h 18m | Sci-Fi Movies",
@@ -28,6 +29,7 @@
           "settings": {
             "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "Don’t look up",
+            "card_bg_color": "",
             "copy_color": "#065142",
             "link_url": "#",
             "card_what": "2h 18m | Sci-Fi Movies",
@@ -40,6 +42,7 @@
           "settings": {
             "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "",
+            "card_bg_color": "",
             "copy_color": "#065142",
             "link_url": "#",
             "card_what": "Don’t look up",
@@ -52,6 +55,7 @@
           "settings": {
             "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "Don’t look up",
+            "card_bg_color": "",
             "copy_color": "#065142",
             "link_url": "#",
             "card_what": "Don’t look up",
@@ -64,6 +68,7 @@
           "settings": {
             "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "Don’t look up",
+            "card_bg_color": "",
             "copy_color": "#065142",
             "link_url": "#",
             "card_what": "Don’t look up",
@@ -82,6 +87,7 @@
       "settings": {
         "bg_color": "#effcf6",
         "title": "What to hear",
+        "header_copy": "Listen and learn! Catch up on what the buzz is out there about making the world a better place.",
         "title_color": "#00fabe"
       }
     },
