@@ -64,10 +64,19 @@
         "all_url": "",
         "link_text": "See All"
       }
+    },
+    "1657698226746e2068": {
+      "type": "what-to-content",
+      "settings": {
+        "bg_color": "#effcf6",
+        "title": "",
+        "title_color": "#FFFFFF"
+      }
     }
   },
   "order": [
     "main",
-    "1657697582df164358"
+    "1657697582df164358",
+    "1657698226746e2068"
   ]
 }
