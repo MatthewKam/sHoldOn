@@ -83,45 +83,49 @@
         "90474637-b588-4f88-a674-cafd8058a0f8": {
           "type": "text",
           "settings": {
-            "card_title": "",
+            "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
+            "card_title": "Don’t look up",
             "copy_color": "#065142",
-            "link_url": "",
-            "card_what": "",
-            "card_about": "",
-            "card_why": ""
+            "link_url": "#",
+            "card_what": "2h 18m | Sci-Fi Movies",
+            "card_about": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth.",
+            "card_why": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
           }
         },
         "1a29610c-6031-4035-9050-167493eef30f": {
           "type": "text",
           "settings": {
+            "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
             "card_title": "",
             "copy_color": "#065142",
-            "link_url": "",
-            "card_what": "",
-            "card_about": "",
-            "card_why": ""
+            "link_url": "#",
+            "card_what": "Don’t look up",
+            "card_about": "Don’t look up",
+            "card_why": "Don’t look up"
           }
         },
         "2c0e5a2f-471f-4730-b4ca-881832076361": {
           "type": "text",
           "settings": {
-            "card_title": "",
+            "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
+            "card_title": "Don’t look up",
             "copy_color": "#065142",
-            "link_url": "",
-            "card_what": "",
-            "card_about": "",
-            "card_why": ""
+            "link_url": "#",
+            "card_what": "Don’t look up",
+            "card_about": "Don’t look up",
+            "card_why": "Don’t look up"
           }
         },
         "a8acaf60-d3ed-4b1b-bd87-4046d6480b26": {
           "type": "text",
           "settings": {
-            "card_title": "",
+            "card_image": "shopify:\/\/shop_images\/movie-dlu.png",
+            "card_title": "Don’t look up",
             "copy_color": "#065142",
-            "link_url": "",
-            "card_what": "",
-            "card_about": "",
-            "card_why": ""
+            "link_url": "#",
+            "card_what": "Don’t look up",
+            "card_about": "Don’t look up",
+            "card_why": "Don’t look up"
           }
         }
       },
