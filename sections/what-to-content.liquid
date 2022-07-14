@@ -5,13 +5,16 @@
     background-color:{{ sings.bg_color }};
     background-size:cover;
   }
-  .what-to-{{ section.id }} .content-wrp{
+  .what-to-{{ section.id }} .header-content,
+  .what-to-{{ section.id }} .cards-wrp{
     max-width: 1200px;
     margin: 0 auto;
   }
   .what-to-{{ section.id }} .header-wrp{
     background:url({{ sings.header_bg_img_m | image_url }}) center top no-repeat;
     background-size:cover;
+  }
+  .what-to-{{ section.id }} .header-content{
     padding: 50px 30px;
   }
   .what-to-{{ section.id }} .header-wrp h1,
@@ -20,6 +23,8 @@
     font-size:50px;
     text-transform:uppercase;
     font-family:'Korolev-Heavy';
+    line-height: 1;
+    margin-bottom: 20px;
   }
   .what-to-{{ section.id }} .header-wrp h1 span{
     display:block;
@@ -30,7 +35,7 @@
     color:{{ sings.header_copy_color }};
   }
   .what-to-{{ section.id }} .cards-wrp{
-    padding: 50px 30px;
+    padding: 70px 30px;
   }
   .what-to-{{ section.id }} .cards{
     display: flex;
@@ -40,7 +45,9 @@
   }
   .what-to-{{ section.id }} .card-wrp {
     display: flex;
-    margin-bottom: 30px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 100%;
     max-width: 520px;
   }
   .what-to-{{ section.id }} .card-wrp .img-wrp{
@@ -82,6 +89,11 @@
   }
   
   
+  @media screen and (min-width: 450px) {
+    .what-to-{{ section.id }} .card-wrp {
+      flex-direction: row;
+    }
+  }
   @media screen and (min-width: 640px) {
     .what-to-{{ section.id }} .header-wrp h1,
     .what-to-{{ section.id }} .header-wrp h1 span{
@@ -99,12 +111,8 @@
     }
   }
   @media screen and (min-width: 950px) {
-    .what-to-{{ section.id }} .content-wrp{
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .what-to-{{ section.id }} .header-wrp{
-      padding: 70px 30px;
+    .what-to-{{ section.id }} .header-content{
+      padding: 100px 30px;
     }
     .what-to-{{ section.id }} .cards{
       flex-direction: row;
@@ -128,8 +136,10 @@
 <div class="what-to-{{ section.id }}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
   <div class="content-wrp">
     <div class="header-wrp">
-      <h1>{{ sings.title }}</h1>
-      <p>{{ sings.header_copy }}</p>
+      <div class="header-content">
+        <h1>{{ sings.title }}</h1>
+        <p>{{ sings.header_copy }}</p>
+      </div>
     </div>
     <div class="cards-wrp">
       <div class="cards">
