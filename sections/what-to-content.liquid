@@ -6,6 +6,16 @@
     background-color:{{ sings.bg_color }};
     background-size:cover;
   }
+  .what-to-{{ section.id }} .content-wrp{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+  }
+  .what-to-{{ section.id }} .header-wrp{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #065142;
+  }
   .what-to-{{ section.id }} .header-wrp h1,
   .what-to-{{ section.id }} .header-wrp h1 span{
     color: {{ sings.title_color }};
@@ -16,14 +26,89 @@
   .what-to-{{ section.id }} .header-wrp h1 span{
     display:block;
   }
+  .what-to-{{ section.id }} .header-wrp p{
+    font-size:14px;
+    max-width: 450px;
+  }
+  .what-to-{{ section.id }} .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .what-to-{{ section.id }} .card-wrp {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 520px;
+  }
+  .what-to-{{ section.id }} .card-wrp .img-wrp{
+    padding-right: 30px;
+  }
+  .what-to-{{ section.id }} .card-wrp .card-copy{
+    width: 100%;
+  }
+  .what-to-{{ section.id }} .card-wrp .title-wrp{
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #065142;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .what-to-{{ section.id }} .card-wrp .title-wrp h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+  .what-to-{{ section.id }} .card-wrp .card-content .copy-block{
+    display: flex;
+    align-items: start;
+    margin-bottom: 5px;
+  }
+  .what-to-{{ section.id }} .card-wrp .card-content .copy-title {
+    flex: 0 0 85px;
+    padding-right: 10px;
+    font-family: "Korolev-Heavy";
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.2;
+    padding-top: 2px;
+  }
+  .what-to-{{ section.id }} .card-wrp .card-content .copy-content {
+    line-height: 1.5;
+  }
+  
+  
   @media screen and (min-width: 640px) {
     .what-to-{{ section.id }} .header-wrp h1,
     .what-to-{{ section.id }} .header-wrp h1 span{
       font-size:70px;
     }
+    .what-to-{{ section.id }} .header-wrp p{
+      font-size:16px;
+      max-width: 640px;
+    }
   }
   @media screen and (min-width: 950px) {
- 
+    .what-to-{{ section.id }} .content-wrp{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 100px 30px;
+    }
+    .what-to-{{ section.id }} .cards{
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+    .what-to-{{ section.id }} .card-wrp {
+      width: 48%;
+      margin-bottom:50px;
+    }
   }
   @media screen and (min-width: 1000px) {
     
