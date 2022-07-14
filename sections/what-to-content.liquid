@@ -2,19 +2,17 @@
 <link rel="preload" as="image" href="{{ sings.bg_img | image_url }}">
 {%- style -%}
   .what-to-{{ section.id }}{
-    background:url({{ sings.bg_img | image_url }}) center top no-repeat;
     background-color:{{ sings.bg_color }};
     background-size:cover;
   }
   .what-to-{{ section.id }} .content-wrp{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 30px;
   }
   .what-to-{{ section.id }} .header-wrp{
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    border-bottom: 2px solid #065142;
+    background:url({{ sings.header_bg_img_m | image_url }}) center top no-repeat;
+    background-size:cover;
+    padding: 50px 30px;
   }
   .what-to-{{ section.id }} .header-wrp h1,
   .what-to-{{ section.id }} .header-wrp h1 span{
@@ -29,6 +27,9 @@
   .what-to-{{ section.id }} .header-wrp p{
     font-size:14px;
     max-width: 450px;
+  }
+  .what-to-{{ section.id }} .cards-wrp{
+    padding: 50px 30px;
   }
   .what-to-{{ section.id }} .cards{
     display: flex;
@@ -90,11 +91,19 @@
       max-width: 640px;
     }
   }
+  @media screen and (min-width: 767px) {
+    .what-to-{{ section.id }} .header-wrp {
+      background:url({{ sings.header_bg_img | image_url }}) center top no-repeat;
+      background-size:cover;
+    }
+  }
   @media screen and (min-width: 950px) {
     .what-to-{{ section.id }} .content-wrp{
       max-width: 1200px;
       margin: 0 auto;
-      padding: 100px 30px;
+    }
+    .what-to-{{ section.id }} .header-wrp{
+      padding: 70px 30px;
     }
     .what-to-{{ section.id }} .cards{
       flex-direction: row;
@@ -175,11 +184,6 @@
       "content": "Content"
     },
     {
-      "type": "image_picker",
-      "id": "bg_img",
-      "label": "Background Image"
-    },
-    {
       "type": "color",
       "id": "bg_color",
       "label": "Background Color",
@@ -189,6 +193,16 @@
       "type": "text",
       "id": "title",
       "label": "Section Header"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_bg_img",
+      "label": "Header Background Image Mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_bg_img_m",
+      "label": "Header Background Image Desktop"
     },
     {
       "type": "text",
