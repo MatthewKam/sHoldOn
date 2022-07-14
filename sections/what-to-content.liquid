@@ -27,6 +27,7 @@
   .what-to-{{ section.id }} .header-wrp p{
     font-size:14px;
     max-width: 450px;
+    color:{{ sings.header_copy_color }};
   }
   .what-to-{{ section.id }} .cards-wrp{
     padding: 50px 30px;
@@ -213,6 +214,12 @@
       "type": "color",
       "id": "title_color",
       "label": "Title Color",
+      "default":"#00FABE"
+    },
+    {
+      "type": "color",
+      "id": "header_copy_color",
+      "label": "Header Copy Color",
       "default":"#00FABE"
     }
   ],
