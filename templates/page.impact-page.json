@@ -132,6 +132,7 @@
         "copy": "<p>Looking to get started in your own community? Coordinating a cleanup is easy - just follow these simple steps. <\/p>",
         "copy_color": "#065142",
         "button_url_text": "Learn more",
+        "evite_url": "",
         "bg_img": "shopify:\/\/shop_images\/kitchen-bag-drawer-pull-2_32cad49a-b3cd-4ddd-9b5f-dbf889481e0b-2.jpg",
         "id_anchor": "events_anchor"
       }
@@ -148,7 +149,7 @@
             "resource_text": "watch",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
-            "link_url": "#"
+            "link_url": "shopify:\/\/pages\/what-to-watch"
           }
         },
         "6e544d8e-e9c7-49fe-8a26-64f917f54a06": {
@@ -160,7 +161,7 @@
             "resource_text": "Read",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
-            "link_url": "#"
+            "link_url": "shopify:\/\/pages\/what-to-read"
           }
         },
         "13f245d5-46eb-437f-9e66-209e9887aecc": {
@@ -172,7 +173,7 @@
             "resource_text": "Listen",
             "icon_image": "shopify:\/\/shop_images\/icon-compostable-white-green.png",
             "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
-            "link_url": "#"
+            "link_url": "shopify:\/\/pages\/what-to-hear"
           }
         }
       },
