@@ -1,0 +1,95 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  .guides-header-{{ section.id }}{
+    background-color:{{ sings.bg_color }}
+  }
+  .guides-header-{{ section.id }} h1,
+  .guides-header-{{ section.id }} p,
+  .guides-header-{{ section.id }} p span{
+    color:{{ sings.text_color }}
+  }
+  @media screen and (min-width: 640px) {
+    
+  }
+  @media screen and (min-width: 767px) {
+    
+  }
+{%- endstyle -%}
+
+<div class="guides-header-{{ section.id }}">
+  <div class="content-wrp">
+    <div class="header-wrp">
+      <div class="header-content">
+        <div class="header-description">
+          <h1>{{ sings.title }}</h1>
+          <div class="header-breakdown">
+            <p>min read <span>{{ sings.read_time }}</span></p>
+            <p>posted <span>{{ sings.post_date }}</span></p>
+            <a href="{{ sings.share_button }}">
+              <img src="{{ 'share-icon.png' | file_url }}" alt="Share - {{ sings.title }}">
+            </a>
+          </div>
+        </div>
+        <div class="header-img">
+          <img src="{{ sings.header_img | file_url }}" alt="Header image - {{ sings.title }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Guides Header",
+  "tag": "section",
+  "class": "section guide-header",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default":"#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Header Text Color"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_img",
+      "label": "Header Image"
+    },
+    {
+      "type": "text",
+      "id": "read_time",
+      "label": "Read Time"
+    },
+    {
+      "type": "text",
+      "id": "post_date",
+      "label": "Date Posted"
+    },
+    {
+      "type": "url",
+      "id": "share_url",
+      "label": "Share URL"
+    }
+  ],
+  
+  "presets": [
+    {
+      "name": "Guides Header"
+    }
+  ]
+}
+{% endschema %}
