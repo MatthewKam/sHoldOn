@@ -8,6 +8,18 @@
         "padding_bottom": 28
       }
     },
+    "1657864986fffff64d": {
+      "type": "guides-header",
+      "settings": {
+        "bg_color": "#00fabe",
+        "title": "UNDERSTANDING MICROPLASTICS",
+        "text_color": "#065142",
+        "header_img": "shopify:\/\/shop_images\/bg-impact-d.png",
+        "read_time": "5",
+        "post_date": "6\/20",
+        "share_url": ""
+      }
+    },
     "165786378180a3023b": {
       "type": "cards-guides",
       "blocks": {
@@ -68,6 +80,7 @@
   },
   "order": [
     "main",
+    "1657864986fffff64d",
     "165786378180a3023b"
   ]
 }
