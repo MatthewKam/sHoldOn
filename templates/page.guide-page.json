@@ -84,7 +84,7 @@
       "settings": {
         "title": "The Details",
         "title_color": "#00fabe",
-        "header_copy": "",
+        "header_copy": "Something about the details",
         "header_copy_color": "#065142",
         "share_link": "#",
         "good_news_1_title": "title here:",
