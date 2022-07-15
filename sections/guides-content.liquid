@@ -45,17 +45,23 @@
     </div>
     <div class="side-notes">
       <div class="good-news">
-        {% if sings.good_news_1_title %}
-          <h3>{{ sings.good_news_1_title }}</h3>
-          <p>{{ sings.good_news_1_copy }}</p>
+        {% if sings.good_news_1_url %}
+          <a href="{{sings.good_news_1_url}}">
+            <h3>{{ sings.good_news_1_title }}</h3>
+            <p>{{ sings.good_news_1_copy }}</p>
+          </a>
         {% endif %}
-        {% if sings.good_news_2_title %}
-          <h3>{{ sings.good_news_2_title }}</h3>
-          <p>{{ sings.good_news_2_copy }}</p>
+        {% if sings.good_news_2_url %}
+          <a href="{{sings.good_news_2_url}}">
+            <h3>{{ sings.good_news_2_title }}</h3>
+            <p>{{ sings.good_news_2_copy }}</p>
+          </a>
         {% endif %}
-        {% if sings.good_news_3_title %}
-          <h3>{{ sings.good_news_3_title }}</h3>
-          <p>{{ sings.good_news_3_copy }}</p>
+        {% if sings.good_news_3_url %}
+          <a href="{{sings.good_news_3_url}}">
+            <h3>{{ sings.good_news_3_title }}</h3>
+            <p>{{ sings.good_news_3_copy }}</p>
+          </a>
         {% endif %}
       </div>
       {% if sings.sources %}
@@ -99,6 +105,55 @@
       "id": "header_copy_color",
       "label": "Header Copy Color",
       "default":"#065142"
+    },
+    {
+      "type": "header",
+      "content": "Good News Content"
+    },
+    {
+      "type": "text",
+      "id": "good_news_1_title",
+      "label": "Good News 1 - Title"
+    },
+    {
+      "type": "text",
+      "id": "good_news_1_copy",
+      "label": "Good News 1 - Copy"
+    },
+    {
+      "type": "url",
+      "id": "good_news_1_url",
+      "label": "Good News 1 - URL"
+    },
+    {
+      "type": "text",
+      "id": "good_news_2_title",
+      "label": "Good News 2 - Title"
+    },
+    {
+      "type": "text",
+      "id": "good_news_2_copy",
+      "label": "Good News 2 - Copy"
+    },
+    {
+      "type": "url",
+      "id": "good_news_2_url",
+      "label": "Good News 2 - URL"
+    },
+    {
+      "type": "text",
+      "id": "good_news_3_title",
+      "label": "Good News 3 - Title"
+    },
+    {
+      "type": "text",
+      "id": "good_news_3_copy",
+      "label": "Good News 3 - Copy"
+    },
+    {
+      "type": "url",
+      "id": "good_news_3_url",
+      "label": "Good News 3 - URL"
     }
   ],
   "blocks": [
