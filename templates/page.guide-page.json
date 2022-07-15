@@ -50,6 +50,53 @@
       "settings": {
       }
     },
+    "16578691953b22405b": {
+      "type": "guides-content",
+      "blocks": {
+        "97dee169-9f5f-4a6f-9f38-fd927671b04c": {
+          "type": "text",
+          "settings": {
+            "section_title": "What are microplastics and where do they come from?",
+            "section_copy": "<p>Lorem ipsum dolor sit amet, quando impedit sed ne. Quo erat idque possit eu. Eu quod simul mel, ei sit viderer albucius. Ea per tibique pertinax, tantas constituam id has, ex splendide voluptatum reprimique vim. At pri augue fastidii. Vivendum recusabo et sea, ne quo duis inciderint, ut vix liber nostrud elaboraret.<\/p><p>Delenit reformidans ea usu, mea ut iudico audire vivendum. Quem mollis persecuti et pri. Legere insolens dissentiet ex pro, has cu vide commodo. Ei per epicurei disputando, at sed dolore delectus euripidis, eum id tale intellegam. Eu usu volutpat tincidunt.<\/p>"
+          }
+        },
+        "6a223bc0-596c-491f-951f-8fac44307e1b": {
+          "type": "text",
+          "settings": {
+            "section_title": "What are microplastics and where do they come from?",
+            "section_copy": "<p>Lorem ipsum dolor sit amet, quando impedit sed ne. Quo erat idque possit eu. Eu quod simul mel, ei sit viderer albucius. Ea per tibique pertinax, tantas constituam id has, ex splendide voluptatum reprimique vim. At pri augue fastidii. Vivendum recusabo et sea, ne quo duis inciderint, ut vix liber nostrud elaboraret.<\/p><p>Delenit reformidans ea usu, mea ut iudico audire vivendum. Quem mollis persecuti et pri. Legere insolens dissentiet ex pro, has cu vide commodo. Ei per epicurei disputando, at sed dolore delectus euripidis, eum id tale intellegam. Eu usu volutpat tincidunt.<\/p>",
+            "section_image": "shopify:\/\/shop_images\/bg-impact-d.png"
+          }
+        },
+        "f384edbf-1903-43da-85b6-f5b14407ddaf": {
+          "type": "text",
+          "settings": {
+            "section_title": "What are microplastics and where do they come from?",
+            "section_copy": "<p>Lorem ipsum dolor sit amet, quando impedit sed ne. Quo erat idque possit eu. Eu quod simul mel, ei sit viderer albucius. Ea per tibique pertinax, tantas constituam id has, ex splendide voluptatum reprimique vim. At pri augue fastidii. Vivendum recusabo et sea, ne quo duis inciderint, ut vix liber nostrud elaboraret.<\/p><p>Delenit reformidans ea usu, mea ut iudico audire vivendum. Quem mollis persecuti et pri. Legere insolens dissentiet ex pro, has cu vide commodo. Ei per epicurei disputando, at sed dolore delectus euripidis, eum id tale intellegam. Eu usu volutpat tincidunt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "97dee169-9f5f-4a6f-9f38-fd927671b04c",
+        "6a223bc0-596c-491f-951f-8fac44307e1b",
+        "f384edbf-1903-43da-85b6-f5b14407ddaf"
+      ],
+      "settings": {
+        "title": "The Details",
+        "title_color": "#00FABE",
+        "header_copy": "",
+        "header_copy_color": "#065142",
+        "good_news_1_title": "title here:",
+        "good_news_1_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "good_news_1_url": "#",
+        "good_news_2_title": "title here:",
+        "good_news_2_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "good_news_2_url": "#",
+        "good_news_3_title": "title here:",
+        "good_news_3_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "good_news_3_url": "#"
+      }
+    },
     "165786378180a3023b": {
       "type": "cards-guides",
       "blocks": {
@@ -112,6 +159,7 @@
     "main",
     "1657864986fffff64d",
     "165786700840b768ce",
+    "16578691953b22405b",
     "165786378180a3023b"
   ]
 }
