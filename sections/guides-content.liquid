@@ -1,16 +1,115 @@
 {% assign sings = section.settings %}
 
 {%- style -%}
+  .guides-content-{{ section.id }}{
+    display: flex;
+    flex-direction: column;
+  }
+  .guides-content-{{ section.id }} .content{
+    padding: 40px 30px;
+  }
+  .guides-content-{{ section.id }} .header-content h1{
+    color:{{ sings.title_color }};
+    font-size:50px;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .guides-content-{{ section.id }} .copy-wrp {
+    margin-bottom: 30px;
+  }
+  .guides-content-{{ section.id }} .copy-wrp h2 {
+    font-size: 25px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  .guides-content-{{ section.id }} .copy-wrp p {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .guides-content-{{ section.id }} .copy-wrp img {
+    max-width:100%;
+  }
+  .guides-content-{{ section.id }} .side-notes {
+    display: flex;
+    flex-direction: column;
+  }
+  .guides-content-{{ section.id }} .side-notes h1 {
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .guides-content-{{ section.id }} .good-news-wrp,
+  .guides-content-{{ section.id }} .sources-wrp {
+    border-top: 1px solid #065142;
+    padding: 40px 30px;
+    padding-top: 50px;
+  }
+  .guides-content-{{ section.id }} .good-news,
+  .guides-content-{{ section.id }} .sources {
+    max-width: 375px;
+  }
+
   
+  .guides-content-{{ section.id }} .good-news a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    background-color: #EFFCF6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .guides-content-{{ section.id }} .good-news a h3,
+  .guides-content-{{ section.id }} .good-news a p,
+  .guides-content-{{ section.id }} .sources p{
+    letter-spacing: 0;
+  }
+  .guides-content-{{ section.id }} .good-news a h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+  .guides-content-{{ section.id }} .good-news a p{
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .guides-content-{{ section.id }} .sources p{
+    letter-spacing: 0;
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
 
   @media screen and (min-width: 640px) {
 
   }
   @media screen and (min-width: 767px) {
-
+    .guides-content-{{ section.id }} .side-notes {
+      flex-direction: row;
+    }
   }
-  @media screen and (min-width: 950px) {
-
+  @media screen and (min-width: 900px) {
+    .guides-content-{{ section.id }} .content-wrp {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .guides-content-{{ section.id }} .side-notes {
+      flex-direction: column;
+      flex: 0 0 375px;
+      border-left: 1px solid #065142;
+    }
+    .guides-content-{{ section.id }} .good-news-wrp{
+      border:none;
+    }
   }
   @media screen and (min-width: 1000px) {
     
@@ -41,33 +140,41 @@
             {% endif %}
           </div>
         {%- endfor -%}
+        {% if sings.share_link %}
+          <a href="{{ sings.share_link }}"><img src="{{ 'icon-Share-circle.png' | file_url }}" alt="">Share</a>
+        {% endif %}
       </div>
     </div>
     <div class="side-notes">
-      <div class="good-news">
-        {% if sings.good_news_1_url %}
+      <div class="good-news-wrp">
+        <div class="good-news">
+          <h1>Good news</h1>
+          {% if sings.good_news_1_url %}
           <a href="{{sings.good_news_1_url}}">
             <h3>{{ sings.good_news_1_title }}</h3>
             <p>{{ sings.good_news_1_copy }}</p>
           </a>
-        {% endif %}
-        {% if sings.good_news_2_url %}
+          {% endif %}
+          {% if sings.good_news_2_url %}
           <a href="{{sings.good_news_2_url}}">
             <h3>{{ sings.good_news_2_title }}</h3>
             <p>{{ sings.good_news_2_copy }}</p>
           </a>
-        {% endif %}
-        {% if sings.good_news_3_url %}
+          {% endif %}
+          {% if sings.good_news_3_url %}
           <a href="{{sings.good_news_3_url}}">
             <h3>{{ sings.good_news_3_title }}</h3>
             <p>{{ sings.good_news_3_copy }}</p>
           </a>
-        {% endif %}
+          {% endif %}
+        </div>
       </div>
       {% if sings.sources %}
-        <div class="sources">
-          <h3>Sources</h3>
-          {{ sings.sources }}
+        <div class="sources-wrp">
+          <div class="sources">
+            <h1>Sources</h1>
+            {{ sings.sources }}
+          </div>
         </div>
       {% endif %}
     </div>
@@ -105,6 +212,11 @@
       "id": "header_copy_color",
       "label": "Header Copy Color",
       "default":"#065142"
+    },
+    {
+      "type": "url",
+      "id": "share_link",
+      "label": "Share link"
     },
     {
       "type": "header",
@@ -154,6 +266,10 @@
       "type": "url",
       "id": "good_news_3_url",
       "label": "Good News 3 - URL"
+    },
+    {
+      "type": "header",
+      "content": "Sources Content"
     },
     {
       "type": "richtext",
