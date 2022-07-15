@@ -8,31 +8,102 @@
   .guides-header-{{ section.id }} p span{
     color:{{ sings.text_color }}
   }
-  @media screen and (min-width: 640px) {
-    
+  .guides-header-{{ section.id }} p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
   }
-  @media screen and (min-width: 767px) {
-    
+  .guides-header-{{ section.id }} p span{
+    font-size: 22px;
+    font-family: 'Korolev-Heavy';
+    margin-left: 5px;
+  }
+  .guides-header-{{ section.id }} a{
+    padding:10px;
+  }
+  .guides-header-{{ section.id }} a img{
+    height:25px;
+  }
+  .guides-header-{{ section.id }} .header-wrp{
+    padding: 30px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+  }
+  .guides-header-{{ section.id }} .header-wrp h1{
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing:0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    word-break: unset;
+  }
+  .guides-header-{{ section.id }} .header-wrp .header-breakdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .guides-header-{{ section.id }} .header-img{
+    margin-top: 20px;
+  }
+  .guides-header-{{ section.id }} .header-img img{
+    max-width:100%;
+  }
+  @media screen and (min-width: 640px) {
+    .guides-header-{{ section.id }} .header-wrp h1{
+      font-size: 50px;
+    }
+  }
+  @media screen and (min-width: 950px) {
+    .guides-header-{{ section.id }} .header-wrp{
+      flex-direction: row;
+      padding: 70px 30px;
+      max-width:1200px;
+      margin: 0 auto;
+    }
+    .guides-header-{{ section.id }} .header-img{
+      margin-top: 0px;
+    }
+    .guides-header-{{ section.id }} .header-img,
+    .guides-header-{{ section.id }} .header-description{
+      width:50%;
+    }
+    .guides-header-{{ section.id }} .header-description{
+      text-align:left;
+    }
+    .guides-header-{{ section.id }} .header-wrp .header-breakdown{
+      justify-content: start;
+    }
+    .guides-header-{{ section.id }} .header-wrp .header-breakdown p:first-child{
+      margin-left:0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .guides-header-{{ section.id }} .header-wrp h1{
+      font-size: 70px;
+    }
   }
 {%- endstyle -%}
 
 <div class="guides-header-{{ section.id }}">
   <div class="content-wrp">
     <div class="header-wrp">
-      <div class="header-content">
-        <div class="header-description">
-          <h1>{{ sings.title }}</h1>
-          <div class="header-breakdown">
-            <p>min read <span>{{ sings.read_time }}</span></p>
-            <p>posted <span>{{ sings.post_date }}</span></p>
-            <a href="{{ sings.share_button }}">
-              <img src="{{ 'share-icon.png' | file_url }}" alt="Share - {{ sings.title }}">
-            </a>
-          </div>
+      <div class="header-description">
+        <h1>{{ sings.title }}</h1>
+        <div class="header-breakdown">
+          <p>min read <span>{{ sings.read_time }}</span></p>
+          <p>posted <span>{{ sings.post_date }}</span></p>
+          <a href="{{ sings.share_button }}">
+            <img src="{{ 'icon-Share.png' | file_url }}" alt="Share - {{ sings.title }}">
+          </a>
         </div>
-        <div class="header-img">
-          <img src="{{ sings.header_img | file_url }}" alt="Header image - {{ sings.title }}">
-        </div>
+      </div>
+      <div class="header-img">
+        <img src="{{ sings.header_img | image_url }}" alt="Header image - {{ sings.title }}">
       </div>
     </div>
   </div>
