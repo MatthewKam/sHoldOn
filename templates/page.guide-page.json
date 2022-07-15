@@ -83,7 +83,7 @@
       ],
       "settings": {
         "title": "The Details",
-        "title_color": "#00FABE",
+        "title_color": "#00fabe",
         "header_copy": "",
         "header_copy_color": "#065142",
         "good_news_1_title": "title here:",
@@ -94,7 +94,8 @@
         "good_news_2_url": "#",
         "good_news_3_title": "title here:",
         "good_news_3_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "good_news_3_url": "#"
+        "good_news_3_url": "#",
+        "sources": "<p>2022 Study – Microplastics in Human Blood 2022 Global Plastics Treaty“Plastics are potentially everywhere”<\/p><p>2022 Study – Microplastics in Human Blood <\/p><p>2022 Global Plastics Treaty“Plastics are potentially everywhere”<\/p>"
       }
     },
     "165786378180a3023b": {
