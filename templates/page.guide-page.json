@@ -20,6 +20,36 @@
         "share_url": ""
       }
     },
+    "165786700840b768ce": {
+      "type": "guides-takeaway",
+      "blocks": {
+        "7f7a2f43-270c-4dd0-8c87-70b36e22c33b": {
+          "type": "text",
+          "settings": {
+            "takeaway_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+          }
+        },
+        "d1e0d6bb-ee78-480d-a315-b7c0a4f9ab14": {
+          "type": "text",
+          "settings": {
+            "takeaway_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "ca978832-836b-40e0-bfb6-a1c1e669ca98": {
+          "type": "text",
+          "settings": {
+            "takeaway_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+          }
+        }
+      },
+      "block_order": [
+        "7f7a2f43-270c-4dd0-8c87-70b36e22c33b",
+        "d1e0d6bb-ee78-480d-a315-b7c0a4f9ab14",
+        "ca978832-836b-40e0-bfb6-a1c1e669ca98"
+      ],
+      "settings": {
+      }
+    },
     "165786378180a3023b": {
       "type": "cards-guides",
       "blocks": {
@@ -81,6 +111,7 @@
   "order": [
     "main",
     "1657864986fffff64d",
+    "165786700840b768ce",
     "165786378180a3023b"
   ]
 }
