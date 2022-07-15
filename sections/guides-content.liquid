@@ -1,0 +1,134 @@
+{% assign sings = section.settings %}
+
+{%- style -%}
+  
+
+  @media screen and (min-width: 640px) {
+
+  }
+  @media screen and (min-width: 767px) {
+
+  }
+  @media screen and (min-width: 950px) {
+
+  }
+  @media screen and (min-width: 1000px) {
+    
+  }
+{%- endstyle -%}
+
+<div class="what-to-{{ section.id }}" {% if sings.id_anchor %}id="{{sings.id_anchor}}"{% endif %}>
+  <div class="content-wrp">
+    <div class="content">
+      <div class="header-wrp">
+        <div class="header-content">
+          <h1>{{ sings.title }}</h1>
+          {% if sings.header_copy %}
+            <p>{{ sings.header_copy }}</p>
+          {% endif %}
+        </div>
+      </div>
+      <div class="copy-snippets">
+        {%- for block in section.blocks -%}
+          {% assign bings = block.settings %}
+          <div class="copy-wrp">
+            <h2>{{ bings.section_title }}</h2>
+            {{ bings.section_copy }}
+            {% if bings.section_image %}
+              <div class="img-wrp">
+                <img data-src="{{ bings.section_image | image_url }}" class="lazyload" alt="{{ bings.section_title }}">
+              </div>
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class="side-notes">
+      <div class="good-news">
+        {% if sings.good_news_1_title %}
+          <h3>{{ sings.good_news_1_title }}</h3>
+          <p>{{ sings.good_news_1_copy }}</p>
+        {% endif %}
+        {% if sings.good_news_2_title %}
+          <h3>{{ sings.good_news_2_title }}</h3>
+          <p>{{ sings.good_news_2_copy }}</p>
+        {% endif %}
+        {% if sings.good_news_3_title %}
+          <h3>{{ sings.good_news_3_title }}</h3>
+          <p>{{ sings.good_news_3_copy }}</p>
+        {% endif %}
+      </div>
+      {% if sings.sources %}
+        <div class="sources">
+          <h3>Sources</h3>
+          {{ sings.sources }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Guides - Content",
+  "tag": "section",
+  "class": "section what-to-content",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default":"#00FABE"
+    },
+    {
+      "type": "text",
+      "id": "header_copy",
+      "label": "Section Header Copy"
+    },
+    {
+      "type": "color",
+      "id": "header_copy_color",
+      "label": "Header Copy Color",
+      "default":"#065142"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Copy Blocks",
+      "settings": [
+        
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Block Title"
+        },
+        {
+          "type": "richtext",
+          "id": "section_copy",
+          "label": "Block Copy"
+        },
+        {
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Block Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guides - Content"
+    }
+  ]
+}
+{% endschema %}
