@@ -86,6 +86,7 @@
         "title_color": "#00fabe",
         "header_copy": "",
         "header_copy_color": "#065142",
+        "share_link": "#",
         "good_news_1_title": "title here:",
         "good_news_1_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
         "good_news_1_url": "#",
