@@ -35,6 +35,18 @@
   .guides-content-{{ section.id }} .copy-wrp img {
     max-width:100%;
   }
+  .guides-content-{{ section.id }} .share-link-content {
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    font-family: 'Korolev-Heavy';
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 22px;
+  }
+  .guides-content-{{ section.id }} .share-link-content img{
+    margin-right: 10px;
+  }
   .guides-content-{{ section.id }} .side-notes {
     display: flex;
     flex-direction: column;
@@ -141,7 +153,7 @@
           </div>
         {%- endfor -%}
         {% if sings.share_link %}
-          <a href="{{ sings.share_link }}"><img src="{{ 'icon-Share-circle.png' | file_url }}" alt="">Share</a>
+          <a href="{{ sings.share_link }}" class="share-link-content"><img src="{{ 'icon-Share-circle.png' | file_url }}" alt="">Share</a>
         {% endif %}
       </div>
     </div>
