@@ -1,0 +1,57 @@
+{% assign sings = section.settings %}
+{%- style -%}
+  
+  @media screen and (min-width: 640px) {
+    
+  }
+  @media screen and (min-width: 767px) {
+    
+  }
+  @media screen and (min-width: 950px) {
+    
+  }
+  @media screen and (min-width: 1000px) {
+    
+  }
+{%- endstyle -%}
+
+<div class="takeaways-{{ section.id }}">
+  <div class="content-wrp">
+    <div class="takeaways">
+      {%- for block in section.blocks -%}
+        {% assign bings = block.settings %}
+        <div class="takeaway">
+          <h1>Takeaway {{ forloop.index }}</h1>
+          <p>{{ bings.takeaway_copy }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Guides - Takeaway",
+  "tag": "section",
+  "class": "section takeaway",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Takeaway",
+      "settings": [
+        {
+          "type": "text",
+          "id": "takeaway_copy",
+          "label": "Takeaway Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guides - Takeaway"
+    }
+  ]
+}
+{% endschema %}
