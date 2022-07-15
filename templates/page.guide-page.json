@@ -2,13 +2,72 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165786378180a3023b": {
+      "type": "cards-guides",
+      "blocks": {
+        "d5660fe4-ca7c-4895-9ab2-51425be0a2cd": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "Compostable vs. Biodegradable",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "shopify:\/\/pages\/understanding-microplastics"
+          }
+        },
+        "44984a4d-314a-4a62-8978-48214c343d26": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "Talking to your kids about climate change",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "shopify:\/\/pages\/understanding-microplastics"
+          }
+        },
+        "13e4b977-2a38-45ae-ba13-51d77fabcfee": {
+          "type": "text",
+          "settings": {
+            "card_tag": "Guide",
+            "copy_color": "#065142",
+            "copy_bg_color": "#ffffff",
+            "guide_title": "Understanding Microplastics",
+            "guide_image": "shopify:\/\/shop_images\/bg-guide.png",
+            "guide_arrow": "shopify:\/\/shop_images\/arrow-button.png",
+            "guide_copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_url": "shopify:\/\/pages\/understanding-microplastics"
+          }
+        }
+      },
+      "block_order": [
+        "d5660fe4-ca7c-4895-9ab2-51425be0a2cd",
+        "44984a4d-314a-4a62-8978-48214c343d26",
+        "13e4b977-2a38-45ae-ba13-51d77fabcfee"
+      ],
+      "settings": {
+        "bg_color": "#fff1da",
+        "title": "More Guides",
+        "title_color": "#065142",
+        "id_anchor": "",
+        "all_url": "shopify:\/\/pages\/hold-on-guides",
+        "link_text": "See All"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165786378180a3023b"
   ]
 }
