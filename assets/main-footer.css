@@ -247,7 +247,8 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   font-size: 16px !important;
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"] {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"],
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"] {
   min-height: unset !important;
   border-radius: 10px !important;
   border: 2px solid white !important;
@@ -257,27 +258,35 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   font-family: "Korolev-Medium";
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-webkit-input-placeholder {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-webkit-input-placeholder,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]::-webkit-input-placeholder {
   color: white !important;
   font-family: "Korolev-Medium";
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-ms-input-placeholder {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-ms-input-placeholder,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]:-ms-input-placeholder {
   color: white !important;
   font-family: "Korolev-Medium";
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-ms-input-placeholder {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-ms-input-placeholder,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]::-ms-input-placeholder {
   color: white !important;
   font-family: "Korolev-Medium";
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::placeholder {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::placeholder,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]::placeholder {
   color: white !important;
   font-family: "Korolev-Medium";
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:hover, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:focus, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:active {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:hover, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:focus, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:active,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]:-webkit-autofill,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]:-webkit-autofill:hover,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]:-webkit-autofill:focus,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="Phone Number"]:-webkit-autofill:active {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
   color: white !important;
@@ -289,7 +298,7 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
 }
 
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(4) {
-  margin-top: -50px;
+  margin-top: -51px;
 }
 
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(4) button {
@@ -308,6 +317,14 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   position: absolute;
   top: 12px;
   right: 0px;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) {
+  margin-top: 65px;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) a.ql-font-korolev {
+  font-size: 16px !important;
 }
 
 body .footer .footer-content-top .list-social .list-social__item {

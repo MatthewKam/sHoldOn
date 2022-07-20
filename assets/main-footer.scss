@@ -176,7 +176,8 @@ body{
                   font-size: 16px !important;
                 } 
               }
-              input[aria-label="First Name"]{
+              input[aria-label="First Name"],
+              input[aria-label="Phone Number"]{
                 min-height: unset !important;
                 border-radius: 10px !important;
                 border: 2px solid white !important;
@@ -201,7 +202,7 @@ body{
                 margin-top:15px;
               }
               div[data-testid="form-row"]:nth-child(4){
-                margin-top: -50px;
+                margin-top: -51px;
                 button{
                   font-size: 0 !important;
                   background: url('//cdn.shopify.com/s/files/1/0575/8143/7028/files/icon-Arrow-Right.png') center center no-repeat !important;
@@ -216,6 +217,12 @@ body{
                   position: absolute;
                   top: 12px;
                   right: 0px;
+                }
+              }
+              div[data-testid="form-row"]:nth-child(5) {
+                margin-top: 65px;
+                a.ql-font-korolev{
+                  font-size: 16px!important;
                 }
               }
             }
