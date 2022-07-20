@@ -227,6 +227,89 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form div[data
   color: white !important;
 }
 
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 {
+  width: 100%;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form {
+  padding: 0 !important;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div.ql-container:first-child strong {
+  margin: 0 !important;
+  font-size: 25px !important;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div.ql-container:nth-child(1) span {
+  font-size: 16px !important;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"] {
+  min-height: unset !important;
+  border-radius: 10px !important;
+  border: 2px solid white !important;
+  height: 50px !important;
+  background-color: transparent !important;
+  color: white !important;
+  font-family: "Korolev-Medium";
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-webkit-input-placeholder {
+  color: white !important;
+  font-family: "Korolev-Medium";
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-ms-input-placeholder {
+  color: white !important;
+  font-family: "Korolev-Medium";
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::-ms-input-placeholder {
+  color: white !important;
+  font-family: "Korolev-Medium";
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]::placeholder {
+  color: white !important;
+  font-family: "Korolev-Medium";
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:hover, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:focus, body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form input[aria-label="First Name"]:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(3) {
+  margin-top: 15px;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(4) {
+  margin-top: -50px;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(4) button {
+  font-size: 0 !important;
+  background: url("//cdn.shopify.com/s/files/1/0575/8143/7028/files/icon-Arrow-Right.png") center center no-repeat !important;
+  width: 25px !important;
+  height: 25px !important;
+  background-size: 15px !important;
+  background-color: #ADFF44 !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  margin-right: 10px !important;
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
+  position: absolute;
+  top: 12px;
+  right: 0px;
+}
+
 body .footer .footer-content-top .list-social .list-social__item {
   background-color: #ADFF44;
   border-radius: 50%;

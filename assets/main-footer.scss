@@ -158,6 +158,68 @@ body{
               }
             }
           }
+          &.klaviyo-form-S9ua27{
+            width: 100%;
+            form{
+              padding: 0 !important;
+              div.ql-container:first-child {
+                strong{
+                  margin:0 !important;
+                  font-size: 25px !important;
+                  color: white;
+                  text-transform: uppercase;
+                  padding-bottom: 10px;
+                }
+              }
+              div.ql-container:nth-child(1) {
+                span{
+                  font-size: 16px !important;
+                } 
+              }
+              input[aria-label="First Name"]{
+                min-height: unset !important;
+                border-radius: 10px !important;
+                border: 2px solid white !important;
+                height: 50px !important;
+                background-color: transparent !important;
+                color:white !important;
+                font-family: $k-med;
+                &::placeholder{
+                  color:white !important;
+                  font-family: $k-med;
+                }
+                &:-webkit-autofill,
+                &:-webkit-autofill:hover, 
+                &:-webkit-autofill:focus, 
+                &:-webkit-autofill:active{
+                    transition: background-color 5000s ease-in-out 0s;
+                    color:white !important;
+                    -webkit-text-fill-color: white !important;
+                }
+              }
+              div[data-testid="form-row"]:nth-child(3){
+                margin-top:15px;
+              }
+              div[data-testid="form-row"]:nth-child(4){
+                margin-top: -50px;
+                button{
+                  font-size: 0 !important;
+                  background: url('//cdn.shopify.com/s/files/1/0575/8143/7028/files/icon-Arrow-Right.png') center center no-repeat !important;
+                  width: 25px !important;
+                  height: 25px !important;
+                  background-size: 15px !important;
+                  background-color: $neon-grellow !important;
+                  border-radius: 50% !important;
+                  padding: 0 !important;
+                  margin-right: 10px !important;
+                  align-self: center !important;
+                  position: absolute;
+                  top: 12px;
+                  right: 0px;
+                }
+              }
+            }
+          }
         }
       }
 
