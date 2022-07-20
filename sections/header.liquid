@@ -425,12 +425,16 @@
   </script>
 {%- endif -%}
 <!-- <script type="application/javascript">
- 
-</script> -->
-<!-- <script>
- $('details.menu-drawer-container').on('change', function(e){
-    console.log('changed',e );
-  })
+  function hoverEffect(id){
+    document.getElementById(id).addEventListener('mouseenter', function(){
+      this.setAttribute('open','');
+    })
+    document.getElementById(id).addEventListener('mouseleave', function(){
+      this.removeAttribute('open','');
+    })
+  }
+  hoverEffect('Details-HeaderMenu-1');
+  hoverEffect('Details-HeaderMenu-3');
 </script> -->
 {% schema %}
 {
