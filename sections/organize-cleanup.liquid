@@ -268,7 +268,7 @@
 </div>
 <script>
   $(function(){
-   
+    let showContainer = document.querySelector('.show-container-wrp');
     $('.organize-link').on('click', function(){
       let container = $(".show-container");
       $(".show-container-wrp").fadeIn();
@@ -278,7 +278,11 @@
       let container = $(".show-container");
       $(".show-container-wrp").fadeOut();
     })
-    
+    showContainer.addEventListener('click', function(e){   
+      if (!document.querySelector('.show-container').contains(e.target)){
+        $(".show-container-wrp").fadeOut();
+      }
+    });
   });
 </script>
 {% schema %}
