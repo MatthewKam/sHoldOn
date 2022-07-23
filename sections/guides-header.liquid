@@ -17,7 +17,6 @@
   .guides-header-{{ section.id }} p span{
     font-size: 22px;
     font-family: 'Korolev-Heavy';
-    margin-left: 5px;
   }
   .guides-header-{{ section.id }} a{
     padding:10px;
@@ -95,8 +94,8 @@
       <div class="header-description">
         <h1>{{ sings.title }}</h1>
         <div class="header-breakdown">
-          <p><span>{{ sings.read_time }}</span> min read</p>
-          <p>posted <span>{{ sings.post_date }}</span></p>
+          <p><span>{{ sings.read_time }}</span>&nbsp;min read</p>
+          <p>posted&nbsp;<span>{{ sings.post_date }}</span></p>
           <a href="{{ sings.share_button }}">
             <img src="{{ 'icon-Share.png' | file_url }}" alt="Share - {{ sings.title }}">
           </a>
