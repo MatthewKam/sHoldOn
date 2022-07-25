@@ -12,11 +12,11 @@
       "type": "guides-header",
       "settings": {
         "bg_color": "#00fabe",
-        "title": "UNDERSTANDING MICROPLASTICS",
+        "title": "What's the big deal about microplastics",
         "text_color": "#065142",
         "header_img": "shopify:\/\/shop_images\/bg-impact-d.png",
-        "read_time": "5",
-        "post_date": "6\/20",
+        "read_time": "4",
+        "post_date": "7\/31",
         "share_url": ""
       }
     },
@@ -26,13 +26,13 @@
         "7f7a2f43-270c-4dd0-8c87-70b36e22c33b": {
           "type": "text",
           "settings": {
-            "takeaway_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+            "takeaway_copy": "Limiting your consumption of water bottled in plastic bottles can drastically reduce your microplastic intake"
           }
         },
         "d1e0d6bb-ee78-480d-a315-b7c0a4f9ab14": {
           "type": "text",
           "settings": {
-            "takeaway_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "takeaway_copy": "Major beauty brands have committed to discontinuing the use of microplastic beads in cosmetics and toiletries"
           }
         },
         "ca978832-836b-40e0-bfb6-a1c1e669ca98": {
@@ -87,15 +87,15 @@
         "header_copy": "Something about the details",
         "header_copy_color": "#065142",
         "share_link": "#",
-        "good_news_1_title": "title here:",
-        "good_news_1_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "good_news_1_url": "#",
-        "good_news_2_title": "title here:",
-        "good_news_2_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "good_news_2_url": "#",
-        "good_news_3_title": "title here:",
-        "good_news_3_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-        "good_news_3_url": "#",
+        "good_news_1_title": "better beauty",
+        "good_news_1_copy": "Major beauty brands have committed to discontinuing the use of microplastic beads in cosmetics and toiletries",
+        "good_news_1_url": "https:\/\/www.greenpeace.org\/international\/story\/7638\/microbeads-how-did-companies-respond\/",
+        "good_news_2_title": "STICKY SOLUTIONS",
+        "good_news_2_copy": "Scientists have found a bacteria with sticky properties that can capture and remove microplastic from water",
+        "good_news_2_url": "https:\/\/www.earth.com\/news\/bacteria-can-help-remove-microplastics-from-the-environment\/",
+        "good_news_3_title": "banning the beads",
+        "good_news_3_copy": "The Microbead-Free Waters Act of 2015 banned the production of rinse-off cosmetics containing plastic microbeads",
+        "good_news_3_url": "https:\/\/www.fda.gov\/cosmetics\/cosmetics-laws-regulations\/microbead-free-waters-act-faqs",
         "sources": "<p>2022 Study – Microplastics in Human Blood <\/p><p>2022 Global Plastics Treaty“Plastics are potentially everywhere”<\/p><p>2022 Study – Microplastics in Human Blood <\/p><p>2022 Global Plastics Treaty“Plastics are potentially everywhere”<\/p>"
       }
     },
