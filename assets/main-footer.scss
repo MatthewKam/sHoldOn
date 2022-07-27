@@ -243,7 +243,8 @@ body{
             }
             div{
               &[role="option"]{
-                span{
+                span,
+                div{
                   color: black !important;
                 }
               }

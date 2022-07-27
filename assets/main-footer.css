@@ -341,7 +341,8 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   background-color: transparent !important;
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 div[role="option"] span {
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 div[role="option"] span,
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 div[role="option"] div {
   color: black !important;
 }
 
