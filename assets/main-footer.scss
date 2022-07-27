@@ -234,16 +234,18 @@ body{
                 a.ql-font-korolev{
                   font-size: 16px!important;
                 }
-                div[role="option"]{
-                  span{
-                    color: black !important;
-                  }
-                }
               }
             }
             button{
               &[aria-label="Search Countries"]{
                 background-color: transparent !important;
+              }
+            }
+            div{
+              &[role="option"]{
+                span{
+                  color: black !important;
+                }
               }
             }
           }

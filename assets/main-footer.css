@@ -337,12 +337,12 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   font-size: 16px !important;
 }
 
-body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) div[role="option"] span {
-  color: black !important;
-}
-
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 button[aria-label="Search Countries"] {
   background-color: transparent !important;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 div[role="option"] span {
+  color: black !important;
 }
 
 body .footer .footer-content-top .list-social .list-social__item {
