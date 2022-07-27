@@ -329,12 +329,20 @@ body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-
   right: auto !important;
 }
 
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(4) div[role="option"] span {
+  color: black !important;
+}
+
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) {
-  margin-top: 65px;
+  margin-top: 15px;
 }
 
 body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) a.ql-font-korolev {
   font-size: 16px !important;
+}
+
+body .footer .footer-content-top .footer-block-newsletter .klaviyo-form.klaviyo-form-S9ua27 form div[data-testid="form-row"]:nth-child(5) button {
+  background-color: transparent !important;
 }
 
 body .footer .footer-content-top .list-social .list-social__item {

@@ -227,11 +227,19 @@ body{
                   top: auto !important;
                   right: auto !important;
                 }
+                div[role="option"]{
+                  span{
+                    color: black !important;
+                  }
+                }
               }
               div[data-testid="form-row"]:nth-child(5) {
-                margin-top: 65px;
+                margin-top: 15px;
                 a.ql-font-korolev{
                   font-size: 16px!important;
+                }
+                button{
+                  background-color: transparent !important;
                 }
               }
             }
