@@ -160,8 +160,13 @@ body{
           }
           &.klaviyo-form-S9ua27{
             width: 100%;
+            margin-bottom: 0;
             form{
               padding: 0 !important;
+
+              &.klaviyo-form span[role="alert"]{
+                color:black !important;
+              }
               div.ql-container:first-child {
                 strong{
                   margin:0 !important;
@@ -206,21 +211,21 @@ body{
                 }
               }
               div[data-testid="form-row"]:nth-child(4){
-                margin-top: -51px;
+                margin-top: 15px;
                 button{
-                  font-size: 0 !important;
-                  background: url('//cdn.shopify.com/s/files/1/0575/8143/7028/files/icon-Arrow-Right.png') center center no-repeat !important;
-                  width: 25px !important;
-                  height: 25px !important;
-                  background-size: 15px !important;
-                  background-color: $neon-grellow !important;
-                  border-radius: 50% !important;
-                  padding: 0 !important;
-                  margin-right: 10px !important;
+                  font-size: 20px !important;
+                  background: none !important;
+                  width: auto !important;
+                  height: auto !important;
+                  background-size: unset !important;
+                  background-color: #ADFF44 !important;
+                  border-radius: 7px !important;
+                  padding: 12px 20px !important;
+                  margin-right: 0px !important;
                   align-self: center !important;
-                  position: absolute;
-                  top: 12px;
-                  right: 0px;
+                  position: relative;
+                  top: auto !important;
+                  right: auto !important;
                 }
               }
               div[data-testid="form-row"]:nth-child(5) {
